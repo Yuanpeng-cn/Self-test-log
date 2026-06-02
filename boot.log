@@ -1,0 +1,1650 @@
+[  823.756238][ T1564] sysrq: Emergency Remount R/O
+[  823.774854][   T46] EXT4-fs (mmcblk0p80): re-mounted 57f8f4bc-abf4-655f-bf67-946fc0f9f25b ro.
+[  823.783770][ T1551] USB_STATE=DISCONNECTED
+[  823.799088][ T1007] ------------[ cut here ]------------
+[  823.804489][ T1007] WARNING: CPU: 1 PID: 1007 at drivers/gpio/gpiolib.c:3550 gpiod_set_raw_value+0x80/0x88
+[  823.814250][ T1007] Modules linked in: frpc_adsprpc(OE) machine_dlkm(OE) tx_macro_dlkm(OE) rx_macro_dlkm(OE) va_macro_dlkm(OE) bolero_cdc_dlkm(OE) rouleur_dlkm(OE) rouleur_slave_dlkm(OE) pm2250_spmi_dlkm(OE) wcd937x_dlkm(OE) wcd937x_slave_dlkm(OE) mbhc_dlkm(OE) stub_dlkm(OE) swr_ctrl_dlkm(OE) swr_dlkm(OE) pinctrl_lpi_dlkm(OE) q6_dlkm(OE) wwan virtio_pci virtio_pci_legacy_dev virtio_pci_modern_dev virtio_console virtio_blk virtio_balloon vcpu_stall_detector vcan usbmon usb_f_gsi(OE) usb_f_cdev(OE) usb_f_ccid(OE) ucsi_qti_glink(OE) tipc_diag tipc time_test thermal_pause(OE) stm_p_ost(OE) stm_ftrace(OE) stm_console(OE) sps_drv(OE) soc_utils_test soc_topology_test smp2p_sleepstate(OE) slcan slate_events_bridge(OE) slate_events_bridge_rpmsg(OE) si_core_module(OE) sched_walt_debug(OE) rust_binder rtl8150 rq_stats(OE) rpm_smd_cooling_device(OE) rfcomm regulator_cdev(OE) regmap_kunit regmap_raw_ram regmap_ram refgen(OE) rdbg(OE) r8153_ecm r8152 qti_userspace_cdev(OE) qti_qmi_cdev(OE) qti_cpufreq_cdev(OE) qti_battery_debug(OE)
+[  823.675887] (udev-worker)[1567]: android0: Pro[  823.815306][ T1007]  qrtr_smd(OE) qpnp_smblite_main(OE) qpnp_smb5_main(OE) qpnp_pdphy(OE) usbpd(OE) qpnp_lcdb_regulator(OE) qcom_spss(OE) qcom_smb1398_charger(OE) qcom_smb1355_charger(OE) qcom_qpnp_qg(OE) qcom_pmic_ecid(OE) qcom_pd_mapper(OE) qcom_lpm(OE) qcom_i2c_pmic(OE) qcom_fdcvs(OE) qcom_cpufreq_hw_debug(OE) qcom_cpucp(OE) ptp pptp pps_core ppp_mppe ppp_deflate pmic_glink_debug(OE) platform_test pinctrl_spmi_mpp(OE) phy_qcom_qmp_combo(OE) phy_qcom_m31_eusb2(OE) phy_qcom_eusb2_repeater(OE) phy_qcom_emu(OE) phy_msm_qusb_v2(OE) open_dice of_kunit_helpers nhc_udp nhc_routing nhc_mobility nhc_ipv6 nhc_hop nhc_fragment nhc_dest nfc msm_show_resume_irq(OE) msm_lmh_dcvs(OE) mhi(OE) memlat(OE) macsec mac802154 lvstest(OE) lpassaudiocc_sm6115(OE) lpassaoncc_sm6115(OE) lmh_cpu_vdd_cdev(OE) lib_test libarc4 leds_aw2016(OE) l2tp_ppp pppox l2tp_core kunit_test kunit_example_test input_test iio_test_format ieee802154_socket ieee802154_6lowpan ieee802154 hung_task_enh(OE) hid_uclogic_test hidp hci_uart pwrseq_core gzvm gnss
+cess '/etc/udev/scripts/automtp.sh' failed with exit code 1.[  823.906640][ T1007]  glink_pkt(OE) ftdi_sio usbserial fsa4480_i2c(OE) f_fs_ipc_log(OE) fat_test exynos_hvm ext4_inode_test drm_display_helper(OE) dev_addr_lists_test debugcc_sm6115(OE) cx_ipeak_cdev(OE) cpu_hotplug(OE) cpucp_log(OE) qcom_pm8008_regulator(OE) coresight_trace_noc(OE) wsa881x_analog_dlkm(OE) wcd_core_dlkm(OE) qcom_pm8008(OE) pm8941_pwrkey(OE) coresight_tpdm(OE) wcd9xxx_dlkm(OE) audio_pkt_dlkm(OE) adsp_loader_dlkm(OE) audpkt_ion_dlkm(OE) audio_prm_dlkm(OE) coresight_tpda(OE) coresight_tmc_sec(OE) coresight_tgu(OE) coresight_remote_etm(OE) spf_core_dlkm(OE) gpr_dlkm(OE) coresight_dummy(OE) snd_event_dlkm(OE) snd_usb_audio_qmi(OE) q6_notifier_dlkm(OE) coresight_qmi(OE) qcom_dynamic_ramoops(OE) qfprom_sys(OE) core_hang_detect(OE) clk_test clk_kunit_helpers clk_gate_test kunit qcom_q6v5_pas(OE) qcom_pil_info(OE) qcom_ramdump(OE) msm_memshare(OE) qcom_q6v5(OE) qcom_sysmon(OE) charger_ulog_glink(OE) heap_mem_ext_v01(OE) q6_pdr_dlkm(OE) cfg80211(OE) cdsprm(OE) cdc_ncm coresight_tmc(OE) cdc_ether usb_f_qdss(OE)
+
+[  824.002197][ T1007]  coresight_replicator(OE) cdc_eem cdc_acm cctrng can can_dev bwmon(OE) btsdio btqca btbcm bsd_comp coresight_cti(OE) coresight_funnel(OE) ppp_generic slhc boot_stats(OE) bluetooth rfkill bcl_soc(OE) ax88179_178a msm_drm(OE) coresight_stm(OE) stm_core(OE) coresight_etm4x(OE) asix coresight_csr(OE) dispcc_sm6115(OE) arm_smmu_pmu(OE) aqc111 usbnet mii altmode_glink(OE) 9pnet_fd 9pnet netfs 8021q 6lowpan msm_kgsl(OE) governor_msm_adreno_ro(OE) governor_gpubw_mon(OE) governor_msm_adreno_tz(OE) qcom_va_minidump(OE) msm_sysstats(OE) camera(OE) msm_performance(OE) dwc3_msm(OE) msm_video(OE) leds_qcom_flash(OE) msm_geni_serial(OE) phy_msm_snps_hs(OE) coresight(OE) i2c_msm_geni(OE) qti_battery_charger(OE) gpucc_sm6115(OE) mdt_loader(OE) phy_generic(OE) spi_msm_geni(OE) panel_event_notifier(OE) leds_qpnp_vibrator_ldo(OE) qti_pmic_glink(OE) msm_gpi(OE) qcom_spmi_adc5(OE) bcl_pmic5(OE) qcom_spmi_temp_alarm(OE) qcom_pon(OE) leds_qcom_lpg(OE) reboot_mode(OE) pinctrl_spmi_gpio(OE) qcom_pbs(OE) qcom_spmi_adc_tm5(OE)
+[  824.097967][ T1007]  clk_spmi_pmic_div(OE) msm_tsens_driver(OE) qcom_stats(OE) qcom_vadc_common(OE) qcom_rng(OE) phy_msm_ssusb_qmp(OE) phy_msm_qusb(OE) eud(OE) ufs_qcom(OE) ufshcd_crypto_qti(OE) stub_regulator(OE) spmi_pmic_arb(OE) smp2p(OE) slim_qcom_ngd_ctrl(OE) slimbus(OE) sg(OE) sdhci_msm(OE) sched_walt(OE) rtc_pm8xxx(OE) rpm_smd_regulator(OE) qseecom_proxy(OE) qrtr(OE) qnoc_bengal(OE) qnoc_qos_rpm(OE) qcom_tsens(OE) qcom_spmi_pmic(OE) qti_regmap_debugfs(OE) qcom_soc_wdt(OE) qcom_pmu_lib(OE) qcom_logbuf_vendor_hooks(OE) qcom_logbuf_boot_log(OE) qcom_iommu_debug(OE) qcom_glink_rpm(OE) qcom_dload_mode(OE) qcom_dcvs(OE) qcom_cpu_vendor_hooks(OE) qcom_wdt_core(OE) qcom_cpufreq_hw(OE) qcom_apcs_ipc_mailbox(OE) pinctrl_bengal(OE) pinctrl_msm(OE) phy_qcom_ufs_qrbtc_sdm845(OE) phy_qcom_ufs_qmp_v3_660(OE) phy_qcom_ufs(OE) pdr_interface(OE) qcom_pdr_msg(OE) qmi_helpers(OE) nvmem_qfprom(OE) nvmem_qcom_spmi_sdam(OE) msm_sharedmem(OE) msm_qmp(OE) msm_poweroff(OE) memory_dump_v2(OE) mem_offline(OE) mem_buf(OE) icc_rpm(OE) icc_debug(OE)
+[  824.189180][ T1007]  glink_probe(OE) qcom_glink_spss(OE) rproc_qcom_common(OE) qcom_smd(OE) qcom_glink_smem(OE) qcom_glink(OE) gcc_sm6115(OE) dcc_v2(OE) cqhci(OE) qcom_ice(OE) clk_smd_rpm(OE) rpm_smd(OE) qcom_mpm(OE) clk_dummy(OE) clk_qcom(OE) icc_clk(OE) gdsc_regulator(OE) debug_regulator(OE) proxy_consumer(OE) bam_dma(OE) qcom_ipc_logging(OE) socinfo(OE) minidump(OE) smem(OE) qcom_hwspinlock(OE) qcom_dma_heaps(OE) deferred_free_helper(OE) msm_dma_iommu_mapping(OE) mem_buf_dev(OE) secure_buffer(OE) debug_symbol(OE) arm_smmu(OE) iommu_logger(OE) qcom_iommu_util(OE) qcom_scm(OE)
+[  824.331863][ T1007] CPU: 1 UID: 0 PID: 1007 Comm: crtc_commit:91 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  824.347335][ T1007] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  824.354283][ T1007] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  824.362186][ T1007] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  824.369916][ T1007] pc : gpiod_set_raw_value+0x80/0x88
+[  824.375146][ T1007] lr : dsi_panel_pre_disable+0x38/0xac [msm_drm]
+[  824.384349][ T1007] sp : ffffffc083bb3c50
+[  824.388438][ T1007] x29: ffffffc083bb3c50 x28: ffffff804d566000 x27: 0000000000000038
+[  824.396396][ T1007] x26: 0000000000000000 x25: 0000000000000000 x24: ffffff804d400400
+[  824.404347][ T1007] x23: ffffff804d564058 x22: ffffff804d400500 x21: ffffff804d400400
+[  824.412292][ T1007] x20: ffffff804d577080 x19: ffffff804d571000 x18: ffffffc083775050
+[  824.420233][ T1007] x17: 00000000c006287d x16: 00000000c006287d x15: 0000000080cff0bb
+[  824.428178][ T1007] x14: 00000000a90cbd59 x13: 00000000229c34de x12: 0000000000000001
+[  824.436122][ T1007] x11: 0000000000000000 x10: 0000000000000001 x9 : 0000000100000000
+[  824.444063][ T1007] x8 : 0000000000000001 x7 : 0000000000000000 x6 : ffffffd2a6f18d70
+[  824.452004][ T1007] x5 : 0000000000000000 x4 : 0000000000000000 x3 : 0000000000000002
+[  824.459946][ T1007] x2 : 0000000000000000 x1 : 0000000000000000 x0 : ffffff803d075a78
+[  824.467888][ T1007] Call trace:
+[  824.471100][ T1007]  gpiod_set_raw_value+0x80/0x88
+[  824.475976][ T1007]  dsi_panel_pre_disable+0x38/0xac [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  824.488378][ T1007]  dsi_display_pre_disable+0xd8/0x120 [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  824.501029][ T1007]  dsi_bridge_disable+0x80/0xec [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  824.513152][ T1007]  drm_atomic_bridge_chain_disable+0xb0/0xe8
+[  824.519071][ T1007]  msm_atomic_helper_commit_modeset_disables+0x1f8/0xad8 [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  824.533384][ T1007]  complete_commit+0x84/0xac0 [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  824.545329][ T1007]  _msm_drm_commit_work_cb+0x5c/0x1c0 [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  824.557988][ T1007]  kthread_worker_fn+0x150/0x340
+[  824.562866][ T1007]  kthread+0x110/0x134
+[  824.566858][ T1007]  ret_from_fork+0x10/0x20
+[  824.571203][ T1007] ---[ end trace 0000000000000000 ]---
+[  824.600494][   T46] EXT4-fs (mmcblk0p45): re-mounted 57f8f4bc-abf4-655f-bf67-946fc0f9f25b ro.
+[  824.614238][   T46] Emergency Remount complete
+[  824.766626][ T1564] arm-smmu 59a0000.kgsl-smmu: disabling translation
+[  824.782896][ T1564] msm_geni_serial 4a80000.qcom,qup_uart: msm_geni_serial_driver_shutdown called 1
+[  824.846429][ T1564] msm_geni_serial 4a8c000.qcom,qup_uart: msm_geni_serial_driver_shutdown called 1
+[  824.900159][ T1564] arm-smmu c600000.apps-smmu: disabling translation
+[  824.930255][ T1564] reboot: Restarting system with command ''
+[  824.941049][    C5] VendorHooks: CPU5: stopping
+[  824.945656][    C5] CPU: 5 UID: 0 PID: 0 Comm: swapper/5 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  824.960380][    C5] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  824.967285][    C5] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  824.975147][    C5] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  824.982830][    C5] pc : arch_local_irq_enable+0x4/0x8
+[  824.988006][    C5] lr : cpuidle_enter_state+0x160/0x2ec
+[  824.993350][    C5] sp : ffffffc08025bd70
+[  824.997381][    C5] x29: ffffffc08025bd80 x28: ffffffd2a8e78000 x27: 0000000000000020
+[  825.005256][    C5] x26: 0000000000000000 x25: 0000000000000001 x24: ffffff801ace7098
+[  825.013125][    C5] x23: 000000c0124096bb x22: 000000c0112a340c x21: ffffff801ace7080
+[  825.020996][    C5] x20: 0000000000000001 x19: ffffff806438a6b8 x18: ffffffc080225028
+[  825.028865][    C5] x17: 000000008c623181 x16: 000000008c623181 x15: 0000000045eeca10
+[  825.036744][    C5] x14: 00000000da53251b x13: ffffffc080258000 x12: ffffffc08025c000
+[  825.044613][    C5] x11: 41e3466c02060d00 x10: ffffffd2a737b230 x9 : 41e3466c02060d00
+[  825.052492][    C5] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffd2a680a34c
+[  825.060359][    C5] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 0000000000000000
+[  825.068228][    C5] x2 : ffffff8015e58000 x1 : ffffffd2a737b230 x0 : ffffffd2a737b230
+[  825.076098][    C5] Call trace:
+[  825.079259][    C5]  arch_local_irq_enable+0x4/0x8
+[  825.084082][    C5]  cpuidle_enter+0x38/0x54
+[  825.088375][    C5]  do_idle+0x1a8/0x2ac
+[  825.092325][    C5]  cpu_startup_entry+0x34/0x3c
+[  825.096969][    C5]  secondary_start_kernel+0x134/0x154
+[  825.102223][    C5]  __secondary_switched+0xc0/0xc4
+[  825.107128][    C6] VendorHooks: CPU6: stopping
+[  825.111692][    C6] CPU: 6 UID: 0 PID: 0 Comm: swapper/6 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  825.126409][    C6] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  825.133312][    C6] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  825.141162][    C6] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  825.148846][    C6] pc : arch_local_irq_enable+0x4/0x8
+[  825.154011][    C6] lr : cpuidle_enter_state+0x160/0x2ec
+[  825.159351][    C6] sp : ffffffc080263d70
+[  825.163383][    C6] x29: ffffffc080263d80 x28: ffffffd2a8e78000 x27: 0000000000000040
+[  825.171254][    C6] x26: 0000000000000000 x25: 0000000000000001 x24: ffffff801ea07898
+[  825.179134][    C6] x23: 000000c01242d8bc x22: 000000c00e3aa2b8 x21: ffffff801ea07880
+[  825.187003][    C6] x20: 0000000000000001 x19: ffffff80645ad6b8 x18: ffffffc08022d028
+[  825.194872][    C6] x17: 000000008c623181 x16: 000000008c623181 x15: 0000000045eeca10
+[  825.202740][    C6] x14: 00000000da53251b x13: ffffffc080260000 x12: ffffffc080264000
+[  825.210607][    C6] x11: 720ef2a883aaec00 x10: ffffffd2a737b230 x9 : 720ef2a883aaec00
+[  825.218475][    C6] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffd2a680a34c
+[  825.226343][    C6] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 0000000000000000
+[  825.234210][    C6] x2 : ffffff8015e5c880 x1 : ffffffd2a737b230 x0 : ffffffd2a737b230
+[  825.242078][    C6] Call trace:
+[  825.245239][    C6]  arch_local_irq_enable+0x4/0x8
+[  825.250062][    C6]  cpuidle_enter+0x38/0x54
+[  825.254355][    C6]  do_idle+0x1a8/0x2ac
+[  825.258300][    C6]  cpu_startup_entry+0x34/0x3c
+[  825.262943][    C6]  secondary_start_kernel+0x134/0x154
+[  825.268194][    C6]  __secondary_switched+0xc0/0xc4
+[  825.273096][    C7] VendorHooks: CPU7: stopping
+[  825.277662][    C7] CPU: 7 UID: 0 PID: 0 Comm: swapper/7 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  825.292380][    C7] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  825.299273][    C7] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  825.307121][    C7] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  825.314805][    C7] pc : arch_local_irq_enable+0x4/0x8
+[  825.319969][    C7] lr : cpuidle_enter_state+0x160/0x2ec
+[  825.325312][    C7] sp : ffffffc08026bd70
+[  825.329341][    C7] x29: ffffffc08026bd80 x28: ffffffd2a8e78000 x27: 0000000000000080
+[  825.337216][    C7] x26: 0000000000000000 x25: 0000000000000001 x24: ffffff801ea02898
+[  825.345085][    C7] x23: 000000c01240647a x22: 000000c00d88d4f0 x21: ffffff801ea02880
+[  825.352956][    C7] x20: 0000000000000001 x19: ffffff80647d06b8 x18: ffffffc080235028
+[  825.360823][    C7] x17: 000000008c623181 x16: 000000008c623181 x15: 0000000045eeca10
+[  825.368695][    C7] x14: 00000000da53251b x13: ffffffc080268000 x12: ffffffc08026c000
+[  825.376562][    C7] x11: 1a08eaba36d13700 x10: ffffffd2a737b230 x9 : 1a08eaba36d13700
+[  825.384433][    C7] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffd2a680a34c
+[  825.392301][    C7] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 0000000000000000
+[  825.400171][    C7] x2 : ffffff8015e5a440 x1 : ffffffd2a737b230 x0 : ffffffd2a737b230
+[  825.408040][    C7] Call trace:
+[  825.411204][    C7]  arch_local_irq_enable+0x4/0x8
+[  825.416026][    C7]  cpuidle_enter+0x38/0x54
+[  825.420323][    C7]  do_idle+0x1a8/0x2ac
+[  825.424269][    C7]  cpu_startup_entry+0x34/0x3c
+[  825.428916][    C7]  secondary_start_kernel+0x134/0x154
+[  825.434168][    C7]  __secondary_switched+0xc0/0xc4
+[  825.439075][    C4] VendorHooks: CPU4: stopping
+[  825.443652][    C4] CPU: 4 UID: 0 PID: 0 Comm: swapper/4 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  825.458371][    C4] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  825.465274][    C4] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  825.473123][    C4] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  825.480806][    C4] pc : arch_local_irq_enable+0x4/0x8
+[  825.485970][    C4] lr : cpuidle_enter_state+0x160/0x2ec
+[  825.491311][    C4] sp : ffffffc080253d70
+[  825.495342][    C4] x29: ffffffc080253d80 x28: ffffffd2a8e78000 x27: 0000000000000010
+[  825.503214][    C4] x26: 0000000000000000 x25: 0000000000000001 x24: ffffff801ace4898
+[  825.511083][    C4] x23: 000000c01241e6a0 x22: 000000c00ebc522f x21: ffffff801ace4880
+[  825.518951][    C4] x20: 0000000000000001 x19: ffffff80641676b8 x18: ffffffc08021d028
+[  825.526818][    C4] x17: 000000008c623181 x16: 000000008c623181 x15: 0000000045eeca10
+[  825.534685][    C4] x14: 00000000da53251b x13: ffffffc080250000 x12: ffffffc080254000
+[  825.542553][    C4] x11: e341c68e4200bc00 x10: ffffffd2a737b230 x9 : e341c68e4200bc00
+[  825.550421][    C4] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffd2a680a34c
+[  825.558289][    C4] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 0000000000000000
+[  825.566156][    C4] x2 : ffffff8015e4a440 x1 : ffffffd2a737b230 x0 : ffffffd2a737b230
+[  825.574025][    C4] Call trace:
+[  825.577185][    C4]  arch_local_irq_enable+0x4/0x8
+[  825.582008][    C4]  cpuidle_enter+0x38/0x54
+[  825.586302][    C4]  do_idle+0x1a8/0x2ac
+[  825.590248][    C4]  cpu_startup_entry+0x34/0x3c
+[  825.594892][    C4]  secondary_start_kernel+0x134/0x154
+[  825.600144][    C4]  __secondary_switched+0xc0/0xc4
+[  825.605050][    C2] VendorHooks: CPU2: stopping
+[  825.609667][    C2] CPU: 2 UID: 0 PID: 0 Comm: swapper/2 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  825.624418][    C2] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  825.631340][    C2] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  825.639219][    C2] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  825.646924][    C2] pc : arch_local_irq_enable+0x4/0x8
+[  825.652124][    C2] lr : cpuidle_enter_state+0x160/0x2ec
+[  825.657487][    C2] sp : ffffffc080243d70
+[  825.661537][    C2] x29: ffffffc080243d80 x28: ffffffd2a8e78000 x27: 0000000000000004
+[  825.669454][    C2] x26: 0000000000000000 x25: 0000000000000001 x24: ffffff801ace0898
+[  825.677376][    C2] x23: 000000c0123fb890 x22: 000000c0118519b3 x21: ffffff801ace0880
+[  825.685299][    C2] x20: 0000000000000001 x19: ffffff8063d216b8 x18: ffffffc08020d028
+[  825.693222][    C2] x17: 000000008c623181 x16: 000000008c623181 x15: 0000000045eeca10
+[  825.701137][    C2] x14: 00000000da53251b x13: ffffffc080240000 x12: ffffffc080244000
+[  825.709061][    C2] x11: c853e90d1cc4f200 x10: ffffffd2a737b230 x9 : c853e90d1cc4f200
+[  825.716984][    C2] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffd2a680a34c
+[  825.724906][    C2] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 0000000000000000
+[  825.732826][    C2] x2 : ffffff8015e48000 x1 : ffffffd2a737b230 x0 : ffffffd2a737b230
+[  825.740748][    C2] Call trace:
+[  825.743927][    C2]  arch_local_irq_enable+0x4/0x8
+[  825.748771][    C2]  cpuidle_enter+0x38/0x54
+[  825.753098][    C2]  do_idle+0x1a8/0x2ac
+[  825.757079][    C2]  cpu_startup_entry+0x34/0x3c
+[  825.761745][    C2]  secondary_start_kernel+0x134/0x154
+[  825.767020][    C2]  __secondary_switched+0xc0/0xc4
+[  825.771958][    C1] VendorHooks: CPU1: stopping
+[  825.776560][    C1] CPU: 1 UID: 0 PID: 0 Comm: swapper/1 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  825.791308][    C1] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  825.798228][    C1] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  825.806106][    C1] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  825.813809][    C1] pc : arch_local_irq_enable+0x4/0x8
+[  825.819005][    C1] lr : cpuidle_enter_state+0x160/0x2ec
+[  825.824366][    C1] sp : ffffffc08023bd70
+[  825.828415][    C1] x29: ffffffc08023bd80 x28: ffffffd2a8e78000 x27: 0000000000000002
+[  825.836340][    C1] x26: 0000000000000000 x25: 0000000000000000 x24: ffffff801ace5098
+[  825.844264][    C1] x23: 000000c0123791f9 x22: 000000c0122dbd4a x21: ffffff801ace5080
+[  825.852187][    C1] x20: 0000000000000000 x19: ffffff8063afe6b8 x18: ffffffc080205028
+[  825.860111][    C1] x17: 00000000c006287d x16: 00000000c006287d x15: 00000000474380db
+[  825.868033][    C1] x14: 00000000cd165870 x13: 00000000000000b0 x12: 0000000000084410
+[  825.875957][    C1] x11: 00000000846d237e x10: ffffffd2a8e786f0 x9 : ffffffd2a8e35f40
+[  825.883879][    C1] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffd2a680a34c
+[  825.891800][    C1] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 0000000000000002
+[  825.899721][    C1] x2 : 0000000000000000 x1 : ffffffd2a7ecb07b x0 : 0000000000000001
+[  825.907643][    C1] Call trace:
+[  825.910822][    C1]  arch_local_irq_enable+0x4/0x8
+[  825.915668][    C1]  cpuidle_enter+0x38/0x54
+[  825.919995][    C1]  do_idle+0x1a8/0x2ac
+[  825.923974][    C1]  cpu_startup_entry+0x34/0x3c
+[  825.928640][    C1]  secondary_start_kernel+0x134/0x154
+[  825.933915][    C1]  __secondary_switched+0xc0/0xc4
+[  825.938852][    C3] VendorHooks: CPU3: stopping
+[  825.943450][    C3] CPU: 3 UID: 0 PID: 0 Comm: swapper/3 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  825.958196][    C3] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  825.965115][    C3] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  825.972992][    C3] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  825.980695][    C3] pc : arch_local_irq_enable+0x4/0x8
+[  825.985889][    C3] lr : cpuidle_enter_state+0x160/0x2ec
+[  825.991250][    C3] sp : ffffffc08024bd70
+[  825.995299][    C3] x29: ffffffc08024bd80 x28: ffffffd2a8e78000 x27: 0000000000000008
+[  826.003224][    C3] x26: 0000000000000000 x25: 0000000000000001 x24: ffffff801ace3098
+[  826.011146][    C3] x23: 000000c0124395bd x22: 000000c0120e24e9 x21: ffffff801ace3080
+[  826.019069][    C3] x20: 0000000000000001 x19: ffffff8063f446b8 x18: ffffffc080215028
+[  826.026994][    C3] x17: 000000008c623181 x16: 000000008c623181 x15: 0000000045eeca10
+[  826.034918][    C3] x14: 00000000da53251b x13: ffffffc080248000 x12: ffffffc08024c000
+[  826.042841][    C3] x11: abfa66bbd46b3b00 x10: ffffffd2a737b230 x9 : abfa66bbd46b3b00
+[  826.050765][    C3] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffd2a680a34c
+[  826.058688][    C3] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 0000000000000000
+[  826.066611][    C3] x2 : ffffff8015e4c880 x1 : ffffffd2a737b230 x0 : ffffffd2a737b230
+[  826.074536][    C3] Call trace:
+[  826.077716][    C3]  arch_local_irq_enable+0x4/0x8
+[  826.082562][    C3]  cpuidle_enter+0x38/0x54
+[  826.086011][ T1564] SMP: failed to stop secondary CPUs 3
+[  82
+Format: Log Type - Time(microsec) - Message - Optional Info
+Log Type: B - Since Boot(Power On Reset),  D - Delta,  S - Statistic
+S - QC_IMAGE_VERSION_STRING=BOOT.XF.4.1.2-00029-KAMORTALAZ-5
+S - IMAGE_VARIANT_STRING=KamortaPkgLAA
+S - OEM_IMAGE_VERSION_STRING=san-w175-ma3-1-04
+S - Boot Interface: eMMC
+S - Secure Boot: Off
+S - Boot Config @ 0x01b46070 = 0x0000004f
+S - JTAG ID @ 0x01b46130 = 0x001c70e1
+S - OEM ID @ 0x01b46138 = 0x00000000
+S - Serial Number @ 0x01b46134 = 0x8118a823
+S - OEM Config Row 0 @ 0x01b441b8 = 0x0000000000000000
+S - OEM Config Row 1 @ 0x01b441c0 = 0x0000000000000000
+S - Feature Config Row 0 @ 0x01b441d0 = 0x0050200019010000
+S - Feature Config Row 1 @ 0x01b441d8 = 0x0014008017808000
+S - Core 0 Frequency, 1305 MHz
+S - PBL Patch Ver: 1
+S - PBL freq: 600 MHZ
+D -      4944 - pbl_apps_init_timestamp
+D -     83484 - bootable_media_detect_timestamp
+D -      1506 - bl_elf_metadata_loading_timestamp
+D -       685 - bl_hash_seg_auth_timestamp
+D -     14954 - bl_elf_loadable_segment_loading_timestamp
+D -      5658 - bl_elf_segs_hash_verify_timestamp
+D -      7230 - bl_sec_hash_seg_auth_timestamp
+D -      1165 - bl_sec_segs_hash_verify_timestamp
+D -        29 - pbl_populate_shared_data_and_exit_timestamp
+S -    119655 - PBL, End
+B -    137052 - SBL1, Start (MPM timestamp = 142648)
+B -    251039 - SBL1 BUILD @ 01:24:46 on Apr  9 2026
+B -    256703 - usb: hs_phy_nondrive_start
+B -    260742 - str_overflow
+B -    264298 - usb: hs_phy_nondrive_finish
+D -     11144 - sbl1_hw_init
+D -        13 - boot_flash_init
+B -    295049 - Using boot chain :: Primary
+D -     21668 - sbl1_update_partition_ids
+D -       875 - Auth Metadata
+D -      4895 - sbl1_xblconfig_init
+D -       521 - sbl1_feature_config_init
+D -         3 - boot_config_data_table_default_init
+D -        18 - sbl1_ddr_set_default_params
+D -      1372 - boot_config_data_table_init
+B -    320868 - CDT Version:3,Platform ID:11,Major ID:1,Minor ID:0,Subtype:6
+D -      9480 - sbl1_hw_platform_pre_ddr
+D -      3344 - devcfg init
+B -    338801 - PM: OPT: ENABLE_AUTO_BOOT_OPTIMIZATION
+B -    399597 - PM: PSI: b0x10_v0x18
+B -    403167 - PM: Device Init # SPMI Transn: 4460
+B -    407570 - PM: Driver Init # SPMI Transn: 301
+B -    407919 - PM: APSD re-run
+B -    415150 - PM: battery Id: 99673
+B -    415528 - PM: CHG Init # SPMI Transn: 36
+D -     83387 - pmic XBL init
+D -      5823 - vsense_railway_cpr init
+D -     97192 - sbl1_hw_pre_ddr_init
+D -         2 - boot_dload_handle_forced_dload_timeout
+D -      4579 - sbl1_load_ddr_training_data
+D -      4985 - sbl1_ddr_set_params
+B -    447559 - DSF version = 20.0, DSF RPM version = 9.0
+B -    447599 - Manufacturer ID = 255, Device Type = 7
+B -    452730 - Rank 0 size = 2048 MB, Rank 1 size = 0 MB
+B -    457604 - Max Frequency = 1804 MHz
+B -    462741 - Row Hammer Check : DRAM supports unlimited MAC Value : MR24[OP2:0 = 0] & MR24[OP3 = 1] for CH0 & CS0
+D -     27791 - sbl1_ddr_init
+B -    476654 - do_ddr_training, Start
+B -    483042 - Bootup frequency set to 1804800
+D -      3761 - do_ddr_training, Delta
+D -     10683 - sbl1_do_ddr_training
+D -         2 - sbl1_hand_control_to_devprog_ddr_or_ddi
+B -    494138 - Pimem init cmd, entry
+D -      9915 - Pimem init cmd, exit
+D -     15647 - sbl1_post_ddr_init
+D -       315 - sbl1_hw_init_secondary
+B -    519694 - APDP Image Loaded, Start
+D -      3952 - Auth Metadata
+D -       428 - Segments hash check
+D -      7864 - APDP Image Loaded, Delta - (21124 Bytes)
+D -         3 - boot_dload_dump_security_regions
+D -        14 - boot_dload_check
+D -         2 - boot_cache_set_memory_barrier
+D -         1 - boot_smem_debug_init
+D -       313 - boot_smem_init
+D -         4 - boot_smem_alloc_for_minidump
+B -    553383 - PM: SMEM Chgr Info Write Success
+D -      4007 - boot_smem_store_pon_status
+D -        11 - sbl1_hw_platform_smem
+D -       118 - boot_clock_init_rpm
+D -         2 - boot_vsense_copy_to_smem
+D -         1 - boot_share_flash_data
+D -         7 - boot_populate_ram_partition_table
+D -         7 - boot_populate_ddr_details_shared_table
+D -         3 - sbl1_tlmm_init
+D -         2 - sbl1_efs_handle_cookies
+D -         2 - boot_apt_test
+B -    599070 - OEM_MISC Image Loaded, Start
+D -       779 - Auth Metadata
+D -       249 - Segments hash check
+D -      6740 - OEM_MISC Image Loaded, Delta - (7912 Bytes)
+B -    609236 - QTI_MISC Image Loaded, Start
+D -      5105 - QTI_MISC Image Loaded, Delta - (0 Bytes)
+B -    621030 - PM: PM Total Mem Allocated: 1493 
+D -      5044 - sbl1_pm_aop_pre_init_wrapper
+B -    627830 - RPM Image Loaded, Start
+D -      1277 - Auth Metadata
+D -      1611 - Segments hash check
+D -     14024 - RPM Image Loaded, Delta - (221092 Bytes)
+B -    645085 - QSEE Dev Config Image Loaded, Start
+D -      1337 - Auth Metadata
+D -       533 - Segments hash check
+D -     12356 - QSEE Dev Config Image Loaded, Delta - (37020 Bytes)
+B -    666217 - QSEE Image Loaded, Start
+D -      4502 - Auth Metadata
+D -     21006 - Segments hash check
+D -     77090 - QSEE Image Loaded, Delta - (3331734 Bytes)
+D -        48 - sbl1_hw_play_vibr
+B -    751941 - SEC Image Loaded, Start
+D -      2856 - SEC Image Loaded, Delta - (0 Bytes)
+B -    758372 - QHEE Image Loaded, Start
+D -      1295 - Auth Metadata
+D -      2819 - Segments hash check
+D -     13744 - QHEE Image Loaded, Delta - (387768 Bytes)
+B -    775539 - STI Image Loaded, Start
+D -      4933 - STI Image Loaded, Delta - (0 Bytes)
+B -    784049 - ABL Image Loaded, Start
+D -      1270 - Auth Metadata
+D -      1381 - Segments hash check
+D -     10881 - ABL Image Loaded, Delta - (248576 Bytes)
+B -    798828 - APPSBL Image Loaded, Start
+D -      1408 - Auth Metadata
+D -     11242 - Segments hash check
+D -     27772 - APPSBL Image Loaded, Delta - (2301952 Bytes)
+D -         4 - sbl1_appsbl_arch_determination
+B -    835848 - SBL1, End
+D -    702334 - SBL1, Delta
+S - Flash Throughput, 92000 KB/s  (6602925 Bytes,  71460 us)
+S - DDR Frequency, 1804 MHz
+
+
+UEFI Start     [ 1068]
+ - 0x05FC01000 [ 1073] Sec.efi
+ASLR        : ON
+DEP         : ON (RTB)
+Timer Delta : +6 mS
+smem_get_addr: SMEM get addr success. smem_type=402, buf_size=2328 and offset = 0x00007850.RAM Entry 0 : Base 0x0000000040000000  Size 0x000000003EB00000
+RAM Entry 1 : Base 0x0000000080000000  Size 0x0000000040000000
+UART Buffer size set to 0x8000 
+Multithread : ON (Lib ver 1.1)
+CPU Cores   : 8 (init 1)
+CONF File   : uefiplatLA.cfg
+UEFI Ver    : 5.0.260409.BOOT.XF.4.1.2-00029-KAMORTALAZ-5
+Build Info  : 64b Apr  9 2026 01:25:28
+Boot Device : eMMC
+PROD Mode   : FALSE
+Retail      : FALSE
+
+Current core for decompresion 0 
+First FV Decompress time 27 ms
+Current core for decompresion 0 
+Second FV Decompress time 21 ms (Decompress Thread)
+ - 0x054EAD000 [ 1163] DxeCore.efi
+Loading DxeCore at 0x0054EAD000 EntryPoint=0x0054EAE000
+HOBLIST address in DXE = 0x54C9D018
+FV Hob            0x5FC00000 - 0x5FE31FFF
+FV Hob            0x54EFE000 - 0x551E307F
+FV2 Hob           0x54EFE000 - 0x551E307F
+                  631008B0-B2D1-410A-8B49-2C5C4D8ECC7E - 00000000-0000-0000-0000-000000000000
+ - 0x054E4C000 [ 1168] EnvDxe.efi
+smem_get_addr: SMEM get addr success. smem_type=402, buf_size=2328 and offset = 0x00007850. - 0x054E42000 [ 1169] RscRtDxe.efi
+ - 0x054E3A000 [ 1169] SCHandlerRtDxe.efi
+ - 0x0548D1000 [ 1170] RuntimeDxe.efi
+ - 0x054E26000 [ 1170] ArmCpuDxe.efi
+ - 0x054E1D000 [ 1171] ArmGicDxe.efi
+ - 0x054E16000 [ 1171] MetronomeDxe.efi
+ - 0x054E0E000 [ 1172] ArmTimerDxe.efi
+ - 0x054E04000 [ 1172] SmemDxe.efi
+ - 0x054DC7000 [ 1172] DALSys.efi
+smem_alloc: SMEM allocation success. smem_type=404, buf_size=8192 and offset = 0x000051B0. - 0x054DBE000 [ 1173] HWIODxeDriver.efi
+ - 0x054DB3000 [ 1173] ChipInfo.efi
+smem_get_addr: SMEM get addr success. smem_type=137, buf_size=248 and offset = 0x00007210. - 0x054DAB000 [ 1173] PlatformInfoDxeDriver.efi
+ - 0x054DA0000 [ 1173] HALIOMMU.efi
+ - 0x054D92000 [ 1174] GlinkDxe.efi
+smem_alloc_ex: SMEM alloc_ex success. smem_type=478, remote=2, size=32, flags=0x40000000 and offset = 0x0018F030.smem_alloc_ex: SMEM alloc_ex success. smem_type=479, remote=2, size=16384, flags=0x40000000 and offset = 0x0018F060.smem_alloc_ex: SMEM alloc_ex success. smem_type=478, remote=1, size=32, flags=0x40000000 and offset = 0x000DD030.smem_alloc_ex: SMEM alloc_ex success. smem_type=479, remote=1, size=16384, flags=0x40000000 and offset = 0x000DD060. - 0x054D7E000 [ 1174] ULogDxe.efi
+ - 0x054D65000 [ 1175] NpaDxe.efi
+Module cannot re-initialize DAL module environment
+ - 0x054D5A000 [ 1175] VcsDxe.efi
+ - 0x054D30000 [ 1176] ClockDxe.efi
+ >>> Cluster 0: 1612800000 Hz
+DALLOG Device [0x2000070]: HWIO: Unable to find "RM_C_C_TTS/mccin/ipetd
+ - 0x054D26000 [ 1183] ShmBridgeDxe.efi
+ - 0x054D19000 [ 1183] ScmDxe.efi
+ - 0x054D0F000 [ 1184] SPMI.efi
+ - 0x054CEE000 [ 1186] PmicDxe.efi
+PM0: 45, PM1: 37, 
+ - 0x054CE3000 [ 1191] DiskIoDxe.efi
+ - 0x054CD6000 [ 1191] PartitionDxe.efi
+ - 0x054CCE000 [ 1192] EnglishDxe.efi
+ - 0x054CC3000 [ 1192] FvSimpleFileSystem.efi
+ - 0x054848000 [ 1192] SdccDxe.efi
+
+Detect SD Card SUCCEEDED!!
+ - 0x054CA7000 [ 1719] UFSDxe.efi
+ - 0x0544E0000 [ 1719] Fat.efi
+ - 0x0544B9000 [ 1720] TzDxe.efi
+smem_get_addr: SMEM get addr success. smem_type=402, buf_size=2328 and offset = 0x00007850.MemSize_Update_Needed: Updating TZ Apps Region size
+AppReg Init:7 mS
+Embedded Images Supported and Commonlibs loaded
+ - 0x05442C000 [ 1730] EmuVariableRuntimeDxe.efi
+ - 0x0544F0000 [ 1731] QcomWDogDxe.efi
+HW Wdog Setting from PCD : Disabled
+ - 0x054422000 [ 1731] ResetRuntimeDxe.efi
+ - 0x0544CD000 [ 1732] WatchdogTimer.efi
+ - 0x05441A000 [ 1732] EmbeddedMonotonicCounter.efi
+ - 0x054407000 [ 1732] RealTimeClock.efi
+ - 0x0543FF000 [ 1733] CapsuleRuntimeDxe.efi
+ - 0x0543B1000 [ 1733] HiiDatabase.efi
+ - 0x054410000 [ 1734] FontDxe.efi
+ - 0x0542C5000 [ 1739] QcomBds.efi
+ - 0x054075000 [ 1745] PILDxe.efi
+Start time 0 ms
+ - 0x053FB8000 [ 1749] DALTLMM.efi
+ - 0x053F3B000 [ 1749] DisplayDxe.efi
+DisplayDxe: Panel ID:0x00000000 [LCD] 
+DisplayDxe: Resolution 720x1440 (1 intf)
+ - 0x053F9F000 [ 1783] ASN1X509Dxe.efi
+ - 0x053F95000 [ 1783] SecRSADxe.efi
+ - 0x053F2B000 [ 1783] VerifiedBootDxe.efi
+ - 0x053FAB000 [ 1784] PrintDxe.efi
+ - 0x0BFF6A000 [ 1784] DevicePathDxe.efi
+ - 0x053F8B000 [ 1785] I2C.efi
+ - 0x053F81000 [ 1785] AdcDxe.efi
+ - 0x053F01000 [ 1786] UsbPwrCtrlDxe.efi
+ - 0x0BFF31000 [ 1786] QcomChargerDxeLA.efi
+ - 0x0BFF57000 [ 1793] ChargerExDxe.efi
+ - 0x0BFEFA000 [ 1793] UsbfnDwc3Dxe.efi
+ - 0x0BFEEB000 [ 1794] UsbConfigDxe.efi
+UsbConfigPortsQueryConnectionChange: UFP and Type-C
+UsbConfigPortsQueryConnectionChange: usbport->connectstate: ATT
+ConnectSts : Attach, Data Role : UFP (DEVICE Mode), Lane : CC1, CoreNum : 0
+HandlePortPartnerXtach: Cable Attach
+ - 0x053F79000 [ 1794] TsensDxe.efi
+ - 0x0BFED3000 [ 1795] HashDxe.efi
+ - 0x0BFEBB000 [ 1795] CipherDxe.efi
+ - 0x0BFEA3000 [ 1796] MacDxe.efi
+ - 0x0BFF4F000 [ 1796] RngDxe.efi
+ - 0x0BFF60000 [ 1797] DDRInfoDxe.efi
+ - 0x0BFF20000 [ 1797] SimpleTextInOutSerial.efi
+ - 0x0BFE99000 [ 1798] ConPlatformDxe.efi
+ - 0x0BFE7C000 [ 1799] ConSplitterDxe.efi
+ - 0x0BFE70000 [ 1800] GraphicsConsoleDxe.efi
+ - 0x0BFE8F000 [ 1800] ButtonsDxe.efi
+ - 0x0BFE55000 [ 1802] SecurityStubDxe.efi
+ - 0x0BFE68000 [ 1802] MinidumpTADxe.efi
+MinidumpTADxe: Minidump TA loading not enabled.
+Error: Image at 000BFE68000 start failed: Load Error
+ - 0x0BFE48000 [ 1806] UsbMsdDxe.efi
+ - 0x0BFE3B000 [ 1807] UsbDeviceDxe.efi
+BDS Entry      [ 1835] 
+smem_get_addr: SMEM get addr success. smem_type=402, buf_size=2328 and offset = 0x00007850.WaitParallelThreads InIt [ 1927] 
+Wait start time for Display thread : 1928 ms
+Wait start time for PIL thread : 1928 ms
+-----------------------------
+Platform Init  [ 1928] BDS
+Var Store  : WARNING, not persistent
+UEFI Ver   : 5.0.260409.BOOT.XF.4.1.2-00029-KAMORTALAZ-5
+Platform           : QRD
+Chip Name          : QRB_KAMORTA
+Chip Ver           : 1.0
+Chip Serial Number : 0x8118A823
+-----------------------------
+ - 0x0BFAB5000 [ 1954] QcomChargerApp.efi
+UEFI Total : 894 ms
+POST Time      [ 1962] OS Loader
+ - 0x0BF82F000 [ 1965] LinuxLoader.efi
+[1966]Loader Build Info: Jun  2 2026 20:41:33
+VB: Non-secure device: Security State: (0xF3F)
+VB: RWDeviceState: Succeed using devinfo!
+[1971]DevicePath string for SD card is: VenHw(D1531D41-3F80-4091-8D0A-541F59236D66)
+[1971][MountFat] Connecting controller
+[1975]Detected SD card and Mounted FS successfully
+[1976]Total DDR Size: 0x000000007EB00000 
+[1976]Locate EFI_SOFTSKU_Protocol failed, Status = (0xE)
+[1976]KeyPress:0, BootReason:0
+[1977]Fastboot=0, Recovery:0
+[1977]SilentBoot Mode:11
+[1977]GetVmData: No Vm data present! Status = (0x3)
+[1977]VM Hyp calls not present
+[1977]DevicePath string for SD card is: VenHw(D1531D41-3F80-4091-8D0A-541F59236D66)
+[1977][DetectSDAndMount] File System Already mounted 0 on :0
+[1977][LoadFileFromFAT] Image Load requested for partition :recovery
+[1977][LoadFileFromFAT] Loading Image Start from SD: 1977 ms for recovery
+[1989][LoadFileFromFAT] Loading Image Done : 1989 ms
+[1989][LoadFileFromFAT] SD Total Image Read size : 4096 Bytes
+[1990]Booting Into Recovery Mode
+[1990][LoadFileFromFAT] Image Load requested for partition :recovery
+[1990][LoadFileFromFAT] Loading Image Start from SD: 1990 ms for recovery
+[1990][LoadFileFromFAT] Loading Image Done : 1990 ms
+[1990][LoadFileFromFAT] SD Total Image Read size : 4096 Bytes
+[1990][LoadFileFromFAT] Image Load requested for partition :recovery
+[1990][LoadFileFromFAT] Loading Image Start from SD: 1990 ms for recovery
+[5091][LoadFileFromFAT] Loading Image Done : 5091 ms
+[5091][LoadFileFromFAT] SD Total Image Read size : 76267520 Bytes
+[5091]No dtbo partition is found, Skip dtbo
+[5091]Memory Base Address: 0x40000000
+[5111]Dtbo hdr magic mismatch 52444E41, with D7B7AB1E
+[5111]Best match DTB tags 523/0001000B/0x00000406/10000/1012D/20025/0/0/(offset)0xBF27AE4F/(size)0x0004A7B6
+[5111]Using pmic info 0x1012D/0x20025/0x0/0x0 for device 0x1012D/0x20025/0x0/0x0
+[5111]Memory Base Address: 0x40000000
+[5111]Apply Overlay total time: 0 ms 
+[5112]GetHandleInfo: No media!
+[5113]AvbGetSizeOfPartition: GetHandleInfo failed[5113]Load Image qtvm_dtbo total time: 2 ms 
+[5113]avb_slot_verify.c[5113]:[5113]724[5113]: ERROR: [5113]qtvm_dtbo[5113]: Error loading footer.
+[5113]AvbSlotVerify returned ERROR_IO
+[5113]ERROR: Device State Unlocked,AvbSlotVerify returned ERROR_IO
+[5113]AuthQtvmDtboImg failed, Status=0x1
+[5113]Error: Failed to read qtvm_dtbo partition
+
+
+ChargerExProtocol:: EFI_ChargerExIsOffModeCharging HARD_RESET = 1 .KPDPWR = 0 PON1 = 0 USB_CHG = 0 CBLPWR = 1 
+ChargerExProtocol:: EFI_ChargerExIsOffModeCharging IsColdBoot = 1 BatteryPresent = 1 ChargerPresent = 1 
+ChargerExProtocol:: EFI_ChargerExIsOffModeCharging Off mode charging False 
+ChargerExProtocol:: EFI_ChargerExIsOffModeCharging  PonReason = 0x41, Offmode Charging = FLEEICagrxsoeO[5113]Unable to get hw fence Config, Not Found
+[5113]Unable to get disp op Config, Not Found
+[5113]Unable to get hfi debug Config, Not Found
+[5113]Unable to get GPU Preempt Config, Not Found
+[5114]Offlining Memory Not Supported
+[5114]Cmdline: loglevel=8 console=ttyMSM0,115200n8 qcom_geni_serial.con_enabled=1 earlycon=qcom_geni,0x4a90000 androidboot.serialconsole=1 verity=enabled root=/dev/ram0 update_mode=1 androidboot.bootdevice=4744000.sdhci androidboot.fstab_suffix=emmc androidboot[5128]Final RAM Partitions
+[5128]Add Base: 0x0000000040000000 Available Length: 0x000000003EB00000 
+[5128]Add Base: 0x0000000080000000 Available Length: 0x0000000040000000 
+[5128]WARNING: Unsupported EFI_RAMPARTITION_PROTOCOL
+smem_get_addr: SMEM get addr success. smem_type=603, buf_size=208 and offset = 0x00008178.[5132]Unable to get disp op Config, Not Found
+[5146]ERROR: Ramdump mem reservation node size. Expected: 8, Actual: 16
+[5154]SLC information not found.
+[5154]PartialGoods Value: 0x0
+[5154]Update Device Tree total time: 26 ms 
+[5154]
+Shutting Down UEFI Boot Services: 5154 ms
+Start EBS        [ 5154] 
+Warning: Clearing A-bit !
+App Log Flush : 445 ms
+Exit EBS        [ 5637] UEFI End
+[    0.000000][    T0] Booting Linux on physical CPU 0x0000000000 [0x51af8014]
+[    0.000000][    T0] Linux version 6.12.69-mainline-maybe-dirty-debug (kleaf@build-host) (Android (14043575, +pgo, +bolt, +lto, +mlgo, based on r536225) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project b3a530ec6537146650e42be89f1089e9a3588460), LLD 19.0.1) #1 SMP PREEMPT Thu Jan  1 00:00:00 UTC 1970
+[    0.000000][    T0] KASLR enabled
+[    0.000000][    T0] Machine model: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4
+[    0.000000][    T0] **********************************************************
+[    0.000000][    T0] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000][    T0] **                                                      **
+[    0.000000][    T0] ** This system shows unhashed kernel memory addresses   **
+[    0.000000][    T0] ** via the console, logs, and other interfaces. This    **
+[    0.000000][    T0] ** might reduce the security of your system.            **
+[    0.000000][    T0] **                                                      **
+[    0.000000][    T0] ** If you see this message and you are not debugging    **
+[    0.000000][    T0] ** the kernel, report this immediately to your system   **
+[    0.000000][    T0] ** administrator!                                       **
+[    0.000000][    T0] **                                                      **
+[    0.000000][    T0] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000][    T0] **********************************************************
+[    0.000000][    T0] panic_on_taint: bitmask=0x20 nousertaint_mode=disabled
+[    0.000000][    T0] earlycon: qcom_geni0 at MMIO 0x0000000004a90000 (options '')
+[    0.000000][    T0] printk: legacy bootconsole [qcom_geni0] enabled
+[    0.000000][    T0] Enabling dynamic shadow call stack
+[    0.000000][    T0] efi: UEFI not found.
+[    0.000000][    T0] Reserved memory: created CMA memory pool at 0x00000000bf000000, size 16 MiB
+[    0.000000][    T0] OF: reserved mem: initialized node user_contig_region, compatible id shared-dma-pool
+[    0.000000][    T0] OF: reserved mem: 0x00000000bf000000..0x00000000bfffffff (16384 KiB) map reusable user_contig_region
+[    0.000000][    T0] Reserved memory: created CMA memory pool at 0x00000000b4c00000, size 164 MiB
+[    0.000000][    T0] OF: reserved mem: initialized node non_secure_display_region, compatible id shared-dma-pool
+[    0.000000][    T0] OF: reserved mem: 0x00000000b4c00000..0x00000000beffffff (167936 KiB) map reusable non_secure_display_region
+[    0.000000][    T0] Reserved memory: created CMA memory pool at 0x00000000b3800000, size 20 MiB
+[    0.000000][    T0] OF: reserved mem: initialized node qseecom_region, compatible id shared-dma-pool
+[    0.000000][    T0] OF: reserved mem: 0x00000000b3800000..0x00000000b4bfffff (20480 KiB) map reusable qseecom_region
+[    0.000000][    T0] Reserved memory: created CMA memory pool at 0x00000000b2800000, size 16 MiB
+[    0.000000][    T0] OF: reserved mem: initialized node qseecom_ta_region, compatible id shared-dma-pool
+[    0.000000][    T0] OF: reserved mem: 0x00000000b2800000..0x00000000b37fffff (16384 KiB) map reusable qseecom_ta_region
+[    0.000000][    T0] Reserved memory: created CMA memory pool at 0x00000000acc00000, size 92 MiB
+[    0.000000][    T0] OF: reserved mem: initialized node secure_display_region, compatible id shared-dma-pool
+[    0.000000][    T0] OF: reserved mem: 0x00000000acc00000..0x00000000b27fffff (94208 KiB) map reusable secure_display_region
+[    0.000000][    T0] Reserved memory: created CMA memory pool at 0x00000000ac400000, size 8 MiB
+[    0.000000][    T0] OF: reserved mem: initialized node adsp_region, compatible id shared-dma-pool
+[    0.000000][    T0] OF: reserved mem: 0x00000000ac400000..0x00000000acbfffff (8192 KiB) map reusable adsp_region
+[    0.000000][    T0] OF: reserved mem: 0x00000000ac3ff000..0x00000000ac3fffff (4 KiB) nomap non-reusable debug_kinfo_region
+[    0.000000][    T0] Reserved memory: created CMA memory pool at 0x00000000aba00000, size 8 MiB
+[    0.000000][    T0] OF: reserved mem: initialized node mem_dump_region, compatible id shared-dma-pool
+[    0.000000][    T0] OF: reserved mem: 0x00000000aba00000..0x00000000ac1fffff (8192 KiB) map reusable mem_dump_region
+[    0.000000][    T0] OF: reserved mem: 0x00000000ab800000..0x00000000ab9fffff (2048 KiB) nomap non-reusable ramoops_region
+[    0.000000][    T0] Reserved memory: created CMA memory pool at 0x00000000a9c00000, size 28 MiB
+[    0.000000][    T0] OF: reserved mem: initialized node audio_cma_region, compatible id shared-dma-pool
+[    0.000000][    T0] OF: reserved mem: 0x00000000a9c00000..0x00000000ab7fffff (28672 KiB) map reusable audio_cma_region
+[    0.000000][    T0] Reserved memory: created CMA memory pool at 0x00000000a7c00000, size 32 MiB
+[    0.000000][    T0] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+[    0.000000][    T0] OF: reserved mem: 0x00000000a7c00000..0x00000000a9bfffff (32768 KiB) map reusable linux,cma
+[    0.000000][    T0] Reserved memory: created CMA memory pool at 0x00000000a6c00000, size 16 MiB
+[    0.000000][    T0] OF: reserved mem: initialized node va_md_mem_region, compatible id shared-dma-pool
+[    0.000000][    T0] OF: reserved mem: 0x00000000a6c00000..0x00000000a7bfffff (16384 KiB) map reusable va_md_mem_region
+[    0.000000][    T0] OF: reserved mem: 0x0000000045700000..0x0000000045cfffff (6144 KiB) nomap non-reusable hyp_region@45700000
+[    0.000000][    T0] OF: reserved mem: 0x0000000045e00000..0x0000000045f3ffff (1280 KiB) nomap non-reusable xbl_aop_region@45e00000
+[    0.000000][    T0] OF: reserved mem: 0x0000000045fff000..0x0000000045ffffff (4 KiB) nomap non-reusable sec_apps_region@45fff000
+[    0.000000][    T0] OF: reserved mem: 0x0000000046000000..0x00000000461fffff (2048 KiB) nomap non-reusable smem_region@46000000
+[    0.000000][    T0] OF: reserved mem: 0x0000000060000000..0x00000000638fffff (58368 KiB) nomap non-reusable removed_region@60000000
+[    0.000000][    T0] OF: reserved mem: 0x000000004ab00000..0x00000000513fffff (107520 KiB) nomap non-reusable modem_region@4ab00000
+[    0.000000][    T0] OF: reserved mem: 0x0000000051900000..0x00000000519fffff (1024 KiB) nomap non-reusable wlan_msa_region@51900000
+[    0.000000][    T0] OF: reserved mem: 0x0000000051a00000..0x00000000537fffff (30720 KiB) nomap non-reusable cdsp_regions@51a00000
+[    0.000000][    T0] OF: reserved mem: 0x0000000053800000..0x00000000555fffff (30720 KiB) nomap non-reusable pil_adsp_region@53800000
+[    0.000000][    T0] OF: reserved mem: 0x0000000055600000..0x000000005560ffff (64 KiB) nomap non-reusable ipa_fw_region@55600000
+[    0.000000][    T0] OF: reserved mem: 0x0000000055610000..0x0000000055614fff (20 KiB) nomap non-reusable ipa_gsi_region@55610000
+[    0.000000][    T0] OF: reserved mem: 0x0000000055615000..0x0000000055616fff (8 KiB) nomap non-reusable gpu_region@55615000
+[    0.000000][    T0] OF: reserved mem: 0x0000000046200000..0x0000000047ffffff (30720 KiB) nomap non-reusable cdsp_sec_regions@46200000
+[    0.000000][    T0] OF: reserved mem: 0x0000000051400000..0x00000000518fffff (5120 KiB) nomap non-reusable video_region@51400000
+[    0.000000][    T0] OF: reserved mem: 0x000000005cf00000..0x000000005cffffff (1024 KiB) map non-reusable dfps_data_region@5cf00000
+[    0.000000][    T0] OF: reserved mem: 0x000000005c000000..0x000000005cefffff (15360 KiB) map non-reusable splash_region@5c000000
+[    0.000000][    T0] Zone ranges:
+[    0.000000][    T0]   DMA32    empty
+[    0.000000][    T0]   Normal   [mem 0x0000000040000000-0x00000000bfffffff]
+[    0.000000][    T0] Movable zone start for each node
+[    0.000000][    T0] Early memory node ranges
+[    0.000000][    T0]   node   0: [mem 0x0000000040000000-0x00000000456fffff]
+[    0.000000][    T0]   node   0: [mem 0x0000000045700000-0x0000000045cfffff]
+[    0.000000][    T0]   node   0: [mem 0x0000000045d00000-0x0000000045dfffff]
+[    0.000000][    T0]   node   0: [mem 0x0000000045e00000-0x0000000045f3ffff]
+[    0.000000][    T0]   node   0: [mem 0x0000000045f40000-0x0000000045ffefff]
+[    0.000000][    T0]   node   0: [mem 0x0000000045fff000-0x0000000047ffffff]
+[    0.000000][    T0]   node   0: [mem 0x0000000048000000-0x000000004aafffff]
+[    0.000000][    T0]   node   0: [mem 0x000000004ab00000-0x0000000055616fff]
+[    0.000000][    T0]   node   0: [mem 0x0000000055617000-0x000000005fffffff]
+[    0.000000][    T0]   node   0: [mem 0x0000000060000000-0x00000000638fffff]
+[    0.000000][    T0]   node   0: [mem 0x0000000063900000-0x000000007eafffff]
+[    0.000000][    T0]   node   0: [mem 0x0000000080000000-0x00000000ab7fffff]
+[    0.000000][    T0]   node   0: [mem 0x00000000ab800000-0x00000000ab9fffff]
+[    0.000000][    T0]   node   0: [mem 0x00000000aba00000-0x00000000ac3fefff]
+[    0.000000][    T0]   node   0: [mem 0x00000000ac3ff000-0x00000000ac3fffff]
+[    0.000000][    T0]   node   0: [mem 0x00000000ac400000-0x00000000bfffffff]
+[    0.000000][    T0] Initmem setup node 0 [mem 0x0000000040000000-0x00000000bfffffff]
+[    0.000000][    T0] On node 0, zone Normal: 5376 pages in unavailable ranges
+[    0.000000][    T0] psci: probing for conduit method from DT.
+[    0.000000][    T0] psci: PSCIv1.0 detected in firmware.
+[    0.000000][    T0] psci: Using standard PSCI v0.2 function IDs
+[    0.000000][    T0] psci: MIGRATE_INFO_TYPE not supported.
+[    0.000000][    T0] psci: SMC Calling Convention v1.1
+[    0.000000][    T0] psci: OSI mode supported.
+[    0.000000][    T0] psci: [Firmware Bug]: failed to set PC mode: -3
+[    0.000000][    T0] percpu: Embedded 547 pages/cpu s2080280 r131072 d29160 u2240512
+[    0.000000][    T0] pcpu-alloc: s2080280 r131072 d29160 u2240512 alloc=547*4096
+[    0.000000][    T0] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 [0] 4 [0] 5 [0] 6 [0] 7 
+[    0.000000][    T0] Detected VIPT I-cache on CPU0
+[    0.000000][    T0] CPU features: detected: GIC system register CPU interface
+[    0.000000][    T0] CPU features: kernel page table isolation forced OFF by kpti command line option
+[    0.000000][    T0] CPU features: detected: ARM erratum 845719
+[    0.000000][    T0] alternatives: applying boot alternatives
+[    0.000000][    T0] Kernel command line: console=ttyMSM0,115200n8 kasan.stacktrace=off stack_depot_disable=off page_owner=on no_hash_pointers panic_on_taint=0x20 memory_dump_v2.enable_dynamic_memdump=1 slub_debug=FZP,zs_handle,zspage;FZPU lpm_levels.sleep_disabled=1 msm_rtb.filter=0x237 service_locator.enable=1 swiotlb=2048 loop.max_part=7 cpufreq.default_governor=performance rcupdate.rcu_expedited=1 rcu_nocbs=0-7 kpti=0 export_pmu_events movable_node ftrace_dump_on_oops ssbd=force-off disable_dma32=on cgroup.memory=nokmem,nosocket panic=5 android_arch_task_struct_size=512 loglevel=6 log_buf_len=512K printk.console_no_auto_verbose=1 fw_devlink.strict=1 sysctl.kernel.sched_pelt_multiplier=4 no-steal-acc cgroup_disable=pressure sysctl.kernel.panic_on_rcu_stall=1 restrict_cma_redirect=false irqaffinity=0-1 slub_debug=- can.stats_timer=0 loglevel=8 console=ttyMSM0,115200n8 qcom_geni_serial.con_enabled=1 earlycon=qcom_geni,0x4a90000 androidboot.serialconsole=1 verity=enabled root=/dev/ram0 update_mode=1 \
+[    0.000000][    T0] Kernel command line: androidboot.bootdevice=4744000.sdhci androidboot.fstab_suffix=emmc androidboot.serialno=1b89b520 androidboot.baseband=apq msm_drm.dsi_display0=qcom,mdss_dsi_ili9881c_720p_video: systemd.setenv="SLOT_SUFFIX=_a" rootwait ro init=/sbin/init
+[    0.000000][    T0] mem auto-init: SLAB_POISON will take precedence over init_on_alloc/init_on_free
+[    0.000000][    T0] cgroup: Disabling pressure control group feature
+[    0.000000][    T0] Unknown kernel command line parameters "verity=enabled update_mode=1", will be passed to user space.
+[    0.000000][    T0] printk: log buffer data + meta data: 524288 + 1835008 = 2359296 bytes
+[    0.000000][    T0] printk: early log buf free: 120568(91%)
+[    0.000000][    T0] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    0.000000][    T0] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.000000][    T0] Built 1 zonelists, mobility grouping on.  Total pages: 518912
+[    0.000000][    T0] mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+[    0.000000][    T0] stackdepot: allocating hash table via alloc_large_system_hash
+[    0.000000][    T0] stackdepot hash table entries: 131072 (order: 9, 2097152 bytes, linear)
+[    0.000000][    T0] software IO TLB: area num 8.
+[    0.000000][    T0] software IO TLB: mapped [mem 0x00000000a2ba8000-0x00000000a2fa8000] (4MB)
+[    0.000000][    T0] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+[    0.000000][    T0] kmemleak: Kernel memory leak detector disabled
+[    0.000000][    T0] allocated 37748736 bytes of page_ext
+[    0.000000][    T0] Node 0, zone   Normal: page owner found early allocated 9284 pages
+[    0.000000][    T0] rcu: Preemptible hierarchical RCU implementation.
+[    0.000000][    T0] rcu: 	RCU event tracing is enabled.
+[    0.000000][    T0] rcu: 	RCU restricting CPUs from NR_CPUS=32 to nr_cpu_ids=8.
+[    0.000000][    T0] rcu: 	RCU priority boosting: priority 1 delay 500 ms.
+[    0.000000][    T0] 	All grace periods are expedited (rcu_expedited).
+[    0.000000][    T0] 	Trampoline variant of Tasks RCU enabled.
+[    0.000000][    T0] 	Rude variant of Tasks RCU enabled.
+[    0.000000][    T0] 	Tracing variant of Tasks RCU enabled.
+[    0.000000][    T0] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[    0.000000][    T0] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=8
+[    0.000000][    T0] RCU Tasks: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+[    0.000000][    T0] RCU Tasks Rude: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+[    0.000000][    T0] RCU Tasks Trace: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+[    0.000000][    T0] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000][    T0] GICv3: 640 SPIs implemented
+[    0.000000][    T0] GICv3: 0 Extended SPIs implemented
+[    0.000000][    T0] Root IRQ handler: gic_handle_irq
+[    0.000000][    T0] GICv3: GICv3 features: 16 PPIs
+[    0.000000][    T0] GICv3: GICD_CTRL.DS=0, SCR_EL3.FIQ=1
+[    0.000000][    T0] GICv3: CPU0: found redistributor 0 region 0:0x000000000f300000
+[    0.000000][    T0] rcu: 	Offload RCU callbacks from CPUs: 0-7.
+[    0.000000][    T0] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[    0.000000][    T0] arch_timer: cp15 and mmio timer(s) running at 19.20MHz (virt/virt).
+[    0.000000][    T0] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+[    0.000000][    T0] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+[    0.012940][    T0] kfence: initialized - using 524288 bytes for 63 objects at 0xffffff806c37f000-0xffffff806c3ff000
+[    0.024408][    T0] Console: colour dummy device 80x25
+[    0.029617][    T0] Lock dependency validator: Copyright (c) 2006 Red Hat, Inc., Ingo Molnar
+[    0.038103][    T0] ... MAX_LOCKDEP_SUBCLASSES:  8
+[    0.042941][    T0] ... MAX_LOCK_DEPTH:          48
+[    0.047867][    T0] ... MAX_LOCKDEP_KEYS:        8192
+[    0.052965][    T0] ... CLASSHASH_SIZE:          4096
+[    0.058063][    T0] ... MAX_LOCKDEP_ENTRIES:     32768
+[    0.063247][    T0] ... MAX_LOCKDEP_CHAINS:      65536
+[    0.068431][    T0] ... CHAINHASH_SIZE:          32768
+[    0.073614][    T0]  memory used by lock dependency info: 4213 kB
+[    0.079754][    T0]  per task-struct memory footprint: 2688 bytes
+[    0.085946][    T0] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=76800)
+[    0.096967][    T0] pid_max: default: 32768 minimum: 301
+[    0.105944][    T0] LSM: initializing lsm=capability,selinux,bpf
+[    0.114726][    T0] SELinux:  Initializing.
+[    0.129852][    T0] LSM support for eBPF active
+[    0.135826][    T0] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+[    0.143988][    T0] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+[    0.159934][    T0] spectre-v4 mitigation disabled by command-line option
+[    0.170100][    T1] cacheinfo: Unable to detect cache hierarchy for CPU 0
+[    0.185070][    T1] rcu: Hierarchical SRCU implementation.
+[    0.190639][    T1] rcu: 	Max phase no-delay instances is 1000.
+[    0.199367][    T1] Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+[    0.221872][    T1] EFI services will not be available.
+[    0.235373][    T1] smp: Bringing up secondary CPUs ...
+[    0.251280][    T0] Detected VIPT I-cache on CPU1
+[    0.251334][    T0] GICv3: CPU1: found redistributor 1 region 0:0x000000000f320000
+[    0.251436][    T0] CPU1: Booted secondary processor 0x0000000001 [0x51af8014]
+[    0.263207][    T0] Detected VIPT I-cache on CPU2
+[    0.263265][    T0] GICv3: CPU2: found redistributor 2 region 0:0x000000000f340000
+[    0.263368][    T0] CPU2: Booted secondary processor 0x0000000002 [0x51af8014]
+[    0.269133][    T0] Detected VIPT I-cache on CPU3
+[    0.269192][    T0] GICv3: CPU3: found redistributor 3 region 0:0x000000000f360000
+[    0.269293][    T0] CPU3: Booted secondary processor 0x0000000003 [0x51af8014]
+[    0.278607][    T0] CPU features: detected: Spectre-v2
+[    0.278628][    T0] CPU features: detected: Spectre-v4
+[    0.278633][    T0] CPU features: detected: Spectre-BHB
+[    0.278642][    T0] Detected VIPT I-cache on CPU4
+[    0.278685][    T0] GICv3: CPU4: found redistributor 100 region 0:0x000000000f380000
+[    0.278763][    T0] CPU4: Booted secondary processor 0x0000000100 [0x51af8002]
+[    0.284618][    T0] Detected VIPT I-cache on CPU5
+[    0.284652][    T0] GICv3: CPU5: found redistributor 101 region 0:0x000000000f3a0000
+[    0.284717][    T0] CPU5: Booted secondary processor 0x0000000101 [0x51af8002]
+[    0.290131][    T0] Detected VIPT I-cache on CPU6
+[    0.290169][    T0] GICv3: CPU6: found redistributor 102 region 0:0x000000000f3c0000
+[    0.290233][    T0] CPU6: Booted secondary processor 0x0000000102 [0x51af8002]
+[    0.295225][    T0] Detected VIPT I-cache on CPU7
+[    0.295266][    T0] GICv3: CPU7: found redistributor 103 region 0:0x000000000f3e0000
+[    0.295330][    T0] CPU7: Booted secondary processor 0x0000000103 [0x51af8002]
+[    0.295901][    T1] smp: Brought up 1 node, 8 CPUs
+[    0.454313][    T1] SMP: Total of 8 processors activated.
+[    0.459761][    T1] CPU: All CPU(s) started at EL1
+[    0.464632][    T1] CPU features: detected: 32-bit EL0 Support
+[    0.470515][    T1] CPU features: detected: 32-bit EL1 Support
+[    0.476407][    T1] CPU features: detected: CRC32 instructions
+[    0.482806][    T1] alternatives: applying system-wide alternatives
+[    0.490466][    T1] CPU features: emulated: Privileged Access Never (PAN) using TTBR0_EL1 switching
+[    0.500851][    T1] Memory: 1176888K/2075648K available (19328K kernel code, 2930K rwdata, 15296K rodata, 6528K init, 10196K bss, 443348K reserved, 409600K cma-reserved)
+[    0.519420][    T1] devtmpfs: initialized
+[    0.695808][    T1] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.706352][    T1] futex hash table entries: 2048 (order: 6, 262144 bytes, linear)
+[    0.950775][    T1] 19152 pages in range for non-PLT usage
+[    0.950792][    T1] 510672 pages in range for PLT usage
+[    0.957789][    T1] pinctrl core: initialized pinctrl subsystem
+[    0.976773][    T1] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.989411][    T1] DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+[    0.998116][    T1] audit: initializing netlink subsys (disabled)
+[    1.004863][   T80] audit: type=2000 audit(0.812:1): state=initialized audit_enabled=0 res=1
+[    1.006518][    T1] thermal_sys: Registered thermal governor 'bang_bang'
+[    1.013355][    T1] thermal_sys: Registered thermal governor 'step_wise'
+[    1.020087][    T1] thermal_sys: Registered thermal governor 'user_space'
+[    1.026826][    T1] thermal_sys: Registered thermal governor 'power_allocator'
+[    1.033730][    T1] cpuidle: using governor menu
+[    1.046328][    T1] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[    1.054288][    T1] ASID allocator initialised with 65536 entries
+[    1.063559][    T1] Serial: AMBA PL011 UART driver
+[    1.074479][    T1] CPUidle PSCI: Initialized CPU PM domain topology using OSI mode
+[    1.128022][    T1] OF: /soc/spf_core_platform/bolero-cdc/va-macro@a730000: could not get #gpio-cells for /soc/interrupt-controller@f200000
+[    1.151276][    T1] /soc/interrupt-controller@f200000: Fixed dependency cycle(s) with /soc/interrupt-controller@f200000
+[    1.167599][    T1] /soc/qcom,spmi@1c40000/qcom,pmi632@2/qcom,qpnp-smb5: Fixed dependency cycle(s) with /soc/qcom,spmi@1c40000/qcom,pmi632@2/qpnp,qg
+[    1.181179][    T1] /soc/qcom,spmi@1c40000/qcom,pmi632@2/qpnp,qg: Fixed dependency cycle(s) with /soc/qcom,spmi@1c40000/qcom,pmi632@2/qcom,qpnp-smb5
+[    1.195647][    T1] /soc/qcom,gdsc@5f03000: Fixed dependency cycle(s) with /soc/qcom,gdsc@5f03000
+[    1.205531][    T1] /soc/stm@8002000: Fixed dependency cycle(s) with /soc/funnel@8041000
+[    1.214054][    T1] /soc/tpdm@8b58000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    1.222366][    T1] /soc/modem_rfxe: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    1.230805][    T1] /soc/turing-qmi: Fixed dependency cycle(s) with /soc/turing_etm0
+[    1.238852][    T1] /soc/audio-qmi: Fixed dependency cycle(s) with /soc/audio_etm0
+[    1.246724][    T1] /soc/modem0-qmi: Fixed dependency cycle(s) with /soc/modem_etm0
+[    1.254462][    T1] /soc/audio_etm0: Fixed dependency cycle(s) with /soc/audio-qmi
+[    1.262308][    T1] /soc/audio_etm0: Fixed dependency cycle(s) with /soc/funnel@8a24000
+[    1.270628][    T1] /soc/snoc: Fixed dependency cycle(s) with /soc/funnel@8041000
+[    1.278416][    T1] /soc/tpdm@8a26000: Fixed dependency cycle(s) with /soc/funnel@8a24000
+[    1.287034][    T1] /soc/tpdm@8860000: Fixed dependency cycle(s) with /soc/funnel@8861000
+[    1.295301][    T1] /soc/turing_etm0: Fixed dependency cycle(s) with /soc/turing-qmi
+[    1.303471][    T1] /soc/turing_etm0: Fixed dependency cycle(s) with /soc/funnel@8861000
+[    1.311989][    T1] /soc/tpdm@8840000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    1.320416][    T1] /soc/tpdm@8870000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    1.328850][    T1] /soc/tpdm@884c000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    1.337277][    T1] /soc/tpdm@89d0000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    1.345707][    T1] /soc/tpdm@8a58000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    1.354134][    T1] /soc/tpdm@8850000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    1.362445][    T1] /soc/tpdm@8a01000: Fixed dependency cycle(s) with /soc/tpda@8a04000
+[    1.370756][    T1] /soc/tpdm@899c000: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    1.379023][    T1] /soc/modem_etm0: Fixed dependency cycle(s) with /soc/modem0-qmi
+[    1.386964][    T1] /soc/modem_etm0: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    1.395279][    T1] /soc/etm@9040000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    1.403677][    T1] /soc/etm@9140000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    1.412074][    T1] /soc/etm@9240000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    1.420472][    T1] /soc/etm@9340000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    1.428869][    T1] /soc/etm@9440000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    1.437273][    T1] /soc/etm@9540000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    1.445671][    T1] /soc/etm@9640000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    1.454068][    T1] /soc/etm@9740000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    1.462466][    T1] /soc/tpd@9830000: Fixed dependency cycle(s) with /soc/tpda@9832000
+[    1.470697][    T1] /soc/tpdm@98a0000: Fixed dependency cycle(s) with /soc/tpda@98c0000
+[    1.479008][    T1] /soc/tpdm@9860000: Fixed dependency cycle(s) with /soc/tpda@9862000
+[    1.487097][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9740000
+[    1.495248][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9640000
+[    1.503393][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9540000
+[    1.511538][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9440000
+[    1.519683][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9340000
+[    1.527828][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9240000
+[    1.535973][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9140000
+[    1.544118][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9040000
+[    1.552460][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    1.561005][    T1] /soc/tpda@9832000: Fixed dependency cycle(s) with /soc/tpd@9830000
+[    1.569200][    T1] /soc/tpda@9832000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    1.577487][    T1] /soc/tpda@9862000: Fixed dependency cycle(s) with /soc/tpdm@9860000
+[    1.585764][    T1] /soc/tpda@9862000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    1.594050][    T1] /soc/tpda@98c0000: Fixed dependency cycle(s) with /soc/tpdm@98a0000
+[    1.602327][    T1] /soc/tpda@98c0000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    1.610621][    T1] /soc/funnel@9810000: Fixed dependency cycle(s) with /soc/tpda@9862000
+[    1.618864][    T1] /soc/funnel@9810000: Fixed dependency cycle(s) with /soc/tpda@98c0000
+[    1.627106][    T1] /soc/funnel@9810000: Fixed dependency cycle(s) with /soc/tpda@9832000
+[    1.635373][    T1] /soc/funnel@9810000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    1.643954][    T1] /soc/funnel@9810000: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    1.652448][    T1] /soc/tpda@8a04000: Fixed dependency cycle(s) with /soc/tpdm@8a01000
+[    1.660724][    T1] /soc/tpda@8a04000: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    1.669016][    T1] /soc/funnel@8861000: Fixed dependency cycle(s) with /soc/turing_etm0
+[    1.677161][    T1] /soc/funnel@8861000: Fixed dependency cycle(s) with /soc/tpdm@8860000
+[    1.685574][    T1] /soc/funnel@8861000: Fixed dependency cycle(s) with /soc/funnel@8005000
+[    1.694161][    T1] /soc/funnel@8861000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    1.702469][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@8850000
+[    1.710528][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@8a58000
+[    1.718586][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@89d0000
+[    1.726650][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@884c000
+[    1.734709][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@8870000
+[    1.742766][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@8840000
+[    1.750980][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/funnel@8861000
+[    1.759219][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@8b58000
+[    1.767433][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/funnel@8005000
+[    1.776024][    T1] /soc/funnel@8a24000: Fixed dependency cycle(s) with /soc/funnel@8005000
+[    1.784441][    T1] /soc/funnel@8a24000: Fixed dependency cycle(s) with /soc/tpdm@8a26000
+[    1.792680][    T1] /soc/funnel@8a24000: Fixed dependency cycle(s) with /soc/audio_etm0
+[    1.800793][    T1] /soc/funnel@8005000: Fixed dependency cycle(s) with /soc/funnel@8a24000
+[    1.809243][    T1] /soc/funnel@8005000: Fixed dependency cycle(s) with /soc/funnel@8861000
+[    1.817700][    T1] /soc/funnel@8005000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    1.826073][    T1] /soc/funnel@8005000: Fixed dependency cycle(s) with /soc/funnel@8041000
+[    1.834556][    T1] /soc/funnel@8041000: Fixed dependency cycle(s) with /soc/stm@8002000
+[    1.842794][    T1] /soc/funnel@8041000: Fixed dependency cycle(s) with /soc/funnel@8005000
+[    1.851208][    T1] /soc/funnel@8041000: Fixed dependency cycle(s) with /soc/snoc
+[    1.858874][    T1] /soc/funnel@8041000: Fixed dependency cycle(s) with /soc/funnel@8045000
+[    1.867414][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    1.875828][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/modem_etm0
+[    1.883884][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/tpdm@899c000
+[    1.892122][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/modem_rfxe
+[    1.900189][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/tpda@8a04000
+[    1.908576][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/funnel@8045000
+[    1.917155][    T1] /soc/funnel@8045000: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    1.925666][    T1] /soc/funnel@8045000: Fixed dependency cycle(s) with /soc/funnel@8041000
+[    1.934123][    T1] /soc/funnel@8045000: Fixed dependency cycle(s) with /soc/tmc@8047000
+[    1.942504][    T1] /soc/tmc@8047000: Fixed dependency cycle(s) with /soc/funnel@8045000
+[    1.950694][    T1] /soc/tmc@8047000: Fixed dependency cycle(s) with /soc/replicator@8046000
+[    1.959421][    T1] /soc/replicator@8046000: Fixed dependency cycle(s) with /soc/tmc@8047000
+[    1.967955][    T1] /soc/replicator@8046000: Fixed dependency cycle(s) with /soc/tmc@8048000
+[    1.976685][    T1] /soc/tmc@8048000: Fixed dependency cycle(s) with /soc/replicator@8046000
+[    2.040150][    T1] /soc/qcom,spmi@1c40000/qcom,pmi632@2/qcom,qpnp-smb5: Fixed dependency cycle(s) with /soc/qcom,spmi@1c40000/qcom,pmi632@2/qpnp,qg
+[    2.053656][    T1] /soc/qcom,spmi@1c40000/qcom,pmi632@2/qpnp,qg: Fixed dependency cycle(s) with /soc/qcom,spmi@1c40000/qcom,pmi632@2/qcom,qpnp-smb5
+[    2.077213][    T1] /soc/qcom,gdsc@5f03000: Fixed dependency cycle(s) with /soc/qcom,gdsc@5f03000
+[    2.096851][    T1] /soc/stm@8002000: Fixed dependency cycle(s) with /soc/funnel@8041000
+[    2.105763][    T1] /soc/tpdm@8b58000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.114456][    T1] /soc/modem_rfxe: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    2.123085][    T1] /soc/turing-qmi: Fixed dependency cycle(s) with /soc/turing_etm0
+[    2.131385][    T1] /soc/audio-qmi: Fixed dependency cycle(s) with /soc/audio_etm0
+[    2.139479][    T1] /soc/modem0-qmi: Fixed dependency cycle(s) with /soc/modem_etm0
+[    2.147687][    T1] /soc/audio-qmi: Fixed dependency cycle(s) with /soc/audio_etm0
+[    2.155493][    T1] /soc/audio_etm0: Fixed dependency cycle(s) with /soc/audio-qmi
+[    2.163405][    T1] /soc/audio_etm0: Fixed dependency cycle(s) with /soc/funnel@8a24000
+[    2.171953][    T1] /soc/snoc: Fixed dependency cycle(s) with /soc/funnel@8041000
+[    2.179972][    T1] /soc/tpdm@8a26000: Fixed dependency cycle(s) with /soc/funnel@8a24000
+[    2.188854][    T1] /soc/tpdm@8860000: Fixed dependency cycle(s) with /soc/funnel@8861000
+[    2.197776][    T1] /soc/turing-qmi: Fixed dependency cycle(s) with /soc/turing_etm0
+[    2.205779][    T1] /soc/turing_etm0: Fixed dependency cycle(s) with /soc/turing-qmi
+[    2.213950][    T1] /soc/turing_etm0: Fixed dependency cycle(s) with /soc/funnel@8861000
+[    2.222691][    T1] /soc/tpdm@8840000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.231485][    T1] /soc/tpdm@8870000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.240254][    T1] /soc/tpdm@884c000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.249065][    T1] /soc/tpdm@89d0000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.257836][    T1] /soc/tpdm@8a58000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.266615][    T1] /soc/tpdm@8850000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.275332][    T1] /soc/tpdm@8a01000: Fixed dependency cycle(s) with /soc/tpda@8a04000
+[    2.283979][    T1] /soc/tpdm@899c000: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    2.292685][    T1] /soc/modem0-qmi: Fixed dependency cycle(s) with /soc/modem_etm0
+[    2.300585][    T1] /soc/modem_etm0: Fixed dependency cycle(s) with /soc/modem0-qmi
+[    2.308576][    T1] /soc/modem_etm0: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    2.317213][    T1] /soc/etm@9040000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.326124][    T1] /soc/etm@9140000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.335013][    T1] /soc/etm@9240000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.343915][    T1] /soc/etm@9340000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.352791][    T1] /soc/etm@9440000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.361708][    T1] /soc/etm@9540000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.370609][    T1] /soc/etm@9640000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.379503][    T1] /soc/etm@9740000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.388318][    T1] /soc/tpd@9830000: Fixed dependency cycle(s) with /soc/tpda@9832000
+[    2.396925][    T1] /soc/tpdm@98a0000: Fixed dependency cycle(s) with /soc/tpda@98c0000
+[    2.405597][    T1] /soc/tpdm@9860000: Fixed dependency cycle(s) with /soc/tpda@9862000
+[    2.414383][    T1] /soc/etm@9740000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.422761][    T1] /soc/etm@9640000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.431150][    T1] /soc/etm@9540000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.439546][    T1] /soc/etm@9440000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.447935][    T1] /soc/etm@9340000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.456311][    T1] /soc/etm@9240000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.464705][    T1] /soc/etm@9140000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.473096][    T1] /soc/etm@9040000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.481397][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9740000
+[    2.489717][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9640000
+[    2.498015][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9540000
+[    2.506367][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9440000
+[    2.514689][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9340000
+[    2.523010][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9240000
+[    2.531325][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9140000
+[    2.539644][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/etm@9040000
+[    2.548028][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    2.557187][    T1] /soc/tpd@9830000: Fixed dependency cycle(s) with /soc/tpda@9832000
+[    2.565337][    T1] /soc/tpda@9832000: Fixed dependency cycle(s) with /soc/tpd@9830000
+[    2.573561][    T1] /soc/tpda@9832000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    2.582458][    T1] /soc/tpdm@9860000: Fixed dependency cycle(s) with /soc/tpda@9862000
+[    2.590674][    T1] /soc/tpda@9862000: Fixed dependency cycle(s) with /soc/tpdm@9860000
+[    2.598974][    T1] /soc/tpda@9862000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    2.607853][    T1] /soc/tpdm@98a0000: Fixed dependency cycle(s) with /soc/tpda@98c0000
+[    2.616084][    T1] /soc/tpda@98c0000: Fixed dependency cycle(s) with /soc/tpdm@98a0000
+[    2.624389][    T1] /soc/tpda@98c0000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    2.633300][    T1] /soc/tpda@98c0000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    2.641781][    T1] /soc/tpda@9862000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    2.650242][    T1] /soc/tpda@9832000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    2.658713][    T1] /soc/funnel@9800000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    2.667288][    T1] /soc/funnel@9810000: Fixed dependency cycle(s) with /soc/tpda@9862000
+[    2.675703][    T1] /soc/funnel@9810000: Fixed dependency cycle(s) with /soc/tpda@98c0000
+[    2.684114][    T1] /soc/funnel@9810000: Fixed dependency cycle(s) with /soc/tpda@9832000
+[    2.692526][    T1] /soc/funnel@9810000: Fixed dependency cycle(s) with /soc/funnel@9800000
+[    2.701169][    T1] /soc/funnel@9810000: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    2.710257][    T1] /soc/tpdm@8a01000: Fixed dependency cycle(s) with /soc/tpda@8a04000
+[    2.718490][    T1] /soc/tpda@8a04000: Fixed dependency cycle(s) with /soc/tpdm@8a01000
+[    2.726776][    T1] /soc/tpda@8a04000: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    2.735759][    T1] /soc/turing_etm0: Fixed dependency cycle(s) with /soc/funnel@8861000
+[    2.744176][    T1] /soc/tpdm@8860000: Fixed dependency cycle(s) with /soc/funnel@8861000
+[    2.752588][    T1] /soc/funnel@8861000: Fixed dependency cycle(s) with /soc/turing_etm0
+[    2.760888][    T1] /soc/funnel@8861000: Fixed dependency cycle(s) with /soc/tpdm@8860000
+[    2.769349][    T1] /soc/funnel@8861000: Fixed dependency cycle(s) with /soc/funnel@8005000
+[    2.777822][    T1] /soc/funnel@8861000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.786784][    T1] /soc/funnel@8861000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.795309][    T1] /soc/tpdm@8850000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.803694][    T1] /soc/tpdm@8a58000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.812016][    T1] /soc/tpdm@89d0000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.820350][    T1] /soc/tpdm@884c000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.828676][    T1] /soc/tpdm@8870000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.837019][    T1] /soc/tpdm@8840000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.845338][    T1] /soc/tpdm@8b58000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    2.853569][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@8850000
+[    2.861801][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@8a58000
+[    2.870018][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@89d0000
+[    2.878260][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@884c000
+[    2.886483][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@8870000
+[    2.894711][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@8840000
+[    2.902975][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/funnel@8861000
+[    2.911383][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/tpdm@8b58000
+[    2.919663][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/funnel@8005000
+[    2.928602][    T1] /soc/tpdm@8a26000: Fixed dependency cycle(s) with /soc/funnel@8a24000
+[    2.937082][    T1] /soc/audio_etm0: Fixed dependency cycle(s) with /soc/funnel@8a24000
+[    2.945358][    T1] /soc/funnel@8a24000: Fixed dependency cycle(s) with /soc/funnel@8005000
+[    2.953771][    T1] /soc/funnel@8a24000: Fixed dependency cycle(s) with /soc/tpdm@8a26000
+[    2.962184][    T1] /soc/funnel@8a24000: Fixed dependency cycle(s) with /soc/audio_etm0
+[    2.970953][    T1] /soc/funnel@8a24000: Fixed dependency cycle(s) with /soc/funnel@8005000
+[    2.979586][    T1] /soc/tpda@8004000: Fixed dependency cycle(s) with /soc/funnel@8005000
+[    2.988090][    T1] /soc/funnel@8861000: Fixed dependency cycle(s) with /soc/funnel@8005000
+[    2.996702][    T1] /soc/funnel@8005000: Fixed dependency cycle(s) with /soc/funnel@8a24000
+[    3.005285][    T1] /soc/funnel@8005000: Fixed dependency cycle(s) with /soc/funnel@8861000
+[    3.013874][    T1] /soc/funnel@8005000: Fixed dependency cycle(s) with /soc/tpda@8004000
+[    3.022363][    T1] /soc/funnel@8005000: Fixed dependency cycle(s) with /soc/funnel@8041000
+[    3.031456][    T1] /soc/funnel@8005000: Fixed dependency cycle(s) with /soc/funnel@8041000
+[    3.040107][    T1] /soc/snoc: Fixed dependency cycle(s) with /soc/funnel@8041000
+[    3.047863][    T1] /soc/stm@8002000: Fixed dependency cycle(s) with /soc/funnel@8041000
+[    3.056181][    T1] /soc/funnel@8041000: Fixed dependency cycle(s) with /soc/stm@8002000
+[    3.064516][    T1] /soc/funnel@8041000: Fixed dependency cycle(s) with /soc/funnel@8005000
+[    3.073101][    T1] /soc/funnel@8041000: Fixed dependency cycle(s) with /soc/snoc
+[    3.080856][    T1] /soc/funnel@8041000: Fixed dependency cycle(s) with /soc/funnel@8045000
+[    3.089960][    T1] /soc/tpda@8a04000: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    3.098436][    T1] /soc/funnel@9810000: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    3.107060][    T1] /soc/modem_etm0: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    3.115346][    T1] /soc/tpdm@899c000: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    3.123799][    T1] /soc/modem_rfxe: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    3.132045][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/funnel@9810000
+[    3.140615][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/modem_etm0
+[    3.148851][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/tpdm@899c000
+[    3.157260][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/modem_rfxe
+[    3.165475][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/tpda@8a04000
+[    3.173925][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/funnel@8045000
+[    3.183015][    T1] /soc/funnel@8042000: Fixed dependency cycle(s) with /soc/funnel@8045000
+[    3.191666][    T1] /soc/funnel@8041000: Fixed dependency cycle(s) with /soc/funnel@8045000
+[    3.200256][    T1] /soc/funnel@8045000: Fixed dependency cycle(s) with /soc/funnel@8042000
+[    3.208854][    T1] /soc/funnel@8045000: Fixed dependency cycle(s) with /soc/funnel@8041000
+[    3.217450][    T1] /soc/funnel@8045000: Fixed dependency cycle(s) with /soc/tmc@8047000
+[    3.226212][    T1] /soc/funnel@8045000: Fixed dependency cycle(s) with /soc/tmc@8047000
+[    3.234573][    T1] /soc/tmc@8047000: Fixed dependency cycle(s) with /soc/funnel@8045000
+[    3.242898][    T1] /soc/tmc@8047000: Fixed dependency cycle(s) with /soc/replicator@8046000
+[    3.252030][    T1] /soc/tmc@8047000: Fixed dependency cycle(s) with /soc/replicator@8046000
+[    3.260712][    T1] /soc/replicator@8046000: Fixed dependency cycle(s) with /soc/tmc@8047000
+[    3.269402][    T1] /soc/replicator@8046000: Fixed dependency cycle(s) with /soc/tmc@8048000
+[    3.278465][    T1] /soc/replicator@8046000: Fixed dependency cycle(s) with /soc/tmc@8048000
+[    3.287165][    T1] /soc/tmc@8048000: Fixed dependency cycle(s) with /soc/replicator@8046000
+[    3.387615][    T1] iommu: Default domain type: Translated
+[    3.393145][    T1] iommu: DMA domain TLB invalidation policy: strict mode
+[    3.406961][    T1] SCSI subsystem initialized
+[    3.411939][    T1] usbcore: registered new interface driver usbfs
+[    3.418279][    T1] usbcore: registered new interface driver hub
+[    3.424439][    T1] usbcore: registered new device driver usb
+[    3.430772][    T1] mc: Linux media interface: v0.10
+[    3.435887][    T1] videodev: Linux video capture interface: v2.00
+[    3.442351][    T1] EDAC MC: Ver: 3.0.0
+[    3.447342][    T1] scmi_core: SCMI protocol bus registered
+[    3.453972][    T1] Advanced Linux Sound Architecture Driver Initialized.
+[    3.463620][    T1] clocksource: Switched to clocksource arch_sys_counter
+[    3.479849][    T1] VFS: Disk quotas dquot_6.6.0
+[    3.487929][    T1] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    3.527874][    T1] NET: Registered PF_INET protocol family
+[    3.533694][    T1] IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    3.571868][    T1] tcp_listen_portaddr_hash hash table entries: 1024 (order: 5, 81920 bytes, linear)
+[    3.581372][    T1] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    3.590190][    T1] TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    3.601511][    T1] TCP bind hash table entries: 16384 (order: 10, 2621440 bytes, linear)
+[    3.611122][    T1] TCP: Hash tables configured (established 16384 bind 16384)
+[    3.618818][    T1] UDP hash table entries: 1024 (order: 6, 196608 bytes, linear)
+[    3.626605][    T1] UDP-Lite hash table entries: 1024 (order: 6, 196608 bytes, linear)
+[    3.635382][    T1] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    3.641860][    T1] NET: Registered PF_XDP protocol family
+[    3.647401][    T1] PCI: CLS 0 bytes, default 64
+[    3.652768][   T12] Trying to unpack rootfs image as initramfs...
+[    3.659102][    T1] kvm [1]: HYP mode not available
+[    3.718691][    T1] Initialise system trusted keyrings
+[    3.724579][    T1] workingset: timestamp_bits=46 max_order=19 bucket_order=0
+[    3.741855][    T1] fuse: init (API version 7.41)
+[    3.782451][    T1] Key type asymmetric registered
+[    3.787393][    T1] Asymmetric key parser 'x509' registered
+[    3.793332][    T1] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 241)
+[    3.801639][    T1] io scheduler mq-deadline registered
+[    3.806917][    T1] io scheduler kyber registered
+[    3.811966][    T1] io scheduler bfq registered
+[    3.885262][    T1] brd: module loaded
+[    3.946698][    T1] loop: module loaded
+[    3.956965][    T1] wireguard: WireGuard 1.0.0 loaded. See www.wireguard.com for information.
+[    3.965554][    T1] wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+[    3.980229][    T1] tun: Universal TUN/TAP device driver, 1.6
+[    3.988371][    T1] VFIO - User Level meta-driver version: 0.3
+[    4.001001][    T1] usbcore: registered new interface driver uas
+[    4.007288][    T1] usbcore: registered new interface driver usb-storage
+[    4.015175][    T1] usbcore: registered new interface driver xpad
+[    4.022161][    T1] i2c_dev: i2c /dev entries driver
+[    4.027278][    T1] gspca_main: v2.14.0 registered
+[    4.032364][    T1] usbcore: registered new interface driver uvcvideo
+[    4.041629][    T1] device-mapper: uevent: version 1.0.3
+[    4.048160][    T1] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@lists.linux.dev
+[    4.066924][    T1] sdhci: Secure Digital Host Controller Interface driver
+[    4.073889][    T1] sdhci: Copyright(c) Pierre Ossman
+[    4.079004][    T1] sdhci-pltfm: SDHCI platform and OF driver helper
+[    4.090859][    T1] hid: raw HID events driver (C) Jiri Kosina
+[    4.102359][    T1] usbcore: registered new interface driver usbhid
+[    4.108691][    T1] usbhid: USB HID core driver
+[    4.114188][    T1] ashmem: Using Rust implementation.
+[    4.123473][    T1] hw perfevents: enabled with armv8_pmuv3 PMU driver, 7 (0,8000003f) counters available
+[    4.143757][   T82] watchdog: NMI not fully supported
+[    4.155644][   T82] watchdog: Hard watchdog permanently disabled
+[    4.166581][    T1] usbcore: registered new interface driver snd-usb-audio
+[    4.175485][    T1] GACT probability NOT on
+[    4.179758][    T1] Mirror/redirect action on
+[    4.184225][    T1] netem: version 1.3
+[    4.188213][    T1] u32 classifier
+[    4.191663][    T1]     input device check on
+[    4.196060][    T1]     Actions configured
+[    4.202893][    T1] xt_time: kernel timezone is -0000
+[    4.208171][    T1] ipip: IPv4 and MPLS over IPv4 tunneling driver
+[    4.215790][    T1] gre: GRE over IPv4 demultiplexor driver
+[    4.221426][    T1] ip_gre: GRE over IPv4 tunneling driver
+[    4.230541][    T1] IPv4 over IPsec tunneling driver
+[    4.236982][    T1] Initializing XFRM netlink socket
+[    4.242116][    T1] IPsec XFRM device driver
+[    4.247238][    T1] NET: Registered PF_INET6 protocol family
+[    4.259224][    T1] Segment Routing with IPv6
+[    4.263937][    T1] In-situ OAM (IOAM) with IPv6
+[    4.268989][    T1] mip6: Mobile IPv6
+[    4.274516][    T1] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[    4.284095][    T1] ip6_gre: GRE over IPv6 tunneling driver
+[    4.284254][   T12] Freeing initrd memory: 28408K
+[    4.291069][    T1] NET: Registered PF_PACKET protocol family
+[    4.300256][    T1] NET: Registered PF_KEY protocol family
+[    4.306943][    T1] NET: Registered PF_VSOCK protocol family
+[    4.355096][    T1] registered taskstats version 1
+[    4.360643][    T1] Loading compiled-in X.509 certificates
+[    4.368747][    T1] Loaded X.509 cert 'Build time autogenerated kernel key: cf67e50982879ccc040291490a831497f4410101'
+[    4.379716][    T1] Loaded X.509 cert 'Build time autogenerated kernel key: 028406260a7bf2620b6e453384e3b2861fec4e60'
+[    4.456674][    T1] Key type .fscrypt registered
+[    4.461347][    T1] Key type fscrypt-provisioning registered
+[    4.495953][    T1] clk: Disabling unused clocks
+[    4.500741][    T1] PM: genpd: Disabling unused power domains
+[    4.506737][    T1] ALSA device list:
+[    4.510508][    T1]   No soundcards found.
+[    4.514767][    T1] Warning: unable to open an initial console.
+[    4.527395][    T1] Freeing unused kernel memory: 6528K
+[    4.534018][    T1] Run /init as init process
+[    4.538441][    T1]   with arguments:
+[    4.542161][    T1]     /init
+[    4.545165][    T1]   with environment:
+[    4.549042][    T1]     HOME=/
+[    4.552163][    T1]     TERM=linux
+[    4.555584][    T1]     verity=enabled
+[    4.559369][    T1]     update_mode=1
+[    4.591846][    T1] systemd[1]: System time before build time, advancing clock.
+[    4.602205][    T1] systemd[1]: Failed to find module 'autofs4'
+[    4.620757][    T1] systemd[1]: /usr/lib/systemd/system.conf.d/00-systemd-conf.conf:3: Unknown key 'StandardOutput' in section [Manager], ignoring.
+[    4.634089][    T1] systemd[1]: /usr/lib/systemd/system.conf.d/00-systemd-conf.conf:4: Unknown key 'TTYPath' in section [Manager], ignoring.
+[    4.743142][  T118] systemd-fstab-generator[118]: Found a verity=enabled entry on the kernel command line.
+[    4.753004][  T118] systemd-fstab-generator[118]: Using verity root device /dev/mapper/root.
+[    5.080984][  T133] systemd-journald[133]: Collecting audit messages is enabled.
+[    5.089178][   T80] audit: type=1130 audit(1728487092.495:2): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=modprobe@configfs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.110016][   T80] audit: type=1131 audit(1728487092.495:3): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=modprobe@configfs comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.131828][   T80] audit: type=1130 audit(1728487092.531:4): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=modprobe@fuse comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.152472][   T80] audit: type=1131 audit(1728487092.531:5): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=modprobe@fuse comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.173391][   T80] audit: type=1130 audit(1728487092.575:6): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-network-generator comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.195395][   T80] audit: type=1130 audit(1728487092.595:7): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-tmpfiles-setup-dev-early comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.219284][   T80] audit: type=1130 audit(1728487092.619:8): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-journald comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.347978][  T152] qcom_scm: loading out-of-tree module taints kernel.
+[    5.354664][  T152] qcom_scm: module verification failed: signature and/or required key missing - tainting kernel
+[    5.371894][  T152] qcom-scm: __get_convention: qcom_scm: convention: smc arm 64
+[    5.380623][  T152] shmbridge: [290]: shmbridge pool of size: 0x80000 is created successfully
+[    5.390608][   T80] audit: type=1130 audit(1728487092.795:9): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-tmpfiles-setup-dev comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.416929][  T152] qcom_dma_iommu soc:dma_dev: assigned reserved memory node linux,cma
+[    5.428177][  T152] DMA preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+[    5.496721][  T152] qcom_system_heap_create: DMA-BUF Heap: Created 'qcom,system'
+[    5.506162][  T152] qcom_system_heap_create: DMA-BUF Heap: Created 'system'
+[    5.516693][  T152] qcom_system_heap_create: DMA-BUF Heap: Created 'qcom,system-uncached'
+[    5.528165][  T152] qcom_secure_system_heap_create: DMA-BUF Heap: Created 'qcom,secure-pixel'
+[    5.548162][  T152] qcom_secure_system_heap_create: DMA-BUF Heap: Created 'qcom,secure-non-pixel'
+[    5.561370][  T152] platform soc:qcom,dma-heaps:qcom,qseecom: assigned reserved memory node qseecom_region
+[    5.578436][  T152] platform soc:qcom,dma-heaps:qcom,qseecom_ta: assigned reserved memory node qseecom_ta_region
+[    5.592184][  T152] platform soc:qcom,dma-heaps:qcom,secure_display: assigned reserved memory node secure_display_region
+[    5.604124][   T80] audit: type=1130 audit(1728487093.007:10): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-tmpfiles-setup comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[    5.604538][  T152] platform soc:qcom,dma-heaps:qcom,user_contig: assigned reserved memory node user_contig_region
+[    5.636932][  T152] platform soc:qcom,dma-heaps:qcom,display: assigned reserved memory node non_secure_display_region
+[    5.648594][  T152] platform soc:qcom,dma-heaps:qcom,audio_ml: assigned reserved memory node audio_cma_region
+[    5.659196][  T152] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,qseecom
+[    5.666968][  T152] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,qseecom-ta
+[    5.715121][  T152] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,secure-cdsp
+[    5.723166][  T152] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,secure-display
+[    5.731586][  T152] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,user-contig
+[    5.739590][  T152] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,display
+[    5.747269][  T152] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,audio-ml
+[    5.881004][  T152] Minidump: Enabled with max number of regions 200
+[    6.085746][  T152] msm-dcc 1be2000.dcc_v2: ll-reg-offsets property doesn't exist
+[    6.159464][  T152] mem-offline: System booted with no zone movable memory blocks. Cannot perform memory offlining
+[    6.178731][  T152] msm_mem_dump soc:mem_dump: assigned reserved memory node mem_dump_region
+[    6.191429][  T152] MSM Memory Dump apps data table set up
+[    6.197322][  T152] MSM Memory Dump base table set up in IMEM
+[    6.233345][  T152] msm_sharedmem: msm_sharedmem_probe: Device created for client 'rmtfs'
+[    6.354543][  T152] qcom_dload_probe: Current dump mode: 0x10
+[    6.376200][   T10] qcom_smd_rpm_probe: RPM-SMD running version 0
+[    6.411812][  T107] qcom-clk-smd-rpm soc:qcom,rpmcc: Registered RPM clocks
+[    6.443172][  T152] msm_watchdog f017000.qcom,wdt: QCOM Apps Watchdog Initialized
+[    6.480302][  T152] qnoc-bengal soc:interconnect: Registered Bengal ICC
+[    6.488719][  T152] qnoc-bengal 1880000.interconnect1: Registered Bengal ICC
+[    6.497517][  T152] qnoc-bengal 1880000.interconnect2: Registered Bengal ICC
+[    6.505934][  T152] qnoc-bengal 1900000.interconnect: Registered Bengal ICC
+[    6.514351][  T152] qnoc-bengal 4480000.interconnect: Registered Bengal ICC
+[    6.531655][  T152] NET: Registered PF_QIPCRTR protocol family
+[    6.561160][  T152] pm6125_s3_level: Bringing 1uV into 16-16uV
+[    6.569424][  T152] pm6125_s3_floor_level: Bringing 1uV into 16-16uV
+[    6.583557][  T152] pm6125_s3_level_ao: Bringing 1uV into 16-16uV
+[    6.604064][  T152] pm6125_s5_level: Bringing 1uV into 16-16uV
+[    6.612988][  T152] pm6125_s5_floor_level: Bringing 1uV into 16-16uV
+[    6.622740][  T152] pm6125_s5_level_ao: Bringing 1uV into 16-16uV
+[    6.654330][  T152] pm6125_l2_level: Bringing 1uV into 16-16uV
+[    6.672174][  T152] pm6125_l3_level: Bringing 1uV into 16-16uV
+[    6.688269][  T107] gcc-sm6115 1400000.clock-controller: Registered GCC clocks
+[    6.715344][  T107] cpu cpu0: EM: OPP:300000 is inefficient
+[    6.722603][  T107] cpu cpu0: EM: created perf domain
+[    6.755684][  T107] cpu cpu4: EM: OPP:300000 is inefficient
+[    6.762964][  T107] cpu cpu4: EM: created perf domain
+[    6.768122][  T107] energy_model: updating cpu0 cpu_cap=573 old capacity=640
+[    6.775260][  T107] cpu cpu0: EM: OPP:300000 is inefficient
+[    6.804256][  T107] qnoc-bengal 1880000.interconnect: Registered Bengal ICC
+[    6.941155][  T107] arm-smmu c600000.apps-smmu: probing hardware configuration...
+[    6.948699][  T107] arm-smmu c600000.apps-smmu: SMMUv2 with:
+[    6.954513][  T107] arm-smmu c600000.apps-smmu: 	stage 1 translation
+[    6.960913][  T107] arm-smmu c600000.apps-smmu: 	non-coherent table walk
+[    6.967769][  T107] arm-smmu c600000.apps-smmu: 	(IDR0.CTTW overridden by FW configuration)
+[    6.976215][  T107] arm-smmu c600000.apps-smmu: 	stream matching with 50 register groups
+[    6.984394][  T107] arm-smmu c600000.apps-smmu: 	48 context banks (0 stage-2 only)
+[    6.992073][  T107] arm-smmu c600000.apps-smmu: 	Supported page sizes: 0x61311000
+[    6.999703][  T107] arm-smmu c600000.apps-smmu: 	Stage-1: 36-bit VA -> 36-bit IPA
+[    7.007666][  T107] arm-smmu c600000.apps-smmu: 	preserved 1 qcom,handoff-smrs boot mapping
+[    7.016072][  T107] arm-smmu c600000.apps-smmu: 	preserved 0 boot mappings
+[    7.027733][  T107] qcom-iommu-debug soc:iommu_test_device: Failed to create device link (0x180) with c600000.apps-smmu
+[    7.038584][  T107] qcom-iommu-debug soc:iommu_test_device: Failed to create device link (0x180) with c600000.apps-smmu
+[    7.049436][  T107] qcom-iommu-debug soc:iommu_test_device: Failed to create device link (0x180) with c600000.apps-smmu
+[    7.060280][  T107] qcom-iommu-debug soc:iommu_test_device: Failed to create device link (0x180) with c600000.apps-smmu
+[    7.071122][  T107] qcom-iommu-debug soc:iommu_test_device: Failed to create device link (0x180) with c600000.apps-smmu
+[    7.087912][  T107] geni_se_qup 4ac0000.qcom,qupv3_0_geni_se: Adding to iommu group 0
+[    7.105104][  T186] core_ctl: Creating CPU group 0
+[    7.110010][  T186] core_ctl: Init CPU0 state
+[    7.114598][  T186] core_ctl: Init CPU1 state
+[    7.119038][  T186] core_ctl: Init CPU2 state
+[    7.123577][  T186] core_ctl: Init CPU3 state
+[    7.128501][  T186] core_ctl: Creating CPU group 4
+[    7.133365][  T186] core_ctl: Init CPU4 state
+[    7.137791][  T186] core_ctl: Init CPU5 state
+[    7.142217][  T186] core_ctl: Init CPU6 state
+[    7.146676][  T186] core_ctl: Init CPU7 state
+[    7.168794][  T107] 4a90000.qcom,qup_uart: ttyMSM0 at MMIO 0x4a90000 (irq = 86, base_baud = 0) is a MSM
+[    7.182004][  T107] printk: legacy console [ttyMSM0] enabled
+[    7.182004][  T107] printk: legacy console [ttyMSM0] enabled
+[    7.194828][  T107] printk: legacy bootconsole [qcom_geni0] disabled
+[    7.194828][  T107] printk: legacy bootconsole [qcom_geni0] disabled
+[    7.209719][   T12] spmi_pmic_arb 1c40000.qcom,spmi: PMIC arbiter version v5 (0x50010000)
+[    7.300352][  T107] sdhci_msm 4784000.sdhci: Adding to iommu group 1
+[    7.314673][   T13] sdhci_msm 4744000.sdhci: Adding to iommu group 2
+[    7.351438][  T107] sdhci_msm 4784000.sdhci: Got CD GPIO
+[    7.357150][  T107] sdhci_msm 4784000.sdhci: core_reset unavailable,err = -2
+[    7.359740][   T13] sdhci_msm 4744000.sdhci: TCXO clk not present (-2)
+[    7.364503][  T107] sdhci_msm 4784000.sdhci: error -EOPNOTSUPP: unable to acquire core_reset
+[    7.370931][   T13] sdhci_msm 4744000.sdhci: Failed to get bus_scale data
+[    7.390295][  T107] sdhci_msm 4784000.sdhci: TCXO clk not present (-2)
+[    7.396938][  T107] sdhci_msm 4784000.sdhci: Failed to get bus_scale data
+[    7.424438][   T13] sdhci_msm 4744000.sdhci: Found QC Inline Crypto Engine (ICE) v3.1.0
+[    7.430873][   T12] /soc/qcom,spmi@1c40000/qcom,pmi632@2/qcom,qpnp-smb5: Fixed dependency cycle(s) with /soc/qcom,spmi@1c40000/qcom,pmi632@2/qpnp,qg
+[    7.432939][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.446368][   T12] /soc/qcom,spmi@1c40000/qcom,pmi632@2/qpnp,qg: Fixed dependency cycle(s) with /soc/qcom,spmi@1c40000/qcom,pmi632@2/qcom,qpnp-smb5
+[    7.455434][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.473382][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.480512][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.487677][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.494746][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.501899][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.509006][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.516079][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.523175][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.317060] (udev-worker)[179]: ifb1: Could no[    7.530243][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+t set Alias=, MACAddress=/MACAddressPolicy=, TransmitQueues=, Re[    7.542845][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+ceiveQueues=, TransmitQueueLength=, MTUBytes=, GenericSegmentOff[    7.555460][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+loadMaxBytes= or GenericSegmentOffloadMaxSegments=, ignoring: Op[    7.567797][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+eration not supported
+[    7.580094][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.360239] (udev-worker)[170]: ifb0: Could no[    7.589455][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+t set Alias=, MACAddress=/MACAddressPolicy=, TransmitQueues=, Re[    7.601758][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+ceiveQueues=, TransmitQueueLength=, MTUBytes=, GenericSegmentOff[    7.614432][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+loadMaxBytes= or GenericSegmentOffloadMaxSegments=, ignoring: Op[    7.626777][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+eration not supported
+[    7.639197][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.648300][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.655466][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.663289][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.671338][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.678669][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.685181][  T107] irq: IRQ95: trimming hierarchy from :soc:interrupt-controller@f200000-1
+[    7.685856][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.697275][  T107] mmc1: SDHCI controller on 4784000.sdhci [4784000.sdhci] using ADMA 64-bit
+[    7.700950][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.716565][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.723836][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.730896][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.734178][  T164] mmc1: new high speed SDXC card at address 0001
+[    7.738014][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.751128][   T13] cqhci_crypto_qti_keyslot_evict: failed with error -22
+[    7.758145][   T13] mmc0: CQHCI version 5.10
+[    7.772068][   T12] /soc/qcom,spmi@1c40000/qcom,pmi632@2/qcom,qpnp-smb5: Fixed dependency cycle(s) with /soc/qcom,spmi@1c40000/qcom,pmi632@2/qpnp,qg
+[    7.790009][   T12] /soc/qcom,spmi@1c40000/qcom,pmi632@2/qcom,qpnp-smb5: Fixed dependency cycle(s) with /soc/qcom,spmi@1c40000/qcom,pmi632@2/qpnp,qg
+[    7.812158][   T12] /soc/qcom,spmi@1c40000/qcom,pmi632@2/qpnp,qg: Fixed dependency cycle(s) with /soc/qcom,spmi@1c40000/qcom,pmi632@2/qcom,qpnp-smb5
+[    7.826306][   T13] mmc0: SDHCI controller on 4744000.sdhci [4744000.sdhci] using ADMA 64-bit
+[    7.835905][   T13] sdhci_msm 4744000.sdhci: mmc0: CQE init: success
+[    7.844365][  T164] mmcblk1: mmc1:0001 asdfg 250 GiB
+[    7.957647][  T186] mmc0: Command Queue Engine enabled
+[    7.967367][  T186] mmc0: new HS400 Enhanced strobe MMC card at address 0001
+[    7.977635][  T164]  mmcblk1:
+[    8.057984][  T186] mmcblk0: mmc0:0001 A3A551 14.6 GiB
+[    8.125484][   T12] rtc-pm8xxx 1c40000.qcom,spmi:qcom,pm6125@0:qcom,pm6125_rtc: registered as rtc0
+[    8.134721][   T12] rtc-pm8xxx 1c40000.qcom,spmi:qcom,pm6125@0:qcom,pm6125_rtc: setting system clock to 1970-01-01T00:14:07 UTC (847)
+[    8.152652][  T133] systemd-journald[133]: Time jumped backwards, rotating.
+[  OK  ] Finished Load Kernel Modules.[    8.342020][   T80] kauditd_printk_skb: 1 callbacks suppressed
+
+[    8.342030][   T80] audit: type=1130 audit(847.703:12): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-modules-load comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+         Starting Service to run first_stage.sh from vendor ramdisk...
+[    8.383490][  T186]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 p29 p30 p31 p32 p33 p34 p35 p36 p37 p38 p39 p40 p41 p42 p43 p44 p45 p46 p47 p48 p49 p50 p51 p52 p53 p54 p55 p56 p57 p58 p59 p60 p61 p62 p63 p64 p65 p66 p67 p68 p69 p70 p71 p72 p73 p74 p75 p76 p77 p78 p79 p80
+         Starting Apply Kernel Variables...
+[  OK  ] Finished Coldplug All udev Devices[   T80] audit: type=1130 audit(847.783:13): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-udev-trigger comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[0m.
+run-firststage-script.service: Main process exited, code=exited, status=127/n/a
+run-firststage-script.service: Failed with result 'exit-code'.
+[    8.480776][   T80] audit: type=1130 audit(847.843:14): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=run-firststage-script comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=failed'
+[FAILED] Failed to start Service to run first_stage.sh from vendor ramdisk.
+See 'systemctl status run-firststage-script.service' for details.
+[  OK  ] Finished Apply Kernel Variables[    8.542536][   T80] audit: type=1130 audit(847.903:15): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=systemd-sysctl comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+.
+[  OK  ] Reached target System Initialization.
+[  OK  ] Reached target Timer Units.
+[  OK  ] Listening on D-Bus System Message Bus Socket.
+         Starting usb Service...
+         Starting D-Bus System Message Bus...
+[    8.650999][  T186] mmcblk0boot0: mmc0:0001 A3A551 4.00 MiB
+[    8.667002][  T186] mmcblk0boot1: mmc0:0001 A3A551 4.00 MiB
+[    8.686964][  T186] mmcblk0rpmb: mmc0:0001 A3A551 16.0 MiB, chardev (509:0)
+[    8.892728][  T264] Mass Storage Function, version: 2009/09/11
+[    8.899076][  T264] LUN: removable file: (no medium)
+[    8.926131][  T265] Mass Storage Function, version: 2009/09/11
+[    8.935129][  T265] LUN: removable file: (no medium)
+[    8.962001][  T266] file system registered
+[  OK  ] Found device /dev/disk/by-partlabel/system_a.
+[  OK  ] Found device /dev/disk/by-partlabel/system_b.
+[    9.450409][  T312] ffs_data_put(): freeing
+[  OK  ] Found device /dev/disk/by-partlabel/userdata.
+         Starting Check and recreate ext4 file system on userdata...
+         Starting verity checks on root...
+[  OK  ] Finished Check and recreate ext4 fi[   10.274569][   T80] audit: type=1130 audit(849.635:16): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=resize-partition@userdata comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+le system on userdata.
+[   10.415479][  T407] call verity_setup
+[   10.448326][  T441] device-mapper: verity: sha256 using shash "sha256-ce" (multibuffer)
+[   10.460551][  T441] device-mapper: table: 254:0: verity: Root hash verification failed (-ENOKEY)
+[   10.469530][  T441] device-mapper: ioctl: error adding target to table
+[   10.483737][  T407] error: Veritysetup failed. Rebooting the device
+[   10.306729] systemctl[452]: Too many arguments.
+[   10.527565][  T407] ../dm-0 symlink to /dev/mapper/root is done
+[  OK  ] Finished verity checks on root.[   10.542737][   T80] audit: type=1130 audit(849.903:17): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=veritysetup-system@root comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+
+[   10.699519][  T478] Switching to composition number 0x901D
+[   10.848496][    C1] random: crng init done
+[  OK  ] Started D-Bus System Message Bus.
+[   10.868494][   T80] audit: type=1130 audit(850.231:18): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dbus comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+[  OK  ] Reached target Socket Units.
+[  OK  ] Reached target Basic System.
+System is tainted: cgroupsv1
+[*     ] (1 of 2) A start job is running for /dev/mapper/root (8s / 1min 30s)
+[**    ] (1 of 2) A start job is running for /dev/mapper/root (8s / 1min 30s)
+[***   ] (1 of 2) A start job is running for /dev/mapper/root (9s / 1min 30s)
+[ ***  ] (2 of 2) A start job is running for usb Service (9s / no limit)
+[  *** ] (2 of 2) A start job is running for usb Service (10s / no limit)
+[   ***] (2 of 2) A start job is running for usb Service (11s / no limit)
+[    **] (1 of 2) A start job is running for /dev/mapper/root (11s / 1min 30s)
+[     *] (1 of 2) A start job is running for /dev/mapper/root (12s / 1min 30s)
+[    **] (1 of 2) A start job is running for /dev/mapper/root (12s / 1min 30s)
+[   18.350064][  T107] arm-smmu 59a0000.kgsl-smmu: Couldn't get clock: gpu_cc_ahb
+[   18.359769][  T107] arm-smmu 59a0000.kgsl-smmu: Couldn't get clock: gpu_cc_ahb
+[   18.367553][  T164] platform soc:gpio_keys: deferred probe pending: platform: wait for supplier /soc/qcom,spmi@1c40000/qcom,pm6125@0/pinctrl@c000/key_vol_up/key_vol_up_default
+[   18.383286][  T164] platform 59a0000.kgsl-smmu: deferred probe pending: (reason unknown)
+[   18.391499][  T164] psci-cpuidle-domain psci: sync_state() pending due to soc:cluster-device0
+[   18.400128][  T164] psci-cpuidle-domain psci: sync_state() pending due to soc:cluster-device1
+[   18.400140][  T164] psci-cpuidle-domain psci: sync_state() pending due to soc:cluster-device2
+[   18.400149][  T164] psci-cpuidle-domain psci: sync_state() pending due to soc:cluster-device3
+[   18.400200][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 1610000.qcom,msm-eud
+[   18.400213][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5f00000.clock-controller
+[   18.400224][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5990000.clock-controller
+[   18.400239][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to soc:debug-clock-controller@0
+[   18.400277][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5900000.qcom,kgsl-3d0
+[   18.400288][  T164] qnoc-bengal 4480000.interconnect: sync_state() pending due to 5900000.qcom,kgsl-3d0
+[   18.400297][  T164] gdsc 599106c.qcom,gdsc: sync_state() pending due to 5900000.qcom,kgsl-3d0
+[   18.400306][  T164] gdsc 599100c.qcom,gdsc: sync_state() pending due to 5900000.qcom,kgsl-3d0
+[   18.400316][  T164] qnoc-bengal 1900000.interconnect: sync_state() pending due to 4e00000.ssusb
+[   18.400325][  T164] qnoc-bengal 4480000.interconnect: sync_state() pending due to 4e00000.ssusb
+[   18.400333][  T164] qnoc-bengal 1880000.interconnect: sync_state() pending due to 4e00000.ssusb
+[   18.400342][  T164] gdsc 141a004.qcom,gdsc: sync_state() pending due to 4e00000.ssusb
+[   18.400350][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 4e00000.ssusb
+[   18.400362][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 1613000.qusb
+[   18.400375][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 1615000.ssphy
+[   ***] (2 of 2) A start j[   18.563339][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 59a0000.kgsl-smmu
+[   18.578122][  T164] gdsc 599106c.qcom,gdsc: sync_state() pending due to 59a0000.kgsl-smmu
+[   18.586438][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c52000.qcom,csiphy0
+[   18.594945][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c52000.qcom,csiphy0
+[   18.604589][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c53000.qcom,csiphy1
+[   18.613096][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c53000.qcom,csiphy1
+[   18.622736][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c54000.qcom,csiphy2
+[   18.631245][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c54000.qcom,csiphy2
+[   18.640878][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c1b000.qcom,cci0
+[   18.649114][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c1b000.qcom,cci0
+[   18.658489][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c11000.qcom,cam-cpas
+[   18.667080][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c11000.qcom,cam-cpas
+[   18.676802][  T164] qnoc-bengal 1880000.interconnect1: sync_state() pending due to 5c11000.qcom,cam-cpas
+[   18.686347][  T164] qnoc-bengal 1880000.interconnect2: sync_state() pending due to 5c11000.qcom,cam-cpas
+[   18.695913][  T164] qnoc-bengal 1900000.interconnect: sync_state() pending due to 5c11000.qcom,cam-cpas
+[   18.705370][  T164] qnoc-bengal 4480000.interconnect: sync_state() pending due to 5c11000.qcom,cam-cpas
+[   18.714831][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c23000.qcom,cpas-cdm0
+[   18.723509][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c23000.qcom,cpas-cdm0
+[   18.733359][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c42000.qcom,ope-cdm0
+[   18.741955][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c42000.qcom,ope-cdm0
+[   18.751673][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c6e000.qcom,tfe_csid0
+[   18.760347][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c6e000.qcom,tfe_csid0
+[   18.770153][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c6e000.qcom,tfe0
+[   18.778392][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c6e000.qcom,tfe0
+[   18.787854][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c75000.qcom,tfe_csid1
+[   18.796530][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c75000.qcom,tfe_csid1
+[   18.806340][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c75000.qcom,tfe1
+[   18.814614][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c75000.qcom,tfe1
+[   18.824003][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c7c000.qcom,tfe_csid2
+[   18.832677][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c7c000.qcom,tfe_csid2
+[   18.842490][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c7c000.qcom,tfe2
+[   18.850737][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c7c000.qcom,tfe2
+[   18.860131][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c66000.qcom,tpg0
+[   18.868429][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c66000.qcom,tpg0
+[   18.877820][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c68000.qcom,tpg0
+[   18.886077][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c68000.qcom,tpg0
+[   18.895467][  T164] gdsc 1458004.qcom,gdsc: sync_state() pending due to 5c42000.qcom,ope
+[   18.903643][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5c42000.qcom,ope
+[   18.912930][  T164] gdsc 599106c.qcom,gdsc: sync_state() pending due to 59a0000.qcom,kgsl-iommu
+[   18.921706][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5e00000.qcom,mdss_mdp
+[   18.931452][  T164] gdsc 5f03000.qcom,gdsc: sync_state() pending due to 5e00000.qcom,mdss_mdp
+[   18.940045][  T164] qnoc-bengal 1900000.interconnect: sync_state() pending due to 5e00000.qcom,mdss_mdp
+[   18.949515][  T164] qnoc-bengal 4480000.interconnect: sync_state() pending due to 5e00000.qcom,mdss_mdp
+[   18.958977][  T164] qnoc-bengal 1880000.interconnect2: sync_state() pending due to 5e00000.qcom,mdss_mdp
+[   18.968544][  T164] gdsc 145807c.qcom,gdsc: sync_state() pending due to 5a00000.qcom,vidc
+[   18.976782][  T164] gdsc 1458098.qcom,gdsc: sync_state() pending due to 5a00000.qcom,vidc
+ob is running for usb Service (13s / no limit)
+[   18.985040][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 5a00000.qcom,vidc
+[   18.985051][  T164] qnoc-bengal 1880000.interconnect1: sync_state() pending due to 5a00000.qcom,vidc
+[   18.985060][  T164] qnoc-bengal 1900000.interconnect: sync_state() pending due to 5a00000.qcom,vidc
+[   18.985068][  T164] qnoc-bengal 4480000.interconnect: sync_state() pending due to 5a00000.qcom,vidc
+[   18.985266][  T164] qnoc-bengal 1880000.interconnect: sync_state() pending due to 4a8c000.qcom,qup_uart
+[   18.985275][  T164] qnoc-bengal 1900000.interconnect: sync_state() pending due to 4a8c000.qcom,qup_uart
+[   18.985284][  T164] qnoc-bengal 4480000.interconnect: sync_state() pending due to 4a8c000.qcom,qup_uart
+[   19.054370][  T164] qnoc-bengal soc:interconnect: sync_state() pending due to 4a8c000.qcom,qup_uart
+[   19.063517][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 4a8c000.qcom,qup_uart
+[   19.073255][  T164] qnoc-bengal 1880000.interconnect: sync_state() pending due to 4a84000.i2c
+[   19.081846][  T164] qnoc-bengal 1900000.interconnect: sync_state() pending due to 4a84000.i2c
+[   19.090434][  T164] qnoc-bengal 4480000.interconnect: sync_state() pending due to 4a84000.i2c
+[   19.099022][  T164] qnoc-bengal soc:interconnect: sync_state() pending due to 4a84000.i2c
+[   19.107263][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 4a84000.i2c
+[   19.116152][  T164] qnoc-bengal 1880000.interconnect: sync_state() pending due to 4a94000.spi
+[   19.124738][  T164] qnoc-bengal 1900000.interconnect: sync_state() pending due to 4a94000.spi
+[   19.133328][  T164] qnoc-bengal 4480000.interconnect: sync_state() pending due to 4a94000.spi
+[   19.141914][  T164] qnoc-bengal soc:interconnect: sync_state() pending due to 4a94000.spi
+[   19.150148][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 4a94000.spi
+[   19.159011][  T164] qnoc-bengal 1880000.interconnect: sync_state() pending due to 4a80000.qcom,qup_uart
+[   19.168487][  T164] qnoc-bengal 1900000.interconnect: sync_state() pending due to 4a80000.qcom,qup_uart
+[   19.177980][  T164] qnoc-bengal 4480000.interconnect: sync_state() pending due to 4a80000.qcom,qup_uart
+[   19.187448][  T164] qnoc-bengal soc:interconnect: sync_state() pending due to 4a80000.qcom,qup_uart
+[   19.196559][  T164] gcc-sm6115 1400000.clock-controller: sync_state() pending due to 4a80000.qcom,qup_uart
+[  *** ] (2 of 2) A start job is running for usb Service (14s / no limit)
+[ ***  ] (2 of 2) A start job is running for usb Service (14s / no limit)
+[***   ] (1 of 2) A start job is running for /dev/mapper/root (15s / 1min 30s)
+[**    ] (1 of 2) A start job is running for /dev/mapper/root (15s / 1min 30s)
+[*     ] (1 of 2) A start job is running for /dev/mapper/root (16s / 1min 30s)
+[**    ] (2 of 2) A start job is running for usb Service (16s / no limit)
+[***   ] (2 of 2) A start job is running for usb Service (17s / no limit)
+[ ***  ] (2 of 2) A start job is running for usb Service (18s / no limit)
+[  *** ] (1 of 2) A start job is running for /dev/mapper/root (18s / 1min 30s)
+[   ***] (1 of 2) A start job is running for /dev/mapper/root (19s / 1min 30s)
+[    **] (1 of 2) A start job is running for /dev/mapper/root (19s / 1min 30s)
+[     *] (2 of 2) A start job is running for usb Service (20s / no limit)
+[    **] (2 of 2) A start job is running for usb Service (20s / no limit)
+[   ***] (2 of 2) A start job is running for usb Service (21s / no limit)
+[  *** ] (1 of 2) A start job is running for /dev/mapper/root (21s / 1min 30s)
+[ ***  ] (1 of 2) A start job is running for /dev/mapper/root (22s / 1min 30s)
+[***   ] (1 of 2) A start job is running for /dev/mapper/root (22s / 1min 30s)
+[**    ] (2 of 2) A start job is running for usb Service (23s / no limit)
+[*     ] (2 of 2) A start job is running for usb Service (23s / no limit)
+[**    ] (2 of 2) A start job is running for usb Service (24s / no limit)
+[***   ] (1 of 2) A start job is running for /dev/mapper/root (24s / 1min 30s)
+[ ***  ] (1 of 2) A start job is running for /dev/mapper/root (25s / 1min 30s)
+[  *** ] (1 of 2) A start job is running for /dev/mapper/root (25s / 1min 30s)
+[   ***] (2 of 2) A start job is running for usb Service (26s / no limit)
+[    **] (2 of 2) A start job is running for usb Service (26s / no limit)
+[     *] (2 of 2) A start job is running for usb Service (27s / no limit)
+[    **] (1 of 2) A start job is running for /dev/mapper/root (27s / 1min 30s)
+[   ***] (1 of 2) A start job is running for /dev/mapper/root (28s / 1min 30s)
+[  *** ] (1 of 2) A start job is running for /dev/mapper/root (28s / 1min 30s)
+[ ***  ] (2 of 2) A start job is running for usb Service (29s / no limit)
+[***   ] (2 of 2) A start job is running for usb Service (29s / no limit)
+[**    ] (2 of 2) A start job is running for usb Service (30s / no limit)
+[*     ] (1 of 2) A start job is running for /dev/mapper/root (30s / 1min 30s)
+[   36.008386][  T164] gcc_ufs_phy_gdsc: disabling
+[**    ] (1 of 2) A start job is running for /dev/mapper/root (31s / 1min 30s)
+[***   ] (1 of 2) A start job is running for /dev/mapper/root (31s / 1min 30s)
+[ ***  ] (2 of 2) A start job is running for usb Service (32s / no limit)
+[  *** ] (2 of 2) A start job is running for usb Service (32s / no limit)
+[   ***] (2 of 2) A start job is running for usb Service (33s / no limit)
+[    **] (1 of 2) A start job is running for /dev/mapper/root (33s / 1min 30s)
+[     *] (1 of 2) A start job is running for /dev/mapper/root (34s / 1min 30s)
+[    **] (1 of 2) A start job is running for /dev/mapper/root (34s / 1min 30s)
+[   ***] (2 of 2) A start job is running for usb Service (35s / no limit)
+[  *** ] (2 of 2) A start job is running for usb Service (35s / no limit)
+[ ***  ] (2 of 2) A start job is running for usb Service (36s / no limit)
+[***   ] (1 of 2) A start job is running for /dev/mapper/root (36s / 1min 30s)
+[**    ] (1 of 2) A start job is running for /dev/mapper/root (37s / 1min 30s)
+[*     ] (1 of 2) A start job is running for /dev/mapper/root (37s / 1min 30s)
+[**    ] (2 of 2) A start job is running for usb Service (38s / no limit)
+[***   ] (2 of 2) A start job is running for usb Service (38s / no limit)
+[ ***  ] (2 of 2) A start job is running for usb Service (39s / no limit)
+[  *** ] (1 of 2) A start job is running for /dev/mapper/root (39s / 1min 30s)
+[   ***] (1 of 2) A start job is running for /dev/mapper/root (40s / 1min 30s)
+[    **] (1 of 2) A start job is running for /dev/mapper/root (40s / 1min 30s)
+[     *] (2 of 2) A start job is running for usb Service (41s / no limit)
+[    **] (2 of 2) A start job is running for usb Service (41s / no limit)
+[   ***] (2 of 2) A start job is running for usb Service (42s / no limit)
+[  *** ] (1 of 2) A start job is running for /dev/mapper/root (42s / 1min 30s)
+[ ***  ] (1 of 2) A start job is running for /dev/mapper/root (43s / 1min 30s)
+[***   ] (1 of 2) A start job is running for /dev/mapper/root (43s / 1min 30s)
+[**    ] (2 of 2) A start job is running for usb Service (44s / no limit)
+[*     ] (2 of 2) A start job is running for usb Service (44s / no limit)
+[**    ] (2 of 2) A start job is running for usb Service (45s / no limit)
+[***   ] (1 of 2) A start job is running for /dev/mapper/root (45s / 1min 30s)
+[ ***  ] (1 of 2) A start job is running for /dev/mapper/root (46s / 1min 30s)
+[  *** ] (1 of 2) A start job is running for /dev/mapper/root (46s / 1min 30s)
+[   ***] (2 of 2) A start job is running for usb Service (47s / no limit)
+[    **] (2 of 2) A start job is running for usb Service (47s / no limit)
+[     *] (2 of 2) A start job is running for usb Service (48s / no limit)
+[    **] (1 of 2) A start job is running for /dev/mapper/root (48s / 1min 30s)
+[   ***] (1 of 2) A start job is running for /dev/mapper/root (49s / 1min 30s)
+[  *** ] (1 of 2) A start job is running for /dev/mapper/root (49s / 1min 30s)
+[ ***  ] (2 of 2) A start job is running for usb Service (50s / no limit)
+[***   ] (2 of 2) A start job is running for usb Service (50s / no limit)
+[**    ] (2 of 2) A start job is running for usb Service (51s / no limit)
+[*     ] (1 of 2) A start job is running for /dev/mapper/root (51s / 1min 30s)
+[**    ] (1 of 2) A start job is running for /dev/mapper/root (52s / 1min 30s)
+[***   ] (1 of 2) A start job is running for /dev/mapper/root (52s / 1min 30s)
+[ ***  ] (2 of 2) A start job is running for usb Service (53s / no limit)
+[  *** ] (2 of 2) A start job is running for usb Service (53s / no limit)
+[   ***] (2 of 2) A start job is running for usb Service (54s / no limit)
+[    **] (1 of 2) A start job is running for /dev/mapper/root (54s / 1min 30s)
+[     *] (1 of 2) A start job is running for /dev/mapper/root (55s / 1min 30s)
+[    **] (1 of 2) A start job is running for /dev/mapper/root (55s / 1min 30s)
+[   ***] (2 of 2) A start job is running for usb Service (56s / no limit)
+[  *** ] (2 of 2) A start job is running for usb Service (56s / no limit)
+[ ***  ] (2 of 2) A start job is running for usb Service (57s / no limit)
+[***   ] (1 of 2) A start job is running for /dev/mapper/root (57s / 1min 30s)
+[**    ] (1 of 2) A start job is running for /dev/mapper/root (58s / 1min 30s)
+[*     ] (1 of 2) A start job is running for /dev/mapper/root (58s / 1min 30s)
+[**    ] (2 of 2) A start job is running for usb Service (59s / no limit)
+[***   ] (2 of 2) A start job is running for usb Service (59s / no limit)
+[ ***  ] (2 of 2) A start job is running for usb Service (1min / no limit)
+[  *** ] (1 of 2) A start job is running for /dev/mapper/root (1min / 1min 30s)
+[   ***] (1 of 2) A start job is running for…v/mapper/root (1min 1s / 1min 30s)
+[    **] (1 of 2) A start job is running for…v/mapper/root (1min 1s / 1min 30s)
+[     *] (2 of 2) A start job is running for usb Service (1min 2s / no limit)
+[    **] (2 of 2) A start job is running for usb Service (1min 2s / no limit)
+[   ***] (2 of 2) A start job is running for usb Service (1min 3s / no limit)
+[  *** ] (1 of 2) A start job is running for…v/mapper/root (1min 3s / 1min 30s)
+[ ***  ] (1 of 2) A start job is running for…v/mapper/root (1min 4s / 1min 30s)
+[***   ] (1 of 2) A start job is running for…v/mapper/root (1min 4s / 1min 30s)
+[**    ] (2 of 2) A start job is running for usb Service (1min 5s / no limit)
+[*     ] (2 of 2) A start job is running for usb Service (1min 5s / no limit)
+[**    ] (2 of 2) A start job is running for usb Service (1min 6s / no limit)
+[***   ] (1 of 2) A start job is running for…v/mapper/root (1min 6s / 1min 30s)
+[ ***  ] (1 of 2) A start job is running for…v/mapper/root (1min 7s / 1min 30s)
+[  *** ] (1 of 2) A start job is running for…v/mapper/root (1min 7s / 1min 30s)
+[   ***] (2 of 2) A start job is running for usb Service (1min 8s / no limit)
+[    **] (2 of 2) A start job is running for usb Service (1min 8s / no limit)
+[     *] (2 of 2) A start job is running for usb Service (1min 9s / no limit)
+[    **] (1 of 2) A start job is running for…v/mapper/root (1min 9s / 1min 30s)
+[   ***] (1 of 2) A start job is running for…/mapper/root (1min 10s / 1min 30s)
+[  *** ] (1 of 2) A start job is running for…/mapper/root (1min 10s / 1min 30s)
+[ ***  ] (2 of 2) A start job is running for usb Service (1min 11s / no limit)
+[***   ] (2 of 2) A start job is running for usb Service (1min 11s / no limit)
+[**    ] (2 of 2) A start job is running for usb Service (1min 12s / no limit)
+[*     ] (1 of 2) A start job is running for…/mapper/root (1min 12s / 1min 30s)
+[**    ] (1 of 2) A start job is running for…/mapper/root (1min 13s / 1min 30s)
+[***   ] (1 of 2) A start job is running for…/mapper/root (1min 13s / 1min 30s)
+[ ***  ] (2 of 2) A start job is running for usb Service (1min 14s / no limit)
+[  *** ] (2 of 2) A start job is running for usb Service (1min 14s / no limit)
+[   ***] (2 of 2) A start job is running for usb Service (1min 15s / no limit)
+[    **] (1 of 2) A start job is running for…/mapper/root (1min 15s / 1min 30s)
+[     *] (1 of 2) A start job is running for…/mapper/root (1min 16s / 1min 30s)
+[    **] (1 of 2) A start job is running for…/mapper/root (1min 16s / 1min 30s)
+[   ***] (2 of 2) A start job is running for usb Service (1min 17s / no limit)
+[  *** ] (2 of 2) A start job is running for usb Service (1min 17s / no limit)
+[ ***  ] (2 of 2) A start job is running for usb Service (1min 18s / no limit)
+[***   ] (1 of 2) A start job is running for…/mapper/root (1min 18s / 1min 30s)
+[**    ] (1 of 2) A start job is running for…/mapper/root (1min 19s / 1min 30s)
+[*     ] (1 of 2) A start job is running for…/mapper/root (1min 19s / 1min 30s)
+[**    ] (2 of 2) A start job is running for usb Service (1min 20s / no limit)
+[***   ] (2 of 2) A start job is running for usb Service (1min 20s / no limit)
+[ ***  ] (2 of 2) A start job is running for usb Service (1min 21s / no limit)
+[  *** ] (1 of 2) A start job is running for…/mapper/root (1min 21s / 1min 30s)
+[   ***] (1 of 2) A start job is running for…/mapper/root (1min 22s / 1min 30s)
+[    **] (1 of 2) A start job is running for…/mapper/root (1min 22s / 1min 30s)
+[     *] (2 of 2) A start job is running for usb Service (1min 23s / no limit)
+[    **] (2 of 2) A start job is running for usb Service (1min 23s / no limit)
+[   ***] (2 of 2) A start job is running for usb Service (1min 24s / no limit)
+[  *** ] (1 of 2) A start job is running for…/mapper/root (1min 24s / 1min 30s)
+[ ***  ] (1 of 2) A start job is running for…/mapper/root (1min 25s / 1min 30s)
+[***   ] (1 of 2) A start job is running for…/mapper/root (1min 25s / 1min 30s)
+[**    ] (2 of 2) A start job is running for usb Service (1min 26s / no limit)
+[*     ] (2 of 2) A start job is running for usb Service (1min 26s / no limit)
+[**    ] (2 of 2) A start job is running for usb Service (1min 27s / no limit)
+[***   ] (1 of 2) A start job is running for…/mapper/root (1min 27s / 1min 30s)
+[ ***  ] (1 of 2) A start job is running for…/mapper/root (1min 28s / 1min 30s)
+[  *** ] (1 of 2) A start job is running for…/mapper/root (1min 28s / 1min 30s)
+[   ***] (2 of 2) A start job is running for usb Service (1min 29s / no limit)
+[    **] (2 of 2) A start job is running for usb Service (1min 29s / no limit)
+dev-mapper-root.device: Job dev-mapper-root.device/start timed out.
+[ TIME ] Timed out waiting for device /dev/mapper/root.
+[DEPEND] Dep[   95.147315][   T80] audit: type=1131 audit(934.507:19): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=dbus comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+endency failed for /sysroot.
+[DEPEND] Dependency failed for Initrd Root File Syst[   95.177804][   T80] audit: type=1130 audit(934.539:20): pid=1 uid=0 auid=4294967295 ses=4294967295 subj=kernel msg='unit=emergency comm="systemd" exe="/usr/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+em.
+[DEPEND] Dependency failed for Mountpoints Configured in the Real Root.
+initrd-parse-etc.service: Job initrd-parse-etc.service/start failed with result 'dependency'.
+initrd-parse-etc.service: Triggering OnFailure= dependencies.
+initrd-root-fs.target: Job initrd-root-fs.target/start failed with result 'dependency'.
+initrd-root-fs.target: Triggering OnFailure= dependencies.
+sysroot.mount: Job sysroot.mount/start failed with result 'dependency'.
+[DEPEND] Dependency failed for Initrd Root Device.
+initrd-root-device.target: Job initrd-root-device.target/start failed with result 'dependency'.
+initrd-root-device.target: Triggering OnFailure= dependencies.
+[DEPEND] Dependency failed for File System Check on /dev/mapper/root.
+systemd-fsck-root.service: Job systemd-fsck-root.service/start failed with result 'dependency'.
+dev-mapper-root.device: Job dev-mapper-root.device/start failed with result 'timeout'.
+systemd-ask-password-console.path: Deactivated successfully.
+[  OK  ] Stopped Dispatch Password Requests to Console Directory Watch.
+[  OK  ] Stopped target Basic System.
+[  OK  ] Reached target Initrd File Systems.
+         Stopping D-Bus System Message Bus...
+dbus.service: Deactivated successfully.
+[  OK  ] Stopped D-Bus System Message Bus.
+dbus.socket: Deactivated successfully.
+[  OK  ] Closed D-Bus System Message Bus Socket.
+[  OK  ] Stopped target System Initialization.
+[  OK  ] Started Emergency Shell.
+[  OK  ] Reached target Emergency Mode.
+You are in emergency mode. After logging in, type "journalctl -xb" to view
+system logs, "systemctl reboot" to reboot, or "exGive root password for maintenance
+(or press Control-D to continue): 

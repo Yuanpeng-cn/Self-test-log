@@ -1,0 +1,558 @@
+[  148.085882][ T1556] sysrq: Emergency Remount R/O
+[  148.099358][   T86] EXT4-fs (mmcblk0p80): re-mounted 57f8f4bc-abf4-655f-bf67-946fc0f9f25b ro.
+[  148.106109][  T149] USB_STATE=DISCONNECTED
+[  148.129013][ T1038] ------------[ cut here ]------------
+[  148.134413][ T1038] WARNING: CPU: 0 PID: 1038 at drivers/gpio/gpiolib.c:3550 gpiod_set_raw_value+0x80/0x88
+[  148.144151][ T1038] Modules linked in: frpc_adsprpc(OE) machine_dlkm(OE) tx_macro_dlkm(OE) rx_macro_dlkm(OE) va_macro_dlkm(OE) bolero_cdc_dlkm(OE) rouleur_dlkm(OE) rouleur_slave_dlkm(OE) pm2250_spmi_dlkm(OE) wcd937x_dlkm(OE) wcd937x_slave_dlkm(OE) mbhc_dlkm(OE) stub_dlkm(OE) swr_ctrl_dlkm(OE) swr_dlkm(OE) pinctrl_lpi_dlkm(OE) q6_dlkm(OE) wwan virtio_pci virtio_pci_legacy_dev virtio_pci_modern_dev virtio_console virtio_blk virtio_balloon vcpu_stall_detector vcan usbmon usb_f_gsi(OE) usb_f_cdev(OE) usb_f_ccid(OE) ucsi_qti_glink(OE) tipc_diag tipc time_test thermal_pause(OE) stm_p_ost(OE) stm_ftrace(OE) stm_console(OE) sps_drv(OE) soc_utils_test soc_topology_test smp2p_sleepstate(OE) slcan slate_events_bridge(OE) slate_events_bridge_rpmsg(OE) si_core_module(OE) sched_walt_debug(OE) rust_binder rtl8150 rq_stats(OE) rpm_smd_cooling_device(OE) rfcomm regulator_cdev(OE) regmap_kunit regmap_raw_ram regmap_ram refgen(OE) rdbg(OE) r8153_ecm r8152 qti_userspace_cdev(OE) qti_qmi_cdev(OE) qti_cpufreq_cdev(OE) qti_battery_debug(OE)
+[  148.144866][ T1038]  qrtr_smd(OE) qpnp_smblite_main(OE) qpnp_smb5_main(OE) qpnp_pdphy(OE) usbpd(OE) qpnp_lcdb_regulator(OE) qcom_spss(OE) qcom_smb1398_charger(OE) qcom_smb1355_charger(OE) qcom_qpnp_qg(OE) qcom_pmic_ecid(OE) qcom_pm8008_regulator(OE) qcom_pd_mapper(OE) qcom_lpm(OE) qcom_i2c_pmic(OE) qcom_fdcvs(OE) qcom_cpufreq_hw_debug(OE) qcom_cpucp(OE) ptp pptp pps_core ppp_mppe ppp_deflate pmic_glink_debug(OE) platform_test pinctrl_spmi_mpp(OE) phy_qcom_qmp_combo(OE) phy_qcom_m31_eusb2(OE) phy_qcom_eusb2_repeater(OE) phy_qcom_emu(OE) phy_msm_qusb_v2(OE) open_dice of_kunit_helpers nhc_udp nhc_routing nhc_mobility nhc_ipv6 nhc_hop nhc_fragment nhc_dest nfc msm_show_resume_irq(OE) msm_lmh_dcvs(OE) mhi(OE) memlat(OE) macsec mac802154 lvstest(OE) lpassaudiocc_sm6115(OE) lpassaoncc_sm6115(OE) lmh_cpu_vdd_cdev(OE) lib_test libarc4 leds_aw2016(OE) l2tp_ppp pppox l2tp_core kunit_test kunit_example_test input_test iio_test_format ieee802154_socket ieee802154_6lowpan ieee802154 hung_task_enh(OE) hid_uclogic_test hidp hci_uart
+[  148.235820][ T1038]  pwrseq_core gzvm gnss glink_pkt(OE) ftdi_sio usbserial fsa4480_i2c(OE) f_fs_ipc_log(OE) fat_test exynos_hvm ext4_inode_test drm_display_helper(OE) dev_addr_lists_test debugcc_sm6115(OE) cx_ipeak_cdev(OE) cpu_hotplug(OE) cpucp_log(OE) coresight_trace_noc(OE) coresight_tpdm(OE) coresight_tpda(OE) coresight_tmc_sec(OE) coresight_tgu(OE) coresight_remote_etm(OE) wsa881x_analog_dlkm(OE) coresight_dummy(OE) wcd_core_dlkm(OE) qcom_pm8008(OE) coresight_qmi(OE) pm8941_pwrkey(OE) core_hang_detect(OE) clk_test clk_kunit_helpers clk_gate_test kunit audio_pkt_dlkm(OE) wcd9xxx_dlkm(OE) audpkt_ion_dlkm(OE) charger_ulog_glink(OE) adsp_loader_dlkm(OE) audio_prm_dlkm(OE) cfg80211(OE) spf_core_dlkm(OE) gpr_dlkm(OE) snd_event_dlkm(OE) cdsprm(OE) snd_usb_audio_qmi(OE) q6_notifier_dlkm(OE) cdc_ncm qfprom_sys(OE) qcom_dynamic_ramoops(OE) cdc_ether cdc_eem cdc_acm cctrng can qcom_q6v5_pas(OE) can_dev qcom_pil_info(OE) msm_memshare(OE) qcom_ramdump(OE) heap_mem_ext_v01(OE) qcom_q6v5(OE) qcom_sysmon(OE) q6_pdr_dlkm(OE) bwmon(OE)
+[  148.326641][ T1038]  btsdio btqca coresight_tmc(OE) btbcm usb_f_qdss(OE) coresight_replicator(OE) bsd_comp ppp_generic slhc boot_stats(OE) bluetooth coresight_cti(OE) coresight_funnel(OE) rfkill bcl_soc(OE) ax88179_178a asix arm_smmu_pmu(OE) aqc111 msm_drm(OE) usbnet coresight_stm(OE) coresight_etm4x(OE) stm_core(OE) mii dispcc_sm6115(OE) coresight_csr(OE) altmode_glink(OE) 9pnet_fd 9pnet netfs 8021q 6lowpan msm_kgsl(OE) governor_msm_adreno_ro(OE) governor_gpubw_mon(OE) governor_msm_adreno_tz(OE) qcom_va_minidump(OE) camera(OE) msm_sysstats(OE) dwc3_msm(OE) msm_video(OE) i2c_msm_geni(OE) msm_geni_serial(OE) phy_msm_snps_hs(OE) msm_performance(OE) coresight(OE) spi_msm_geni(OE) mdt_loader(OE) phy_generic(OE) gpucc_sm6115(OE) msm_gpi(OE) qcom_spmi_adc5(OE) bcl_pmic5(OE) qcom_spmi_temp_alarm(OE) qcom_pon(OE) leds_qcom_flash(OE) reboot_mode(OE) qti_battery_charger(OE) panel_event_notifier(OE) qcom_spmi_adc_tm5(OE) leds_qcom_lpg(OE) qti_pmic_glink(OE) clk_spmi_pmic_div(OE) qcom_vadc_common(OE) pinctrl_spmi_gpio(OE) qcom_stats(OE)
+[  148.418092][ T1038]  msm_tsens_driver(OE) leds_qpnp_vibrator_ldo(OE) qcom_rng(OE) qcom_pbs(OE) eud(OE) phy_msm_qusb(OE) phy_msm_ssusb_qmp(OE) ufs_qcom(OE) ufshcd_crypto_qti(OE) stub_regulator(OE) spmi_pmic_arb(OE) smp2p(OE) slim_qcom_ngd_ctrl(OE) slimbus(OE) sg(OE) sdhci_msm(OE) sched_walt(OE) rtc_pm8xxx(OE) rpm_smd_regulator(OE) qseecom_proxy(OE) qrtr(OE) qnoc_bengal(OE) qnoc_qos_rpm(OE) qcom_tsens(OE) qcom_spmi_pmic(OE) qti_regmap_debugfs(OE) qcom_soc_wdt(OE) qcom_pmu_lib(OE) qcom_logbuf_vendor_hooks(OE) qcom_logbuf_boot_log(OE) qcom_iommu_debug(OE) qcom_glink_rpm(OE) qcom_dload_mode(OE) qcom_dcvs(OE) qcom_cpu_vendor_hooks(OE) qcom_wdt_core(OE) qcom_cpufreq_hw(OE) qcom_apcs_ipc_mailbox(OE) pinctrl_bengal(OE) pinctrl_msm(OE) phy_qcom_ufs_qrbtc_sdm845(OE) phy_qcom_ufs_qmp_v3_660(OE) phy_qcom_ufs(OE) pdr_interface(OE) qcom_pdr_msg(OE) qmi_helpers(OE) nvmem_qfprom(OE) nvmem_qcom_spmi_sdam(OE) msm_sharedmem(OE) msm_qmp(OE) msm_poweroff(OE) memory_dump_v2(OE) mem_offline(OE) mem_buf(OE) icc_rpm(OE) icc_debug(OE) glink_probe(OE)
+[  148.509511][ T1038]  qcom_glink_spss(OE) rproc_qcom_common(OE) qcom_smd(OE) qcom_glink_smem(OE) qcom_glink(OE) gcc_sm6115(OE) dcc_v2(OE) cqhci(OE) qcom_ice(OE) clk_smd_rpm(OE) rpm_smd(OE) qcom_mpm(OE) clk_dummy(OE) clk_qcom(OE) icc_clk(OE) gdsc_regulator(OE) debug_regulator(OE) proxy_consumer(OE) bam_dma(OE) qcom_ipc_logging(OE) socinfo(OE) minidump(OE) smem(OE) qcom_hwspinlock(OE) qcom_dma_heaps(OE) deferred_free_helper(OE) msm_dma_iommu_mapping(OE) mem_buf_dev(OE) secure_buffer(OE) debug_symbol(OE) arm_smmu(OE) iommu_logger(OE) qcom_iommu_util(OE) qcom_scm(OE)
+[  148.650400][ T1038] CPU: 0 UID: 0 PID: 1038 Comm: crtc_commit:91 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  148.665859][ T1038] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  148.672791][ T1038] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  148.680680][ T1038] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  148.688390][ T1038] pc : gpiod_set_raw_value+0x80/0x88
+[  148.693603][ T1038] lr : dsi_panel_pre_disable+0x38/0xac [msm_drm]
+[  148.701982][ T1038] sp : ffffffc083c9bc50
+[  148.706048][ T1038] x29: ffffffc083c9bc50 x28: ffffff804cca8000 x27: 0000000000000038
+[  148.713970][ T1038] x26: 0000000000000000 x25: 0000000000000000 x24: ffffff804cd0e400
+[  148.721888][ T1038] x23: ffffff804ccae058 x22: ffffff804cd0e500 x21: ffffff804cd0e400
+[  148.729808][ T1038] x20: ffffff804c638080 x19: ffffff804c63b000 x18: ffffffc08354d050
+[  148.737724][ T1038] x17: 00000000c006287d x16: 00000000c006287d x15: 000000004bd75973
+[  148.745642][ T1038] x14: 000000003e7160a7 x13: 00000000475a639d x12: 0000000000000003
+[  148.753559][ T1038] x11: 0000000000000000 x10: 0000000000000001 x9 : 0000000100000000
+[  148.761476][ T1038] x8 : 0000000000000001 x7 : 0000000000000000 x6 : ffffffdf15f18d70
+[  148.769392][ T1038] x5 : 0000000000000000 x4 : 0000000000000000 x3 : 0000000000000002
+[  148.777308][ T1038] x2 : 0000000000000000 x1 : 0000000000000000 x0 : ffffff801fffe478
+[  148.785241][ T1038] Call trace:
+[  148.788442][ T1038]  gpiod_set_raw_value+0x80/0x88
+[  148.793302][ T1038]  dsi_panel_pre_disable+0x38/0xac [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  148.804893][ T1038]  dsi_display_pre_disable+0xd8/0x120 [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  148.816724][ T1038]  dsi_bridge_disable+0x80/0xec [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  148.828060][ T1038]  drm_atomic_bridge_chain_disable+0xb0/0xe8
+[  148.833964][ T1038]  msm_atomic_helper_commit_modeset_disables+0x1f8/0xad8 [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  148.847460][ T1038]  complete_commit+0x84/0xac0 [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  148.858603][ T1038]  _msm_drm_commit_work_cb+0x5c/0x1c0 [msm_drm aaed89bba713f0b7cd3aa3b8d00fbc1eb2bc06d5]
+[  148.870446][ T1038]  kthread_worker_fn+0x150/0x340
+[  148.875308][ T1038]  kthread+0x110/0x134
+[  148.879297][ T1038]  ret_from_fork+0x10/0x20
+[  148.883634][ T1038] ---[ end trace 0000000000000000 ]---
+[  147.959673] (udev-worker)[1557]: android0: Process '/etc/udev/scripts/automtp.sh' failed with exit code 1.
+[  148.910312][   T86] EXT4-fs (mmcblk0p45): re-mounted 57f8f4bc-abf4-655f-bf67-946fc0f9f25b ro.
+[  148.927841][   T86] Emergency Remount complete
+[  149.075839][ T1556] arm-smmu 59a0000.kgsl-smmu: disabling translation
+[  149.100976][ T1556] msm_geni_serial 4a80000.qcom,qup_uart: msm_geni_serial_driver_shutdown called 1
+[  149.132076][ T1556] msm_geni_serial 4a8c000.qcom,qup_uart: msm_geni_serial_driver_shutdown called 1
+[  149.163473][ T1556] arm-smmu c600000.apps-smmu: disabling translation
+[  149.179478][ T1556] reboot: Restarting system with command ''
+[  149.186580][    C6] VendorHooks: CPU6: stopping
+[  149.191170][    C6] CPU: 6 UID: 0 PID: 0 Comm: swapper/6 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  149.205889][    C6] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  149.212788][    C6] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  149.220640][    C6] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  149.228314][    C6] pc : arch_local_irq_enable+0x4/0x8
+[  149.233489][    C6] lr : cpuidle_enter_state+0x160/0x2ec
+[  149.238832][    C6] sp : ffffffc080263d70
+[  149.242856][    C6] x29: ffffffc080263d80 x28: ffffffdf17e78000 x27: 0000000000000040
+[  149.250727][    C6] x26: 0000000000000000 x25: 0000000000000000 x24: ffffff801d2ea098
+[  149.258593][    C6] x23: 00000022bc29b47a x22: 00000022bbc9f251 x21: ffffff801d2ea080
+[  149.266459][    C6] x20: 0000000000000000 x19: ffffff80645ad6b8 x18: ffffffc08022d028
+[  149.274324][    C6] x17: 00000000c006287d x16: 00000000c006287d x15: 00000000474380db
+[  149.282188][    C6] x14: 00000000cd165870 x13: 00000000000000b0 x12: 000000000000aa5f
+[  149.290052][    C6] x11: 0000000004f477ca x10: ffffffdf17e786f0 x9 : ffffffdf17e35f40
+[  149.297917][    C6] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffdf1580a34c
+[  149.305781][    C6] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 0000000000000002
+[  149.313645][    C6] x2 : 0000000000000000 x1 : ffffffdf16ecb07b x0 : 0000000000000006
+[  149.321510][    C6] Call trace:
+[  149.324668][    C6]  arch_local_irq_enable+0x4/0x8
+[  149.329480][    C6]  cpuidle_enter+0x38/0x54
+[  149.333776][    C6]  do_idle+0x1a8/0x2ac
+[  149.337729][    C6]  cpu_startup_entry+0x34/0x3c
+[  149.342374][    C6]  secondary_start_kernel+0x134/0x154
+[  149.347628][    C6]  __secondary_switched+0xc0/0xc4
+[  149.352534][    C7] VendorHooks: CPU7: stopping
+[  149.357100][    C7] CPU: 7 UID: 0 PID: 0 Comm: swapper/7 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  149.371814][    C7] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  149.378711][    C7] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  149.386561][    C7] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  149.394235][    C7] pc : arch_local_irq_enable+0x4/0x8
+[  149.399397][    C7] lr : cpuidle_enter_state+0x160/0x2ec
+[  149.404736][    C7] sp : ffffffc08026bd70
+[  149.408759][    C7] x29: ffffffc08026bd80 x28: ffffffdf17e78000 x27: 0000000000000080
+[  149.416626][    C7] x26: 0000000000000000 x25: 0000000000000000 x24: ffffff801d2ed898
+[  149.424492][    C7] x23: 00000022bc29b5b3 x22: 00000022bbeb4e5b x21: ffffff801d2ed880
+[  149.432359][    C7] x20: 0000000000000000 x19: ffffff80647d06b8 x18: ffffffc080235028
+[  149.440224][    C7] x17: 00000000bd0b84f1 x16: 00000000bd0b84f1 x15: 0000000002c1e137
+[  149.448087][    C7] x14: 00000000bae15fa8 x13: 0000000000000004 x12: 00000000aaa195f2
+[  149.455952][    C7] x11: 0000000000000015 x10: ffffffdf17e786f0 x9 : ffffffdf17e35f40
+[  149.463815][    C7] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffdf15157554
+[  149.471680][    C7] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 000000000107a264
+[  149.479544][    C7] x2 : ffffff80647d06b8 x1 : ffffffdf16ecb07b x0 : 0000000000000007
+[  149.487410][    C7] Call trace:
+[  149.490568][    C7]  arch_local_irq_enable+0x4/0x8
+[  149.495380][    C7]  cpuidle_enter+0x38/0x54
+[  149.499675][    C7]  do_idle+0x1a8/0x2ac
+[  149.503625][    C7]  cpu_startup_entry+0x34/0x3c
+[  149.508269][    C7]  secondary_start_kernel+0x134/0x154
+[  149.513519][    C7]  __secondary_switched+0xc0/0xc4
+[  149.518423][    C5] VendorHooks: CPU5: stopping
+[  149.522989][    C5] CPU: 5 UID: 0 PID: 0 Comm: swapper/5 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  149.537702][    C5] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  149.544599][    C5] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  149.552449][    C5] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  149.560121][    C5] pc : arch_local_irq_enable+0x4/0x8
+[  149.565284][    C5] lr : cpuidle_enter_state+0x160/0x2ec
+[  149.570612][    C5] sp : ffffffc08025bd70
+[  149.574635][    C5] x29: ffffffc08025bd80 x28: ffffffdf17e78000 x27: 0000000000000020
+[  149.582503][    C5] x26: 0000000000000000 x25: 0000000000000000 x24: ffffff801d2e8098
+[  149.590370][    C5] x23: 00000022bc29b2a5 x22: 00000022bae1bcb8 x21: ffffff801d2e8080
+[  149.598235][    C5] x20: 0000000000000000 x19: ffffff806438a6b8 x18: ffffffc080225028
+[  149.606100][    C5] x17: 00000000bd0b84f1 x16: 00000000bd0b84f1 x15: 0000000002c1e137
+[  149.613965][    C5] x14: 00000000bae15fa8 x13: 0000000000000004 x12: 00000000aaa195e3
+[  149.621829][    C5] x11: 0000000000000015 x10: ffffffdf17e786f0 x9 : ffffffdf17e35f40
+[  149.629693][    C5] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffdf15157554
+[  149.637558][    C5] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 0000000001258e24
+[  149.645423][    C5] x2 : ffffff806438a6b8 x1 : ffffffdf16ecb07b x0 : 0000000000000005
+[  149.653287][    C5] Call trace:
+[  149.656445][    C5]  arch_local_irq_enable+0x4/0x8
+[  149.661258][    C5]  cpuidle_enter+0x38/0x54
+[  149.665554][    C5]  do_idle+0x1a8/0x2ac
+[  149.669503][    C5]  cpu_startup_entry+0x34/0x3c
+[  149.674147][    C5]  secondary_start_kernel+0x134/0x154
+[  149.679397][    C5]  __secondary_switched+0xc0/0xc4
+[  149.684300][    C4] VendorHooks: CPU4: stopping
+[  149.688866][    C4] CPU: 4 UID: 0 PID: 0 Comm: swapper/4 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  149.703578][    C4] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  149.710474][    C4] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  149.718323][    C4] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  149.725995][    C4] pc : arch_local_irq_enable+0x4/0x8
+[  149.731158][    C4] lr : cpuidle_enter_state+0x160/0x2ec
+[  149.736497][    C4] sp : ffffffc080253d70
+[  149.740519][    C4] x29: ffffffc080253d80 x28: ffffffdf17e78000 x27: 0000000000000010
+[  149.748388][    C4] x26: 0000000000000000 x25: 0000000000000000 x24: ffffff801d2de098
+[  149.756253][    C4] x23: 00000022bc29b271 x22: 00000022ba775b71 x21: ffffff801d2de080
+[  149.764118][    C4] x20: 0000000000000000 x19: ffffff80641676b8 x18: ffffffc08021d028
+[  149.771983][    C4] x17: 00000000bd0b84f1 x16: 00000000bd0b84f1 x15: 0000000002c1e137
+[  149.779847][    C4] x14: 00000000bae15fa8 x13: 0000000000000004 x12: 00000000aaa195e2
+[  149.787711][    C4] x11: 0000000000000015 x10: ffffffdf17e786f0 x9 : ffffffdf17e35f40
+[  149.795576][    C4] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffdf15157554
+[  149.803439][    C4] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 00000000012c9114
+[  149.811303][    C4] x2 : ffffff80641676b8 x1 : ffffffdf16ecb07b x0 : 0000000000000004
+[  149.819168][    C4] Call trace:
+[  149.822326][    C4]  arch_local_irq_enable+0x4/0x8
+[  149.827138][    C4]  cpuidle_enter+0x38/0x54
+[  149.831433][    C4]  do_idle+0x1a8/0x2ac
+[  149.835382][    C4]  cpu_startup_entry+0x34/0x3c
+[  149.840025][    C4]  secondary_start_kernel+0x134/0x154
+[  149.845275][    C4]  __secondary_switched+0xc0/0xc4
+[  149.850178][    C2] VendorHooks: CPU2: stopping
+[  149.854758][    C2] CPU: 2 UID: 0 PID: 0 Comm: swapper/2 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  149.869493][    C2] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  149.876403][    C2] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  149.884268][    C2] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  149.891956][    C2] pc : arch_local_irq_enable+0x4/0x8
+[  149.897140][    C2] lr : cpuidle_enter_state+0x160/0x2ec
+[  149.902487][    C2] sp : ffffffc080243d70
+[  149.906527][    C2] x29: ffffffc080243d80 x28: ffffffdf17e78000 x27: 0000000000000004
+[  149.914422][    C2] x26: 0000000000000000 x25: 0000000000000001 x24: ffffff801d2dc098
+[  149.922315][    C2] x23: 00000022bc2f3deb x22: 00000022bbe34615 x21: ffffff801d2dc080
+[  149.930210][    C2] x20: 0000000000000001 x19: ffffff8063d216b8 x18: ffffffc08020d028
+[  149.938104][    C2] x17: 000000008c623181 x16: 000000008c623181 x15: 0000000045eeca10
+[  149.945999][    C2] x14: 00000000da53251b x13: ffffffc080240000 x12: ffffffc080244000
+[  149.953893][    C2] x11: 5a8efa4167c0c800 x10: ffffffdf1637b230 x9 : 5a8efa4167c0c800
+[  149.961785][    C2] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffdf1580a34c
+[  149.969678][    C2] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 0000000000000000
+[  149.977572][    C2] x2 : ffffff8015e4a440 x1 : ffffffdf1637b230 x0 : ffffffdf1637b230
+[  149.985467][    C2] Call trace:
+[  149.988642][    C2]  arch_local_irq_enable+0x4/0x8
+[  149.993473][    C2]  cpuidle_enter+0x38/0x54
+[  149.997778][    C2]  do_idle+0x1a8/0x2ac
+[  150.001737][    C2]  cpu_startup_entry+0x34/0x3c
+[  150.006390][    C2]  secondary_start_kernel+0x134/0x154
+[  150.011649][    C2]  __secondary_switched+0xc0/0xc4
+[  150.016571][    C1] VendorHooks: CPU1: stopping
+[  150.021143][    C1] CPU: 1 UID: 0 PID: 0 Comm: swapper/1 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  150.035876][    C1] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  150.042775][    C1] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  150.050640][    C1] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  150.058328][    C1] pc : arch_local_irq_enable+0x4/0x8
+[  150.063507][    C1] lr : cpuidle_enter_state+0x160/0x2ec
+[  150.068852][    C1] sp : ffffffc08023bd70
+[  150.072893][    C1] x29: ffffffc08023bd80 x28: ffffffdf17e78000 x27: 0000000000000002
+[  150.080788][    C1] x26: 0000000000000000 x25: 0000000000000001 x24: ffffff801d2db098
+[  150.088684][    C1] x23: 00000022bc2d6a2f x22: 00000022bbef50c4 x21: ffffff801d2db080
+[  150.096578][    C1] x20: 0000000000000001 x19: ffffff8063afe6b8 x18: ffffffc080205028
+[  150.104473][    C1] x17: 000000008c623181 x16: 000000008c623181 x15: 0000000045eeca10
+[  150.112367][    C1] x14: 00000000da53251b x13: ffffffc080238000 x12: ffffffc08023c000
+[  150.120262][    C1] x11: 10b79641fa9a4100 x10: ffffffdf1637b230 x9 : 10b79641fa9a4100
+[  150.128156][    C1] x8 : 0000000100000001 x7 : 0000000000000000 x6 : ffffffdf1580a34c
+[  150.136050][    C1] x5 : 0000000000000000 x4 : 0000000000000001 x3 : 0000000000000000
+[  150.143944][    C1] x2 : ffffff8015e42440 x1 : ffffffdf1637b230 x0 : ffffffdf1637b230
+[  150.151840][    C1] Call trace:
+[  150.155015][    C1]  arch_local_irq_enable+0x4/0x8
+[  150.159845][    C1]  cpuidle_enter+0x38/0x54
+[  150.164150][    C1]  do_idle+0x1a8/0x2ac
+[  150.168108][    C1]  cpu_startup_entry+0x34/0x3c
+[  150.172761][    C1]  secondary_start_kernel+0x134/0x154
+[  150.178019][    C1]  __secondary_switched+0xc0/0xc4
+[  150.182931][    C3] VendorHooks: CPU3: stopping
+[  150.187499][    C3] CPU: 3 UID: 0 PID: 86 Comm: kworker/3:1 Tainted: G        W  OE      6.12.69-mainline-maybe-dirty-debug #1 85520d4c89989cd1986b9d7850bb078232257437
+[  150.202492][    C3] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[  150.209391][    C3] Hardware name: Qualcomm Technologies, Inc. BENGAL QRD RB2 V4 (DT)
+[  150.217269][    C3] Workqueue:  0x0 (events)
+[  150.221599][    C3] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[  150.229288][    C3] pc : finish_lock_switch+0xa4/0xec
+[  150.234377][    C3] lr : finish_lock_switch+0xa0/0xec
+[  150.239465][    C3] sp : ffffffc08068bcc0
+[  150.243506][    C3] x29: ffffffc08068bcc0 x28: ffffff800a380000 x27: 0000000000000003
+[  150.251401][    C3] x26: ffffff8015e4c880 x25: 0000000000000402 x24: ffffffdf17e78f10
+[  150.259296][    C3] x23: 0000000000000402 x22: ffffffdf168a48e4 x21: ffffffdf17e7b000
+[  150.267189][    C3] x20: 0000000000000000 x19: ffffff8063f4af40 x18: ffffffc08065d030
+[  150.275084][    C3] x17: 000000008c623181 x16: 000000008c623181 x15: 0000000002640063
+[  150.279489][ T1556] SMP: failed to stop secondary CPUs 3
+[  15
+Format: Log Type - Time(microsec) - Message - Optional Info
+Log Type: B - Since Boot(Power On Reset),  D - Delta,  S - Statistic
+S - QC_IMAGE_VERSION_STRING=BOOT.XF.4.1.2-00029-KAMORTALAZ-5
+S - IMAGE_VARIANT_STRING=KamortaPkgLAA
+S - OEM_IMAGE_VERSION_STRING=san-w175-ma3-1-04
+S - Boot Interface: eMMC
+S - Secure Boot: Off
+S - Boot Config @ 0x01b46070 = 0x0000004f
+S - JTAG ID @ 0x01b46130 = 0x001c70e1
+S - OEM ID @ 0x01b46138 = 0x00000000
+S - Serial Number @ 0x01b46134 = 0x8118a823
+S - OEM Config Row 0 @ 0x01b441b8 = 0x0000000000000000
+S - OEM Config Row 1 @ 0x01b441c0 = 0x0000000000000000
+S - Feature Config Row 0 @ 0x01b441d0 = 0x0050200019010000
+S - Feature Config Row 1 @ 0x01b441d8 = 0x0014008017808000
+S - Core 0 Frequency, 1305 MHz
+S - PBL Patch Ver: 1
+S - PBL freq: 600 MHZ
+D -      4945 - pbl_apps_init_timestamp
+D -     83318 - bootable_media_detect_timestamp
+D -      1506 - bl_elf_metadata_loading_timestamp
+D -       687 - bl_hash_seg_auth_timestamp
+D -     14959 - bl_elf_loadable_segment_loading_timestamp
+D -      5663 - bl_elf_segs_hash_verify_timestamp
+D -      7229 - bl_sec_hash_seg_auth_timestamp
+D -      1171 - bl_sec_segs_hash_verify_timestamp
+D -        28 - pbl_populate_shared_data_and_exit_timestamp
+S -    119506 - PBL, End
+B -    136903 - SBL1, Start (MPM timestamp = 142496)
+B -    250889 - SBL1 BUILD @ 01:24:46 on Apr  9 2026
+B -    256553 - usb: hs_phy_nondrive_start
+B -    260588 - str_overflow
+B -    264146 - usb: hs_phy_nondrive_finish
+D -     11145 - sbl1_hw_init
+D -        13 - boot_flash_init
+B -    294902 - Using boot chain :: Primary
+D -     21673 - sbl1_update_partition_ids
+D -       881 - Auth Metadata
+D -      4899 - sbl1_xblconfig_init
+D -       520 - sbl1_feature_config_init
+D -         3 - boot_config_data_table_default_init
+D -        18 - sbl1_ddr_set_default_params
+D -      1374 - boot_config_data_table_init
+B -    320720 - CDT Version:3,Platform ID:11,Major ID:1,Minor ID:0,Subtype:6
+D -      9481 - sbl1_hw_platform_pre_ddr
+D -      3343 - devcfg init
+B -    338651 - PM: OPT: ENABLE_AUTO_BOOT_OPTIMIZATION
+B -    399418 - PM: PSI: b0x10_v0x18
+B -    402986 - PM: Device Init # SPMI Transn: 4460
+B -    407387 - PM: Driver Init # SPMI Transn: 301
+B -    407739 - PM: APSD re-run
+B -    414965 - PM: battery Id: 99635
+B -    415347 - PM: CHG Init # SPMI Transn: 36
+D -     83353 - pmic XBL init
+D -      5824 - vsense_railway_cpr init
+D -     97158 - sbl1_hw_pre_ddr_init
+D -         3 - boot_dload_handle_forced_dload_timeout
+D -      4581 - sbl1_load_ddr_training_data
+D -      4984 - sbl1_ddr_set_params
+B -    447346 - DSF version = 20.0, DSF RPM version = 9.0
+B -    447386 - Manufacturer ID = 255, Device Type = 7
+B -    452516 - Rank 0 size = 2048 MB, Rank 1 size = 0 MB
+B -    457393 - Max Frequency = 1804 MHz
+B -    462529 - Row Hammer Check : DRAM supports unlimited MAC Value : MR24[OP2:0 = 0] & MR24[OP3 = 1] for CH0 & CS0
+D -     27755 - sbl1_ddr_init
+B -    476441 - do_ddr_training, Start
+B -    482828 - Bootup frequency set to 1804800
+D -      3760 - do_ddr_training, Delta
+D -     10682 - sbl1_do_ddr_training
+D -         2 - sbl1_hand_control_to_devprog_ddr_or_ddi
+B -    493925 - Pimem init cmd, entry
+D -      9915 - Pimem init cmd, exit
+D -     15646 - sbl1_post_ddr_init
+D -       316 - sbl1_hw_init_secondary
+B -    519480 - APDP Image Loaded, Start
+D -      3922 - Auth Metadata
+D -       442 - Segments hash check
+D -      7936 - APDP Image Loaded, Delta - (21124 Bytes)
+D -         4 - boot_dload_dump_security_regions
+D -        14 - boot_dload_check
+D -         2 - boot_cache_set_memory_barrier
+D -         1 - boot_smem_debug_init
+D -       315 - boot_smem_init
+D -         3 - boot_smem_alloc_for_minidump
+B -    553238 - PM: SMEM Chgr Info Write Success
+D -      4006 - boot_smem_store_pon_status
+D -        11 - sbl1_hw_platform_smem
+D -       118 - boot_clock_init_rpm
+D -         2 - boot_vsense_copy_to_smem
+D -         1 - boot_share_flash_data
+D -         7 - boot_populate_ram_partition_table
+D -         7 - boot_populate_ddr_details_shared_table
+D -         3 - sbl1_tlmm_init
+D -         2 - sbl1_efs_handle_cookies
+D -         2 - boot_apt_test
+B -    598924 - OEM_MISC Image Loaded, Start
+D -       823 - Auth Metadata
+D -       239 - Segments hash check
+D -      6741 - OEM_MISC Image Loaded, Delta - (7912 Bytes)
+B -    609085 - QTI_MISC Image Loaded, Start
+D -      5109 - QTI_MISC Image Loaded, Delta - (0 Bytes)
+B -    620892 - PM: PM Total Mem Allocated: 1493 
+D -      5044 - sbl1_pm_aop_pre_init_wrapper
+B -    627685 - RPM Image Loaded, Start
+D -      1302 - Auth Metadata
+D -      1595 - Segments hash check
+D -     14008 - RPM Image Loaded, Delta - (221092 Bytes)
+B -    644924 - QSEE Dev Config Image Loaded, Start
+D -      1310 - Auth Metadata
+D -       531 - Segments hash check
+D -     12355 - QSEE Dev Config Image Loaded, Delta - (37020 Bytes)
+B -    666054 - QSEE Image Loaded, Start
+D -      4436 - Auth Metadata
+D -     21051 - Segments hash check
+D -     77218 - QSEE Image Loaded, Delta - (3331734 Bytes)
+D -        47 - sbl1_hw_play_vibr
+B -    751903 - SEC Image Loaded, Start
+D -      2858 - SEC Image Loaded, Delta - (0 Bytes)
+B -    758336 - QHEE Image Loaded, Start
+D -      1374 - Auth Metadata
+D -      2801 - Segments hash check
+D -     13727 - QHEE Image Loaded, Delta - (387768 Bytes)
+B -    775479 - STI Image Loaded, Start
+D -      4939 - STI Image Loaded, Delta - (0 Bytes)
+B -    783997 - ABL Image Loaded, Start
+D -      1189 - Auth Metadata
+D -      1351 - Segments hash check
+D -     10882 - ABL Image Loaded, Delta - (248576 Bytes)
+B -    798779 - APPSBL Image Loaded, Start
+D -      1358 - Auth Metadata
+D -     11283 - Segments hash check
+D -     27917 - APPSBL Image Loaded, Delta - (2301952 Bytes)
+D -         5 - sbl1_appsbl_arch_determination
+B -    835947 - SBL1, End
+D -    702578 - SBL1, Delta
+S - Flash Throughput, 92000 KB/s  (6602925 Bytes,  71752 us)
+S - DDR Frequency, 1804 MHz
+
+
+UEFI Start     [ 1069]
+ - 0x05FC01000 [ 1074] Sec.efi
+ASLR        : ON
+DEP         : ON (RTB)
+Timer Delta : +6 mS
+smem_get_addr: SMEM get addr success. smem_type=402, buf_size=2328 and offset = 0x00007850.RAM Entry 0 : Base 0x0000000040000000  Size 0x000000003EB00000
+RAM Entry 1 : Base 0x0000000080000000  Size 0x0000000040000000
+UART Buffer size set to 0x8000 
+Multithread : ON (Lib ver 1.1)
+CPU Cores   : 8 (init 1)
+CONF File   : uefiplatLA.cfg
+UEFI Ver    : 5.0.260409.BOOT.XF.4.1.2-00029-KAMORTALAZ-5
+Build Info  : 64b Apr  9 2026 01:25:28
+Boot Device : eMMC
+PROD Mode   : FALSE
+Retail      : FALSE
+
+Current core for decompresion 0 
+First FV Decompress time 27 ms
+Current core for decompresion 0 
+Second FV Decompress time 21 ms (Decompress Thread)
+ - 0x054EB2000 [ 1165] DxeCore.efi
+Loading DxeCore at 0x0054EB2000 EntryPoint=0x0054EB3000
+HOBLIST address in DXE = 0x54CA2018
+FV Hob            0x5FC00000 - 0x5FE31FFF
+FV Hob            0x54F03000 - 0x551E807F
+FV2 Hob           0x54F03000 - 0x551E807F
+                  631008B0-B2D1-410A-8B49-2C5C4D8ECC7E - 00000000-0000-0000-0000-000000000000
+ - 0x054E51000 [ 1170] EnvDxe.efi
+smem_get_addr: SMEM get addr success. smem_type=402, buf_size=2328 and offset = 0x00007850. - 0x054E47000 [ 1171] RscRtDxe.efi
+ - 0x054E3F000 [ 1171] SCHandlerRtDxe.efi
+ - 0x0548D6000 [ 1171] RuntimeDxe.efi
+ - 0x054E2B000 [ 1172] ArmCpuDxe.efi
+ - 0x054E22000 [ 1173] ArmGicDxe.efi
+ - 0x054E1B000 [ 1173] MetronomeDxe.efi
+ - 0x054E13000 [ 1174] ArmTimerDxe.efi
+ - 0x054E09000 [ 1174] SmemDxe.efi
+ - 0x054DCC000 [ 1174] DALSys.efi
+smem_alloc: SMEM allocation success. smem_type=404, buf_size=8192 and offset = 0x000051B0. - 0x054DC3000 [ 1175] HWIODxeDriver.efi
+ - 0x054DB8000 [ 1175] ChipInfo.efi
+smem_get_addr: SMEM get addr success. smem_type=137, buf_size=248 and offset = 0x00007210. - 0x054DB0000 [ 1175] PlatformInfoDxeDriver.efi
+ - 0x054DA5000 [ 1175] HALIOMMU.efi
+ - 0x054D97000 [ 1176] GlinkDxe.efi
+smem_alloc_ex: SMEM alloc_ex success. smem_type=478, remote=2, size=32, flags=0x40000000 and offset = 0x0018F030.smem_alloc_ex: SMEM alloc_ex success. smem_type=479, remote=2, size=16384, flags=0x40000000 and offset = 0x0018F060.smem_alloc_ex: SMEM alloc_ex success. smem_type=478, remote=1, size=32, flags=0x40000000 and offset = 0x000DD030.smem_alloc_ex: SMEM alloc_ex success. smem_type=479, remote=1, size=16384, flags=0x40000000 and offset = 0x000DD060. - 0x054D83000 [ 1176] ULogDxe.efi
+ - 0x054D6A000 [ 1177] NpaDxe.efi
+Module cannot re-initialize DAL module environment
+ - 0x054D5F000 [ 1177] VcsDxe.efi
+ - 0x054D35000 [ 1178] ClockDxe.efi
+ >>> Cluster 0: 1612800000 Hz
+DALLOG Device [0x2000070]: HWIO: Unable to find "RM_C_C_TTS/mccin/ipetd
+ - 0x054D2B000 [ 1185] ShmBridgeDxe.efi
+ - 0x054D1E000 [ 1185] ScmDxe.efi
+ - 0x054D14000 [ 1186] SPMI.efi
+ - 0x054CF3000 [ 1188] PmicDxe.efi
+PM0: 45, PM1: 37, 
+ - 0x054CE8000 [ 1193] DiskIoDxe.efi
+ - 0x054CDB000 [ 1194] PartitionDxe.efi
+ - 0x054CD3000 [ 1194] EnglishDxe.efi
+ - 0x054CC8000 [ 1194] FvSimpleFileSystem.efi
+ - 0x05484D000 [ 1194] SdccDxe.efi
+
+Detect SD Card SUCCEEDED!!
+ - 0x054CAC000 [ 1721] UFSDxe.efi
+ - 0x0544E5000 [ 1721] Fat.efi
+ - 0x0544BE000 [ 1722] TzDxe.efi
+smem_get_addr: SMEM get addr success. smem_type=402, buf_size=2328 and offset = 0x00007850.MemSize_Update_Needed: Updating TZ Apps Region size
+AppReg Init:6 mS
+Embedded Images Supported and Commonlibs loaded
+ - 0x054431000 [ 1733] EmuVariableRuntimeDxe.efi
+ - 0x0544F5000 [ 1733] QcomWDogDxe.efi
+HW Wdog Setting from PCD : Disabled
+ - 0x054427000 [ 1734] ResetRuntimeDxe.efi
+ - 0x0544D2000 [ 1734] WatchdogTimer.efi
+ - 0x05441F000 [ 1734] EmbeddedMonotonicCounter.efi
+ - 0x05440C000 [ 1735] RealTimeClock.efi
+ - 0x054404000 [ 1735] CapsuleRuntimeDxe.efi
+ - 0x0543B6000 [ 1736] HiiDatabase.efi
+ - 0x054415000 [ 1736] FontDxe.efi
+ - 0x0542CA000 [ 1742] QcomBds.efi
+ - 0x05407A000 [ 1747] PILDxe.efi
+Start time 0 ms
+ - 0x053FBD000 [ 1751] DALTLMM.efi
+ - 0x053F40000 [ 1752] DisplayDxe.efi
+DisplayDxe: Panel ID:0x00000000 [LCD] 
+DisplayDxe: Resolution 720x1440 (1 intf)
+ - 0x053FA4000 [ 1785] ASN1X509Dxe.efi
+ - 0x053F9A000 [ 1786] SecRSADxe.efi
+ - 0x053F30000 [ 1786] VerifiedBootDxe.efi
+ - 0x053FB0000 [ 1787] PrintDxe.efi
+ - 0x0BFF6A000 [ 1787] DevicePathDxe.efi
+ - 0x053F90000 [ 1788] I2C.efi
+ - 0x053F86000 [ 1788] AdcDxe.efi
+ - 0x053F06000 [ 1788] UsbPwrCtrlDxe.efi
+ - 0x0BFF31000 [ 1789] QcomChargerDxeLA.efi
+ - 0x0BFF57000 [ 1796] ChargerExDxe.efi
+ - 0x0BFEFA000 [ 1797] UsbfnDwc3Dxe.efi
+ - 0x0BFEEB000 [ 1797] UsbConfigDxe.efi
+UsbConfigPortsQueryConnectionChange: UFP and Type-C
+UsbConfigPortsQueryConnectionChange: usbport->connectstate: ATT
+ConnectSts : Attach, Data Role : UFP (DEVICE Mode), Lane : CC1, CoreNum : 0
+HandlePortPartnerXtach: Cable Attach
+ - 0x053F7E000 [ 1798] TsensDxe.efi
+ - 0x0BFED3000 [ 1798] HashDxe.efi
+ - 0x0BFEBB000 [ 1799] CipherDxe.efi
+ - 0x0BFEA3000 [ 1799] MacDxe.efi
+ - 0x0BFF4F000 [ 1800] RngDxe.efi
+ - 0x0BFF60000 [ 1800] DDRInfoDxe.efi
+ - 0x0BFF20000 [ 1801] SimpleTextInOutSerial.efi
+ - 0x0BFE99000 [ 1802] ConPlatformDxe.efi
+ - 0x0BFE7C000 [ 1802] ConSplitterDxe.efi
+ - 0x0BFE70000 [ 1803] GraphicsConsoleDxe.efi
+ - 0x0BFE8F000 [ 1804] ButtonsDxe.efi
+ - 0x0BFE55000 [ 1805] SecurityStubDxe.efi
+ - 0x0BFF18000 [ 1806] MinidumpTADxe.efi
+MinidumpTADxe: Minidump TA loading not enabled.
+Error: Image at 000BFF18000 start failed: Load Error
+ - 0x0BFE48000 [ 1810] UsbMsdDxe.efi
+ - 0x0BFE3B000 [ 1810] UsbDeviceDxe.efi
+BDS Entry      [ 1839] 
+smem_get_addr: SMEM get addr success. smem_type=402, buf_size=2328 and offset = 0x00007850.WaitParallelThreads InIt [ 1931] 
+Wait start time for Display thread : 1931 ms
+Wait start time for PIL thread : 1931 ms
+-----------------------------
+Platform Init  [ 1931] BDS
+Var Store  : WARNING, not persistent
+UEFI Ver   : 5.0.260409.BOOT.XF.4.1.2-00029-KAMORTALAZ-5
+Platform           : QRD
+Chip Name          : QRB_KAMORTA
+Chip Ver           : 1.0
+Chip Serial Number : 0x8118A823
+-----------------------------
+ - 0x0BFABA000 [ 1957] QcomChargerApp.efi
+UEFI Total : 905 ms
+POST Time      [ 1974] OS Loader
+ - 0x0BF845000 [ 1977] LinuxLoader.efi
+[1978]Loader Build Info: Jun  2 2026 19:46:43
+VB: Non-secure device: Security State: (0xF3F)
+VB: RWDeviceState: Succeed using devinfo!
+[1983]GetActiveSlot: No active slot found
+[1983]GetActiveSlot: Slot attr: Priority 0, Retry 0, Active 0, Success 0, unboot 36028797018963968
+[1983]DevicePath string for SD card is: VenHw(D1531D41-3F80-4091-8D0A-541F59236D66)
+[1983][MountFat] Connecting controller
+[1987]Detected SD card and Mounted FS successfully
+[1988]Total DDR Size: 0x000000007EB00000 
+[1988]Locate EFI_SOFTSKU_Protocol failed, Status = (0xE)
+[1988]KeyPress:0, BootReason:0
+[1988]Fastboot=0, Recovery:0
+[1988]SilentBoot Mode:11
+[1989]GetVmData: No Vm data present! Status = (0x3)
+[1989]VM Hyp calls not present
+[1989]DevicePath string for SD card is: VenHw(D1531D41-3F80-4091-8D0A-541F59236D66)
+[1989][DetectSDAndMount] File System Already mounted 0 on :0
+[1989][LoadFileFromFAT] Image Load requested for partition :recovery
+[1989][LoadFileFromFAT] Loading Image Start from SD: 1989 ms for recovery
+[2000][LoadFileFromFAT] Loading Image Done : 2000 ms
+[2000][LoadFileFromFAT] SD Total Image Read size : 4096 Bytes
+[2001]Booting Into Recovery Mode
+[2001][LoadFileFromFAT] Image Load requested for partition :recovery
+[2001][LoadFileFromFAT] Loading Image Start from SD: 2001 ms for recovery
+[2002][LoadFileFromFAT] Loading Image Done : 2002 ms
+[2002][LoadFileFromFAT] SD Total Image Read size : 4096 Bytes
+[2002][LoadFileFromFAT] Image Load requested for partition :recovery
+[2002][LoadFileFromFAT] Loading Image Start from SD: 2002 ms for recovery
+[5100][LoadFileFromFAT] Loading Image Done : 5100 ms
+[5100][LoadFileFromFAT] SD Total Image Read size : 76267520 Bytes
+[5100]No dtbo partition is found, Skip dtbo
+[5101]GetActiveSlot: No active slot found
+[5101]GetActiveSlot: Slot attr: Priority 0, Retry 0, Active 0, Success 0, unboot 36028797018963968
+[5101]System partition does not exist
+[5101]GetSystemPath failed!
+[5101]GetActiveSlot: No active slot found
+[5101]GetActiveSlot: Slot attr: Priority 0, Retry 0, Active 0, Success 0, unboot 36028797018963968
+[5101]GetActiveSlot: No active slot found
+[5101]GetActiveSlot: Slot attr: Priority 0, Retry 0, Active 0, Success 0, unboot 36028797018963968
+[5102]GetActiveSlot: No active slot found
+[5102]GetActiveSlot: Slot attr: Priority 0, Retry 0, Active 0, Success 0, unboot 36028797018963968
+[5102]GetActiveSlot: No active slot found
+[5102]GetActiveSlot: Slot attr: Priority 0, Retry 0, Active 0, Success 0, unboot 36028797018963968
+[5104]Find misc_boot Partiton.
+[5108]GetActiveSlot: No active slot found
+[5108]GetActiveSlot: Slot attr: Priority 0, Retry 0, Active 0, Success 0, unboot 36028797018963968
+[5108]Err: line:2173 FindBootableSlot() status: Not Found
+[5108]Err: line:2423 LoadImageAndAuth() status: Not Found
+[5108]LoadImageAndAuth failed: Not Found
+[5108]Launching fastboot
+[5108]Fastboot Build Info: Jun  2 2026 19:46:03
+ConfigPowerDomain: USBConfigLib:GetClockPowerDomainID failed!
+ConfigPowerDomain: USBConfigLib:EnableClockPowerDomain failed!
+usb_shared_hs_phy_init: ++
+usb_shared_hs_phy_init: --
+usb_shared_ss_phy_init: ++
+usb_shared_ss_phy_init: --
+[5215]Fastboot: Initializing...
+VB: Non-secure device: Security State: (0xF3F)
+[5363]GetActiveSlot: No active slot found
+[5363]GetActiveSlot: Slot attr: Priority 0, Retry 0, Active 0, Success 0, unboot 36028797018963968
+[5363]GetActiveSlot: No active slot found
+[5363]GetActiveSlot: Slot attr: Priority 0, Retry 0, Active 0, Success 0, unboot 36028797018963968
+[5388]Fastboot: Processing commands
+VB: Non-secure device: Security State: (0xF3F)
+VB: Non-secure device: Security State: (0xF3F)
+Dev_Common_Speed: Bus Speed: Super
+UsbfnDwcHandleU1Enable: U1 Disabled
+UsbfnDwcHandleU2Enable: U2 Disabled

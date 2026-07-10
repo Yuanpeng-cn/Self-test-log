@@ -1,0 +1,22 @@
+lahaina612:/ # dmesg | grep -E "dwc3|gadget|speed|SuperSpeed|HighSpeed" | tail -20
+[  971.873015] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  971.889216] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  972.456630] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  972.494643] dwc3 a600000.dwc3: Set IRQ thread:irq/139-dwc3 pid:8605 to SCHED_NORMAL (no UVC)
+[  974.839411] msm-dwc3 a600000.ssusb: DWC3 in low power mode
+[  980.998507] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
+[  981.004952] dwc3 a600000.dwc3: Set IRQ thread:irq/139-dwc3 pid:8605 to SCHED_NORMAL (no UVC)
+[ 1052.595948] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[ 1052.620475] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[ 1053.332057] dwc3 a600000.dwc3: Set IRQ thread:irq/139-dwc3 pid:8982 to SCHED_NORMAL (no UVC)
+[ 1058.299409] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[ 1058.310553] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[ 1058.971652] configfs-gadget.g1 gadget.0: uvc: uvc_function_bind()
+[ 1059.699885] dwc3 a600000.dwc3: Set IRQ thread:irq/139-dwc3 pid:9025 to SCHED_FIFO low priority (UVC active)
+[ 1059.792979] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(2, 0)
+[ 1059.793021] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 0)
+[ 1059.793661] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 0)
+[ 1059.838337] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 0)
+[ 1095.948812] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 1)
+[ 1095.948861] configfs-gadget.g1 gadget.0: uvc: reset UVC
+lahaina612:/ #

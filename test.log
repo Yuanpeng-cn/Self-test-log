@@ -2,7 +2,39 @@ lahaina612:/ # dmesg | grep -E "dwc3|gadget|speed|SuperSpeed|HighSpeed" | tail -
 [  971.873015] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
 [  971.889216] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
 [  972.456630] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
-[  972.494643] dwc3 a600000.dwc3: Set IRQ thread:irq/139-dwc3 pid:8605 to SCHED_NORMAL (no UVC)
+[  972.494643] dwc3 a600000.dwc3: Set IRQ thread:irq/139-dwc3 pid:8605 to SCHED_NORMAL (no UVC)1|lahaina612:/ # dumpsys media.camera 2>/dev/null | grep -i "fps"
+      android.control.aeAvailableTargetFpsRanges (10014): int32[16]
+        [65540 (aeRegions) 65541 (aeTargetFpsRange) 65542 (aePrecaptureTrigger) 65543 (afMode) ]
+        [-2141519872 (availableStreamMap) -2141519867 (numPCRsBeforeStreamOn) -2141519863 (HDRVideoMode) -2141519862 (dynamicFPSConfig) ]
+        [4 (availableAberrationModes) 65554 (aeAvailableAntibandingModes) 65555 (aeAvailableModes) 65556 (aeAvailableTargetFpsRanges) ]
+        [65541 (aeTargetFpsRange) -2141519870 (enableMFNR) -2141519871 (overrideResourceCostValidation) -2141519872 (availableStreamMap) ]
+        [-2141519867 (numPCRsBeforeStreamOn) -2141519863 (HDRVideoMode) -2141519862 (dynamicFPSConfig) -2141519861 (RawCbSourceType) ]
+      org.quic.camera.BurstFPS.isBurstShotSupported (80470001): byte[1]
+      org.quic.camera.BurstFPS.MaxBurstShotFPS (80470002): float[1]
+      org.quic.camera2.customhfrfps.info.CustomHFRFpsTable (80390000): int32[84]
+      org.quic.camera2.streamBasedFPS.info.StreamBasedFPSTable (803a0000): int32[224]
+      org.quic.camera.swcapabilities.SWMCTFEnablefor60fps (806d0004): byte[1]
+      android.control.aeAvailableTargetFpsRanges (10014): int32[8]
+        [65539 (aeMode) 65540 (aeRegions) 65541 (aeTargetFpsRange) 65542 (aePrecaptureTrigger) ]
+        [-2141519862 (dynamicFPSConfig) -2141519861 (RawCbSourceType) -2141519858 (enableQLL) -2141519860 (ExtendedMaxZoom) ]
+        [4 (availableAberrationModes) 65554 (aeAvailableAntibandingModes) 65555 (aeAvailableModes) 65556 (aeAvailableTargetFpsRanges) ]
+        [65541 (aeTargetFpsRange) -2141519870 (enableMFNR) -2141519871 (overrideResourceCostValidation) -2141519872 (availableStreamMap) ]
+        [-2141519867 (numPCRsBeforeStreamOn) -2141519863 (HDRVideoMode) -2141519862 (dynamicFPSConfig) -2141519861 (RawCbSourceType) ]
+      org.quic.camera.BurstFPS.isBurstShotSupported (80470001): byte[1]
+      org.quic.camera.BurstFPS.MaxBurstShotFPS (80470002): float[1]
+      org.quic.camera.swcapabilities.SWMCTFEnablefor60fps (806d0004): byte[1]
+    0x800c000a (targetFPS) with type 1 (int32) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x80390000 (CustomHFRFpsTable) with type 1 (int32) defined in section org.quic.camera2.customhfrfps.info
+    0x803a0000 (StreamBasedFPSTable) with type 1 (int32) defined in section org.quic.camera2.streamBasedFPS.info
+    0x803a0001 (PreviewFPS) with type 1 (int32) defined in section org.quic.camera2.streamBasedFPS.info
+    0x803a0002 (VideoFPS) with type 1 (int32) defined in section org.quic.camera2.streamBasedFPS.info
+    0x80450000 (disableFPSLimits) with type 0 (byte) defined in section org.quic.camera.manualExposure
+    0x80470000 (burstfps) with type 0 (byte) defined in section org.quic.camera.BurstFPS
+    0x80470001 (isBurstShotSupported) with type 0 (byte) defined in section org.quic.camera.BurstFPS
+    0x80470002 (MaxBurstShotFPS) with type 2 (float) defined in section org.quic.camera.BurstFPS
+    0x805b000a (dynamicFPSConfig) with type 2 (float) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x806d0004 (SWMCTFEnablefor60fps) with type 0 (byte) defined in section org.quic.camera.swcapabilities
+    0x80b50004 (FPSMatch) with type 0 (byte) defined in section com.qti.chi.multicamerainfo
 [  974.839411] msm-dwc3 a600000.ssusb: DWC3 in low power mode
 [  980.998507] msm-dwc3 a600000.ssusb: DWC3 exited from low power mode
 [  981.004952] dwc3 a600000.dwc3: Set IRQ thread:irq/139-dwc3 pid:8605 to SCHED_NORMAL (no UVC)

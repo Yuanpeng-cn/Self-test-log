@@ -1,0 +1,4 @@
+lahaina612:/ # dmesg | grep -iE "uvc|f_uvc|gadget" | tail -50
+[12097.283263] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 0)
+[12097.627742] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 1)
+[12097.627791] configfs-gadget.g1 gadget.0: uvc: reset UVC

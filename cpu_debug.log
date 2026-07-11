@@ -1,0 +1,352 @@
+ 1253 root         20   0  11G  16M  13M S 95.2   0.3   2:37.06 vendor.qti.hardware.umd-camera-service
+ 6445 root         20   0  10G 4.7M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 1253 root         20   0  11G  16M  13M S  100   0.3   2:39.72 vendor.qti.hardware.umd-camera-service
+ 6453 root         20   0  10G 4.8M 4.4M S  0.0   0.0   0:00.04 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 1253 root         20   0  11G  16M  13M S  100   0.3   2:42.42 vendor.qti.hardware.umd-camera-service
+ 6479 root         20   0  10G 4.5M 4.1M S  0.0   0.0   0:00.04 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 1253 root         20   0  11G  16M  13M S  102   0.3   2:45.10 vendor.qti.hardware.umd-camera-service
+ 6493 root         20   0  10G 4.8M 4.3M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 1253 root         20   0  11G  16M  13M S  102   0.3   2:47.79 vendor.qti.hardware.umd-camera-service
+ 6498 root         20   0  10G 4.8M 4.3M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 1253 root         20   0  11G  16M  13M S  102   0.3   2:50.49 vendor.qti.hardware.umd-camera-service
+ 6510 root         20   0  10G 4.8M 4.3M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 1253 root         20   0  11G  16M  13M S  102   0.3   2:53.15 vendor.qti.hardware.umd-camera-service
+ 6518 root         20   0  10G 4.7M 4.4M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 1253 root         20   0  11G  16M  13M S  100   0.3   2:55.84 vendor.qti.hardware.umd-camera-service
+ 6547 root         20   0  10G 4.7M 4.3M S  0.0   0.0   0:00.04 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 1253 root         20   0  11G  16M  13M S  100   0.3   2:58.51 vendor.qti.hardware.umd-camera-service
+ 6553 root         20   0  10G 4.7M 4.3M S  0.0   0.0   0:00.04 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 1253 root         20   0  11G  16M  13M S  100   0.3   3:01.21 vendor.qti.hardware.umd-camera-service
+ 6572 root         20   0  10G 5.0M 4.4M S  0.0   0.1   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 1253 root         20   0  11G  16M  13M S  102   0.3   3:03.89 vendor.qti.hardware.umd-camera-service
+ 6582 root         20   0  10G 4.8M 4.3M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 1253 root         20   0  11G  16M  13M S  100   0.3   3:06.58 vendor.qti.hardware.umd-camera-service
+ 6594 root         20   0  10G 4.9M 4.4M S  0.0   0.1   0:00.04 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 5717 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [UVCG]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 S 57.8   0.0   0:00.93 [UVCG]
+  101 root          0 -20    0    0    0 I 28.9   0.0   0:00.42 [kworker/u33:0-uvcgadget]
+  165 root          0 -20    0    0    0 I 26.3   0.0   0:03.96 [kworker/u33:1-uvcgadget]
+ 6601 root          0 -20    0    0    0 R 21.0   0.0   0:00.43 [kworker/u33:3-uvcgadget]
+ 1253 root         20   0  11G  19M  16M S  5.2   0.3   3:07.81 vendor.qti.hardware.umd-camera-service
+ 6611 root         20   0  10G 4.6M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 S 72.9   0.0   0:02.56 [UVCG]
+ 2986 root          0 -20    0    0    0 R 27.0   0.0   0:05.85 [kworker/u33:2+uvcgadget]
+ 1253 root         20   0  11G  19M  16M S 13.5   0.3   3:08.11 vendor.qti.hardware.umd-camera-service
+  101 root          0 -20    0    0    0 I 13.5   0.0   0:00.90 [kworker/u33:0-uvcgadget]
+ 6639 root         20   0  10G 4.7M 4.2M S  0.0   0.0   0:00.02 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 R 55.2   0.0   0:04.37 [UVCG]
+  101 root          0 -20    0    0    0 R 21.0   0.0   0:01.01 [kworker/u33:0+uvcgadget]
+ 2986 root          0 -20    0    0    0 R 15.7   0.0   0:06.65 [kworker/u33:2-uvcgadget]
+ 1253 root         20   0  11G  19M  16M S 15.7   0.3   3:08.45 vendor.qti.hardware.umd-camera-service
+ 6647 root         20   0  10G 4.8M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 R 70.2   0.0   0:06.07 [UVCG]
+ 2986 root          0 -20    0    0    0 I 32.4   0.0   0:07.45 [kworker/u33:2-uvcgadget]
+ 6601 root          0 -20    0    0    0 R 27.0   0.0   0:02.42 [kworker/u33:3-uvcgadget]
+ 1253 root         20   0  11G  19M  16M S 13.5   0.3   3:08.78 vendor.qti.hardware.umd-camera-service
+ 6658 root         20   0  10G 4.5M 4.2M S  0.0   0.0   0:00.02 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 R 67.5   0.0   0:07.80 [UVCG]
+ 6601 root          0 -20    0    0    0 R 27.0   0.0   0:02.99 [kworker/u33:3+uvcgadget]
+  165 root          0 -20    0    0    0 I 27.0   0.0   0:05.24 [kworker/u33:1-uvcgadget]
+  101 root          0 -20    0    0    0 R 27.0   0.0   0:02.57 [kworker/u33:0+uvcgadget]
+ 1253 root         20   0  11G  19M  16M R 16.2   0.3   3:09.11 vendor.qti.hardware.umd-camera-service
+ 6669 root         20   0  10G 4.7M 4.2M S  0.0   0.0   0:00.02 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 R 72.2   0.0   0:09.55 [UVCG]
+  101 root          0 -20    0    0    0 R 41.6   0.0   0:03.48 [kworker/u33:0-uvcgadget]
+ 6601 root          0 -20    0    0    0 I 22.2   0.0   0:03.47 [kworker/u33:3-uvcgadget]
+ 1253 root         20   0  11G  19M  16M S 11.1   0.3   3:09.45 vendor.qti.hardware.umd-camera-service
+ 6678 root         20   0  10G 4.7M 4.3M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 R 48.6   0.0   0:11.30 [UVCG]
+  101 root          0 -20    0    0    0 R 27.0   0.0   0:04.11 [kworker/u33:0-uvcgadget]
+ 6601 root          0 -20    0    0    0 I 13.5   0.0   0:04.23 [kworker/u33:3-uvcgadget]
+ 1253 root         20   0  11G  19M  16M S 13.5   0.3   3:09.78 vendor.qti.hardware.umd-camera-service
+  165 root          0 -20    0    0    0 I 13.5   0.0   0:06.73 [kworker/u33:1-uvcgadget]
+ 6689 root         20   0  10G 4.7M 4.2M S  0.0   0.0   0:00.04 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 S 72.9   0.0   0:13.01 [UVCG]
+ 6601 root          0 -20    0    0    0 I 48.6   0.0   0:04.82 [kworker/u33:3-uvcgadget]
+ 2986 root          0 -20    0    0    0 R 32.4   0.0   0:08.61 [kworker/u33:2-uvcgadget]
+ 1253 root         20   0  11G  19M  16M S 16.2   0.3   3:10.11 vendor.qti.hardware.umd-camera-service
+  101 root          0 -20    0    0    0 R 10.8   0.0   0:04.79 [kworker/u33:0-uvcgadget]
+ 6713 root         20   0  10G 4.5M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 R 67.5   0.0   0:14.72 [UVCG]
+ 6693 root          0 -20    0    0    0 I 32.4   0.0   0:00.23 [kworker/u33:4-uvcgadget]
+  101 root          0 -20    0    0    0 I 29.7   0.0   0:05.29 [kworker/u33:0-uvcgadget]
+ 1253 root         20   0  11G  19M  16M S 13.5   0.3   3:10.45 vendor.qti.hardware.umd-camera-service
+ 6725 root         20   0  10G 4.5M 4.1M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 R 69.4   0.0   0:16.47 [UVCG]
+ 6693 root          0 -20    0    0    0 I 36.1   0.0   0:00.90 [kworker/u33:4-uvcgadget]
+  101 root          0 -20    0    0    0 I 36.1   0.0   0:06.04 [kworker/u33:0-uvcgadget]
+ 1253 root         20   0  11G  20M  16M S 16.6   0.4   3:10.78 vendor.qti.hardware.umd-camera-service
+ 6733 root         20   0  10G 4.7M 4.2M S  0.0   0.0   0:00.02 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:05.56 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 R 72.2   0.0   0:18.18 [UVCG]
+ 1253 root         20   0  11G  20M  16M S 13.8   0.4   3:11.12 vendor.qti.hardware.umd-camera-service
+ 6751 root         20   0  10G 4.7M 4.2M S  0.0   0.0   0:00.02 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 2986 root          0 -20    0    0    0 I  0.0   0.0   0:10.66 [kworker/u33:2-uvcgadget]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+ 5717 root         RT   0    0    0    0 S 72.2   0.0   0:19.77 [UVCG]
+ 2986 root          0 -20    0    0    0 I 38.8   0.0   0:10.92 [kworker/u33:2-uvcgadget]
+  165 root          0 -20    0    0    0 I 27.7   0.0   0:07.04 [kworker/u33:1-uvcgadget]
+ 6693 root          0 -20    0    0    0 I 22.2   0.0   0:01.85 [kworker/u33:4-uvcgadget]
+ 1253 root         20   0  11G  20M  16M S 13.8   0.4   3:11.44 vendor.qti.hardware.umd-camera-service
+ 6782 root         20   0  10G 4.8M 4.2M S  0.0   0.0   0:00.02 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 67.5   0.0   0:21.45 [UVCG]
+ 6693 root          0 -20    0    0    0 I 27.0   0.0   0:02.45 [kworker/u33:4-uvcgadget]
+ 6763 root          0 -20    0    0    0 I 21.6   0.0   0:00.95 [kworker/u33:5-uvcgadget]
+ 1253 root         20   0  11G  20M  16M S 10.8   0.4   3:11.77 vendor.qti.hardware.umd-camera-service
+ 6802 root         20   0  10G 4.7M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 70.2   0.0   0:23.21 [UVCG]
+ 2986 root          0 -20    0    0    0 I 35.1   0.0   0:11.69 [kworker/u33:2-uvcgadget]
+  165 root          0 -20    0    0    0 I 29.7   0.0   0:08.10 [kworker/u33:1-uvcgadget]
+ 6693 root          0 -20    0    0    0 I 24.3   0.0   0:03.23 [kworker/u33:4-uvcgadget]
+ 1253 root         20   0  11G  20M  16M S 13.5   0.4   3:12.10 vendor.qti.hardware.umd-camera-service
+ 6828 root         20   0  10G 4.6M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 66.6   0.0   0:24.89 [UVCG]
+  165 root          0 -20    0    0    0 I 30.5   0.0   0:08.72 [kworker/u33:1-uvcgadget]
+ 1253 root         20   0  11G  20M  16M S 13.8   0.4   3:12.43 vendor.qti.hardware.umd-camera-service
+ 6836 root         20   0  10G 4.9M 4.4M S  0.0   0.1   0:00.02 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 70.2   0.0   0:26.53 [UVCG]
+ 2986 root          0 -20    0    0    0 R 40.5   0.0   0:12.81 [kworker/u33:2+uvcgadget]
+ 6693 root          0 -20    0    0    0 I 16.2   0.0   0:04.04 [kworker/u33:4-uvcgadget]
+ 1253 root         20   0  11G  20M  16M S  8.1   0.4   3:12.73 vendor.qti.hardware.umd-camera-service
+ 6847 root         20   0  10G 4.8M 4.3M S  0.0   0.1   0:00.02 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  165 root          0 -20    0    0    0 I  0.0   0.0   0:09.45 [kworker/u33:1-uvcgadget]
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 R 67.5   0.0   0:28.18 [UVCG]
+ 6693 root          0 -20    0    0    0 R 29.7   0.0   0:04.76 [kworker/u33:4+uvcgadget]
+  165 root          0 -20    0    0    0 I 18.9   0.0   0:09.46 [kworker/u33:1-uvcgadget]
+ 1253 root         20   0  11G  20M  16M S 10.8   0.4   3:12.93 vendor.qti.hardware.umd-camera-service
+ 6860 root         20   0  10G 4.9M 4.3M S  0.0   0.1   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 2986 root          0 -20    0    0    0 I  0.0   0.0   0:13.42 [kworker/u33:2-uvcgadget]
+ 1251 root         20   0  11G  14M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 62.1   0.0   0:29.80 [UVCG]
+  165 root          0 -20    0    0    0 R 24.3   0.0   0:10.00 [kworker/u33:1+uvcgadget]
+ 6763 root          0 -20    0    0    0 R 21.6   0.0   0:03.15 [kworker/u33:5-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 10.8   0.3   3:13.29 vendor.qti.hardware.umd-camera-service
+ 6869 root         20   0  10G 4.7M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 R 67.5   0.0   0:31.39 [UVCG]
+ 6693 root          0 -20    0    0    0 I 32.4   0.0   0:05.62 [kworker/u33:4-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 10.8   0.3   3:13.62 vendor.qti.hardware.umd-camera-service
+ 6879 root         20   0  10G 4.6M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 R 67.5   0.0   0:33.06 [UVCG]
+ 6763 root          0 -20    0    0    0 R 27.0   0.0   0:04.06 [kworker/u33:5+uvcgadget]
+  165 root          0 -20    0    0    0 R 27.0   0.0   0:11.10 [kworker/u33:1+uvcgadget]
+ 1253 root         20   0  11G  16M  16M R 13.5   0.3   3:13.95 vendor.qti.hardware.umd-camera-service
+ 6903 root         20   0  10G 4.8M 4.3M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 R 62.1   0.0   0:34.75 [UVCG]
+ 2986 root          0 -20    0    0    0 I 24.3   0.0   0:14.76 [kworker/u33:2-uvcgadget]
+ 6763 root          0 -20    0    0    0 I 16.2   0.0   0:04.54 [kworker/u33:5-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 16.2   0.3   3:14.29 vendor.qti.hardware.umd-camera-service
+  165 root          0 -20    0    0    0 I 16.2   0.0   0:11.73 [kworker/u33:1-uvcgadget]
+ 6913 root         20   0  10G 4.8M 4.3M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 R 67.5   0.0   0:36.38 [UVCG]
+ 6763 root          0 -20    0    0    0 I 32.4   0.0   0:05.22 [kworker/u33:5-uvcgadget]
+ 6693 root          0 -20    0    0    0 R 32.4   0.0   0:07.28 [kworker/u33:4-uvcgadget]
+ 2986 root          0 -20    0    0    0 R 13.5   0.0   0:15.32 [kworker/u33:2-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 13.5   0.3   3:14.63 vendor.qti.hardware.umd-camera-service
+ 6922 root         20   0  10G 4.8M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 R 56.7   0.0   0:38.07 [UVCG]
+  165 root          0 -20    0    0    0 R 27.0   0.0   0:12.03 [kworker/u33:1-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 13.5   0.3   3:14.96 vendor.qti.hardware.umd-camera-service
+ 2986 root          0 -20    0    0    0 I  8.1   0.0   0:15.91 [kworker/u33:2-uvcgadget]
+ 6935 root         20   0  10G 4.9M 4.4M S  0.0   0.1   0:00.02 grep -E UVCG|uvcgadget|umd
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 63.8   0.0   0:39.69 [UVCG]
+ 6693 root          0 -20    0    0    0 I 27.7   0.0   0:07.71 [kworker/u33:4-uvcgadget]
+ 2986 root          0 -20    0    0    0 I 27.7   0.0   0:16.42 [kworker/u33:2-uvcgadget]
+ 6763 root          0 -20    0    0    0 I 16.6   0.0   0:06.59 [kworker/u33:5-uvcgadget]
+ 1253 root         20   0  11G  16M  16M R 13.8   0.3   3:15.29 vendor.qti.hardware.umd-camera-service
+ 6945 root         20   0  10G 4.7M 4.1M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 R 63.8   0.0   0:41.38 [UVCG]
+ 2986 root          0 -20    0    0    0 I 27.7   0.0   0:17.03 [kworker/u33:2-uvcgadget]
+ 6763 root          0 -20    0    0    0 I 25.0   0.0   0:07.18 [kworker/u33:5-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 11.1   0.3   3:15.64 vendor.qti.hardware.umd-camera-service
+ 6956 root         20   0  10G 4.6M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  165 root          0 -20    0    0    0 I  0.0   0.0   0:12.89 [kworker/u33:1-uvcgadget]
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 R 62.1   0.0   0:43.06 [UVCG]
+ 2986 root          0 -20    0    0    0 R 27.0   0.0   0:17.58 [kworker/u33:2-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 13.5   0.3   3:15.97 vendor.qti.hardware.umd-camera-service
+  165 root          0 -20    0    0    0 R 13.5   0.0   0:13.42 [kworker/u33:1+uvcgadget]
+ 6962 root         20   0  10G 4.6M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 6693 root          0 -20    0    0    0 I  0.0   0.0   0:08.93 [kworker/u33:4-uvcgadget]
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 67.5   0.0   0:44.69 [UVCG]
+ 2986 root          0 -20    0    0    0 I 40.5   0.0   0:18.18 [kworker/u33:2-uvcgadget]
+  165 root          0 -20    0    0    0 R 27.0   0.0   0:13.98 [kworker/u33:1-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 13.5   0.3   3:16.31 vendor.qti.hardware.umd-camera-service
+ 6989 root         20   0  10G 4.6M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 130M  76M S  0.0   2.6   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 70.2   0.0   0:46.42 [UVCG]
+ 2986 root          0 -20    0    0    0 I 37.8   0.0   0:18.80 [kworker/u33:2-uvcgadget]
+ 6693 root          0 -20    0    0    0 R 29.7   0.0   0:10.00 [kworker/u33:4-uvcgadget]
+  165 root          0 -20    0    0    0 R 18.9   0.0   0:14.72 [kworker/u33:1-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 13.5   0.3   3:16.64 vendor.qti.hardware.umd-camera-service
+ 6995 root         20   0  10G 4.6M 4.1M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 122M  76M S  0.0   2.5   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 64.8   0.0   0:48.23 [UVCG]
+  165 root          0 -20    0    0    0 I 27.0   0.0   0:15.50 [kworker/u33:1-uvcgadget]
+ 6693 root          0 -20    0    0    0 I 24.3   0.0   0:10.64 [kworker/u33:4-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 13.5   0.3   3:17.00 vendor.qti.hardware.umd-camera-service
+ 7003 root         20   0  10G 4.8M 4.3M S  0.0   0.1   0:00.04 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 122M  76M S  0.0   2.5   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 67.5   0.0   0:50.02 [UVCG]
+ 6693 root          0 -20    0    0    0 R 35.1   0.0   0:11.51 [kworker/u33:4-uvcgadget]
+ 2986 root          0 -20    0    0    0 I 32.4   0.0   0:20.36 [kworker/u33:2-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 13.5   0.3   3:17.34 vendor.qti.hardware.umd-camera-service
+ 7014 root         20   0  10G 4.7M 4.2M S  0.0   0.0   0:00.04 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 122M  76M S  0.0   2.5   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 63.8   0.0   0:51.78 [UVCG]
+  165 root          0 -20    0    0    0 R 30.5   0.0   0:16.71 [kworker/u33:1+uvcgadget]
+ 6693 root          0 -20    0    0    0 R 16.6   0.0   0:12.35 [kworker/u33:4-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 11.1   0.3   3:17.70 vendor.qti.hardware.umd-camera-service
+ 7025 root         20   0  10G 4.5M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 122M  76M S  0.0   2.5   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 R 56.7   0.0   0:53.42 [UVCG]
+ 6693 root          0 -20    0    0    0 R 21.6   0.0   0:12.86 [kworker/u33:4-uvcgadget]
+ 1253 root         20   0  11G  16M  16M S 13.5   0.3   3:18.02 vendor.qti.hardware.umd-camera-service
+ 7037 root         20   0  10G 5.0M 4.4M S  0.0   0.1   0:00.03 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 122M  76M S  0.0   2.5   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 69.4   0.0   0:55.20 [UVCG]
+ 6763 root          0 -20    0    0    0 R 38.8   0.0   0:08.75 [kworker/u33:5-uvcgadget]
+ 1253 root         20   0  11G  17M  16M S 13.8   0.3   3:18.36 vendor.qti.hardware.umd-camera-service
+ 7064 root         20   0  10G 4.3M 4.1M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 122M  76M S  0.0   2.5   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 S 67.5   0.0   0:56.93 [UVCG]
+ 6693 root          0 -20    0    0    0 I 37.8   0.0   0:13.60 [kworker/u33:4-uvcgadget]
+ 6763 root          0 -20    0    0    0 I 27.0   0.0   0:09.48 [kworker/u33:5-uvcgadget]
+ 2986 root          0 -20    0    0    0 I 18.9   0.0   0:22.13 [kworker/u33:2-uvcgadget]
+ 1253 root         20   0  11G  17M  16M S 13.5   0.3   3:18.70 vendor.qti.hardware.umd-camera-service
+ 7077 root         20   0  10G 4.9M 4.3M S  0.0   0.1   0:00.03 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 122M  76M S  0.0   2.5   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]
+ 5717 root         RT   0    0    0    0 R 70.2   0.0   0:58.70 [UVCG]
+ 6763 root          0 -20    0    0    0 I 32.4   0.0   0:10.29 [kworker/u33:5-uvcgadget]
+ 6693 root          0 -20    0    0    0 R 29.7   0.0   0:14.18 [kworker/u33:4-uvcgadget]
+ 1253 root         20   0  11G  17M  16M S 13.5   0.3   3:19.04 vendor.qti.hardware.umd-camera-service
+ 7083 root         20   0  10G 4.8M 4.2M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+ 6601 root          0 -20    0    0    0 I  0.0   0.0   0:06.16 [kworker/u33:3-uvcgadget]
+ 5729 u0_a169      20   0  16G 122M  76M S  0.0   2.5   0:00.27 org.codeaurora.umdadaptor
+ 1251 root         20   0  11G  12M  12M S  0.0   0.2   0:00.18 vendor.qti.hardware.umd-audio-service
+  101 root          0 -20    0    0    0 I  0.0   0.0   0:07.05 [kworker/u33:0-uvcgadget]

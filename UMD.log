@@ -1,0 +1,7 @@
+lahaina612:/ #  top -n 1 | grep -E "UVCG|uvcgadget|umd"
+ 6998 root         RT   0    0    0    0 R 66.6   0.0  29:21.66 [UVCG]
+13680 root          0 -20    0    0    0 R 35.8   0.0   3:27.21 [kworker/u33:2+uvcgadget]
+14708 root          0 -20    0    0    0 I 17.9   0.0   2:21.21 [kworker/u33:3-uvcgadget]
+ 1253 root         20   0  11G  46M  15M S 12.8   0.9   5:33.32 vendor.qti.hardware.umd-camera-service
+17089 root         20   0  10G 4.4M 4.0M S  0.0   0.0   0:00.03 grep -E UVCG|uvcgadget|umd
+10296 root          0 -20    0    0    0 I  0.0   0.0   5:07.05 [kworker/u33:4-uvcgadget]

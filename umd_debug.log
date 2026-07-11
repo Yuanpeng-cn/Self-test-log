@@ -1,0 +1,2212 @@
+07-08 11:24:40.146  1253  5760 I UmdCamera: Stream setup: 640x360@30.00 - YUYV
+07-08 11:24:40.150  1253  5760 D UmdCamera: Stream ON
+07-08 11:24:40.150  1253  5761 D UmdCamera: CAMERA_START
+07-08 11:24:40.151  1253  5761 D UmdCamera: Camera start
+07-08 11:24:40.153  1253  5761 I UmdVideoData: Initializing YUY2 processor
+07-08 11:24:40.157  1253  5761 I CameraAdaptor: ConfigureStreamsLocked: operation_mode: 0x0 
+07-08 11:24:40.647  1253  5761 I UmdCamera: Setting AE_TARGET_FPS_RANGE to [30, 30] in capture request
+07-08 11:24:40.858  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:40.891  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:40.917  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:40.918  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:40.919  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:40.920  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:40.958  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:40.986  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:40.987  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:40.992  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.023  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.023  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.059  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.095  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.104  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.104  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.122  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.122  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.159  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.190  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.190  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.198  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.227  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.227  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.260  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.289  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.289  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.295  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.322  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.323  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.360  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.393  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.393  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.396  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.420  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.420  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.461  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.495  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.501  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.501  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.523  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.523  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.528  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.565  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.565  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.595  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.624  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.624  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.632  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.653  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.653  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.696  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.724  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.724  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.731  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.756  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.756  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.797  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.830  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.832  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.837  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.856  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.856  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.897  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.926  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.927  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.934  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:41.956  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:41.956  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:41.998  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.032  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.042  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.042  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.058  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.058  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.099  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.124  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.124  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.132  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.166  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.171  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.171  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.196  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.197  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.202  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.232  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.232  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.233  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.262  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.262  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.271  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.300  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.310  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.310  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.335  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.336  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.339  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.360  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.360  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.369  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.402  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.407  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.407  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.436  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.439  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.439  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.466  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.466  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.467  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.494  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.494  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.501  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.535  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.535  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.543  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.561  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.561  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.568  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.597  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.597  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.602  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.636  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.636  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.638  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.662  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.662  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.669  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.701  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.702  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.703  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.728  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.728  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.736  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.770  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.772  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.772  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.799  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.799  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.804  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.838  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.839  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.841  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.866  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.866  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.872  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:42.903  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.903  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.904  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:42.936  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.938  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.940  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:42.969  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:42.969  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:42.971  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.001  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.001  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.005  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.034  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.034  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.038  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.067  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.067  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.073  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.105  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.108  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.115  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.135  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.135  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.140  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.169  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.169  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.184  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.207  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.207  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.208  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.237  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.239  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.240  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.268  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.268  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.273  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.302  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.302  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.309  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.339  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.339  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.341  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.372  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.372  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.377  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.403  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.407  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.408  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.441  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.441  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.443  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.474  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.474  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.474  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.510  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.510  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.511  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.535  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.535  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.542  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.569  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.569  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.575  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.605  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.605  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.609  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.642  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.665  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.665  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.677  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.677  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.679  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.708  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.708  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.718  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:43.743  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:43.746  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.746  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.777  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.778  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.779  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.804  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.804  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.810  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.844  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:43.845  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.850  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.876  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.876  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.882  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:43.908  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.908  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.911  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:43.942  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.942  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.946  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:43.974  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:43.974  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:43.978  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.005  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.006  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.012  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.045  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.048  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.049  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.074  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.075  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.080  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.110  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.110  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.115  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.140  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.140  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.146  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.175  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.175  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.181  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.211  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.211  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.213  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.241  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.246  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.247  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.281  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.282  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.281  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.310  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.310  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.315  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.341  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.342  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.347  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.375  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.375  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.381  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.406  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.408  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.414  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.440  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.440  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.448  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.481  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.484  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.484  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.511  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.511  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.516  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.551  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.551  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.554  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.579  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.579  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.585  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.615  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.615  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.624  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.645  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.645  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.650  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.678  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.678  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.685  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.715  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.715  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.720  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.747  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.747  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.750  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.783  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.783  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.785  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.814  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.814  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.818  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.845  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.845  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.852  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.879  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.883  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.885  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.916  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.916  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.920  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.946  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.946  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.951  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:44.979  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:44.979  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:44.985  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.012  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.012  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.024  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.049  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.049  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.052  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.083  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.083  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.085  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.115  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.115  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.119  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.150  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.150  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.153  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.184  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.184  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.186  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.215  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.215  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.225  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.248  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.248  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.254  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.282  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.282  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.288  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.321  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.326  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.327  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.352  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.352  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.357  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.384  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.384  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.389  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.420  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.420  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.422  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.452  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.453  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.456  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.489  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.493  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.493  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.514  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.514  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.522  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.552  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.552  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.556  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.584  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.584  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.593  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.622  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.622  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.625  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.656  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.658  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.658  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.685  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.685  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.695  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.720  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.720  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.723  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.756  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.756  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.759  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.788  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.788  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.795  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.817  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.817  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.824  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.853  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.853  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.859  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.891  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:45.915  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.915  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.921  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.921  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.925  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.953  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.958  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.959  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:45.989  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:45.989  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:45.991  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.020  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.020  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.026  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.052  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.053  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.059  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.087  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.087  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.094  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.119  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.119  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.127  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.159  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.161  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.161  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.189  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.189  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.193  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.225  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.225  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.227  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.257  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.257  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.261  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.293  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.293  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.294  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.322  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.322  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.327  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.361  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.363  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.363  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.388  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.388  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.394  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.422  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.423  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.428  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.454  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.454  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.462  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.489  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.489  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.497  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.529  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.534  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.534  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.563  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.565  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.565  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.593  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.593  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.597  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.622  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.622  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.629  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.663  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.663  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.665  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.698  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.698  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.699  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.728  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.728  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.730  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.763  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.763  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.765  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.797  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.797  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:46.797  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.828  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.828  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.832  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.860  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.860  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.865  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.898  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.898  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.898  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.924  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.924  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.931  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.962  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.962  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:46.981  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:46.997  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:46.997  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.000  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.030  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.030  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.032  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.060  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.060  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.066  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.092  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.092  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.099  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.128  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.128  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.133  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.161  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.161  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.168  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.195  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.195  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.200  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.228  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.228  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.235  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.269  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.278  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.278  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.303  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.306  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.306  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.328  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.328  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.335  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.360  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.364  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.367  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.397  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.398  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.403  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.430  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.430  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.436  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.461  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.461  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.468  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.494  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.494  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.502  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.527  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.527  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.535  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.564  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.564  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.582  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.603  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.603  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.606  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.635  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.635  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.636  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.666  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.667  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.670  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.700  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.700  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.704  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.737  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.737  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.740  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.767  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.767  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.771  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.804  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.808  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.808  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.833  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.833  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.838  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.869  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.869  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.872  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.905  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.908  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.908  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.937  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.937  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:47.939  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.972  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:47.974  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:47.974  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.005  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.007  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.007  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.038  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.038  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.042  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.071  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.071  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.072  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.101  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.101  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.106  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.136  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.136  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.140  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.168  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.168  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.174  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.203  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.203  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.207  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.237  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.238  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.243  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.271  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.272  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.274  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.306  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.306  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.307  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.341  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.341  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.345  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.371  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.371  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.375  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.403  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.403  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.408  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.436  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.436  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.442  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.468  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.469  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.476  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.508  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.509  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.510  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.542  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.542  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.544  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.576  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.576  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.578  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.603  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.603  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.610  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.639  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.639  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.644  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.676  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.676  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.678  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:48.712  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.712  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.713  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.744  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.739  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.746  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.777  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.780  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.780  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.812  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.813  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.813  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.845  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.846  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.846  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.875  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.878  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.879  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.907  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.907  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.912  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.945  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.945  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.950  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:48.976  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:48.976  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:48.983  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.010  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.011  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.012  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.043  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.043  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.047  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.073  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.073  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.081  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.113  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.113  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.115  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.141  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.141  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.148  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.174  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.174  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.180  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.208  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.208  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.213  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.247  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.258  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.258  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.281  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.284  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.284  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.307  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.307  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.314  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.348  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.352  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.352  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.378  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.379  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.384  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.413  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.413  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.416  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.445  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.445  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.449  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.478  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.478  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.483  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.518  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.518  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.519  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.547  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.547  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.550  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.577  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.577  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.583  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.616  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.622  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.623  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.646  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.646  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.652  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.677  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.677  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.683  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.708  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.708  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.717  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.742  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.742  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.750  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.776  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.776  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.785  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.815  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.816  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.820  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.845  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.846  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.852  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.885  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.881  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.886  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.916  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.917  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.919  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.953  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:49.955  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.955  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.980  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:49.980  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:49.987  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.015  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.015  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.020  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.051  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.051  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.053  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.084  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.084  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.089  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.115  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.115  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.120  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.148  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.149  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.153  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.179  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.179  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.187  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.216  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.216  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.224  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.247  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.247  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.264  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.279  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.280  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.287  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.316  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.316  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.321  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.352  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.352  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.366  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.383  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.383  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.388  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.421  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.421  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.423  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.453  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.453  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.455  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.485  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.485  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.492  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.517  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.517  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.523  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.551  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.552  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.558  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.585  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.585  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.590  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.625  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.630  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.630  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.652  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.652  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.657  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.691  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.693  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.693  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.723  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.723  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.737  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.750  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.755  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.757  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.785  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.785  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.791  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.824  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.824  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.828  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.854  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.854  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.860  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.890  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.890  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.893  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.922  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.922  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.927  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:50.952  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.953  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.960  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:50.995  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:50.995  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:50.996  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.024  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.024  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.026  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.057  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.057  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.061  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.089  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.089  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.094  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.124  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.124  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.127  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.156  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.156  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.160  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.189  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.193  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.194  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.223  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.223  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.229  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.255  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.255  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.261  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.290  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.290  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.295  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.326  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.326  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.329  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.354  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.354  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.361  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.389  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.389  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.397  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.427  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.427  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.429  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.457  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.457  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.463  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.493  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.493  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.498  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.524  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.525  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.529  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.558  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.559  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.563  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.591  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.591  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.596  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.627  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.627  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.632  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.658  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.659  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.664  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.696  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.696  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.697  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:51.725  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.726  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.732  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.759  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.759  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.764  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.793  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.793  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.798  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.826  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.826  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.833  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.858  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.859  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.865  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.892  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.892  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.899  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.930  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.930  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.935  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.968  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.968  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.969  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:51.994  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:51.999  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:51.999  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.031  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.032  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.033  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.061  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.061  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.067  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.098  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.098  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.100  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.131  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.133  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.143  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.164  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.167  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.175  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.196  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.196  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.200  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.233  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.233  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.235  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.266  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.266  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.271  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.302  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.302  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.305  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.326  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.327  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.335  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.366  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.366  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.371  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.398  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.399  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.406  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.430  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.430  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.436  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.462  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.462  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.469  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.499  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.499  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.504  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.531  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.531  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.537  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.567  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.567  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.570  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.600  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.600  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.605  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.633  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.633  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.637  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.667  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.667  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.671  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.700  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.704  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.708  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.733  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.733  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.737  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.769  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.769  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.771  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.797  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.797  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.804  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.828  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.829  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.838  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.864  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.864  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.880  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.898  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.898  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.907  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.939  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.951  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.951  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:52.974  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:52.974  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:52.974  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.001  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.001  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.006  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.040  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.040  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.041  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.068  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.068  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.075  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.107  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.108  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.109  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.135  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.136  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.142  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.172  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.172  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.174  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.202  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.202  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.208  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.237  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.237  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.245  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.269  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.269  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.274  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.304  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.304  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.310  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.335  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.336  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.342  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.371  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.372  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.376  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.404  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.404  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.409  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.437  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.437  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.443  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.477  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.478  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.480  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.506  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.506  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.509  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.537  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.537  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.545  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.574  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.574  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.578  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.610  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.612  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.612  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.644  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.645  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.646  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.672  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.672  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.677  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.704  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.705  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.711  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.737  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.737  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.744  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.771  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.771  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.778  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.805  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.805  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.813  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.844  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.844  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.845  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.874  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.875  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.881  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.909  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.909  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.914  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.941  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.941  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.947  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:53.977  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:53.977  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:53.980  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.010  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.010  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.016  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.044  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.044  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.051  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.076  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.076  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.080  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.113  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.113  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.120  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.147  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.149  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.149  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.181  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.183  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.183  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.214  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.215  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.216  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.241  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.241  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.248  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.274  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.274  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.282  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.311  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.311  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.315  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:54.349  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:54.353  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.353  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.379  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.380  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.384  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:54.410  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.410  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.416  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:54.443  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.443  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.449  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:54.476  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.476  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.483  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:54.511  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.511  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.516  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:54.550  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.550  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.551  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.577  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.578  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.584  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.614  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.615  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.618  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.648  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.648  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.654  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.680  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.680  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.684  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.715  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.715  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.718  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.747  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.747  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.752  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.783  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.783  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.785  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.815  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.816  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.818  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.848  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.849  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.852  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.882  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.882  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.886  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.919  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.919  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.923  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.949  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.949  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.953  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:54.978  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:54.978  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:54.986  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.012  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.018  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.020  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.049  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.049  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.055  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.084  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.084  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.091  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.120  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.120  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.122  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.149  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.149  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.154  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.183  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.183  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.187  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.219  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.219  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.221  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.255  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.255  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.256  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:55.283  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.283  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.288  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.318  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.318  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.322  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.356  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.356  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.358  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.386  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.390  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.390  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.416  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.416  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.422  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.448  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.448  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.456  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.481  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.481  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.489  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.520  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.520  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.529  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.552  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.552  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.557  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.585  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.585  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.590  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.624  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.624  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.624  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.656  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.657  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.658  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.692  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.692  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.695  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.722  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.722  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.729  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.755  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.755  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.759  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.787  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.788  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.792  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.819  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.819  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.827  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.857  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.857  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.859  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.886  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.886  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.898  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.926  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.941  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.942  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.961  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:55.968  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.968  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.987  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:55.987  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:55.994  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.021  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.021  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.027  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.057  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.057  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.062  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.093  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.093  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.095  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:56.128  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.131  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.131  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.160  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.160  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.162  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.193  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.193  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.199  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.229  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:56.229  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.230  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.256  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.256  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.261  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.288  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.288  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.296  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.324  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.324  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.330  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.360  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.360  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.363  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:56.393  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.393  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.396  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.429  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.433  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.433  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.456  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.456  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.463  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.490  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.490  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.498  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.524  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.525  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.530  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.560  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.560  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.567  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.593  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.593  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.599  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.627  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.627  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.633  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.661  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.661  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.665  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.694  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.694  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.698  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.729  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.729  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.733  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.762  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.762  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.765  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.797  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.797  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.799  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.826  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.826  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.832  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.867  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.865  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.870  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.896  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.896  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.901  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.933  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.937  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.938  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.965  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:56.972  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.972  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:56.998  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:56.998  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.000  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.027  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.027  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.032  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.063  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.063  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.066  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.091  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.091  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.098  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.129  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.129  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.134  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.162  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.163  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.166  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.194  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.194  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.199  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.232  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.232  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.235  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.261  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.261  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.265  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.297  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.297  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.298  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.332  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.342  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.342  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.359  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.359  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.365  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.394  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.395  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.399  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.424  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.424  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.432  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.459  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.459  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.466  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.492  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.492  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.499  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.531  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.531  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.538  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.565  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.567  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.568  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.599  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.601  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.601  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.629  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.629  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.633  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.658  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.659  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.665  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.692  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.692  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.698  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.732  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.732  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.732  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.759  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.759  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.766  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.800  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.803  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.803  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.830  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.830  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.835  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.860  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.860  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.865  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.891  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.891  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.899  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.930  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.930  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.932  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.960  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.961  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:57.967  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:57.997  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:57.998  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.003  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.030  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.030  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.032  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.060  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.060  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.065  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.098  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.098  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.101  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.129  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.129  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.133  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.165  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.165  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.165  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.192  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.193  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.198  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.224  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.228  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.231  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.258  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.259  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.265  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.294  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.294  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.299  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.330  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.330  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.333  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.365  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.367  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.367  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.398  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.401  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.401  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.430  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.430  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.432  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.462  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.462  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.469  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.498  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:24:58.501  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.501  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.530  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.530  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.535  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.561  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.561  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.567  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.596  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.596  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.598  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.627  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.627  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.632  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.660  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.660  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.665  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.695  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.696  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.700  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.727  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.727  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.731  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.760  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.761  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.765  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.796  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.796  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.801  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.828  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.828  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.832  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.859  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.859  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.867  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.897  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.897  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.899  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.930  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.930  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.933  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.965  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.965  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.967  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:58.993  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:58.993  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:58.998  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.028  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.032  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.032  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.065  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.065  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.067  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.098  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.100  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.100  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.128  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.128  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.132  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.159  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.159  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.165  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.193  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.193  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.199  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.231  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.231  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.240  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.261  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.263  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.265  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.299  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.303  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.303  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.332  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.332  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.335  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.365  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.366  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.366  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.397  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.397  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.398  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.426  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.426  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.431  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.464  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.465  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.466  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.493  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.493  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.498  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.531  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.534  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.534  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.565  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.567  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.567  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.592  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.592  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.599  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.625  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.625  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.631  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.663  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.663  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.666  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.692  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.692  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.698  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.729  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.729  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.733  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.763  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.763  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.766  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.794  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.794  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.799  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.832  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.834  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.834  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.863  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.865  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.865  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.897  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.897  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.899  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.926  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.926  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.932  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.962  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.962  1253  5761 D UmdCamera: Camera submit request
+07-08 11:24:59.966  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:24:59.999  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:24:59.999  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.003  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.025  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.025  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.031  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.066  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.071  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.071  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.092  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.092  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.098  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.128  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.128  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.133  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.159  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.159  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.167  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.198  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.203  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.203  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.229  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.229  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.233  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.259  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.259  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.265  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.292  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.293  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.298  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.330  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.330  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.334  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.358  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.358  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.364  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.391  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.391  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.398  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.425  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.425  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.431  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.464  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.464  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.467  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.496  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.496  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.498  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.528  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.528  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.534  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.565  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.567  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.567  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.593  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.593  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.599  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.629  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.629  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.631  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.663  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.663  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.666  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.694  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.694  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.698  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.726  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.726  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.731  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.756  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.756  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.764  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.794  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.794  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.799  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.824  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.825  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.831  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.858  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.858  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.865  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.894  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.895  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.900  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.928  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.928  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.933  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.960  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.962  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.964  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:00.991  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:00.991  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:00.999  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.024  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.024  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.031  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.059  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.061  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.064  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.091  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.091  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.097  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.127  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.127  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.131  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.161  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.161  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.168  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.191  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.191  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.198  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.230  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.230  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.236  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.265  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.268  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.268  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.292  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.292  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.298  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.328  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.328  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.332  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.363  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.363  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.366  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.391  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.391  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.398  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.426  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.426  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.431  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.457  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.457  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.464  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.493  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.493  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.498  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.525  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.525  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.531  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.566  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.568  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.568  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.598  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.604  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.604  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.631  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.638  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.638  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.657  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.657  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.665  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.693  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.694  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.700  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.730  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.730  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.739  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.764  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.764  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.766  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.795  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.795  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.798  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.827  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.827  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.832  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.861  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.862  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.867  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.900  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.900  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.900  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.931  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.935  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.936  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.960  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.960  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:01.964  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:01.998  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:01.998  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.000  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.030  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.030  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.032  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.062  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.062  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.065  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.094  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.094  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.099  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.127  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.127  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.135  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.158  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.159  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.164  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.196  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.196  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.198  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.227  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.227  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.231  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.263  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.263  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.265  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.291  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.291  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.297  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.330  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.330  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.334  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.357  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.357  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.365  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.393  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.393  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.401  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.426  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.426  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.431  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.456  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.456  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.464  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.495  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.495  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.504  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.526  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.526  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.531  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.560  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.560  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.565  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.594  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.594  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.600  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.631  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.635  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.635  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.661  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.661  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.664  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.695  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.699  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.703  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.732  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.735  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.735  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.764  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.764  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.765  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.795  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.795  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.800  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.825  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.825  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.831  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.862  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.863  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.867  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.897  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.897  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.898  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.924  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.925  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.931  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.956  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.956  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.964  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:02.994  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:02.994  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:02.998  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:03.026  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.026  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.031  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:03.058  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.058  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.064  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:03.093  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.093  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.099  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:03.130  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.130  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.136  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:03.164  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.164  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.164  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:03.192  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.192  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.199  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:03.225  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.225  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.230  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:03.265  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:03.267  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.271  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.294  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.294  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.299  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.326  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.326  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.331  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.358  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.359  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.371  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.389  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.389  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.397  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.423  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.423  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.430  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.462  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.463  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.465  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.489  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.489  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.499  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.528  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.528  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.530  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.562  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.562  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.568  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.592  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.592  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.597  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.628  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.628  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.631  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.663  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.663  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.668  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.691  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.691  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.697  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.727  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.727  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.732  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.764  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.765  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.765  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.790  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.790  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.797  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.823  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.824  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.830  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.858  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.858  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.865  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.891  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.891  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.897  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.931  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.933  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.933  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.957  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.957  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.964  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:03.996  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:03.996  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:03.999  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.028  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.028  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.031  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.064  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.067  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.067  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.097  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.097  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.098  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.126  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.126  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.131  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.163  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.163  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.163  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.192  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.192  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.197  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.228  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.228  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.232  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.264  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.266  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.266  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.293  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.293  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.298  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.327  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.327  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.331  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.360  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.360  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.364  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.393  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.394  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.398  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.424  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.424  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.430  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.458  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.458  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.464  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.491  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.491  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.497  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.530  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:04.532  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.532  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.563  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.563  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.566  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.593  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.594  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.599  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.629  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.629  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.631  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.659  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.659  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.664  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.697  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.701  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.701  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.726  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.726  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.732  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.758  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.758  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.764  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.793  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.793  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.797  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.824  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.824  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.831  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.858  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.858  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.866  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.890  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.890  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.897  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.929  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.929  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.933  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.964  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.965  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:04.966  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.997  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:04.997  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:04.998  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.025  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.025  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.031  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.064  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.064  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.067  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.094  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.094  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.097  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.128  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.129  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.131  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.162  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.164  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.166  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.194  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.194  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.200  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:05.227  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.230  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.232  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:05.262  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.262  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.265  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:05.293  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.293  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.300  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:05.326  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.326  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.330  1253  1253 D UmdCamera: ShutterCb 
+07-08 11:25:05.363  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.364  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.364  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.391  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.391  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.397  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.431  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.431  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.433  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.460  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.460  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.464  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.494  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.494  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.497  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.526  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.526  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.532  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.558  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.559  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.568  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.589  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.589  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.597  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.622  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.622  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.630  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.656  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.657  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.663  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.688  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.688  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.697  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.723  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.724  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.730  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.759  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.760  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.765  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.795  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.795  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.802  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.826  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.826  1253  5761 D UmdCamera: Camera submit request
+07-08 11:25:05.830  1253  1308 D UmdCamera: ShutterCb 
+07-08 11:25:05.859  1253  5761 D UmdCamera: CAMERA_SUBMIT_REQUEST
+07-08 11:25:05.860  1253  5761 D UmdCamera: Camera submit request

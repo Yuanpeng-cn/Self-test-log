@@ -1,3 +1,4 @@
+[  146.331190] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] prep_requests: nreq=534 req_size=7779 max_req_size=21504 uvc_num_requests=534 interval=666666 interval_duration=1250
 [  147.424854] [UVC-FPS-FIX] buf_prepare: bytesused=285880 req_payload_size=7779 req_size=7779 max_req_size=21504
 [  147.425433] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=1
 [  147.425795] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=2
@@ -6,3 +7,16 @@
 [  147.426500] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=5
 [  147.440891] [UVC-FPS-FIX] buf_prepare: bytesused=287364 req_payload_size=7779 req_size=7779 max_req_size=21504
 [  147.454027] [UVC-FPS-FIX] buf_prepare: bytesused=287826 req_payload_size=7779 req_size=7779 max_req_size=21504
+
+
+1|lahaina612:/ # dmesg | grep -i "speed"
+[   43.530884] xhci-pci-renesas 0001:04:00.0: Host supports USB 3.0 SuperSpeed
+[   43.763927] usb 1-1: new high-speed USB device number 2 using xhci-pci-renesas
+[   44.024875] usb 2-1: new SuperSpeed USB device number 2 using xhci-pci-renesas
+[   44.372863] usb 2-1.1: new SuperSpeed USB device number 3 using xhci-pci-renesas
+
+
+[  114.734444] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  114.745347] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  117.013598] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  117.022457] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out

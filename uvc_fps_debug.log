@@ -1,9 +1,9 @@
-[  182.241416] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] prep_requests: nreq=267 req_size=15545 max_req_size=21504 uvc_num_requests=267 interval=333333 interval_duration=1250
-[  183.487962] [UVC-FPS-FIX] buf_prepare: bytesused=242954 req_payload_size=21504 req_size=21504 max_req_size=21504
-[  183.488192] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=1
-[  183.488910] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=2
-[  183.498641] [UVC-FPS-FIX] buf_prepare: bytesused=243775 req_payload_size=21504 req_size=21504 max_req_size=21504
-[  183.499251] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=3
-[  183.499706] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=4
-[  183.507605] [UVC-FPS-FIX] buf_prepare: bytesused=247527 req_payload_size=21504 req_size=21504 max_req_size=21504
-[  183.508227] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=5
+[  338.833432] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] prep_requests: nreq=267 req_size=15545 max_req_size=21504 uvc_num_requests=267 interval=333333 interval_duration=1250
+[  339.827958] [UVC-FPS-FIX] buf_prepare: bytesused=315626 req_payload_size=21504 req_size=21504 max_req_size=21504
+[  339.828423] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=1
+[  339.828901] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=2
+[  339.835133] [UVC-FPS-FIX] buf_prepare: bytesused=316134 req_payload_size=21504 req_size=21504 max_req_size=21504
+[  339.835294] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=3
+[  339.836224] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=4
+[  339.886627] [UVC-FPS-FIX] buf_prepare: bytesused=314591 req_payload_size=21504 req_size=21504 max_req_size=21504
+[  339.887404] configfs-gadget.g1 gadget.0: uvc: [UVC-FPS-FIX] direct encode path active, count=5

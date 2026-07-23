@@ -1,4 +1,15 @@
 lahaina612:/ # dmesg | grep -iE "uvc|f_uvc|gadget" | tail -50
-[12097.283263] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 0)
-[12097.627742] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 1)
-[12097.627791] configfs-gadget.g1 gadget.0: uvc: reset UVC
+[  389.082702] dwc3 a600000.dwc3: Set IRQ thread:irq/139-dwc3 pid:6154 to SCHED_NORMAL (no UVC)
+[  390.942431] dwc3 a600000.dwc3: Set IRQ thread:irq/139-dwc3 pid:6193 to SCHED_NORMAL (no UVC)
+
+
+
+r:vendor_hal_usb_qti:s0 tcontext=u:object_r:vendor_sysfs_usb_controller:s0 tclass=file permissive=0
+[  389.084221] msm-usb-hsphy 88e3000.hsphy: Could not get usb psy
+[  389.208829] msm-usb-hsphy 88e3000.hsphy: Could not get usb psy
+[  389.240633] type=1400 audit(1783509386.062:517): avc:  denied  { read } for  comm="android.hardwar" name="current_speed" dev="sysfs" ino=135329 scontext=u:r:vendor_hal_usb_qti:s0 tcontext=u:object_r:vendor_sysfs_usb_controller:s0 tclass=file permissive=0
+[  390.944004] msm-usb-hsphy 88e3000.hsphy: Could not get usb psy
+[  391.073804] msm-usb-hsphy 88e3000.hsphy: Could not get usb psy
+[  391.109412] type=1400 audit(1783509387.930:519): avc:  denied  { read } for  comm="android.hardwar" name="current_speed" dev="sysfs" ino=135329 scontext=u:r:vendor_hal_usb_qti:s0 tcontext=u:object_r:vendor_sysfs_usb_controller:s0 tclass=file permissive=1
+[  391.109787] type=1400 audit(1783509387.930:520): avc:  denied  { open } for  comm="android.hardwar" path="/sys/devices/platform/soc/a600000.ssusb/a600000.dwc3/udc/a600000.dwc3/current_speed" dev="sysfs" ino=135329 scontext=u:r:vendor_hal_usb_qti:s0 tcontext=u:object_r:vendor_sysfs_usb_controller:s0 tclass=file permissive=1
+[  391.109946] type=1400 audit(1783509387.930:521): avc:  denied  { getattr } for  comm="android.hardwar" path="/sys/devices/platform/soc/a600000.ssusb/a600000.dwc3/udc/a600000.dwc3/current_speed" dev="sysfs" ino=135329 scontext=u:r:vendor_hal_usb_qti:s0 tcontext=u:object_r:vendor_sysfs_usb_controller:s0 tclass=file permissive=1

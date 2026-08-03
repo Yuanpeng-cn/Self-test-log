@@ -1,0 +1,46 @@
+[ 2685.866875][ T1607] kgsl kgsl-3d0: Preemption Fault: cur=2 R/W=0x74/0xd3, next=1 R/W=0x0/0xac
+[ 2685.876482][  T633] kgsl kgsl-3d0: cl_conformance_[1482]: gpu fault ctx 4 ctx_type CL ts 73 status 00E61015 rb 00af/00d3 ib1 0000004000383000/0000 ib2 0000000000000000/0000
+[ 2685.892038][  T633] kgsl kgsl-3d0: cl_conformance_[1482]: cmdline: ./cl_conformance_cts_c11_atomics
+[ 2685.901877][  T633] kgsl kgsl-3d0: cl_conformance_[1482]: gpu fault rb 2 rb sw r/w 00af/00d3
+[ 2686.030638][  T633] kgsl kgsl-3d0: GPU snapshot froze 64Kb of GPU buffers
+[ 2686.038026][  T633] kgsl kgsl-3d0: snapshot: Not enough memory for eventlog
+[ 2686.045538][  T633] kgsl kgsl-3d0: GPU snapshot created at pa a8500000++0xfa524
+[ 2686.060888][  T633] kgsl kgsl-3d0: cl_conformance_[1482]: gpu skipped ctx 4 ts 73
+[ 2706.857629][  T181] kgsl kgsl-3d0: Preemption Fault: cur=2 R/W=0xd3/0x132, next=1 R/W=0xac/0x107
+[ 2706.866926][  T633] kgsl kgsl-3d0: cl_conformance_[1482]: gpu fault ctx 3 ctx_type CL ts 73 status 00E61005 rb 010e/0132 ib1 0000004000383000/0000 ib2 0000000000000000/0000
+[ 2706.882461][  T633] kgsl kgsl-3d0: cl_conformance_[1482]: cmdline: ./cl_conformance_cts_c11_atomics
+[ 2706.891974][  T633] kgsl kgsl-3d0: cl_conformance_[1482]: gpu fault rb 2 rb sw r/w 010e/0132
+[ 2706.907136][  T633] kgsl kgsl-3d0: cl_conformance_[1482]: gpu skipped ctx 3 ts 73
+[ 2809.991667][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2810.343155][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2810.415270][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2810.421608][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2810.724558][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2811.493473][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2811.519369][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2811.889043][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2817.667240][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2818.585194][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2818.710777][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2818.842448][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2818.852309][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2819.090527][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2819.718094][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2820.082617][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2820.240666][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2825.870454][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2826.358941][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2827.817169][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2827.942133][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2835.025454][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2835.031744][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2835.211449][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2836.720303][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2836.774995][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2842.347857][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2843.257316][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2843.737039][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2843.814478][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2843.996930][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2844.251038][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access
+[ 2844.772561][    C0] kgsl kgsl-3d0: UCHE: Out of bounds access

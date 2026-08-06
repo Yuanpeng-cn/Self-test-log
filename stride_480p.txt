@@ -1,0 +1,22 @@
+07-31 12:38:36.876  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_com.qti.node.gpu0_OutputPortId0_ ] width=640, height=480, format=32, stride 1280 scanline 480 GetTotalSize 614400
+07-31 12:38:36.876  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId22_DisplayFull] width=640, height=480, format=12, stride 1024 scanline 480 GetTotalSize 749568
+07-31 12:38:36.876  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId22_DisplayFull] width=640, height=480, format=12, stride 1024 scanline 240 GetTotalSize 749568
+07-31 12:38:36.876  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId23_DisplayDS4] width=160, height=120, format=18, stride 768 scanline 64 GetTotalSize 49152
+07-31 12:38:36.876  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId24_DisplayDS16] width=40, height=30, format=18, stride 256 scanline 32 GetTotalSize 8192
+07-31 12:38:36.876  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId17_StatsHDRBE] width=294912, height=1, format=6, stride 294912 scanline 1 GetTotalSize 294912
+07-31 12:38:36.876  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId19_StatsTLBG] width=294912, height=1, format=6, stride 294912 scanline 1 GetTotalSize 294912
+07-31 12:38:36.876  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId21_StatsAWBBG] width=1382400, height=1, format=6, stride 1382400 scanline 1 GetTotalSize 1384448
+07-31 12:38:36.877  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId15_StatsIHIST] width=4096, height=1, format=6, stride 4096 scanline 1 GetTotalSize 4096
+07-31 12:38:36.877  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId18_StatsHDRBHIST] width=6144, height=1, format=6, stride 6144 scanline 1 GetTotalSize 8192
+07-31 12:38:36.877  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId16_StatsBHIST] width=32768, height=1, format=6, stride 32768 scanline 1 GetTotalSize 32768
+07-31 12:38:36.877  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId12_StatsRS] width=65536, height=1, format=6, stride 65536 scanline 1 GetTotalSize 65536
+07-31 12:38:36.877  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8294 CreateBufferManagers() BufferMgrCreate ,[YUY2_IFE0_OutputPortId20_StatsBF] width=11536, height=1, format=23,raw stride 92288 raw scanline 1 GetTotalSize 92288
+07-31 12:38:36.877  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IPE0_OutputPortId8_Display] width=640, height=480, format=3, stride 1024 scanline 512 GetTotalSize 786432
+07-31 12:38:36.878  1253  5763 I CamX    : [CORE_CFG]1253 5763 [MEMMGR ] camxnode.cpp:8309 CreateBufferManagers() BufferMgrCreate ,[YUY2_IPE0_OutputPortId8_Display] width=640, height=480, format=3, stride 1024 scanline 256 GetTotalSize 786432
+07-31 12:38:36.910  1264  1781 W SnapAlloc: Error in GetStrideInBytes
+07-31 12:38:36.967  1264  1781 W SnapAlloc: Error in GetStrideInBytes
+07-31 12:38:36.970  1264  1781 W SnapAlloc: Error in GetStrideInBytes
+07-31 12:38:36.972  1264  1781 W SnapAlloc: Error in GetStrideInBytes
+07-31 12:38:36.974  1264  1781 W SnapAlloc: Error in GetStrideInBytes
+07-31 12:38:36.980  1264  1781 W SnapAlloc: Error in GetStrideInBytes
+07-31 12:38:39.729  1264  1781 W SnapAlloc: Error in GetStrideInBytes

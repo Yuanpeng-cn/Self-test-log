@@ -1,3 +1,0 @@
-<6>[  114.600423][ T4147] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 0)
-<6>[  114.886683][ T4147] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 1)
-<6>[  114.886710][ T4147] configfs-gadget.g1 gadget.0: uvc: reset UVC

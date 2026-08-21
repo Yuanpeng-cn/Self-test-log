@@ -1,0 +1,66 @@
+<6>[ 4325.833334][    C3] [irq][0x1363f0b6de][04:19:11.550081] qca6750: [0:I:HIF] hif_pm_runtime_request_resume: request runtime PM resume, rtpm_dbgid(14,RTPM_ID_CE_INTR_HANDLER)
+<3>[ 4325.833517][    C3] [soft_i][0x1363f0c4e0][04:19:11.550268] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4325.833840][ T5130] [kworke][0x1363f0dd32][04:19:11.550592] qca6750: [5130:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+<6>[ 4325.836045][    C3] [soft_i][0x1363f1826e][04:19:11.552795] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+<6>[ 4325.836205][    C3] [soft_i][0x1363f18e99][04:19:11.552957] qca6750: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+<6>[ 4325.836226][    C3] [soft_i][0x1363f19034][04:19:11.552979] qca6750: [0:I:WMA] 00000000: d2 16 62 1f a1 e4 c0 3c 59 0c 11 f1 08 00 45 00
+<6>[ 4325.836244][    C3] [soft_i][0x1363f19194][04:19:11.552997] qca6750: [0:I:WMA] 00000010: 00 29 85 59 40 00 80 06 9d 34 c0 a8 2b 66 c0 a8
+<6>[ 4325.836260][    C3] [soft_i][0x1363f192d6][04:19:11.553014] qca6750: [0:I:WMA] 00000020: 2b 8a c0 6e 15 b3 23 14 2c d6 7f c4 bc 29 50 10
+<6>[ 4325.836276][    C3] [soft_i][0x1363f19410][04:19:11.553030] qca6750: [0:I:WMA] 00000030: 01 fb 73 9d 00 00 00
+<6>[ 4325.836408][    C3] [soft_i][0x1363f19dde][04:19:11.553161] qca6750: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 49262, dst_port: 5555
+<3>[ 4327.063706][    C3] [soft_i][0x1365592d1c][04:19:12.780458] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4327.066159][    C3] [soft_i][0x136559e501][04:19:12.782910] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+<6>[ 4327.066396][    C3] [soft_i][0x136559f6f8][04:19:12.783149] qca6750: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+<6>[ 4327.066463][    C3] [soft_i][0x136559fbf9][04:19:12.783216] qca6750: [0:I:WMA] 00000000: d2 16 62 1f a1 e4 c0 3c 59 0c 11 f1 08 00 45 00
+<6>[ 4327.066482][    C3] [soft_i][0x136559fd6e][04:19:12.783235] qca6750: [0:I:WMA] 00000010: 00 29 85 5a 40 00 80 06 9d 33 c0 a8 2b 66 c0 a8
+<6>[ 4327.066499][    C3] [soft_i][0x136559feb4][04:19:12.783252] qca6750: [0:I:WMA] 00000020: 2b 8a c0 6e 15 b3 23 14 2c d6 7f c4 bc 29 50 10
+<6>[ 4327.066515][    C3] [soft_i][0x136559ffe6][04:19:12.783268] qca6750: [0:I:WMA] 00000030: 01 fb 73 9d 00 00 00
+<6>[ 4327.066636][    C3] [soft_i][0x13655a08f8][04:19:12.783389] qca6750: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 49262, dst_port: 5555
+<3>[ 4328.290945][    C3] [soft_i][0x1366c0b7fa][04:19:14.007696] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<3>[ 4329.521793][    C3] [soft_i][0x13682951a1][04:19:15.238544] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4329.522136][ T5157] [kworke][0x1368296b67][04:19:15.238888] qca6750: [5157:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+<6>[ 4329.524313][    C3] [soft_i][0x13682a0e83][04:19:15.241063] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+<6>[ 4329.524516][    C3] [soft_i][0x13682a1def][04:19:15.241268] qca6750: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+<6>[ 4329.524536][    C3] [soft_i][0x13682a1f83][04:19:15.241289] qca6750: [0:I:WMA] 00000000: d2 16 62 1f a1 e4 c0 3c 59 0c 11 f1 08 00 45 00
+<6>[ 4329.524554][    C3] [soft_i][0x13682a20d1][04:19:15.241307] qca6750: [0:I:WMA] 00000010: 00 29 85 5c 40 00 80 06 9d 31 c0 a8 2b 66 c0 a8
+<6>[ 4329.524570][    C3] [soft_i][0x13682a2212][04:19:15.241323] qca6750: [0:I:WMA] 00000020: 2b 8a c0 6e 15 b3 23 14 2c d6 7f c4 bc 29 50 10
+<6>[ 4329.524586][    C3] [soft_i][0x13682a234a][04:19:15.241340] qca6750: [0:I:WMA] 00000030: 01 fb 73 9d 00 00 00
+<6>[ 4329.524683][    C3] [soft_i][0x13682a2a8e][04:19:15.241437] qca6750: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 49262, dst_port: 5555
+<6>[ 4331.774970][    C3] [soft_i][0x136abd6dd0][04:19:17.491720] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+<6>[ 4331.775161][    C3] [soft_i][0x136abd7c5e][04:19:17.491914] qca6750: [0:I:WMA] 00000000: d2 16 62 1f a1 e4 c0 3c 59 0c 11 f1 08 00 45 00
+<6>[ 4331.775195][    C3] [soft_i][0x136abd7ef5][04:19:17.491949] qca6750: [0:I:WMA] 00000020: 2b 8a c0 6e 15 b3 23 14 2c d6 7f c4 bc 29 50 10
+<6>[ 4331.775339][    C3] [soft_i][0x136abd89bb][04:19:17.492092] qca6750: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 49262, dst_port: 5555
+<3>[ 4333.010834][    C3] [soft_i][0x136c277fb0][04:19:18.727585] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4333.011114][ T5157] [kworke][0x136c2794cf][04:19:18.727867] qca6750: [5157:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+<6>[ 4333.013355][    C3] [soft_i][0x136c283cc5][04:19:18.730106] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+<6>[ 4333.013623][    C3] [soft_i][0x136c28510a][04:19:18.730376] qca6750: [0:I:WMA] 00000030: 01 fb 73 9d 00 00 00
+<3>[ 4334.232796][    C3] [soft_i][0x136d8d7ed5][04:19:19.949547] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4335.478720][ T1257] CAM_INFO: CAM-SENSOR: cam_sensor_driver_cmd: 1193: CAM_STOP_DEV Success, sensor_id:0x577,sensor_slave_addr:0x34 
+<6>[ 4335.479337][ T1257] CAM_INFO: CAM-CSIPHY: cam_csiphy_core_cfg: 1371: CAM_STOP_PHYDEV: CSIPHY_IDX: 3, Device_slot: 0, Datarate: 996000000, Settletime: 2200000000 
+<6>[ 4335.479587][ T1257] CAM_INFO: CAM-ISP: cam_ife_mgr_release_hw: 5083: Release HW success ctx id: 1 
+<6>[ 4335.619851][ T5241] CAM_INFO: CAM-HFI: cam_hfi_resume: 656: Resume IO1 : [0x10c00000 0xcf300000] IO2 [0x0 0x0] 
+<6>[ 4335.688817][ T5236] CAM_INFO: CAM-ISP: cam_ife_csid_cid_reserve: 877: Hw version is 165_100 
+<6>[ 4335.688859][ T5236] CAM_INFO: CAM-ISP: cam_ife_csid_cid_reserve: 877: Hw version is 165_100 
+<6>[ 4335.688946][ T5236] CAM_INFO: CAM-ISP: cam_ife_hw_mgr_print_acquire_info: 895: Acquired single IFE[0 -1] with [16 pix] [0 pd] [1 rdi] ports for ctx:2 
+<6>[ 4335.947281][ T5173] CAM_INFO: CAM-CRM: __cam_req_mgr_find_dev_name: 237: Skip Frame: req: 7 not ready on link: 0xec0313 for pd: 2 dev: cam-sensor open_req count: 1 
+<6>[ 4336.689815][    C3] [irq][0x13705d5295][04:19:22.406558] qca6750: [0:I:HIF] hif_pm_runtime_request_resume: request runtime PM resume, rtpm_dbgid(14,RTPM_ID_CE_INTR_HANDLER)
+<3>[ 4336.690032][    C3] [soft_i][0x13705d63b4][04:19:22.406785] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4336.971725][ T5173] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4336:941413 cur 4336:962498 diff 21: threshold 5 
+<6>[ 4340.601344][ T5132] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4340:560359 cur 4340:592118 diff 31: threshold 5 
+<4>[ 4343.001412][  T165] cam_common_util_thread_switch_delay_detect: 2 callbacks suppressed
+<6>[ 4344.685275][ T5055] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4344:664409 cur 4344:676036 diff 11: threshold 5 
+<6>[ 4346.535598][ T5173] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4346:505303 cur 4346:526374 diff 21: threshold 5 
+<6>[ 4354.845280][ T5155] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4354:824588 cur 4354:836059 diff 11: threshold 5 
+<4>[ 4356.000555][ T5155] cam_common_util_thread_switch_delay_detect: 1 callbacks suppressed
+<6>[ 4357.170790][ T5050] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4357:139211 cur 4357:161562 diff 22: threshold 5 
+<4>[ 4358.235848][ T5050] cam_common_util_thread_switch_delay_detect: 2 callbacks suppressed
+<6>[ 4358.235879][ T5050] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4358:200003 cur 4358:226629 diff 26: threshold 5 
+<6>[ 4360.603823][ T5050] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4360:566181 cur 4360:594594 diff 28: threshold 5 
+<6>[ 4361.641511][ T5155] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4361:609725 cur 4361:632283 diff 22: threshold 5 
+<4>[ 4363.766688][ T5152] cam_common_util_thread_switch_delay_detect: 1 callbacks suppressed
+<6>[ 4363.766717][ T5152] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4363:732167 cur 4363:757470 diff 25: threshold 5 
+<6>[ 4368.249299][ T5155] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4368:229537 cur 4368:240058 diff 10: threshold 5 
+<4>[ 4371.479650][ T5155] cam_common_util_thread_switch_delay_detect: 1 callbacks suppressed
+<6>[ 4371.479672][ T5155] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4371:459659 cur 4371:470434 diff 10: threshold 5 
+<6>[ 4373.077301][ T5155] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4373:057844 cur 4373:068059 diff 10: threshold 5 
+<3>[ 4381.745685][    C3] [soft_i][0x13a3ed4985][04:20:07.462436] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up

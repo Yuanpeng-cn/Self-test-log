@@ -1,137 +1,87 @@
-<12>[   97.373388][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[   97.373445][  T369] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
-<12>[   97.373475][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<14>[   97.562579][  T445] servicemanager: Caller(pid=4414,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<14>[   98.567473][  T445] servicemanager: Caller(pid=4414,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<6>[   98.787094][   T15] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 98:743354 cur 98:778264 diff 34: threshold 5 
-<14>[   99.571351][  T445] servicemanager: Caller(pid=4414,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<14>[  100.577191][  T445] servicemanager: Caller(pid=4414,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  100.580510][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<4>[  100.672837][  T187] cam_common_util_thread_switch_delay_detect: 2 callbacks suppressed
-<14>[  101.585618][ T4468] servicemanager: Caller(pid=4414,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<6>[  102.015279][  T187] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 101:982382 cur 102:006456 diff 24: threshold 5 
-<12>[  102.375713][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  102.375775][  T369] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
-<12>[  102.375809][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<14>[  102.596941][  T445] servicemanager: Caller(pid=4414,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  102.599615][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  102.600064][ T4473] servicemanager: Caller(pid=4414,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<6>[  102.623650][   T67] binder: undelivered TRANSACTION_COMPLETE
-<6>[  102.623659][   T67] binder: undelivered transaction 69666, process died.
-<38>[  102.630523][  T467] type=1400 audit(1785501027.262:44): avc:  denied  { call } for  comm="EventHandlerThr" scontext=u:r:system_server:s0 tcontext=u:r:vendor_hal_snapx_default:s0 tclass=binder permissive=1
-<14>[  102.739000][  T445] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  102.741084][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  102.741453][ T4488] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<6>[  103.096907][ T3731] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 103:079800 cur 103:088109 diff 8: threshold 5 
-<12>[  103.376127][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<11>[  104.748355][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<12>[  105.378229][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  105.378447][  T369] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
-<12>[  105.378481][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<14>[  105.753611][ T4494] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<6>[  108.216895][  T142] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 108:174834 cur 108:208097 diff 33: threshold 5 
-<12>[  108.379552][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<11>[  108.763249][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  109.763460][  T445] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<6>[  110.278843][ T4442] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 110:262267 cur 110:270050 diff 7: threshold 5 
-<14>[  110.767270][  T445] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  110.769705][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  110.771589][ T4499] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<12>[  111.380711][  T369] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
-<14>[  111.771095][  T445] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  111.773497][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  111.774375][ T4500] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<14>[  112.774207][  T445] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  112.776630][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<12>[  113.381939][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  113.381988][  T369] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
-<12>[  113.382015][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<14>[  113.777344][  T445] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  113.779382][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  113.780593][ T4502] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<14>[  116.789628][  T445] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  116.792195][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<4>[  117.116849][ T4442] cam_common_util_thread_switch_delay_detect: 1 callbacks suppressed
-<6>[  117.116890][ T4442] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 117:085186 cur 117:108061 diff 22: threshold 5 
-<12>[  117.384771][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  117.385608][  T369] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
-<12>[  117.385644][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<14>[  117.797991][ T4509] servicemanager: Caller(pid=4474,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<14>[  117.959079][  T445] servicemanager: Caller(pid=4510,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  117.960681][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<12>[  118.386297][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  118.386388][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<12>[  119.386665][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<6>[  119.408927][ T4442] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 119:391105 cur 119:400086 diff 8: threshold 5 
-<6>[  120.684489][  T187] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 120:666059 cur 120:675677 diff 9: threshold 5 
-<14>[  120.972398][  T445] servicemanager: Caller(pid=4510,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  120.975740][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  121.975928][  T445] servicemanager: Caller(pid=4510,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  121.978207][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  121.978840][ T4528] servicemanager: Caller(pid=4510,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<12>[  123.389250][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  123.389323][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<11>[  124.987897][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  124.988242][ T4531] servicemanager: Caller(pid=4510,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<6>[  126.038161][  T142] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 125:995137 cur 126:029340 diff 34: threshold 5 
-<12>[  126.390592][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  126.390657][  T369] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
-<12>[  126.390690][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<11>[  127.998678][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<12>[  128.392477][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<11>[  129.004050][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  129.005127][ T4535] servicemanager: Caller(pid=4510,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<11>[  130.007371][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  130.009034][ T4536] servicemanager: Caller(pid=4510,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<14>[  131.007864][  T445] servicemanager: Caller(pid=4510,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  131.010782][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  131.011383][ T4537] servicemanager: Caller(pid=4510,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<6>[  131.088408][ T1245] reg_get_psoc_obj: return psoc_priv_obj=00000000c5cac9b7
-<6>[  131.692522][ T4442] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 131:674452 cur 131:683724 diff 9: threshold 5 
-<14>[  132.011318][  T445] servicemanager: Caller(pid=4510,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<14>[  134.140277][  T445] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  134.141927][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  134.142437][ T4570] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<6>[  134.646708][   T96] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 134:628675 cur 134:637883 diff 9: threshold 5 
-<14>[  135.145011][  T445] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  135.146965][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  135.147721][ T4574] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<38>[  135.539079][  T467] type=1400 audit(1785501060.170:47): avc:  denied  { call } for  comm="EventHandlerThr" scontext=u:r:system_server:s0 tcontext=u:r:vendor_hal_snapx_default:s0 tclass=binder permissive=1
-<14>[  136.148466][  T445] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  136.151388][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<12>[  136.398803][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  136.398852][  T369] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
-<12>[  136.398881][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<14>[  137.152037][  T445] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<14>[  138.157573][  T445] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  138.160534][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  138.162130][ T4580] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<12>[  138.400174][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  138.400290][  T369] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
-<12>[  138.400325][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<12>[  139.400644][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<14>[  140.164145][  T445] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<11>[  140.166306][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  140.167128][ T4582] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<4>[  141.112869][   T96] cam_common_util_thread_switch_delay_detect: 2 callbacks suppressed
-<12>[  141.401474][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  141.401567][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<11>[  142.170736][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  143.171517][  T445] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<14>[  146.181201][ T4588] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<12>[  147.403136][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  147.403179][  T369] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
-<12>[  147.403210][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
-<11>[  148.185597][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 445 (/system/bin/servicemanager)
-<14>[  148.185936][ T4593] servicemanager: Caller(pid=4555,uid=1027,sid=u:r:nfc:s0) Tried to start aidl service android.hardware.nfc.INfc/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
-<14>[  148.312077][  T445] servicemanager: Caller(pid=4594,uid=1027,sid=u:r:nfc:s0) Since 'android.hardware.nfc.INfc/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
-<3>[  148.378301][    C1] [soft_i][0xb67185c3][12:31:13.013356] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
-<6>[  148.378597][  T123] [kworke][0xb6719c0d][12:31:13.013653] qca6750: [123:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
-<6>[  148.380709][    C1] [soft_i][0xb6723a62][12:31:13.015764] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
-<6>[  148.380993][    C1] [soft_i][0xb6724fc4][12:31:13.016049] qca6750: [0:I:WMA] wma_wake_event_packet: Wake event packet:
-<6>[  148.381014][    C1] [soft_i][0xb6725169][12:31:13.016071] qca6750: [0:I:WMA] 00000000: 7a b7 7e a3 fc 2d c0 3c 59 0c 11 f1 08 00 45 00
-<6>[  148.381033][    C1] [soft_i][0xb67252cc][12:31:13.016090] qca6750: [0:I:WMA] 00000010: 00 29 ca 72 40 00 80 06 57 dd c0 a8 2b 66 c0 a8
-<6>[  148.381050][    C1] [soft_i][0xb672541d][12:31:13.016107] qca6750: [0:I:WMA] 00000020: 2b c8 e6 4a 15 b3 02 54 bc 6b ca 0c 9a 5c 50 10
-<6>[  148.381067][    C1] [soft_i][0xb672555a][12:31:13.016124] qca6750: [0:I:WMA] 00000030: 01 fb b6 32 00 00 00
-<12>[  148.403467][  T369] NfcConfService: NXP device node /dev/nq-nci not yet available.
-<12>[  148.403527][  T369] NfcConfService: STM device node /dev/st21nfc not yet available.
+<6>[ 4226.301938][    C3] [irq][0x12f2092025][04:17:32.018685] qca6750: [0:I:HIF] hif_pm_runtime_request_resume: request runtime PM resume, rtpm_dbgid(14,RTPM_ID_CE_INTR_HANDLER)
+<6>[ 4226.302381][ T5157] [kworke][0x12f20941dc][04:17:32.019134] qca6750: [5157:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+<6>[ 4226.304883][    C3] [soft_i][0x12f209fd93][04:17:32.021637] qca6750: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 49262, dst_port: 5555
+<6>[ 4227.533483][    C3] [soft_i][0x12f371ee79][04:17:33.250236] qca6750: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+<6>[ 4227.533504][    C3] [soft_i][0x12f371f025][04:17:33.250258] qca6750: [0:I:WMA] 00000000: d2 16 62 1f a1 e4 c0 3c 59 0c 11 f1 08 00 45 00
+<6>[ 4227.533521][    C3] [soft_i][0x12f371f170][04:17:33.250275] qca6750: [0:I:WMA] 00000010: 00 29 85 05 40 00 80 06 9d 88 c0 a8 2b 66 c0 a8
+<6>[ 4227.533538][    C3] [soft_i][0x12f371f2b2][04:17:33.250292] qca6750: [0:I:WMA] 00000020: 2b 8a c0 6e 15 b3 23 14 2c d6 7f c4 bc 29 50 10
+<6>[ 4227.533554][    C3] [soft_i][0x12f371f3ea][04:17:33.250308] qca6750: [0:I:WMA] 00000030: 01 fb 73 9d 00 00 00
+<3>[ 4228.760021][    C3] [soft_i][0x12f4d944ba][04:17:34.476772] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4228.760315][ T5157] [kworke][0x12f4d95aea][04:17:34.477068] qca6750: [5157:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+<6>[ 4228.762447][    C3] [soft_i][0x12f4d9fa97][04:17:34.479197] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+<6>[ 4228.762737][    C3] [soft_i][0x12f4da108d][04:17:34.479490] qca6750: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+<6>[ 4228.762759][    C3] [soft_i][0x12f4da1235][04:17:34.479512] qca6750: [0:I:WMA] 00000000: d2 16 62 1f a1 e4 c0 3c 59 0c 11 f1 08 00 45 00
+<6>[ 4228.762776][    C3] [soft_i][0x12f4da1389][04:17:34.479530] qca6750: [0:I:WMA] 00000010: 00 29 85 06 40 00 80 06 9d 87 c0 a8 2b 66 c0 a8
+<6>[ 4228.762793][    C3] [soft_i][0x12f4da14c9][04:17:34.479546] qca6750: [0:I:WMA] 00000020: 2b 8a c0 6e 15 b3 23 14 2c d6 7f c4 bc 29 50 10
+<6>[ 4228.762808][    C3] [soft_i][0x12f4da15f8][04:17:34.479562] qca6750: [0:I:WMA] 00000030: 01 fb 73 9d 00 00 00
+<6>[ 4229.991088][    C3] [soft_i][0x12f641eea0][04:17:35.707838] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+<6>[ 4229.991302][    C3] [soft_i][0x12f641feeb][04:17:35.708055] qca6750: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+<6>[ 4229.991323][    C3] [soft_i][0x12f642008d][04:17:35.708077] qca6750: [0:I:WMA] 00000000: d2 16 62 1f a1 e4 c0 3c 59 0c 11 f1 08 00 45 00
+<6>[ 4229.991340][    C3] [soft_i][0x12f64201d5][04:17:35.708094] qca6750: [0:I:WMA] 00000010: 00 29 85 07 40 00 80 06 9d 86 c0 a8 2b 66 c0 a8
+<6>[ 4229.991373][    C3] [soft_i][0x12f642044b][04:17:35.708127] qca6750: [0:I:WMA] 00000030: 01 fb 73 9d 00 00 00
+<3>[ 4231.219310][    C3] [soft_i][0x12f7a9c365][04:17:36.936061] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4231.221952][    C3] [soft_i][0x12f7aa89b7][04:17:36.938705] qca6750: [0:I:WMA] 00000020: 2b 8a c0 6e 15 b3 23 14 2c d6 7f c4 bc 29 50 10
+<6>[ 4231.222087][    C3] [soft_i][0x12f7aa93d8][04:17:36.938840] qca6750: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 49262, dst_port: 5555
+<6>[ 4232.449035][    C3] [soft_i][0x12f9120728][04:17:38.165765] qca6750: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 49262, dst_port: 5555
+<6>[ 4233.678256][    C3] [soft_i][0x12fa7a2844][04:17:39.395006] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+<6>[ 4234.630750][ T1257] CAM_INFO: CAM-ISP: cam_ife_mgr_release_hw: 5083: Release HW success ctx id: 0 
+<6>[ 4234.739840][ T5189] CAM_INFO: CAM-HFI: cam_hfi_resume: 656: Resume IO1 : [0x10c00000 0xcf300000] IO2 [0x0 0x0] 
+<6>[ 4234.759700][ T1257] CAM_INFO: CAM-ISP: cam_ife_csid_cid_reserve: 877: Hw version is 165_100 
+<6>[ 4234.759748][ T1257] CAM_INFO: CAM-ISP: cam_ife_hw_mgr_print_acquire_info: 895: Acquired single IFE[0 -1] with [11 pix] [0 pd] [0 rdi] ports for ctx:1 
+<6>[ 4234.767602][ T1257] CAM_INFO: CAM-SENSOR: cam_sensor_driver_cmd: 1165: CAM_START_DEV Success, sensor_id:0x577,sensor_slave_addr:0x34 
+<6>[ 4234.906842][    C3] [irq][0x12fbe21736][04:17:40.623580] qca6750: [0:I:HIF] hif_pm_runtime_request_resume: request runtime PM resume, rtpm_dbgid(14,RTPM_ID_CE_INTR_HANDLER)
+<3>[ 4234.907020][    C3] [soft_i][0x12fbe225ab][04:17:40.623772] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4234.907410][ T5157] [kworke][0x12fbe2430d][04:17:40.624163] qca6750: [5157:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+<6>[ 4234.910253][    C3] [soft_i][0x12fbe31841][04:17:40.627006] qca6750: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+<6>[ 4234.910276][    C3] [soft_i][0x12fbe319fe][04:17:40.627029] qca6750: [0:I:WMA] 00000000: d2 16 62 1f a1 e4 c0 3c 59 0c 11 f1 08 00 45 00
+<6>[ 4234.910294][    C3] [soft_i][0x12fbe31b54][04:17:40.627047] qca6750: [0:I:WMA] 00000010: 00 29 85 0b 40 00 80 06 9d 82 c0 a8 2b 66 c0 a8
+<6>[ 4234.910310][    C3] [soft_i][0x12fbe31c99][04:17:40.627064] qca6750: [0:I:WMA] 00000020: 2b 8a c0 6e 15 b3 23 14 2c d6 7f c4 bc 29 50 10
+<6>[ 4234.910380][    C3] [soft_i][0x12fbe31dd4][04:17:40.627080] qca6750: [0:I:WMA] 00000030: 01 fb 73 9d 00 00 00
+<6>[ 4234.910485][    C3] [soft_i][0x12fbe329af][04:17:40.627238] qca6750: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 49262, dst_port: 5555
+<6>[ 4236.132738][    C3] [irq][0x12fd493de8][04:17:41.849482] qca6750: [0:I:HIF] hif_pm_runtime_request_resume: request runtime PM resume, rtpm_dbgid(14,RTPM_ID_CE_INTR_HANDLER)
+<3>[ 4236.132866][    C3] [soft_i][0x12fd494845][04:17:41.849620] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4236.133185][ T5157] [kworke][0x12fd495dd4][04:17:41.849907] qca6750: [5157:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+<6>[ 4236.135527][    C3] [soft_i][0x12fd4a0f31][04:17:41.852272] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+<6>[ 4236.135685][    C3] [soft_i][0x12fd4a1bc4][04:17:41.852440] qca6750: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+<6>[ 4236.135702][    C3] [soft_i][0x12fd4a1d0b][04:17:41.852457] qca6750: [0:I:WMA] 00000000: d2 16 62 1f a1 e4 c0 3c 59 0c 11 f1 08 00 45 00
+<6>[ 4236.135715][    C3] [soft_i][0x12fd4a1e0d][04:17:41.852470] qca6750: [0:I:WMA] 00000010: 00 29 85 0c 40 00 80 06 9d 81 c0 a8 2b 66 c0 a8
+<6>[ 4236.135728][    C3] [soft_i][0x12fd4a1f04][04:17:41.852483] qca6750: [0:I:WMA] 00000020: 2b 8a c0 6e 15 b3 23 14 2c d6 7f c4 bc 29 50 10
+<6>[ 4236.135740][    C3] [soft_i][0x12fd4a1ff2][04:17:41.852495] qca6750: [0:I:WMA] 00000030: 01 fb 73 9d 00 00 00
+<6>[ 4236.135844][    C3] [soft_i][0x12fd4a27bb][04:17:41.852599] qca6750: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 49262, dst_port: 5555
+<6>[ 4237.366929][    C3] [soft_i][0x12feb2d297][04:17:43.083677] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+<6>[ 4237.367146][    C3] [soft_i][0x12feb2e338][04:17:43.083899] qca6750: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+<6>[ 4237.367169][    C3] [soft_i][0x12feb2e4ee][04:17:43.083922] qca6750: [0:I:WMA] 00000000: d2 16 62 1f a1 e4 c0 3c 59 0c 11 f1 08 00 45 00
+<6>[ 4237.367186][    C3] [soft_i][0x12feb2e647][04:17:43.083940] qca6750: [0:I:WMA] 00000010: 00 29 85 0d 40 00 80 06 9d 80 c0 a8 2b 66 c0 a8
+<6>[ 4237.367203][    C3] [soft_i][0x12feb2e78a][04:17:43.083956] qca6750: [0:I:WMA] 00000020: 2b 8a c0 6e 15 b3 23 14 2c d6 7f c4 bc 29 50 10
+<6>[ 4237.367220][    C3] [soft_i][0x12feb2e8cb][04:17:43.083973] qca6750: [0:I:WMA] 00000030: 01 fb 73 9d 00 00 00
+<6>[ 4237.367318][    C3] [soft_i][0x12feb2f018][04:17:43.084070] qca6750: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 49262, dst_port: 5555
+<3>[ 4239.821476][    C3] [soft_i][0x130181edc9][04:17:45.538226] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4242.280803][    C3] [irq][0x1304526d6e][04:17:47.997530] qca6750: [0:I:HIF] hif_pm_runtime_request_resume: request runtime PM resume, rtpm_dbgid(14,RTPM_ID_CE_INTR_HANDLER)
+<3>[ 4242.281021][    C3] [soft_i][0x1304527fd8][04:17:47.997774] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4243.505820][    C3] [irq][0x1305b952da][04:17:49.222562] qca6750: [0:I:HIF] hif_pm_runtime_request_resume: request runtime PM resume, rtpm_dbgid(14,RTPM_ID_CE_INTR_HANDLER)
+<6>[ 4243.506288][ T5130] [kworke][0x1305b976e5][04:17:49.223041] qca6750: [5130:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+<6>[ 4243.508892][    C3] [soft_i][0x1305ba3a2d][04:17:49.225645] qca6750: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+<6>[ 4243.508932][    C3] [soft_i][0x1305ba3d3c][04:17:49.225686] qca6750: [0:I:WMA] 00000010: 00 29 85 12 40 00 80 06 9d 7b c0 a8 2b 66 c0 a8
+<6>[ 4243.508965][    C3] [soft_i][0x1305ba3fb7][04:17:49.225719] qca6750: [0:I:WMA] 00000030: 01 fb 73 9d 00 00 00
+<6>[ 4244.602084][ T5055] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4244:555806 cur 4244:592853 diff 37: threshold 5 
+<6>[ 4245.758343][    C3] [irq][0x13084d3e56][04:17:51.475088] qca6750: [0:I:HIF] hif_pm_runtime_request_resume: request runtime PM resume, rtpm_dbgid(14,RTPM_ID_CE_INTR_HANDLER)
+<3>[ 4245.758608][    C3] [soft_i][0x13084d4f00][04:17:51.475309] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<4>[ 4246.948131][ T5050] cam_common_util_thread_switch_delay_detect: 1 callbacks suppressed
+<6>[ 4249.337576][ T5173] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4249:305058 cur 4249:328304 diff 23: threshold 5 
+<4>[ 4251.304836][ T5152] cam_common_util_thread_switch_delay_detect: 1 callbacks suppressed
+<6>[ 4251.304871][ T5152] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4251:271416 cur 4251:295618 diff 24: threshold 5 
+<4>[ 4254.129283][ T5055] cam_common_util_thread_switch_delay_detect: 2 callbacks suppressed
+<6>[ 4257.769337][ T5152] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4257:736696 cur 4257:760102 diff 23: threshold 5 
+<6>[ 4270.633327][ T5050] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4270:600671 cur 4270:624096 diff 23: threshold 5 
+<4>[ 4272.966512][ T5152] cam_common_util_thread_switch_delay_detect: 1 callbacks suppressed
+<6>[ 4279.941476][ T5152] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4279:924710 cur 4279:932169 diff 7: threshold 5 
+<4>[ 4284.837749][ T5050] cam_common_util_thread_switch_delay_detect: 1 callbacks suppressed
+<6>[ 4284.837780][ T5050] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4284:820956 cur 4284:828532 diff 7: threshold 5 
+<6>[ 4286.356575][  T165] CAM_WARN: CAM-UTIL: cam_common_util_thread_switch_delay_detect: 162: CRM workq schedule delay detected 4286:312599 cur 4286:347348 diff 34: threshold 5 
+<4>[ 4290.089314][  T165] cam_common_util_thread_switch_delay_detect: 2 callbacks suppressed
+<3>[ 4295.319348][    C3] [soft_i][0x1341051236][04:18:41.036099] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up
+<6>[ 4295.321826][    C3] [soft_i][0x134105cc14][04:18:41.038577] qca6750: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+<6>[ 4295.322005][    C3] [soft_i][0x134105d9ad][04:18:41.038758] qca6750: [0:I:WMA] 00000000: d2 16 62 1f a1 e4 c0 3c 59 0c 11 f1 08 00 45 00
+<6>[ 4295.322038][    C3] [soft_i][0x134105dc35][04:18:41.038792] qca6750: [0:I:WMA] 00000020: 2b 8a c0 6e 15 b3 23 14 2c d6 7f c4 bc 29 50 10
+<6>[ 4295.322187][    C3] [soft_i][0x134105e758][04:18:41.038941] qca6750: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 49262, dst_port: 5555
+<3>[ 4296.557937][    C3] [soft_i][0x13426ff071][04:18:42.274689] qca6750: [0:E:QDF] htc_rx_completion_handler: Received initial wake up

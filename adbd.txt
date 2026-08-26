@@ -1,2 +1,0 @@
-kalama:/ # ps -A | grep adbd
-root          5197     1   11078372  11712 do_epoll_wait       0 S adbd

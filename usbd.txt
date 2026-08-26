@@ -1,0 +1,4 @@
+1|kalama:/ # grep -rn 'start usbd' /vendor/etc/init /system/etc/init 2>/dev/null
+/vendor/etc/init/hw/init.qcom.usb.rc:174:   start usbd
+kalama:/ # grep -rn 'service usbd' /vendor/etc/init /system/etc/init 2>/dev/null
+/system/etc/init/usbd.rc:1:service usbd /system/bin/usbd

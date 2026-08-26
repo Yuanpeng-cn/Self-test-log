@@ -1,0 +1,52 @@
+kalama:/ # grep -n "write.*UDC" /vendor/etc/init/hw/init.qcom.usb.rc | head -5
+174:   write /config/usb_gadget/g1/UDC ""
+225:    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+247:    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+275:    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+293:    write /config/usb_gadget/g1/UDC ${sys.usb.controller}
+kalama:/ # dmesg | grep -iE "USB_STATE|uvc_function|UDC|gadget" | tail -30
+[    9.134632] android_work: sent uevent USB_STATE=CONNECTED
+[    9.235366] android_work: sent uevent USB_STATE=CONFIGURED
+[   95.998563] android_work: sent uevent USB_STATE=DISCONNECTED
+[   97.688657] android_work: sent uevent USB_STATE=CONNECTED
+[   97.772670] android_work: sent uevent USB_STATE=CONFIGURED
+kalama:/ # logcat -d | grep -iE "usb.gadget|setcurrent|composition|Adding|setcurrent functions" | tail -20
+08-19 10:56:01.844  2957  2997 V WindowManagerShell: Adding command class protolog for ProtoLogController
+08-19 10:56:01.844  2957  2997 V WindowManagerShell: Adding command class letterbox for LetterboxCommandHandler
+08-19 10:56:01.844  2957  2997 V WindowManagerShell: Adding dump callback for PerfHintController
+08-19 10:56:01.855  2957  2997 V WindowManagerShell: Adding dump callback for PipTouchHandler
+08-19 10:56:01.859  2957  2997 V WindowManagerShell: Adding dump callback for PipController
+08-19 10:56:01.859  2957  2997 V WindowManagerShell: Adding external interface from PipController with key com.android.wm.shell.common.pip.IPip
+08-19 10:56:02.061  2564  3008 V RemoteTaskListenerHolder: Addinging new listener.
+08-19 10:56:02.410  3567  3567 I         : Adding 4194300k swap on /dev/block/zram0.  Priority:32758 extents:1 across:4194300k SS
+08-19 10:56:02.879  2564  3671 V RemoteTaskListenerHolder: Addinging new listener.
+08-19 10:56:05.956  1528  1528 I android.hardware.wifi@1.0-service: Adding interface handle for wlan0
+08-19 10:56:05.956  1528  1528 I android.hardware.wifi@1.0-service: Adding interface handle for p2p0
+08-19 10:56:05.956  1528  1528 I android.hardware.wifi@1.0-service: Adding interface handle for wifi-aware0
+08-19 10:56:05.965  1528  1528 I android.hardware.wifi@1.0-service: Adding interface handle for wlan0
+08-19 10:56:05.965  1528  1528 I android.hardware.wifi@1.0-service: Adding interface handle for p2p0
+08-19 10:56:05.965  1528  1528 I android.hardware.wifi@1.0-service: Adding interface handle for wifi-aware0
+08-19 10:56:57.621  2564  2855 D ConnectivityService: Adding iface wlan0 to network 100
+08-19 10:56:58.629  3028  4812 D ApfFilter: (wlan0): Adding RA fe80::902b:4dff:feca:ab38 -> fe80::ec06:44ff:fe6d:e8bb 3600s 240e:404:1a11:1525::/64 3600s/3600s DNS 3600s 240e:404:1a11:1525:9b60:1257:48f2:2d2b
+08-19 10:56:58.638  1433  1433 E netd    : Error adding route ::/0 -> fe80::902b:4dff:feca:ab38 wlan0 to table 1019: File exists
+08-19 10:57:30.497  2564  2858 I serviceDiscovery: [MdnsAdvertiser] Adding service name: adb-1e76e894-rQCYGn, type: _adb._tcp, subtypes: , hostAddresses: , hostname: null, port: 5555, network: null, expirationTime: null, txtRecord: {given_name=Kalama for arm64, serial=1e76e894, v=2.0, api=37.0, name=Kalama for arm64} with ID 2 and subtypes {} advertisingOptions MdnsAdvertisingOptions{ }
+08-19 10:57:31.299  4558  4617 I ThermalEngine: Thermal-Server: Adding thermal event listener on fd 282
+kalama:/ # ls -la /config/usb_gadget/g1/configs/b.1/
+total 0
+drwxrwx--- 3 root system    0 1970-01-01 01:50 .
+drwxr-xr-x 3 root root      0 1970-01-01 01:50 ..
+-rw-r--r-- 1 root root   4096 1970-01-01 01:50 MaxPower
+-rw-r--r-- 1 root root   4096 2026-08-19 11:00 bmAttributes
+lrwxrwxrwx 1 root root      0 1970-01-01 01:50 function0 -> ../../../../usb_gadget/g1/functions/ffs.diag
+lrwxrwxrwx 1 root root      0 1970-01-01 01:50 function1 -> ../../../../usb_gadget/g1/functions/ffs.adb
+drwxr-xr-x 3 root root      0 1970-01-01 01:50 strings
+kalama:/ # ls -la /dev/video*
+crw-rw---- 1 system camera 81,   2 1970-01-01 01:50 /dev/video0
+crw-rw---- 1 system camera 81,   3 1970-01-01 01:50 /dev/video1
+crw-rw---- 1 system camera 81,   0 1970-01-01 01:50 /dev/video32
+crw-rw---- 1 system camera 81,   1 1970-01-01 01:50 /dev/video33
+kalama:/ # getprop vendor.usb.config
+diag,uvc,adb
+kalama:/ # getprop sys.usb.state
+
+kalama:/ #

@@ -1,0 +1,6 @@
+kalama:/ # cat /system/etc/init/usbd.rc
+service usbd /system/bin/usbd
+    class late_start
+    oneshot
+    user root
+    group root usb system

@@ -1,0 +1,18 @@
+kalama:/ # dmesg | grep -iE "usb|uvc|umd|gadget|adbd" | tail -80
+[  129.276147] android_work: sent uevent USB_STATE=DISCONNECTED
+[  130.994349] msm_eusb2_phy 88e3000.hsphy: Avail curr from USB = 100
+[  130.998480] android_work: sent uevent USB_STATE=CONNECTED
+[  131.120046] msm_eusb2_phy 88e3000.hsphy: Avail curr from USB = 900
+[  131.120622] android_work: sent uevent USB_STATE=CONFIGURED
+[  190.622730] android_work: sent uevent USB_STATE=DISCONNECTED
+[  191.226047] msm_eusb2_phy 88e3000.hsphy: Avail curr from USB = 100
+[  191.230827] android_work: sent uevent USB_STATE=CONNECTED
+[  191.256308] msm_eusb2_phy 88e3000.hsphy: Avail curr from USB = 900
+[  191.256505] android_work: sent uevent USB_STATE=CONFIGURED
+[  192.474738] servicemanager: Caller(pid=5225,uid=0,sid=u:r:usbd:s0) Could not find android.hardware.usb.gadget.IUsbGadget/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  192.486624] android_work: sent uevent USB_STATE=DISCONNECTED
+[  192.893157] type=1400 audit(1787137075.450:70): avc:  denied  { read } for  comm="umd@1.0-service" name="u:object_r:default_prop:s0" dev="tmpfs" ino=193 scontext=u:r:vendor_hal_umd_qti:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=1
+[  192.893261] type=1400 audit(1787137075.450:71): avc:  denied  { open } for  comm="umd@1.0-service" path="/dev/__properties__/u:object_r:default_prop:s0" dev="tmpfs" ino=193 scontext=u:r:vendor_hal_umd_qti:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=1
+[  192.893319] type=1400 audit(1787137075.450:72): avc:  denied  { getattr } for  comm="umd@1.0-service" path="/dev/__properties__/u:object_r:default_prop:s0" dev="tmpfs" ino=193 scontext=u:r:vendor_hal_umd_qti:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=1
+[  192.893375] type=1400 audit(1787137075.450:73): avc:  denied  { map } for  comm="umd@1.0-service" path="/dev/__properties__/u:object_r:default_prop:s0" dev="tmpfs" ino=193 scontext=u:r:vendor_hal_umd_qti:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=1
+[  193.090964] configfs-gadget gadget: uvc: uvc_function_bind()

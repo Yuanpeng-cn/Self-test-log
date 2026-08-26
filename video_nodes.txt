@@ -6,3 +6,6 @@ crw-rw---- 1 system camera 81,   1 1970-01-01 00:43 /dev/video33
 
 kalama:/ # for v in /dev/video*;do echo -n \"$v:\";v4l2-ctl -d $v --info 2>/dev/null | grep -E "Driver|Card" | head -2; done
 "/dev/video0:""/dev/video1:""/dev/video32:""/dev/video33:"
+
+kalama:/ # getprop persist.vendor.umd.uvc.dev
+/dev/video2

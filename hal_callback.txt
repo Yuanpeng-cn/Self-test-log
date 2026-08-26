@@ -1,4 +1,0 @@
-d | grep -iE "notifyCurrentFunction|setCurrentUsbFunctions|setcurrent functions|Usb Gadget set" | tail -20                                                 <
-08-19 11:22:31.533  1520  1520 I libusbconfigfs: setCurrentUsbFunctions None
-08-19 11:22:31.640  1520  1520 I libusbconfigfs: setCurrentUsbFunctions Adb
-08-19 11:22:31.641  1520  1520 I android.hardware.usb.gadget@1.1-service-qti: Usb Gadget setcurrent functions called successfully

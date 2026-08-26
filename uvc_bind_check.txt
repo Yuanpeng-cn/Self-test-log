@@ -1,0 +1,24 @@
+kalama:/ # ls -la /dev/video*
+crw-rw---- 1 system camera 81,   2 1970-01-01 00:58 /dev/video0
+crw-rw---- 1 system camera 81,   3 1970-01-01 00:58 /dev/video1
+crw-rw---- 1 system camera 81,   0 1970-01-01 00:58 /dev/video32
+crw-rw---- 1 system camera 81,   1 1970-01-01 00:58 /dev/video33
+kalama:/ # dmesg | grep -iE "uvc|video" | tail -20
+[    2.304920] [drm] [msm-dsi-warn]: [ext video mode dsi bridge] fallback to default te-pin-select
+[    3.766825] [drm] [msm-dsi-warn]: [ext video mode dsi bridge] fallback to default te-pin-select
+[    6.383880] wcd_usbss_i2c(E) rmnet_sch(OE) stm_nfc_i2c(OE) rmnet_perf(OE) stub_dlkm(OE) bt_fm_slim(OE) hdcp_qseecom_dlkm(OE) qrtr_gunyah(E) wlan_firmware_service(OE) tc956x_pcie_eth(OE) rmnet_shs(OE) wcd939x_slave_dlkm(OE) mhi_dev_drv(E) slim_qcom_ngd_ctrl(E) altmode_glink(E) sys_pm_vx(E) msm_kgsl(OE) btpower(OE) wcd937x_slave_dlkm(OE) gsim(OE) q6_dlkm(OE) coresight_replicator(E) msm_video(OE) mac80211(E) msm_memshare(E) charger_ulog_glink(E) qce50_dlkm(OE) cpufreq_stats_scmi(E) coresight_dummy(E) coresight_hwevent(E) coresight_tpdm(E) qrng_dlkm(OE) wsa883x_dlkm(OE) repeater_i2c_eusb2(E) qti_battery_charger(E) pmic_glink_debug(E) memlat_scmi(E) nxp_nci(OE) atmel_mxt_ts(OE) msm_mmrm(OE) qti_glink_adc(E) snd_event_dlkm(OE) msm_hw_fence(OE) sync_fence(OE) stm_st54se_gpio(OE) ucsi_glink(E) rmnet_core(OE) coresight_stm(E) phy_msm_m31_eusb2(E) rmnet_ctl(OE) qti_amoled_ecm(E) microdump_collector(E) subsystem_sleep_stats(E) qcom_q6v5_pas(E) synx_driver(E) qcom_pon(E)
+[    6.384019] redriver(E) repeater(E) qbt_handler(E) i2c_msm_geni(E) phy_qcom_ufs_qmp_v4(E) heap_mem_ext_v01(E) snd_soc_add2010(E) ipa_fmwk(E) qcom_ramdump(E) adsp_sleepmon(E) stm_core(E) radio_i2c_rtc6226_qca(OE) cnss_plat_ipc_qmi_svc(OE) msm_ext_display(OE) cfg80211(E) qcom_sysmon(E) q6_pdr_dlkm(OE) swr_dlkm(OE) audpkt_ion_dlkm(OE) cnss_nl(OE) phy_qcom_emu(E) qti_cpufreq_cdev(E) industrialio_buffer_cb(E) sps_drv(E) qseecom_proxy(E) panel_event_notifier(E) i3c_master_msm_geni(E) gh_mem_notifier(E) tz_log_dlkm(OE) coresight_cti(E) pmic_pon_log(E) cnss_utils(OE) debugcc_kalama(E) gpucc_kalama(E) coresight(E) pmic_glink(E) glink_probe(E) pdr_interface(E) camcc_crow(E) bam_dma(E) phy_qcom_ufs_qmp_v4_waipio(E) smp2p_sleepstate(E) qcom_glink_spss(E) qmi_helpers(E) gpucc_crow(E) videocc_crow(E) pinctrl_spmi_gpio(E) pinctrl_spmi_mpp(E) phy_qcom_ufs_qmp_v4_kona(E) phy_qcom_ufs_qmp_v4_khaje(E) msm_gpi(E) rproc_qcom_common(E) debugcc_crow(E) qcom_smd(E) msm_show_resume_irq(E)
+[    6.384105] videocc_kalama(E) tcsrcc_kalama(E) dispcc_kalama(E) dispcc_crow(E) dcc_v2(E) crypto_qti_common(E) crypto_qti_hwkm(E) hwkm(E) tmecom_intf(E) cqhci(E) clk_dummy(E) cpu_hotplug(E) thermal_pause(E) sched_walt(E) qcom_cpufreq_hw(E) bwmon(E) qcom_dcvs(E) dcvs_fp(E) rpmh_regulator(E) qcom_tsens(E) thermal_minidump(E) qcom_pdc(E) qcom_ipcc(E) camcc_kalama(E) icc_rpmh(E) socinfo(E) icc_debug(E) icc_bcm_voter(E) gcc_kalama(E) gcc_crow(E) clk_qcom(E) gdsc_regulator(E) debug_regulator(E) proxy_consumer(E) clk_rpmh(E) qcom_rpmh(E) cmd_db(E) qcom_ipc_logging(E) qcom_cpu_vendor_hooks(E) gh_virt_wdt(E) qcom_wdt_core(E) qcom_scm(E) minidump(E) smem(E) qcom_hwspinlock(E)
+kalama:/ # ls -la c
+cache/   config/
+kalama:/ # ls -la config/usb_gadget/g
+g1/  g2/
+kalama:/ # ls -la config/usb_gadget/g1/configs/b.1/
+total 0
+drwxrwx--- 3 root system    0 1970-01-01 00:58 .
+drwxr-xr-x 3 root root      0 1970-01-01 00:58 ..
+-rw-r--r-- 1 root root   4096 1970-01-01 00:58 MaxPower
+-rw-r--r-- 1 root root   4096 2026-08-19 10:59 bmAttributes
+lrwxrwxrwx 1 root root      0 1970-01-01 00:58 function0 -> ../../../../usb_gadget/g1/functions/ffs.diag
+lrwxrwxrwx 1 root root      0 1970-01-01 00:58 function1 -> ../../../../usb_gadget/g1/functions/ffs.adb
+drwxr-xr-x 3 root root      0 1970-01-01 00:58 strings

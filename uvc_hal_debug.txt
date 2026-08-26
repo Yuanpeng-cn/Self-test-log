@@ -1,0 +1,49 @@
+kalama:/ # getprop sys.usb.configfs
+2
+kalama:/ # getprop vendor.usb.config
+diag,uvc,adb
+kalama:/ # getprop sys.usb.config
+diag,uvc,adb
+kalama:/ # getprop sys.usb.state
+
+kalama:/ # logcat -d | grep -iE "usb.gadget|setcurrent|composition|vendor.usb.config|Adding|unsupported" |tail -30
+08-19 10:59:10.715  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param output.pipelined index = 0x9000B001
+08-19 10:59:10.715  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param output.configs index = 0x9001A100
+08-19 10:59:10.715  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param output.configs index = 0x9001B000
+08-19 10:59:10.715  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param qti-ext-enc-hier-b-preconditions index = 0x9200C035
+08-19 10:59:10.715  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param imgtxr filter.enabled index = 0xA000A103
+08-19 10:59:10.715  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param cvpfilter.enabled index = 0xA000B002
+08-19 10:59:10.715  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param cvpfilter.skipratio index = 0xA000B003
+08-19 10:59:10.715  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param qti-ext-cvp-filter-explicit-disable index = 0xA000C052
+08-19 10:59:10.715  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param coded.pl index = 0xD2000808
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param input.pipelined index = 0x8000A101
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param input.pipelined index = 0x8000B001
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param input.configs index = 0x8001A100
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param input.configs index = 0x8001B000
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param output.pipelined index = 0x9000A101
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param imgtxr filter.forcelinear index = 0x9000A102
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param output.pipelined index = 0x9000B001
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param output.configs index = 0x9001A100
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param output.configs index = 0x9001B000
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param imgtxr filter.enabled index = 0xA000A103
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param cvpfilter.enabled index = 0xA000B002
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param cvpfilter.skipratio index = 0xA000B003
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param qti-ext-cvp-filter-explicit-disable index = 0xA000C052
+08-19 10:59:10.804  1633  5122 W QC2V4l2Codec: [avcE_39] unknown/unsupported param coded.pl index = 0xD2000808
+08-19 10:59:10.859  1633  5140 W QC2V4l2Codec: [avcE_39] unknown/unsupported param 3254796295 index = 0xC2004007
+08-19 10:59:15.017  4788  4788 D wpa_supplicant: nl80211: Ignore unsupported QCA vendor event 165
+08-19 10:59:15.081  2550  2845 D ConnectivityService: Adding iface wlan0 to network 100
+08-19 10:59:16.116  3015  4789 D ApfFilter: (wlan0): Adding RA fe80::902b:4dff:feca:ab38 -> fe80::5407:e5ff:fefc:fbf 3600s 240e:404:1a11:1525::/64 3600s/3600s DNS 3600s 240e:404:1a11:1525:9b60:1257:48f2:2d2b
+08-19 10:59:16.129  1400  1426 E netd    : Error adding route ::/0 -> fe80::902b:4dff:feca:ab38 wlan0 to table 1019: File exists
+08-19 10:59:22.590  2550  2854 I serviceDiscovery: [MdnsAdvertiser] Adding service name: adb-1e76e894-ruIcYo, type: _adb._tcp, subtypes: , hostAddresses: , hostname: null, port: 5555, network: null, expirationTime: null, txtRecord: {given_name=Kalama for arm64, serial=1e76e894, v=2.0, api=37.0, name=Kalama for arm64} with ID 2 and subtypes {} advertisingOptions MdnsAdvertisingOptions{ }
+08-19 10:59:23.565  4565  4625 I ThermalEngine: Thermal-Server: Adding thermal event listener on fd 282
+
+kalama:/ # grep -i "uvc" /vendor/etc/usb_compositions.conf
+diag,uvc,adb                                                            0x05C6  0x90CB  diag,adb,uvc
+diag,uvc                                                                0x05C6  0x90DF
+diag,uac2,uvc,adb                                                       0x05C6  0x90CC  diag,adb,uac2,uvc
+diag,uac2,uvc                                                           0x05C6  0x90E0
+diag,5xuvc,adb                                                          0x05c6  0x912E
+diag,10xuvc,adb                                                         0x05c6  0x912E
+diag,uac2,10xuvc,adb                                                    0x05c6  0x912F
+diag,uac2,10xuvc,hid,adb                                                0x05c6  0x9130

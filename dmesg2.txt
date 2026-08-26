@@ -1,0 +1,51 @@
+kalama:/ # dmesg | grep -iE "usb|uvc|gadget|dwc3" |tail -50
+[   66.098521] eusb2-repeater c42d000.qcom,spmi:qcom,pm8550b@7:eusb2-repeater@fd00: eUSB2 repeater status:OK
+[   66.099067] msm-usb-ssphy-qmp 88e8000.ssphy: USB DP QMP PHY: Update TYPEC CTRL(3)
+[   66.101137] dwc3 a600000.dwc3: Adding to iommu group 54
+[   66.101745] eusb2-repeater c42d000.qcom,spmi:qcom,pm8550b@7:eusb2-repeater@fd00: eUSB2 repeater status:OK
+[   66.102040] msm-usb-ssphy-qmp 88e8000.ssphy: USB DP QMP PHY: Update TYPEC CTRL(3)
+[   66.125460] msm-dwc3 a600000.ssusb: dwc3 msm iommu fault handler registered
+[   66.189362] dwc3 a600000.dwc3: Set IRQ thread:irq/408-dwc3 pid:2643 to SCHED_NORMAL prio
+[   66.269714] android_work: sent uevent USB_STATE=CONNECTED
+[   66.363272] msm_eusb2_phy 88e3000.hsphy: Avail curr from USB = 900
+[   66.363564] android_work: sent uevent USB_STATE=CONFIGURED
+[   66.623593] android_work: sent uevent USB_STATE=DISCONNECTED
+[   66.623610] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[   66.623621] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[   66.660862] dwc3 a600000.dwc3: Set IRQ thread:irq/408-dwc3 pid:2695 to SCHED_NORMAL prio
+[   66.740508] msm_eusb2_phy 88e3000.hsphy: Avail curr from USB = 100
+[   66.745126] android_work: sent uevent USB_STATE=CONNECTED
+[   66.758738] msm_eusb2_phy 88e3000.hsphy: Avail curr from USB = 900
+[   66.758975] android_work: sent uevent USB_STATE=CONFIGURED
+[   68.038761] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[   68.038778] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[   68.038878] android_work: sent uevent USB_STATE=DISCONNECTED
+[   68.216905] dwc3 a600000.dwc3: Set IRQ thread:irq/408-dwc3 pid:3505 to SCHED_NORMAL prio
+[   68.294945] msm_eusb2_phy 88e3000.hsphy: Avail curr from USB = 100
+[   68.299660] android_work: sent uevent USB_STATE=CONNECTED
+[   68.314644] msm_eusb2_phy 88e3000.hsphy: Avail curr from USB = 900
+[   68.314866] android_work: sent uevent USB_STATE=CONFIGURED
+[  104.438310] (virq:irq_count)- GICv3:IPI(1):101713 GICv3:IPI(6):48042 GICv3:arch_timer(11):44645 GICv3:IPI(2):22962 GICv3:ufshcd(35):21210 GICv3:apps_rsc-drv-2(20):3560 GICv3:ipcc_0(37):2738 GICv3:dwc3(408):2719 ipcc:glink-native-adsp(450):1865 GICv3:hfi(328):1843
+[  113.909512] (virq:irq_count)- GICv3:IPI(1):109198 GICv3:IPI(6):50126 GICv3:arch_timer(11):48949 GICv3:IPI(2):23305 GICv3:ufshcd(35):21278 GICv3:apps_rsc-drv-2(20):4002 GICv3:dwc3(408):3266 GICv3:ipcc_0(37):2738 GICv3:hfi(328):2192 ipcc:glink-native-adsp(450):1865
+[  113.953079] android_work: sent uevent USB_STATE=DISCONNECTED
+[  113.955152] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  113.955226] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  114.033279] dwc3 a600000.dwc3: Set IRQ thread:irq/408-dwc3 pid:5070 to SCHED_NORMAL prio
+[  114.076499] msm_eusb2_phy 88e3000.hsphy: Avail curr from USB = 100
+[  114.081055] android_work: sent uevent USB_STATE=CONNECTED
+[  114.104259] msm_eusb2_phy 88e3000.hsphy: Avail curr from USB = 900
+[  114.104512] android_work: sent uevent USB_STATE=CONFIGURED
+[  115.806408] android_work: sent uevent USB_STATE=DISCONNECTED
+[  115.807887] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  115.807950] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  115.825786] configfs-gadget gadget: uvc: uvc_function_bind()
+[  115.929123] configfs-gadget gadget: uvc: uvc_function_unbind()
+[  115.930455] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  115.930508] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  115.944676] configfs-gadget gadget: uvc: uvc_function_bind()
+[  118.818956] configfs-gadget gadget: uvc: uvc_function_unbind()
+[  118.821977] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  118.822076] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[  118.916225] configfs-gadget gadget: uvc: uvc_function_bind()
+[  123.382971] (virq:irq_count)- GICv3:IPI(1):113771 GICv3:arch_timer(11):52646 GICv3:IPI(6):51362 GICv3:IPI(2):23654 GICv3:ufshcd(35):21430 GICv3:apps_rsc-drv-2(20):4510 GICv3:ipcc_0(37):3691 GICv3:dwc3(408):3341 ipcc:glink-native-adsp(450):2685 GICv3:hfi(328):2306
+[  132.856311] (virq:irq_count)- GICv3:IPI(1):117112 GICv3:arch_timer(11):55748 GICv3:IPI(6):52113 GICv3:IPI(2):23879 GICv3:ufshcd(35):21519 GICv3:apps_rsc-drv-2(20):4928 GICv3:ipcc_0(37):3691 GICv3:dwc3(408):3341 ipcc:glink-native-adsp(450):2685 GICv3:hfi(328):2396

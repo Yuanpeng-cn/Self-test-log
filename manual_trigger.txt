@@ -1,0 +1,21 @@
+kalama:/ # logcat -d | grep -E "usb_gadget|setcurrent|composition|Adding diag|Adding uvc|Usb Gadget set" |tail -20
+01-01 02:27:07.098     1     1 I init    : Command 'write /config/usb_gadget/g1/functions/uvc.0/streaming/h264/h/360p/dwMaxVideoFrameBufferSize 4147200' action=vendor.usb.uvc.function.init=1 (/vendor/etc/init/hw/init.qcom.usb.rc:1947) took 0ms and failed: Unable to write to file '/config/usb_gadget/g1/functions/uvc.0/streaming/h264/h/360p/dwMaxVideoFrameBufferSize': open() failed: Permission denied
+01-01 02:27:07.100     1     1 I init    : Command 'write /config/usb_gadget/g1/functions/uvc.0/streaming/h264/h/720p/dwMaxVideoFrameBufferSize 4147200' action=vendor.usb.uvc.function.init=1 (/vendor/etc/init/hw/init.qcom.usb.rc:1955) took 0ms and failed: Unable to write to file '/config/usb_gadget/g1/functions/uvc.0/streaming/h264/h/720p/dwMaxVideoFrameBufferSize': open() failed: Permission denied
+01-01 02:27:07.101     1     1 I init    : Command 'write /config/usb_gadget/g1/functions/uvc.0/streaming/h264/h/1080p/dwMaxVideoFrameBufferSize 4147200' action=vendor.usb.uvc.function.init=1 (/vendor/etc/init/hw/init.qcom.usb.rc:1963) took 0ms and failed: Unable to write to file '/config/usb_gadget/g1/functions/uvc.0/streaming/h264/h/1080p/dwMaxVideoFrameBufferSize': open() failed: Permission denied
+01-01 02:27:07.103     1     1 I init    : Command 'write /config/usb_gadget/g1/functions/uvc.0/streaming/h264/h/2160p/dwMaxVideoFrameBufferSize 16588800' action=vendor.usb.uvc.function.init=1 (/vendor/etc/init/hw/init.qcom.usb.rc:1971) took 0ms and failed: Unable to write to file '/config/usb_gadget/g1/functions/uvc.0/streaming/h264/h/2160p/dwMaxVideoFrameBufferSize': open() failed: Permission denied
+
+kalama:/ # ls -la /config/usb_gadget/g1/configs/b.1/
+total 0
+drwxrwx--- 3 root system    0 1970-01-01 02:27 .
+drwxr-xr-x 3 root root      0 1970-01-01 02:27 ..
+-rw-r--r-- 1 root root   4096 1970-01-01 02:27 MaxPower
+-rw-r--r-- 1 root root   4096 2026-08-19 11:01 bmAttributes
+lrwxrwxrwx 1 root root      0 1970-01-01 02:27 function0 -> ../../../../usb_gadget/g1/functions/ffs.diag
+lrwxrwxrwx 1 root root      0 1970-01-01 02:27 function1 -> ../../../../usb_gadget/g1/functions/ffs.adb
+drwxr-xr-x 3 root root      0 1970-01-01 02:27 strings
+
+kalama:/ # ls -la /dev/video*
+crw-rw---- 1 system camera 81,   2 1970-01-01 02:27 /dev/video0
+crw-rw---- 1 system camera 81,   3 1970-01-01 02:27 /dev/video1
+crw-rw---- 1 system camera 81,   0 1970-01-01 02:27 /dev/video32
+crw-rw---- 1 system camera 81,   1 1970-01-01 02:27 /dev/video33

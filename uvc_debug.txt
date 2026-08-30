@@ -1,0 +1,101 @@
+lahaina612:/ # dmesg | grep -iE "uvc|f_uvc" | head -100
+[  116.975322] configfs-gadget.g1 gadget.0: uvc: UVCIOC_SEND_RESPONSE: length=48
+[  116.976315] configfs-gadget.g1 gadget.0: uvc: UVCIOC_SEND_RESPONSE: length=48
+[  116.977258] configfs-gadget.g1 gadget.0: uvc: UVCIOC_SEND_RESPONSE: length=48
+[  116.978196] configfs-gadget.g1 gadget.0: uvc: UVCIOC_SEND_RESPONSE: length=48
+[  116.979246] configfs-gadget.g1 gadget.0: uvc: UVCIOC_SEND_RESPONSE: length=48
+[  117.156329] configfs-gadget.g1 gadget.0: uvc: UVCIOC_SEND_RESPONSE: length=48
+[  117.156839] configfs-gadget.g1 gadget.0: uvc: UVCIOC_SEND_RESPONSE: length=48
+[  117.157296] configfs-gadget.g1 gadget.0: uvc: UVCIOC_SEND_RESPONSE: length=48
+[  117.158266] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 1)
+[  117.158286] configfs-gadget.g1 gadget.0: uvc: reset UVC
+[  117.158300] configfs-gadget.g1 gadget.0: uvc: DBG: before ep_disable, ep=ep3in enabled=0
+[  117.158314] configfs-gadget.g1 gadget.0: uvc: DBG: after ep_disable, calling config_ep_by_speed
+[  117.158331] configfs-gadget.g1 gadget.0: uvc: config_ep_by_speed OK: ep=ep3in maxpacket=1024 maxburst=7 mult=3
+[  117.158441] configfs-gadget.g1 gadget.0: uvc: UVC_EVENT_STREAMON sent, max_req_size=21504 (maxpacket=1024 maxburst=7 mult=3), waiting UVCIOC_SEND_RESPONSE
+[  117.191074] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.201122] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=31
+[  117.211186] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.221201] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.234835] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=31
+[  117.244843] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.254827] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.264823] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.274786] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=31
+[  117.284753] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.294727] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.304687] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.314687] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.324651] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.334607] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.344545] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.354495] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.364467] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.375967] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.386021] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=31
+[  117.396012] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.405974] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.415928] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.425887] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=31
+[  117.435857] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.445813] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.455775] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.465720] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.475691] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.485702] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.495665] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.505661] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.515623] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.525583] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.535546] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.545493] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.555463] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.565429] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.575387] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.585348] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=31
+[  117.595300] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.605301] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.615253] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.625244] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.635188] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.645161] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.655106] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.665100] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.675076] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.685036] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.695375] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.705343] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=31
+[  117.715347] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.715463] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.733129] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.733313] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.751248] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.788703] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.798683] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=31
+[  117.808642] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.818576] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.828599] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.838543] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.848478] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.858407] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.868339] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.878314] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.888252] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.898191] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.898334] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.923314] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.943009] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.952939] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.962908] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.972850] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.982779] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  117.992712] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  118.002642] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  118.012581] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  118.022513] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  118.032454] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  118.042393] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  118.052830] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  118.062779] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=31
+[  118.072712] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32
+[  118.082641] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (EXDEV), req_len=0 queued=32

@@ -1,442 +1,564 @@
-[  569.526375] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 1)
-[  569.526402] configfs-gadget.g1 gadget.0: uvc: reset UVC
-[  569.526438] configfs-gadget.g1 gadget.0: uvc: set_alt(1): speed=5 maxpacket=1024 maxburst=7 mult=3 max_req_size=21504 bInterval=1 (streaming_interval=1)
-[  569.527443] configfs-gadget.g1 gadget.0: uvc: video_enable: fcc=0x56595559 1280x720 imagesize=1843200 interval=666666 max_req_size=21504 max_payload_size=0 speed=5 ep_maxpacket=1024 ep_maxburst=7 ep_mult=3
-[  569.527454] configfs-gadget.g1 gadget.0: uvc: prep_requests: fcc=0x56595559 1280x720 imagesize=1843200 interval=666666 max_req_size=21504 isoc=1 speed=5
-[  569.527457] configfs-gadget.g1 gadget.0: uvc: prep_requests(isoc): interval_duration=2500 nreq=267 req_size=6916 num_requests=299 reqs_per_frame=267 bInterval=1
-[  569.527987] uvcg_video_hw_submit: 1424 callbacks suppressed
-[  569.528006] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=0 fcc=0x56595559 1280x720)
-[  569.528033] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=1 fcc=0x56595559 1280x720)
-[  569.528034] uvcg_video_pump: 8557 callbacks suppressed
-[  569.528048] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  569.528057] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=2 fcc=0x56595559 1280x720)
-[  569.528073] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=3 fcc=0x56595559 1280x720)
-[  569.528089] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=4 fcc=0x56595559 1280x720)
-[  569.528103] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=5 fcc=0x56595559 1280x720)
-[  569.528118] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=6 fcc=0x56595559 1280x720)
-[  569.528132] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=7 fcc=0x56595559 1280x720)
-[  569.528147] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=8 fcc=0x56595559 1280x720)
-[  569.528161] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=9 fcc=0x56595559 1280x720)
-[  569.534120] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  569.536126] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  569.536251] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  569.536497] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  569.538148] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  569.538174] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  569.540105] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  569.542120] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  569.544140] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  569.897987] configfs-gadget.g1 gadget.0: uvc: frame #1 fcc=0x56595559 1280x720 bytesused=1843200 fps=0.0 (expected ~15) missed_xfer=0
-[  570.608483] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  570.608609] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  570.631996] configfs-gadget.g1 gadget.0: uvc: frame #23 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.7 (expected ~15) missed_xfer=2
-[  570.890664] configfs-gadget.g1 gadget.0: uvc: frame #31 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=0
-[  571.119988] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  571.120050] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  571.124117] configfs-gadget.g1 gadget.0: uvc: frame #38 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.8 (expected ~15) missed_xfer=2
-[  571.375368] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  571.375525] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  571.390525] configfs-gadget.g1 gadget.0: uvc: frame #46 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.2 (expected ~15) missed_xfer=2
-[  571.894420] configfs-gadget.g1 gadget.0: uvc: frame #61 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.3 (expected ~15) missed_xfer=0
-[  572.649867] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  572.649990] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  572.661793] configfs-gadget.g1 gadget.0: uvc: frame #84 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.8 (expected ~15) missed_xfer=2
-[  572.890606] configfs-gadget.g1 gadget.0: uvc: frame #91 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=0
-[  573.892568] configfs-gadget.g1 gadget.0: uvc: frame #121 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.7 (expected ~15) missed_xfer=0
-[  574.416852] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  574.416937] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  574.426438] configfs-gadget.g1 gadget.0: uvc: frame #137 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.2 (expected ~15) missed_xfer=2
-[  574.529871] uvcg_video_pump: 16463 callbacks suppressed
-[  574.529887] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  574.529904] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  574.530026] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  574.530141] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  574.530238] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  574.530301] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  574.530337] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  574.530347] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  574.530415] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  574.531865] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  574.585893] uvcg_video_hw_submit: 3845 callbacks suppressed
-[  574.585921] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  574.585965] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  574.585987] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  574.586008] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  574.619248] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  574.619303] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  574.672294] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  574.672435] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  574.686690] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  574.686734] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  574.686774] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  574.686794] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  574.689929] configfs-gadget.g1 gadget.0: uvc: frame #145 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=2
-[  574.889983] configfs-gadget.g1 gadget.0: uvc: frame #151 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.8 (expected ~15) missed_xfer=0
-[  575.609668] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  575.609747] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  575.625901] configfs-gadget.g1 gadget.0: uvc: frame #173 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.0 (expected ~15) missed_xfer=2
-[  575.888881] configfs-gadget.g1 gadget.0: uvc: frame #181 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=0
-[  576.892794] configfs-gadget.g1 gadget.0: uvc: frame #211 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=0
-[  577.016167] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  577.016257] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  577.026579] configfs-gadget.g1 gadget.0: uvc: frame #215 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=2
-[  577.260639] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  577.260767] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  577.289816] configfs-gadget.g1 gadget.0: uvc: frame #223 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=2
-[  577.889687] configfs-gadget.g1 gadget.0: uvc: frame #241 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.7 (expected ~15) missed_xfer=0
-[  578.031266] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  578.031354] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  578.056338] configfs-gadget.g1 gadget.0: uvc: frame #246 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=2
-[  578.287790] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  578.287949] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  578.289042] configfs-gadget.g1 gadget.0: uvc: frame #253 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.8 (expected ~15) missed_xfer=2
-[  578.544491] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  578.544602] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  578.556220] configfs-gadget.g1 gadget.0: uvc: frame #261 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=2
-[  578.889398] configfs-gadget.g1 gadget.0: uvc: frame #271 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=0
-[  579.147776] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  579.147904] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  579.156293] configfs-gadget.g1 gadget.0: uvc: frame #279 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=2
-[  579.532627] uvcg_video_pump: 16312 callbacks suppressed
-[  579.532649] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  579.532671] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  579.534197] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  579.534224] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  579.534240] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  579.534349] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  579.534373] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  579.534389] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  579.534483] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  579.534509] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  579.581589] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  579.581682] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  579.589081] uvcg_video_hw_submit: 1825 callbacks suppressed
-[  579.589104] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=28 fcc=0x56595559 1280x720)
-[  579.589141] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=28 fcc=0x56595559 1280x720)
-[  579.589199] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=29 fcc=0x56595559 1280x720)
-[  579.589255] configfs-gadget.g1 gadget.0: uvc: frame #292 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.7 (expected ~15) missed_xfer=2
-[  579.589446] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=25 fcc=0x56595559 1280x720)
-[  579.589471] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=26 fcc=0x56595559 1280x720)
-[  579.589491] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=27 fcc=0x56595559 1280x720)
-[  579.589510] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=28 fcc=0x56595559 1280x720)
-[  579.589529] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=29 fcc=0x56595559 1280x720)
-[  579.589546] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=30 fcc=0x56595559 1280x720)
-[  579.589565] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  579.890086] configfs-gadget.g1 gadget.0: uvc: frame #301 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.0 (expected ~15) missed_xfer=0
-[  580.892531] configfs-gadget.g1 gadget.0: uvc: frame #331 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.8 (expected ~15) missed_xfer=0
-[  581.894290] configfs-gadget.g1 gadget.0: uvc: frame #361 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.5 (expected ~15) missed_xfer=0
-[  582.143268] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  582.143406] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  582.160940] configfs-gadget.g1 gadget.0: uvc: frame #369 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.6 (expected ~15) missed_xfer=2
-[  582.888932] configfs-gadget.g1 gadget.0: uvc: frame #391 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.7 (expected ~15) missed_xfer=0
-[  583.892933] configfs-gadget.g1 gadget.0: uvc: frame #421 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=0
-[  584.478140] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  584.478223] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  584.490067] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=3
-[  584.490538] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=4
-[  584.493640] configfs-gadget.g1 gadget.0: uvc: frame #439 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=4
-[  584.537873] uvcg_video_pump: 18088 callbacks suppressed
-[  584.537895] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  584.537916] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  584.537931] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  584.537947] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  584.538010] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  584.538027] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  584.538147] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  584.538165] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  584.539911] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  584.539939] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  584.616373] uvcg_video_hw_submit: 696 callbacks suppressed
-[  584.616393] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  584.616435] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  584.649993] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  584.650041] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  584.650250] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  584.650277] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  584.716503] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  584.750915] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  584.750974] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  584.751152] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  584.888183] configfs-gadget.g1 gadget.0: uvc: frame #451 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=0
-[  584.943874] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  584.943931] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  584.954981] configfs-gadget.g1 gadget.0: uvc: frame #453 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=2
-[  585.199538] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  585.199595] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  585.220948] configfs-gadget.g1 gadget.0: uvc: frame #461 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.1 (expected ~15) missed_xfer=2
-[  585.887945] configfs-gadget.g1 gadget.0: uvc: frame #481 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.7 (expected ~15) missed_xfer=0
-[  586.889064] configfs-gadget.g1 gadget.0: uvc: frame #511 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.1 (expected ~15) missed_xfer=0
-[  587.246961] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  587.247030] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  587.259194] configfs-gadget.g1 gadget.0: uvc: frame #522 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=2
-[  587.756167] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  587.756259] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  587.787514] configfs-gadget.g1 gadget.0: uvc: frame #538 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=2
-[  587.887402] configfs-gadget.g1 gadget.0: uvc: frame #541 fcc=0x56595559 1280x720 bytesused=1843200 fps=28.9 (expected ~15) missed_xfer=0
-[  588.644675] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  588.644731] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  588.644903] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=3
-[  588.644949] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=4
-[  588.658114] configfs-gadget.g1 gadget.0: uvc: frame #564 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.8 (expected ~15) missed_xfer=4
-[  588.781109] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  588.781204] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  588.786646] configfs-gadget.g1 gadget.0: uvc: frame #568 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.1 (expected ~15) missed_xfer=2
-[  588.887269] configfs-gadget.g1 gadget.0: uvc: frame #571 fcc=0x56595559 1280x720 bytesused=1843200 fps=27.6 (expected ~15) missed_xfer=0
-[  589.540701] uvcg_video_pump: 17355 callbacks suppressed
-[  589.540723] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  589.542415] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  589.542550] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  589.542718] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  589.542835] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  589.543048] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  589.544428] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  589.544475] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  589.544491] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  589.544842] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
-[  589.550820] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=808232/1843200 missed_in_frame=1
-[  589.550868] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  589.560050] configfs-gadget.g1 gadget.0: uvc: frame #591 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.8 (expected ~15) missed_xfer=2
-[  589.816315] uvcg_video_hw_submit: 1673 callbacks suppressed
-[  589.816341] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  589.816388] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  589.816636] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=30 fcc=0x56595559 1280x720)
-[  589.816745] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=30 fcc=0x56595559 1280x720)
-[  589.816770] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  589.816791] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  589.883174] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  589.883227] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
-[  589.883278] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  589.883303] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
-[  589.886935] configfs-gadget.g1 gadget.0: uvc: frame #601 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.2 (expected ~15) missed_xfer=0
-[  590.072173] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  590.072288] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  590.088561] configfs-gadget.g1 gadget.0: uvc: frame #607 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.1 (expected ~15) missed_xfer=2
-[  590.589340] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  590.589452] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  590.589542] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=5684). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=3
-[  590.589554] configfs-gadget.g1 gadget.0: uvc: frame #622 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.3 (expected ~15) missed_xfer=3
-[  590.591525] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
-[  590.591591] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
-[  590.591636] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=3
-[  590.591679] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=4
-[  590.591719] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=5
-[  590.591747] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=6
-[  590.591777] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=7
-[  590.591806] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=8
-[  590.591836] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=9
-[  590.591863] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=10
-[  590.591892] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=11
-[  590.591920] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=12
-[  590.591949] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=13
-[  590.591975] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=14
-[  590.592004] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=15
-[  590.592031] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=16
-[  590.593529] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=17
-[  590.593583] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=18
-[  590.593660] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=19
-[  590.593687] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=20
-[  590.593721] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=21
-[  590.593747] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=22
-[  590.593776] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=23
-[  590.593802] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=24
-[  590.593831] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=25
-[  590.593857] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=26
-[  590.593886] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=27
-[  590.593912] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=28
-[  590.593941] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=29
-[  590.593967] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=30
-[  590.593997] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=31
-[  590.594025] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=32
-[  590.595526] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=33
-[  590.595577] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=34
-[  590.595593] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=35
-[  590.595632] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=36
-[  590.595646] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=37
-[  590.595740] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=38
-[  590.595772] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=39
-[  590.595821] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=40
-[  590.595886] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=41
-[  590.595916] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=42
-[  590.595946] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=43
-[  590.595976] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=44
-[  590.596005] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=45
-[  590.596034] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=46
-[  590.596067] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=47
-[  590.596096] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=48
-[  590.597522] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=49
-[  590.597572] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=50
-[  590.597614] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=51
-[  590.597640] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=52
-[  590.597670] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=53
-[  590.597696] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=54
-[  590.597725] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=55
-[  590.597753] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=56
-[  590.597783] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=57
-[  590.597810] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=58
-[  590.597840] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=59
-[  590.597868] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=60
-[  590.597896] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=61
-[  590.597923] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=62
-[  590.597953] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=63
-[  590.597979] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=64
-[  590.599521] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=65
-[  590.599578] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=66
-[  590.599593] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=67
-[  590.599640] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=68
-[  590.599671] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=69
-[  590.599697] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=70
-[  590.599711] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=71
-[  590.599740] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=72
-[  590.599754] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=73
-[  590.599830] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=74
-[  590.599918] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=75
-[  590.599949] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=76
-[  590.599963] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=77
-[  590.599997] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=78
-[  590.600011] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=79
-[  590.600086] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=80
-[  590.601520] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=81
-[  590.601579] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=82
-[  590.601661] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=83
-[  590.601719] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=84
-[  590.601735] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=85
-[  590.601749] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=86
-[  590.601782] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=87
-[  590.601847] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=88
-[  590.601890] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=89
-[  590.601924] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=90
-[  590.601964] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=91
-[  590.601997] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=92
-[  590.602040] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=93
-[  590.602073] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=94
-[  590.602107] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=95
-[  590.602145] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=96
-[  590.603521] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=97
-[  590.603571] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=98
-[  590.603586] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=99
-[  590.603628] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=100
-[  590.603658] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=101
-[  590.603701] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=102
-[  590.603734] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=103
-[  590.603774] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=104
-[  590.603805] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=105
-[  590.603846] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=106
-[  590.603875] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=107
-[  590.603915] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=108
-[  590.603944] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=109
-[  590.603984] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=110
-[  590.604013] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=111
-[  590.604052] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=112
-[  590.605545] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=113
-[  590.605616] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=114
-[  590.605679] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=115
-[  590.605713] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=116
-[  590.605753] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=117
-[  590.605786] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=118
-[  590.605824] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=119
-[  590.605857] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=120
-[  590.605896] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=121
-[  590.605930] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=122
-[  590.605967] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=123
-[  590.605999] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=124
-[  590.606037] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=125
-[  590.606070] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=126
-[  590.606107] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=127
-[  590.606140] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=128
-[  590.607537] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=129
-[  590.607618] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=130
-[  590.607690] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=131
-[  590.607727] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=132
-[  590.607745] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=133
-[  590.607787] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=134
-[  590.607822] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=135
-[  590.607856] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=136
-[  590.607939] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=137
-[  590.608010] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=138
-[  590.608047] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=139
-[  590.608090] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=140
-[  590.608126] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=141
-[  590.608164] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=142
-[  590.608203] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=143
-[  590.608235] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=144
-[  590.609531] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=145
-[  590.609594] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=146
-[  590.609613] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=147
-[  590.609628] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=148
-[  590.609644] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=149
-[  590.609659] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=150
-[  590.609675] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=151
-[  590.609693] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=152
-[  590.609749] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=153
-[  590.609765] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=154
-[  590.609810] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=155
-[  590.609826] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=156
-[  590.609871] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=157
-[  590.609889] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=158
-[  590.609929] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=159
-[  590.609945] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=160
-[  590.611532] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=161
-[  590.611592] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=162
-[  590.611610] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=163
-[  590.611626] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=164
-[  590.611667] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=165
-[  590.611698] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=166
-[  590.611733] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=167
-[  590.611764] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=168
-[  590.611785] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=169
-[  590.611817] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=170
-[  590.611860] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=171
-[  590.611892] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=172
-[  590.611927] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=173
-[  590.611958] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=174
-[  590.611992] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=175
-[  590.612024] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=176
-[  590.613535] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=177
-[  590.613607] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=178
-[  590.613626] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=179
-[  590.613643] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=180
-[  590.613693] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=181
-[  590.613739] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=182
-[  590.613781] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=183
-[  590.613845] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=184
-[  590.613886] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=185
-[  590.613904] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=186
-[  590.613964] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=187
-[  590.613982] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=188
-[  590.614048] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=189
-[  590.614108] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=190
-[  590.614149] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=191
-[  590.614252] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=192
-[  590.615539] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=193
-[  590.615627] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=194
-[  590.615718] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=195
-[  590.615786] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=196
-[  590.615827] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=197
-[  590.615869] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=198
-[  590.615955] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=199
-[  590.616023] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=200
-[  590.616059] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=201
-[  590.616097] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=202
-[  590.616131] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=203
-[  590.616165] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=204
-[  590.616200] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=205
-[  590.616233] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=206
-[  590.616269] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=207
-[  590.616307] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=208
-[  590.617537] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=209
-[  590.617599] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=210
-[  590.617646] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=211
-[  590.617740] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=212
-[  590.617778] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=213
-[  590.617811] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=214
-[  590.617846] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=215
-[  590.617878] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=216
-[  590.617916] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=217
-[  590.617949] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=218
-[  590.617984] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=219
-[  590.618017] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=220
-[  590.618054] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=221
-[  590.618088] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=222
-[  590.618125] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=223
-[  590.618158] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=224
-[  590.618480] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 0)
+[  654.882577] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 1)
+[  654.882598] configfs-gadget.g1 gadget.0: uvc: reset UVC
+[  654.882635] configfs-gadget.g1 gadget.0: uvc: set_alt(1): speed=5 maxpacket=1024 maxburst=7 mult=3 max_req_size=21504 bInterval=1 (streaming_interval=1)
+[  654.883566] configfs-gadget.g1 gadget.0: uvc: video_enable: fcc=0x56595559 1280x720 imagesize=1843200 interval=666666 max_req_size=21504 max_payload_size=0 speed=5 ep_maxpacket=1024 ep_maxburst=7 ep_mult=3
+[  654.883578] configfs-gadget.g1 gadget.0: uvc: prep_requests: fcc=0x56595559 1280x720 imagesize=1843200 interval=666666 max_req_size=21504 isoc=1 speed=5
+[  654.883581] configfs-gadget.g1 gadget.0: uvc: prep_requests(isoc): interval_duration=2500 nreq=267 req_size=6916 num_requests=299 reqs_per_frame=267 bInterval=1
+[  654.884088] uvcg_video_hw_submit: 1795 callbacks suppressed
+[  654.884109] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=0 fcc=0x56595559 1280x720)
+[  654.884139] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=1 fcc=0x56595559 1280x720)
+[  654.884139] uvcg_video_pump: 11475 callbacks suppressed
+[  654.884156] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  654.884158] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=2 fcc=0x56595559 1280x720)
+[  654.884175] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=3 fcc=0x56595559 1280x720)
+[  654.884190] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=4 fcc=0x56595559 1280x720)
+[  654.884205] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=5 fcc=0x56595559 1280x720)
+[  654.884219] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=6 fcc=0x56595559 1280x720)
+[  654.884234] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=7 fcc=0x56595559 1280x720)
+[  654.884248] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=8 fcc=0x56595559 1280x720)
+[  654.884263] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=9 fcc=0x56595559 1280x720)
+[  654.889998] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  654.892036] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  654.892067] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  654.892087] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  654.894010] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  654.894049] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  654.894075] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  654.894097] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  654.896050] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  655.241606] configfs-gadget.g1 gadget.0: uvc: frame #1 fcc=0x56595559 1280x720 bytesused=1843200 fps=0.0 (expected ~15) missed_xfer=0
+[  656.242732] configfs-gadget.g1 gadget.0: uvc: frame #31 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.8 (expected ~15) missed_xfer=0
+[  656.623970] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  656.643152] configfs-gadget.g1 gadget.0: uvc: frame #43 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.1 (expected ~15) missed_xfer=1
+[  657.137199] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  657.137281] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  657.168544] configfs-gadget.g1 gadget.0: uvc: frame #59 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=2
+[  657.234421] configfs-gadget.g1 gadget.0: uvc: frame #61 fcc=0x56595559 1280x720 bytesused=1843200 fps=15.2 (expected ~15) missed_xfer=0
+[  658.236869] configfs-gadget.g1 gadget.0: uvc: frame #91 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=0
+[  659.239522] configfs-gadget.g1 gadget.0: uvc: frame #121 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.7 (expected ~15) missed_xfer=0
+[  659.669732] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=1768444/1843200 missed_in_frame=1
+[  659.673093] configfs-gadget.g1 gadget.0: uvc: frame #134 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=1
+[  659.886188] uvcg_video_pump: 16992 callbacks suppressed
+[  659.886213] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  659.886285] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  659.886338] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  659.886353] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  659.886463] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  659.886540] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  659.888165] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  659.888203] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  659.888217] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  659.888369] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  660.239263] configfs-gadget.g1 gadget.0: uvc: frame #151 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.1 (expected ~15) missed_xfer=0
+[  661.233204] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=1575020/1843200 missed_in_frame=1
+[  661.233272] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=1575020/1843200 missed_in_frame=2
+[  661.240868] configfs-gadget.g1 gadget.0: uvc: frame #181 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.5 (expected ~15) missed_xfer=2
+[  661.489218] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  661.489256] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  661.498832] uvcg_video_hw_submit: 3011 callbacks suppressed
+[  661.498853] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  661.498892] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  661.499022] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  661.499189] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  661.499216] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  661.499397] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  661.499590] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  661.499628] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  661.499856] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  661.502105] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=28 fcc=0x56595559 1280x720)
+[  661.502676] configfs-gadget.g1 gadget.0: uvc: frame #189 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=2
+[  662.237670] configfs-gadget.g1 gadget.0: uvc: frame #211 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.6 (expected ~15) missed_xfer=0
+[  662.512622] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  662.512704] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  662.537950] configfs-gadget.g1 gadget.0: uvc: frame #220 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.6 (expected ~15) missed_xfer=2
+[  662.769230] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  662.769317] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  662.800653] configfs-gadget.g1 gadget.0: uvc: frame #228 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=2
+[  663.234071] configfs-gadget.g1 gadget.0: uvc: frame #241 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=0
+[  663.530728] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  663.530798] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  663.534306] configfs-gadget.g1 gadget.0: uvc: frame #250 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=2
+[  664.241123] configfs-gadget.g1 gadget.0: uvc: frame #271 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.6 (expected ~15) missed_xfer=0
+[  664.890975] uvcg_video_pump: 17688 callbacks suppressed
+[  664.890997] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  664.891018] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  664.891157] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  664.891193] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  664.891206] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  664.891269] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  664.891283] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  664.891296] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  664.891308] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  664.891320] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  665.241972] configfs-gadget.g1 gadget.0: uvc: frame #301 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.1 (expected ~15) missed_xfer=0
+[  665.585428] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  665.585582] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  665.609136] configfs-gadget.g1 gadget.0: uvc: frame #312 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=2
+[  665.903912] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  665.904035] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  665.933513] configfs-gadget.g1 gadget.0: uvc: frame #322 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=2
+[  666.092829] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  666.092921] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  666.100213] configfs-gadget.g1 gadget.0: uvc: frame #327 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.5 (expected ~15) missed_xfer=2
+[  666.232224] configfs-gadget.g1 gadget.0: uvc: frame #331 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.1 (expected ~15) missed_xfer=0
+[  666.595839] uvcg_video_hw_submit: 1779 callbacks suppressed
+[  666.595861] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  666.596102] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  666.596129] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  666.596404] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  666.596433] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  666.596484] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  666.663588] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  666.663640] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  666.797211] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  666.797254] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  667.237372] configfs-gadget.g1 gadget.0: uvc: frame #361 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.4 (expected ~15) missed_xfer=0
+[  668.238435] configfs-gadget.g1 gadget.0: uvc: frame #391 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.8 (expected ~15) missed_xfer=0
+[  669.239837] configfs-gadget.g1 gadget.0: uvc: frame #421 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.8 (expected ~15) missed_xfer=0
+[  669.903090] uvcg_video_pump: 17140 callbacks suppressed
+[  669.903109] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  669.905112] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  669.905136] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  669.905152] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  669.905311] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  669.905341] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  669.905356] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  669.905509] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  669.905537] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  669.905552] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  670.240646] configfs-gadget.g1 gadget.0: uvc: frame #451 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=0
+[  671.185295] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  671.185369] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  671.208534] configfs-gadget.g1 gadget.0: uvc: frame #480 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=2
+[  671.208643] configfs-gadget.g1 gadget.0: uvc: frame #481 fcc=0x56595559 1280x720 bytesused=1843200 fps=8715.4 (expected ~15) missed_xfer=0
+[  671.597918] uvcg_video_hw_submit: 222 callbacks suppressed
+[  671.597936] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  671.597985] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  671.598094] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  671.598118] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  671.598293] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  671.598403] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  672.236952] configfs-gadget.g1 gadget.0: uvc: frame #511 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=0
+[  673.238073] configfs-gadget.g1 gadget.0: uvc: frame #541 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=0
+[  673.377345] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  673.401006] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  673.401054] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  673.401232] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  673.401259] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  673.404726] configfs-gadget.g1 gadget.0: uvc: frame #546 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=1
+[  673.887044] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  673.887148] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  673.898649] configfs-gadget.g1 gadget.0: uvc: frame #561 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=2
+[  674.231286] configfs-gadget.g1 gadget.0: uvc: frame #571 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=0
+[  674.257067] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  674.257157] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  674.264623] configfs-gadget.g1 gadget.0: uvc: frame #572 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=2
+[  674.800694] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  674.800754] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  674.802092] configfs-gadget.g1 gadget.0: uvc: frame #588 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=2
+[  674.905694] uvcg_video_pump: 16864 callbacks suppressed
+[  674.905717] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  674.905815] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  674.905988] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  674.906086] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  674.906123] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  674.906185] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  674.906294] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  674.906388] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  674.906481] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  674.906726] configfs-gadget.g1 gadget.0: uvc: pump: no video buffer available (underrun) fcc=0x56595559 1280x720
+[  675.057502] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  675.057585] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  675.068888] configfs-gadget.g1 gadget.0: uvc: frame #596 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=2
+[  675.234711] configfs-gadget.g1 gadget.0: uvc: frame #601 fcc=0x56595559 1280x720 bytesused=1843200 fps=27.1 (expected ~15) missed_xfer=0
+[  675.660969] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=1733904/1843200 missed_in_frame=1
+[  675.661022] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=1733904/1843200 missed_in_frame=2
+[  675.665118] configfs-gadget.g1 gadget.0: uvc: frame #613 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.0 (expected ~15) missed_xfer=2
+[  676.265489] configfs-gadget.g1 gadget.0: uvc: frame #631 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.9 (expected ~15) missed_xfer=0
+[  676.640476] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  676.640547] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  676.664867] uvcg_video_hw_submit: 1280 callbacks suppressed
+[  676.664891] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=28 fcc=0x56595559 1280x720)
+[  676.664929] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=29 fcc=0x56595559 1280x720)
+[  676.664950] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=30 fcc=0x56595559 1280x720)
+[  676.664969] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  676.664988] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=32 fcc=0x56595559 1280x720)
+[  676.665878] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=29 fcc=0x56595559 1280x720)
+[  676.665908] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=29 fcc=0x56595559 1280x720)
+[  676.665929] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=30 fcc=0x56595559 1280x720)
+[  676.665949] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=30 fcc=0x56595559 1280x720)
+[  676.665968] configfs-gadget.g1 gadget.0: uvc: hw_submit: no ready requests, sending zero-length (queued=31 fcc=0x56595559 1280x720)
+[  676.668023] configfs-gadget.g1 gadget.0: uvc: frame #643 fcc=0x56595559 1280x720 bytesused=1843200 fps=30.0 (expected ~15) missed_xfer=2
+[  676.794078] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=1284884/1843200 missed_in_frame=1
+[  676.794133] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  676.794196] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=3
+[  676.794334] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=4
+[  676.795778] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=5
+[  676.795894] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=6
+[  676.795996] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=7
+[  676.796039] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=8
+[  676.796086] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=9
+[  676.796204] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=10
+[  676.796251] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=11
+[  676.796333] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=12
+[  676.796372] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=13
+[  676.796426] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=14
+[  676.796480] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=15
+[  676.796527] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=16
+[  676.796576] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=17
+[  676.796621] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=18
+[  676.796668] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=19
+[  676.796861] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=20
+[  676.796940] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=21
+[  676.797011] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=22
+[  676.797056] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=23
+[  676.797108] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=24
+[  676.797195] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=25
+[  676.797260] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=26
+[  676.797318] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=27
+[  676.797341] configfs-gadget.g1 gadget.0: uvc: frame #647 fcc=0x56595559 1280x720 bytesused=1843200 fps=29.3 (expected ~15) missed_xfer=27
+[  676.798774] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  676.798889] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  676.798940] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=3
+[  676.798989] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=4
+[  676.799036] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=5
+[  676.799087] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=6
+[  676.799132] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=7
+[  676.799173] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=8
+[  676.799220] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=9
+[  676.799261] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=10
+[  676.799306] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=11
+[  676.799349] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=12
+[  676.799393] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=13
+[  676.799434] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=14
+[  676.799479] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=15
+[  676.800767] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=16
+[  676.800845] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=17
+[  676.800894] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=18
+[  676.800987] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=19
+[  676.801123] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=20
+[  676.801166] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=21
+[  676.801211] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=22
+[  676.801253] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=23
+[  676.801299] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=24
+[  676.801341] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=25
+[  676.801387] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=26
+[  676.801428] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=27
+[  676.801473] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=28
+[  676.801514] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=29
+[  676.801564] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=30
+[  676.802762] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=31
+[  676.802838] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=32
+[  676.802897] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=33
+[  676.802939] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=34
+[  676.802986] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=35
+[  676.803028] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=36
+[  676.803072] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=37
+[  676.803113] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=38
+[  676.803134] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=39
+[  676.803183] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=40
+[  676.803204] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=41
+[  676.803334] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=42
+[  676.803468] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=43
+[  676.803518] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=44
+[  676.803540] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=45
+[  676.804764] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=46
+[  676.804839] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=47
+[  676.804947] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=48
+[  676.805005] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=49
+[  676.805052] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=50
+[  676.805107] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=51
+[  676.805164] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=52
+[  676.805226] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=53
+[  676.805292] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=54
+[  676.805333] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=55
+[  676.805381] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=56
+[  676.805423] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=57
+[  676.805467] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=58
+[  676.805508] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=59
+[  676.805553] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=60
+[  676.806762] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=61
+[  676.806835] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=62
+[  676.806902] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=63
+[  676.806943] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=64
+[  676.806988] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=65
+[  676.807029] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=66
+[  676.807076] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=67
+[  676.807117] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=68
+[  676.807162] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=69
+[  676.807204] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=70
+[  676.807248] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=71
+[  676.807288] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=72
+[  676.807334] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=73
+[  676.807375] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=74
+[  676.807421] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=75
+[  676.808762] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=76
+[  676.808836] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=77
+[  676.808892] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=78
+[  676.808934] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=79
+[  676.808981] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=80
+[  676.809024] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=81
+[  676.809071] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=82
+[  676.809114] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=83
+[  676.809159] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=84
+[  676.809200] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=85
+[  676.809246] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=86
+[  676.809287] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=87
+[  676.809333] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=88
+[  676.809373] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=89
+[  676.809417] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=90
+[  676.810757] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=91
+[  676.810840] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=92
+[  676.810959] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=93
+[  676.811001] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=94
+[  676.811116] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=95
+[  676.811204] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=96
+[  676.811279] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=97
+[  676.811321] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=98
+[  676.811367] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=99
+[  676.811408] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=100
+[  676.811453] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=101
+[  676.811493] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=102
+[  676.811538] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=103
+[  676.811578] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=104
+[  676.811623] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=105
+[  676.812756] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=106
+[  676.812829] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=107
+[  676.812886] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=108
+[  676.812927] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=109
+[  676.812973] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=110
+[  676.813013] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=111
+[  676.813057] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=112
+[  676.813098] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=113
+[  676.813143] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=114
+[  676.813184] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=115
+[  676.813228] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=116
+[  676.813269] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=117
+[  676.813318] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=118
+[  676.813360] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=119
+[  676.813404] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=120
+[  676.814774] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=121
+[  676.814868] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=122
+[  676.814891] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=123
+[  676.814982] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=124
+[  676.815091] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=125
+[  676.815138] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=126
+[  676.815186] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=127
+[  676.815230] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=128
+[  676.815278] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=129
+[  676.815322] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=130
+[  676.815370] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=131
+[  676.815414] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=132
+[  676.815461] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=133
+[  676.815505] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=134
+[  676.815553] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=135
+[  676.816772] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=136
+[  676.816854] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=137
+[  676.816878] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=138
+[  676.816946] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=139
+[  676.816999] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=140
+[  676.817053] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=141
+[  676.817097] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=142
+[  676.817119] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=143
+[  676.817173] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=144
+[  676.817194] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=145
+[  676.817248] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=146
+[  676.817269] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=147
+[  676.817323] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=148
+[  676.817345] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=149
+[  676.817373] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=150
+[  676.818772] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=151
+[  676.818858] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=152
+[  676.818883] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=153
+[  676.818921] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=154
+[  676.818996] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=155
+[  676.819018] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=156
+[  676.819048] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=157
+[  676.819090] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=158
+[  676.819112] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=159
+[  676.819142] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=160
+[  676.819201] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=161
+[  676.819222] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=162
+[  676.819288] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=163
+[  676.819309] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=164
+[  676.819380] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=165
+[  676.820526] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=166
+[  676.820601] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=167
+[  676.820628] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=168
+[  676.820658] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=169
+[  676.820721] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=170
+[  676.820744] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=171
+[  676.820814] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=172
+[  676.820841] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=173
+[  676.820902] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=174
+[  676.820930] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=175
+[  676.820989] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=176
+[  676.821011] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=177
+[  676.821078] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=178
+[  676.821107] configfs-gadget.g1 gadget.0: uvc: frame #648 fcc=0x56595559 1280x720 bytesused=1843200 fps=42.0 (expected ~15) missed_xfer=178
+[  676.822510] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=1
+[  676.822603] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=2
+[  676.822620] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=3
+[  676.822635] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=4
+[  676.822660] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=5
+[  676.822678] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=6
+[  676.822736] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=7
+[  676.822751] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=8
+[  676.822765] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=9
+[  676.822787] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=10
+[  676.822848] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=11
+[  676.822863] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=12
+[  676.822886] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=13
+[  676.822943] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=14
+[  676.822959] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=15
+[  676.824513] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=16
+[  676.824613] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=17
+[  676.824632] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=18
+[  676.824650] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=19
+[  676.824667] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=20
+[  676.824700] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=21
+[  676.824724] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=22
+[  676.824793] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=23
+[  676.824819] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=24
+[  676.824843] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=25
+[  676.824898] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=26
+[  676.824913] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=27
+[  676.824928] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=28
+[  676.824949] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=29
+[  676.824995] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=30
+[  676.826507] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=31
+[  676.826586] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=32
+[  676.826604] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=33
+[  676.826718] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=34
+[  676.826737] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=35
+[  676.826828] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=36
+[  676.826845] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=37
+[  676.826870] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=38
+[  676.826888] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=39
+[  676.826940] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=40
+[  676.826955] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=41
+[  676.826970] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=42
+[  676.826991] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=43
+[  676.827009] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=44
+[  676.827062] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=45
+[  676.828525] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=46
+[  676.828619] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=75984/1843200 missed_in_frame=47
+[  676.828638] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=124340/1843200 missed_in_frame=48
+[  676.828655] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=165788/1843200 missed_in_frame=49
+[  676.828724] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=200328/1843200 missed_in_frame=50
+[  676.828755] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=214144/1843200 missed_in_frame=51
+[  676.828791] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=227960/1843200 missed_in_frame=52
+[  676.828822] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=241776/1843200 missed_in_frame=53
+[  676.828853] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=255592/1843200 missed_in_frame=54
+[  676.828885] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=269408/1843200 missed_in_frame=55
+[  676.828915] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=283224/1843200 missed_in_frame=56
+[  676.828945] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=297040/1843200 missed_in_frame=57
+[  676.828976] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=310856/1843200 missed_in_frame=58
+[  676.829005] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=324672/1843200 missed_in_frame=59
+[  676.829035] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=338488/1843200 missed_in_frame=60
+[  676.830490] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=61
+[  676.830568] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=62
+[  676.830579] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=63
+[  676.830589] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=64
+[  676.830628] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=65
+[  676.830645] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=66
+[  676.830663] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=67
+[  676.830679] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=68
+[  676.830733] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=69
+[  676.830749] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=70
+[  676.830811] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=71
+[  676.830828] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=72
+[  676.830873] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=73
+[  676.830890] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=74
+[  676.830934] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=75
+[  676.832519] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=0). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=76
+[  676.832616] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=77
+[  676.832649] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=78
+[  676.832683] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=79
+[  676.832716] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=80
+[  676.832747] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=81
+[  676.832778] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=82
+[  676.832808] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=83
+[  676.832839] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=84
+[  676.832867] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=85
+[  676.832899] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=86
+[  676.832958] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=87
+[  676.832992] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=88
+[  676.833027] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=89
+[  676.833041] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=90
+[  676.834491] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=91
+[  676.834568] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=92
+[  676.834606] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=93
+[  676.834635] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=94
+[  676.834665] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=95
+[  676.834692] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=96
+[  676.834722] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=97
+[  676.834748] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=98
+[  676.834780] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=99
+[  676.834807] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=100
+[  676.834838] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=101
+[  676.834865] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=102
+[  676.834895] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=103
+[  676.834921] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=104
+[  676.834950] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=105
+[  676.836510] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=106
+[  676.836562] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=107
+[  676.836638] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=108
+[  676.836664] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=109
+[  676.836730] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=110
+[  676.836757] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=111
+[  676.836826] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=112
+[  676.836894] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=113
+[  676.836925] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=114
+[  676.836965] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=115
+[  676.837001] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=116
+[  676.837028] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=117
+[  676.837057] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=118
+[  676.837084] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=119
+[  676.837113] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=120
+[  676.838490] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=121
+[  676.838549] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=122
+[  676.838588] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=123
+[  676.838618] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=124
+[  676.838648] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=125
+[  676.838675] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=126
+[  676.838705] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=127
+[  676.838732] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=128
+[  676.838762] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=129
+[  676.838789] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=130
+[  676.838822] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=131
+[  676.838850] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=132
+[  676.838880] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=133
+[  676.838907] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=134
+[  676.838936] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=135
+[  676.840489] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=136
+[  676.840539] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=137
+[  676.840578] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=138
+[  676.840605] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=139
+[  676.840635] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=140
+[  676.840664] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=141
+[  676.840693] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=142
+[  676.840720] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=143
+[  676.840750] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=144
+[  676.840779] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=145
+[  676.840808] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=146
+[  676.840834] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=147
+[  676.840866] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=148
+[  676.840894] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=149
+[  676.840926] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=150
+[  676.842489] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=151
+[  676.842540] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=152
+[  676.842577] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=153
+[  676.842604] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=154
+[  676.842635] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=155
+[  676.842663] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=156
+[  676.842693] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=157
+[  676.842721] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=158
+[  676.842751] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=159
+[  676.842784] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=160
+[  676.842827] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=161
+[  676.842866] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=162
+[  676.842893] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=163
+[  676.842925] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=164
+[  676.842953] configfs-gadget.g1 gadget.0: uvc: VS request missed xfer (len=6916). Frame may be incomplete. buf_used=0/1843200 missed_in_frame=165
+[  676.843856] configfs-gadget.g1 gadget.0: uvc: uvc_function_set_alt(3, 0)

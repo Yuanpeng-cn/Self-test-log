@@ -1,0 +1,82 @@
+--------- beginning of main
+09-03 13:28:20.010  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_streaming_setup: Class Request Type - Streaming with PROBE mode
+09-03 13:28:20.010  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_streaming_setup: Class Request Type - Streaming with PROBE mode
+09-03 13:28:20.010  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_event_data: Setting PROBE Streaming control
+09-03 13:28:20.010  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_event_data: Host requested: Format 1, Frame 1,  Interval 333333
+09-03 13:28:20.010  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_event_data: Returning : Format 1, Frame 1,  Interval 333333
+09-03 13:28:20.010  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_fill_streaming_control: Max payload size is 33792
+09-03 13:28:20.010  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_streaming_setup: Class Request Type - Streaming with PROBE mode
+09-03 13:28:20.010  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_streaming_setup: Class Request Type - Streaming with PROBE mode
+09-03 13:28:20.011  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_streaming_setup: Class Request Type - Streaming with PROBE mode
+09-03 13:28:20.298  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_streaming_setup: Class Request Type - Streaming with PROBE mode
+09-03 13:28:20.298  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_event_data: Setting PROBE Streaming control
+09-03 13:28:20.298  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_event_data: Host requested: Format 1, Frame 1,  Interval 333333
+09-03 13:28:20.298  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_event_data: Returning : Format 1, Frame 1,  Interval 333333
+09-03 13:28:20.298  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_fill_streaming_control: Max payload size is 33792
+09-03 13:28:20.298  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_streaming_setup: Class Request Type - Streaming with PROBE mode
+09-03 13:28:20.298  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_streaming_setup: Class Request Type - Streaming with COMMIT mode
+09-03 13:28:20.298  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_event_data: Setting COMMIT Streaming control
+09-03 13:28:20.298  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_event_data: Host requested: Format 1, Frame 1,  Interval 333333
+09-03 13:28:20.298  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_event_data: Setting : Format 1, Frame 1,  Interval 333333
+09-03 13:28:20.298  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_fill_streaming_control: Max payload size is 33792
+09-03 13:28:20.299  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_set_format: Setting format: 640x360 - YUYV
+09-03 13:28:20.299  7705  9613 I UmdCamera: Stream setup: 640x360@30.00 - YUYV
+09-03 13:28:20.299  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_set_format: Stream format configured
+09-03 13:28:20.299  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_event_streamon: Enabling UVC stream
+09-03 13:28:20.299  7705  9613 I vendor.qti.hardware.umd@1.0-service: umd_video_request_buffers: Queried buffer at idx 0 with length: 460800 and offset: 0
+09-03 13:28:20.300  7705  9613 I vendor.qti.hardware.umd@1.0-service: umd_video_request_buffers: Buffer 0 mapped at address 0x74a3c52000
+09-03 13:28:20.300  7705  9613 I vendor.qti.hardware.umd@1.0-service: umd_video_request_buffers: Queried buffer at idx 1 with length: 460800 and offset: 462848
+09-03 13:28:20.300  7705  9613 I vendor.qti.hardware.umd@1.0-service: umd_video_request_buffers: Buffer 1 mapped at address 0x71fed20000
+09-03 13:28:20.300  7705  9613 I vendor.qti.hardware.umd@1.0-service: umd_video_request_buffers: Queried buffer at idx 2 with length: 460800 and offset: 925696
+09-03 13:28:20.300  7705  9613 I vendor.qti.hardware.umd@1.0-service: umd_video_request_buffers: Buffer 2 mapped at address 0x71fecaf000
+09-03 13:28:20.300  7705  9613 I vendor.qti.hardware.umd@1.0-service: umd_video_request_buffers: Queried buffer at idx 3 with length: 460800 and offset: 1388544
+09-03 13:28:20.300  7705  9613 I vendor.qti.hardware.umd@1.0-service: umd_video_request_buffers: Buffer 3 mapped at address 0x71fec3e000
+09-03 13:28:20.300  7705  9613 D UmdCamera: Stream ON
+09-03 13:28:20.300  7705  9613 I vendor.qti.hardware.umd@1.0-service: umd_video_process_event_streamon: UVC stream is ON
+09-03 13:28:20.300  7705  9614 D UmdCamera: CAMERA_START
+09-03 13:28:20.300  7705  9614 D UmdCamera: Camera start
+09-03 13:28:20.486  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_control_setup: Class Request Type - Control for entity 01, selector 0D and request 81
+09-03 13:28:20.486  7705  9613 I UmdCamera: Control: 0x10, Request: 0x2
+09-03 13:28:20.486  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_control_setup: Class Request Type - Control for entity 01, selector 0D and request 81
+09-03 13:28:20.486  7705  9613 I UmdCamera: Control: 0x10, Request: 0x2
+09-03 13:28:20.486  7705  9613 D vendor.qti.hardware.umd@1.0-service: umd_video_process_control_setup: Class Request Type - Control for entity 01, selector 0B and request 81
+09-03 13:28:20.486  7705  9613 I UmdCamera: Control: 0xF, Request: 0x2
+09-03 13:28:20.507  7705 11399 D UmdCamera: ShutterCb 
+09-03 13:28:20.530  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 0 requestId 0
+09-03 13:28:20.530  7705 11399 E vendor.qti.hardware.umd@1.0-service: Perform: Unrecognized action to perform.
+09-03 13:28:20.530  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 0 requestId 0
+09-03 13:28:20.530  7705 11399 E vendor.qti.hardware.umd@1.0-service: Perform: Unrecognized action to perform.
+09-03 13:28:20.530  7705  9614 D UmdCamera: CAMERA_SUBMIT_REQUEST
+09-03 13:28:20.530  7705  9614 D UmdCamera: Camera submit request
+09-03 13:28:20.539  7705 11399 D UmdCamera: ShutterCb 
+09-03 13:28:20.560  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 1 requestId 0
+09-03 13:28:20.560  7705 11399 E vendor.qti.hardware.umd@1.0-service: Perform: Unrecognized action to perform.
+09-03 13:28:20.560  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 1 requestId 0
+09-03 13:28:20.561  7705 11399 E vendor.qti.hardware.umd@1.0-service: Perform: Unrecognized action to perform.
+09-03 13:28:20.561  7705  9614 D UmdCamera: CAMERA_SUBMIT_REQUEST
+09-03 13:28:20.561  7705  9614 D UmdCamera: Camera submit request
+09-03 13:28:20.573  7705 11399 D UmdCamera: ShutterCb 
+09-03 13:28:20.594  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 2 requestId 0
+09-03 13:28:20.595  7705 11399 E vendor.qti.hardware.umd@1.0-service: Perform: Unrecognized action to perform.
+09-03 13:28:20.595  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 2 requestId 0
+09-03 13:28:20.595  7705 11399 E vendor.qti.hardware.umd@1.0-service: Perform: Unrecognized action to perform.
+09-03 13:28:20.595  7705  9614 D UmdCamera: CAMERA_SUBMIT_REQUEST
+09-03 13:28:20.595  7705  9614 D UmdCamera: Camera submit request
+09-03 13:28:20.606  7705 11399 D UmdCamera: ShutterCb 
+09-03 13:28:20.628  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 3 requestId 0
+09-03 13:28:20.628  7705 11399 E vendor.qti.hardware.umd@1.0-service: Perform: Unrecognized action to perform.
+09-03 13:28:20.628  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 3 requestId 0
+09-03 13:28:20.628  7705 11399 E vendor.qti.hardware.umd@1.0-service: Perform: Unrecognized action to perform.
+09-03 13:28:20.628  7705  9614 D UmdCamera: CAMERA_SUBMIT_REQUEST
+09-03 13:28:20.628  7705  9614 D UmdCamera: Camera submit request
+09-03 13:28:20.640  7705 11399 D UmdCamera: ShutterCb 
+09-03 13:28:20.663  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 4 requestId 0
+09-03 13:28:20.663  7705 11399 E vendor.qti.hardware.umd@1.0-service: Perform: Unrecognized action to perform.
+09-03 13:28:20.663  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 4 requestId 0
+09-03 13:28:20.663  7705 11399 E vendor.qti.hardware.umd@1.0-service: Perform: Unrecognized action to perform.
+09-03 13:28:20.664  7705  9614 D UmdCamera: CAMERA_SUBMIT_REQUEST
+09-03 13:28:20.664  7705  9614 D UmdCamera: Camera submit request
+09-03 13:28:20.674  7705 11399 D UmdCamera: ShutterCb 
+09-03 13:28:20.696  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 5 requestId 0
+09-03 13:28:20.697  7705 11399 E vendor.qti.hardware.umd@1.0-service: Perform: Unrecognized action to perform.
+09-03 13:28:20.697  7705 11399 E UmdCamera: ErrorCb: ErrorCode: 4 frameNumber 5 requestId 0

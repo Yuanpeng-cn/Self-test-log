@@ -1,0 +1,193 @@
+[ 2415.155178] init: Control message: Could not find 'com.qualcomm.qti.dpm.api@1.0::IdpmQmi/dpmQmiService' for ctl.interface_start from pid: 893 (/system/system_ext/bin/hwservicemanager)
+[ 2415.383131] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2415.384414] init: Control message: Could not find 'aidl/vendor.qti.snapdragonServices.ISnapdragonServices/default' for ctl.interface_start from pid: 892 (/system/bin/servicemanager)
+[ 2415.385175] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2415.794010] init: starting service 'vendor.modemManager'...
+[ 2415.801991] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1001/pid_16003
+[ 2415.809197] init: ... started service 'vendor.modemManager' has pid 16003
+[ 2415.828865] init: Service 'vendor.ipa_lnx_agent' (pid 15899) exited with status 255
+[ 2415.828894] init: Sending SIGKILL to service 'vendor.ipa_lnx_agent' (pid 15899) process group...
+[ 2415.829520] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1001/pid_15899
+[ 2415.829574] init: process with updatable components 'vendor.ipa_lnx_agent' exited 4 times in 4 minutes
+[ 2415.831165] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[ 2415.848869] audit: audit_lost=331851 audit_rate_limit=5 audit_backlog_limit=64
+[ 2415.848882] audit: rate limit exceeded
+[ 2415.848920] type=1400 audit(1788442098.391:333897): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=105 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[ 2415.849049] type=1400 audit(1788442098.391:333898): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=105 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[ 2415.849110] type=1400 audit(1788442098.391:333899): avc:  denied  { map } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=105 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[ 2415.849220] type=1400 audit(1788442098.391:333900): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=107 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[ 2415.849283] type=1400 audit(1788442098.391:333901): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=107 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[ 2416.388059] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2416.390030] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2417.391484] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2417.393208] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2417.483833] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2417.483878] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[ 2417.483915] NfcConfService: STM device node /dev/st21nfc not yet available.
+[ 2418.394597] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2418.396736] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2418.484120] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2418.484167] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[ 2418.484203] NfcConfService: STM device node /dev/st21nfc not yet available.
+[ 2419.397263] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2419.399120] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2419.484408] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2419.484453] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[ 2419.484489] NfcConfService: STM device node /dev/st21nfc not yet available.
+[ 2419.712735] configfs-gadget gadget: uvc: uvc_function_set_alt(3, 1)
+[ 2419.712763] configfs-gadget gadget: uvc: reset UVC
+[ 2419.770193] CAM_INFO: CAM-SENSOR: cam_sensor_driver_cmd: 1473: CAM_ACQUIRE_DEV Success for cmk_imx577 sensor_id:0x577,sensor_slave_addr:0x34,is_always_on:0 
+[ 2419.779833] CAM_INFO: CAM-CSIPHY: cam_csiphy_core_cfg: 2237: CAM_ACQUIRE_DEV: 7 Type: DPHY acquire_count: 1 combo: 0 cphy+dphy combo: 0 
+[ 2419.786083] CAM_INFO: CAM-SENSOR: cam_sensor_handle_res_info: 205: Sensor[cmk_imx577-0] Feature: 0x0 updated for request id: 0, res index: 1, width: 0xfd8, height: 0x8f0, capability: NORMAL , fps: 30 
+[ 2419.787031] CAM_INFO: CAM-ISP: cam_ife_hw_mgr_print_acquire_info: 1514: 13:28:22.335 Acquired Single IFE[2] with [9 pix] [0 pd] [0 rdi] ports for ctx:1 
+[ 2419.789956] CAM_INFO: CAM-CSIPHY: cam_csiphy_update_lane_selection: 1591: lane_reg_addr: 0x1014, lane_assign: 0x3210, lane_enable: 0xd5, delay: 0 
+[ 2419.790284] CAM_INFO: CAM-CSIPHY: cam_csiphy_core_cfg: 2708: CAM_START_PHYDEV: 7, Type: DPHY, slot: 0, sec_mode: 0, Datarate: 996000000, Settletime: 2800000000, combo: 0, cphy+dphy: 0 
+[ 2419.790476] CAM_INFO: CAM-SENSOR: cam_sensor_driver_cmd: 1604: 13:28:22.338 CAM_START_DEV Success for cmk_imx577 sensor_id:0x577,sensor_slave_addr:0x34 num_batched_frames:1 
+[ 2419.928608] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 1 already applied to IFE on link 0xe10305 
+[ 2419.928632] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 1 on link 0xe10305 
+[ 2419.928799] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 1 already applied to IFE on link 0xe10305 
+[ 2419.928806] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 1 on link 0xe10305 
+[ 2419.957476] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 2 already applied to IFE on link 0xe10305 
+[ 2419.957502] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 2 on link 0xe10305 
+[ 2419.957689] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 2 already applied to IFE on link 0xe10305 
+[ 2419.957697] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 2 on link 0xe10305 
+[ 2419.992806] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 3 already applied to IFE on link 0xe10305 
+[ 2419.992826] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 3 on link 0xe10305 
+[ 2419.992980] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 3 already applied to IFE on link 0xe10305 
+[ 2419.992996] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 3 on link 0xe10305 
+[ 2420.026292] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 4 already applied to IFE on link 0xe10305 
+[ 2420.026317] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 4 on link 0xe10305 
+[ 2420.026510] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 4 already applied to IFE on link 0xe10305 
+[ 2420.026524] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 4 on link 0xe10305 
+[ 2420.059587] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 5 already applied to IFE on link 0xe10305 
+[ 2420.059610] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 5 on link 0xe10305 
+[ 2420.059871] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 5 already applied to IFE on link 0xe10305 
+[ 2420.059885] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 5 on link 0xe10305 
+[ 2420.095241] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 6 already applied to IFE on link 0xe10305 
+[ 2420.095266] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 6 on link 0xe10305 
+[ 2420.095466] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 6 already applied to IFE on link 0xe10305 
+[ 2420.095480] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 6 on link 0xe10305 
+[ 2420.127996] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 7 already applied to IFE on link 0xe10305 
+[ 2420.128031] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 7 on link 0xe10305 
+[ 2420.128299] CAM_WARN: CAM-CRM: __cam_req_mgr_try_cancel_req: 2947: req 7 already applied to IFE on link 0xe10305 
+[ 2420.128313] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 7 on link 0xe10305 
+[ 2420.161005] init: Control message: Could not find 'com.qualcomm.qti.dpm.api@1.0::IdpmQmi/dpmQmiService' for ctl.interface_start from pid: 893 (/system/system_ext/bin/hwservicemanager)
+[ 2420.197359] logd: logdr: UID=1000 GID=1000 PID=16044 n tail=500 logMask=8 pid=7374 start=0ns deadline=0ns
+[ 2420.198330] logd: logdr: UID=1000 GID=1000 PID=16044 n tail=500 logMask=1 pid=7374 start=0ns deadline=0ns
+[ 2420.212393] init: Untracked process (pid: 16044 name: (crash_dump64) ppid: 1 pgrp: 16043 state: Z) exited with status 0
+[ 2420.212429] init: Untracked process (pid: 16044 name: (crash_dump64) ppid: 1 pgrp: 16043 state: Z) did not have an associated service entry and will not be reaped
+[ 2420.215553] init: Untracked process (pid: 16046 name: (binder:7374_2) ppid: 1 pgrp: 16046 state: Z) exited with status 0
+[ 2420.215578] init: Untracked process (pid: 16046 name: (binder:7374_2) ppid: 1 pgrp: 16046 state: Z) did not have an associated service entry and will not be reaped
+[ 2420.225694] configfs-gadget gadget: uvc: uvc_function_disable()
+[ 2420.226348] android_work: sent uevent USB_STATE=DISCONNECTED
+[ 2420.231549] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[ 2420.231568] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[ 2420.231574] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[ 2420.231580] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[ 2420.231586] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[ 2420.231591] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[ 2420.231596] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[ 2420.233019] binder: release 7374:12491 transaction 171776 in, still active
+[ 2420.233031] binder: send failed reply for transaction 171776 to 1637:2769
+[ 2420.233062] binder: release 7374:12493 transaction 171759 out, still active
+[ 2420.233839] binder: 1637:1719 transaction reply to 0:0 failed 171803/29189/0, code 0 size 8-0 line 3142
+[ 2420.233853] binder: send failed reply for transaction 171759, target dead
+[ 2420.233915] init: Service 'vendor.umd-hal-1-0' (pid 7374) received SIGABRT
+[ 2420.233954] init: Sending SIGKILL to service 'vendor.umd-hal-1-0' (pid 7374) process group...
+[ 2420.234517] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_7374
+[ 2420.236953] init: starting service 'vendor.umd-hal-1-0'...
+[ 2420.240391] CAM_INFO: CAM-CRM: cam_req_mgr_process_flush_req: 3013: Last request id to flush is 11 on link 0xe10305 
+[ 2420.240425] CAM_INFO: CAM-ISP: __cam_isp_ctx_flush_req_in_top_state: 5350: Last request id to flush is 11, ctx_id:1 
+[ 2420.240619] CAM_INFO: CAM-ISP: __cam_isp_ctx_flush_req_in_top_state: 5366: Stop HW complete. Reset HW next. 
+[ 2420.240712] CAM_ERR: CAM-CRM: __cam_req_mgr_try_cancel_req: 2927: req_id 8 not found in input queue 
+[ 2420.240718] CAM_WARN: CAM-CRM: cam_req_mgr_process_flush_req: 3026: cannot cancel req_id 8 on link 0xe10305 
+[ 2420.242289] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_16053
+[ 2420.242989] CAM_ERR: CAM-CTXT: cam_context_buf_done_from_hw: 188: [cam-icp][1] no active request 
+[ 2420.243412] CAM_ERR: CAM-CTXT: cam_context_buf_done_from_hw: 188: [cam-icp][1] no active request 
+[ 2420.245226] CAM_INFO: CAM-SENSOR: cam_sensor_stream_off: 1210: 13:28:22.793 CAM_STOP_DEV Success for cmk_imx577 sensor_id:0x577,sensor_slave_addr:0x34 
+[ 2420.245276] CAM_INFO: CAM-CSIPHY: cam_csiphy_update_lane_selection: 1591: lane_reg_addr: 0x1014, lane_assign: 0x3210, lane_enable: 0x0, delay: 0 
+[ 2420.245574] CAM_INFO: CAM-CSIPHY: cam_csiphy_core_cfg: 2353: CAM_STOP_PHYDEV: 7, Type: DPHY, slot: 0, Datarate: 996000000, Settletime: 2800000000 
+[ 2420.245600] CAM_WARN: CAM-ISP: __cam_isp_ctx_process_evt: 7945: Get unexpect evt:1 in acquired state 
+[ 2420.245665] CAM_INFO: CAM-ISP: cam_ife_mgr_release_hw: 7765: 13:28:22.793 Release HW success ctx id: 1 
+[ 2420.252817] CAM_INFO: CAM-SENSOR: cam_sensor_driver_cmd: 1534: CAM_RELEASE_DEV Success for cmk_imx577 sensor_id:0x577, slave_addr:0x34 
+[ 2420.260091] configfs-gadget gadget: uvc: uvc_function_unbind()
+[ 2420.260324] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[ 2420.260348] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep0out
+[ 2420.262235] read descriptors
+[ 2420.262255] read strings
+[ 2420.400984] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2420.403446] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2420.484937] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2420.764859] configfs-gadget gadget: uvc: uvc_function_bind()
+[ 2421.407890] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2421.412965] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2422.415462] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2422.420575] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2422.488277] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2422.490636] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[ 2422.490692] NfcConfService: STM device node /dev/st21nfc not yet available.
+[ 2423.422175] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2423.427006] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2423.493405] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2423.493497] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[ 2423.493538] NfcConfService: STM device node /dev/st21nfc not yet available.
+[ 2423.801390] (virq:irq_count)- GICv3:arch_timer(11):726660 GICv3:IPI(1):531337 GICv3:IPI(6):205507 gic_msm_pci_msi:xhci_hcd(409):75316 GICv3:IPI(2):70292 GICv3:apps_rsc-drv-2(20):50927 GICv3:ufshcd(35):45503 gic_msm_pci_msi:pci1_wlan_ce_7(436):23632 gic_msm_pci_msi:pci1_wlan_grp_dp_0(440):17903 GICv3:240b6400.qcom,bwmon-llcc(40):16076 
+[ 2423.801550] (cpu:irq_count)- 0:563208 1:326797 2:297235 3:78864 4:56850 5:64474 6:42733 7:422764 
+[ 2423.801610] (ipi:irq_count)- 0:531337 1:70292 2:0 3:0 4:0 5:205507 6:0 
+[ 2424.429742] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2424.434472] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2424.496251] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2424.496341] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[ 2424.496381] NfcConfService: STM device node /dev/st21nfc not yet available.
+[ 2425.182122] init: Control message: Could not find 'com.qualcomm.qti.dpm.api@1.0::IdpmQmi/dpmQmiService' for ctl.interface_start from pid: 893 (/system/system_ext/bin/hwservicemanager)
+[ 2425.436214] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2425.439960] init: Control message: Could not find 'aidl/vendor.qti.snapdragonServices.ISnapdragonServices/default' for ctl.interface_start from pid: 892 (/system/bin/servicemanager)
+[ 2425.441631] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2425.496785] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2425.813685] init: starting service 'vendor.modemManager'...
+[ 2425.824562] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1001/pid_16089
+[ 2425.833001] init: ... started service 'vendor.modemManager' has pid 16089
+[ 2425.874536] init: Service 'vendor.modemManager' (pid 16089) received SIGSYS
+[ 2425.874616] init: Sending SIGKILL to service 'vendor.modemManager' (pid 16089) process group...
+[ 2425.875769] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1001/pid_16089
+[ 2426.185312] init: Control message: Could not find 'com.qualcomm.qti.dpm.api@1.0::IdpmQmi/dpmQmiService' for ctl.interface_start from pid: 893 (/system/system_ext/bin/hwservicemanager)
+[ 2426.444319] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2426.448589] init: Control message: Could not find 'aidl/vendor.qti.snapdragonServices.ISnapdragonServices/default' for ctl.interface_start from pid: 892 (/system/bin/servicemanager)
+[ 2426.449550] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2427.449866] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2427.454617] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2427.499091] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2427.499181] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[ 2427.499228] NfcConfService: STM device node /dev/st21nfc not yet available.
+[ 2428.454195] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2428.459015] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2428.500391] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2428.500489] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[ 2428.500533] NfcConfService: STM device node /dev/st21nfc not yet available.
+[ 2429.461592] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2429.466597] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2429.501005] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2429.501091] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[ 2429.501142] NfcConfService: STM device node /dev/st21nfc not yet available.
+[ 2430.204198] init: Control message: Could not find 'com.qualcomm.qti.dpm.api@1.0::IdpmQmi/dpmQmiService' for ctl.interface_start from pid: 893 (/system/system_ext/bin/hwservicemanager)
+[ 2430.467491] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2430.470833] init: Control message: Could not find 'aidl/vendor.qti.snapdragonServices.ISnapdragonServices/default' for ctl.interface_start from pid: 892 (/system/bin/servicemanager)
+[ 2430.472035] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[ 2430.501474] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[ 2430.825256] init: starting service 'vendor.modemManager'...
+[ 2430.834646] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1001/pid_16109
+[ 2430.845108] init: ... started service 'vendor.modemManager' has pid 16109
+[ 2430.882190] init: Service 'vendor.modemManager' (pid 16109) received SIGSYS
+[ 2430.882268] init: Sending SIGKILL to service 'vendor.modemManager' (pid 16109) process group...
+[ 2430.883176] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1001/pid_16109
+[ 2430.883262] init: process with updatable components 'vendor.modemManager' exited 4 times in 4 minutes
+[ 2430.886489] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[ 2430.923282] audit: audit_lost=332884 audit_rate_limit=5 audit_backlog_limit=64
+[ 2430.923290] audit: rate limit exceeded
+[ 2430.923412] type=1400 audit(1788442113.463:334935): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=107 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[ 2430.923543] type=1400 audit(1788442113.463:334936): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=107 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[ 2430.923610] type=1400 audit(1788442113.463:334937): avc:  denied  { map } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=107 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[ 2430.923731] type=1400 audit(1788442113.463:334938): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:adaptive_haptics_prop:s0" dev="tmpfs" ino=108 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:adaptive_haptics_prop:s0 tclass=file permissive=1
+[ 2430.923795] type=1400 audit(1788442113.463:334939): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:adaptive_haptics_prop:s0" dev="tmpfs" ino=108 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:adaptive_haptics_prop:s0 tclass=file permissive=1
+[ 2431.477983] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[ 2431.482488] servicemanager: Caller(pid=2599,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.

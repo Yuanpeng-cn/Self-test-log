@@ -1,0 +1,75 @@
+[  729.862328] (virq:irq_count)- GICv3:IPI(1):1624791 GICv3:arch_timer(11):791734 GICv3:IPI(6):488978 GICv3:apps_rsc-drv-2(21):166570 GICv3:IPI(2):114271 GICv3:ife(315):41187 GICv3:9091000.qcom,bwmon-ddr(27):25932 GICv3:ufshcd(29):25317 GICv3:90b6400.qcom,bwmon-llcc(26):21872 GICv3:dwc3(484):19908 
+[  739.334312] (virq:irq_count)- GICv3:IPI(1):1643316 GICv3:arch_timer(11):802203 GICv3:IPI(6):493038 GICv3:apps_rsc-drv-2(21):168931 GICv3:IPI(2):115343 GICv3:ife(315):41893 GICv3:9091000.qcom,bwmon-ddr(27):26272 GICv3:ufshcd(29):25323 GICv3:90b6400.qcom,bwmon-llcc(26):22195 GICv3:dwc3(484):19908 
+[  748.806333] (virq:irq_count)- GICv3:IPI(1):1661491 GICv3:arch_timer(11):812522 GICv3:IPI(6):497036 GICv3:apps_rsc-drv-2(21):171227 GICv3:IPI(2):116412 GICv3:ife(315):42599 GICv3:9091000.qcom,bwmon-ddr(27):26648 GICv3:ufshcd(29):25335 GICv3:90b6400.qcom,bwmon-llcc(26):22492 GICv3:dwc3(484):19908 
+[  758.278574] (virq:irq_count)- GICv3:IPI(1):1679544 GICv3:arch_timer(11):822972 GICv3:IPI(6):501220 GICv3:apps_rsc-drv-2(21):173520 GICv3:IPI(2):117493 GICv3:ife(315):43305 GICv3:9091000.qcom,bwmon-ddr(27):26996 GICv3:ufshcd(29):25341 GICv3:90b6400.qcom,bwmon-llcc(26):22812 GICv3:dwc3(484):19908 
+[  767.750764] (virq:irq_count)- GICv3:IPI(1):1697894 GICv3:arch_timer(11):833413 GICv3:IPI(6):505351 GICv3:apps_rsc-drv-2(21):175811 GICv3:IPI(2):118568 GICv3:ife(315):44011 GICv3:9091000.qcom,bwmon-ddr(27):27365 GICv3:ufshcd(29):25348 GICv3:90b6400.qcom,bwmon-llcc(26):23116 GICv3:dwc3(484):19908 
+[  775.167850] configfs-gadget gadget: uvc: uvc_function_set_alt(3, 1)
+[  775.167867] configfs-gadget gadget: uvc: reset UVC
+[  777.222381] (virq:irq_count)- GICv3:IPI(1):1718387 GICv3:arch_timer(11):844041 GICv3:IPI(6):511140 GICv3:apps_rsc-drv-2(21):178158 GICv3:IPI(2):119635 GICv3:ife(315):45093 GICv3:9091000.qcom,bwmon-ddr(27):27708 GICv3:ufshcd(29):25373 GICv3:90b6400.qcom,bwmon-llcc(26):23420 GICv3:dwc3(484):20208 
+[  786.694373] (virq:irq_count)- GICv3:IPI(1):1745230 GICv3:arch_timer(11):855056 GICv3:IPI(6):525273 GICv3:apps_rsc-drv-2(21):180230 GICv3:IPI(2):120663 GICv3:ife(315):47832 GICv3:9091000.qcom,bwmon-ddr(27):27933 GICv3:ufshcd(29):25376 GICv3:90b6400.qcom,bwmon-llcc(26):23615 GICv3:dwc3(484):21603 
+[  796.166330] (virq:irq_count)- GICv3:IPI(1):1772613 GICv3:arch_timer(11):865989 GICv3:IPI(6):538894 GICv3:apps_rsc-drv-2(21):182251 GICv3:IPI(2):121655 GICv3:ife(315):50587 GICv3:9091000.qcom,bwmon-ddr(27):28130 GICv3:ufshcd(29):25383 GICv3:90b6400.qcom,bwmon-llcc(26):23815 GICv3:dwc3(484):23005 
+[  802.613125] configfs-gadget gadget: uvc: uvc_function_set_alt(3, 0)
+[  802.613383] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613402] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613410] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613418] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613426] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613434] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613441] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613449] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613456] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613464] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613471] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613479] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613485] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613493] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613499] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613506] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613514] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613520] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613529] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613536] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613543] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613550] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613558] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613565] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613572] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613579] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613586] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613593] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613600] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613607] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613614] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613622] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613630] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613636] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613643] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613650] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613657] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613664] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613672] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613679] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613686] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613693] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613700] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613707] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613715] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613721] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613728] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613735] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613742] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613749] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613756] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613763] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613770] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613777] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613785] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613792] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613804] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613811] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613818] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613826] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613834] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613841] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613849] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  802.613856] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in

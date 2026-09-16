@@ -1,0 +1,1026 @@
+[  439.218385] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  439.218423] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  439.218442] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  439.298656] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  439.301519] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  439.489925] servicemanager: Caller(pid=11128,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  439.497709] servicemanager: Caller(pid=11128,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  439.780785] [kworke][0x1fb7b9d39][12:57:04.178346] wlan: [4390:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  439.781284] servicemanager: Caller(pid=11146,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  439.788856] servicemanager: Caller(pid=11146,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  439.874523] [irq][0x1fb971387][12:57:04.272083] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  439.874577] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  439.876597] [kworke][0x1fb97af60][12:57:04.274161] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  439.883720] [soft_i][0x1fb99c579][12:57:04.281282] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  439.883825] [soft_i][0x1fb99cd66][12:57:04.281388] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  439.883830] [soft_i][0x1fb99cdd4][12:57:04.281394] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  439.883834] [soft_i][0x1fb99ce1c][12:57:04.281397] wlan: [0:I:WMA] 00000010: 00 40 b4 0a 40 00 80 06 6e 71 c0 a8 2b 66 c0 a8
+[  439.883838] [soft_i][0x1fb99ce61][12:57:04.281401] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 95 1b e6 25 f5 13 50 18
+[  439.883841] [soft_i][0x1fb99cea6][12:57:04.281404] wlan: [0:I:WMA] 00000030: 02 01 04 83 00 00 57 52 54 45 9a 2e 00 00 08 00
+[  439.883843] [soft_i][0x1fb99ced6][12:57:04.281407] wlan: [0:I:WMA] 00000040: 00 00 06 00 00 00 00 00 00 00 a8 ad ab ba
+[  439.883856] [soft_i][0x1fb99cfd1][12:57:04.281420] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 64, src_port: 62415, dst_port: 5555
+[  440.068786] servicemanager: Caller(pid=11163,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  440.075911] servicemanager: Caller(pid=11163,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  440.218677] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  440.218711] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  440.218728] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  440.301083] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  440.304100] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  441.218927] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  441.218956] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  441.218971] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  442.112828] init: starting service 'vendor.hvdcp_opti'...
+[  442.129263] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_11291
+[  442.133898] init: ... started service 'vendor.hvdcp_opti' has pid 11291
+[  442.159313] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[  442.160314] MAIN_MGR: set keepcaps failed!
+[  442.160926] CHG_POLICY_PATH: Failed to get IIO path for BMS_PSY
+[  442.160940] MAIN_MGR: Failed to setup PSY and IIO path
+[  442.162673] init: Service 'vendor.hvdcp_opti' (pid 11291) exited with status 255
+[  442.162720] init: Sending SIGKILL to service 'vendor.hvdcp_opti' (pid 11291) process group...
+[  442.163488] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_11291
+[  442.163549] init: process with updatable components 'vendor.hvdcp_opti' exited 4 times in 4 minutes
+[  442.167864] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  442.168085] init: starting service 'exec 111 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  442.169585] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_11302
+[  442.175999] audit: audit_lost=82574 audit_rate_limit=5 audit_backlog_limit=64
+[  442.176005] audit: rate limit exceeded
+[  442.176254] type=1400 audit(1788440226.570:83045): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  442.176500] type=1400 audit(1788440226.570:83046): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  442.176642] type=1400 audit(1788440226.570:83047): avc:  denied  { map } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  442.176776] type=1400 audit(1788440226.570:83048): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  442.176908] type=1400 audit(1788440226.570:83049): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  442.219169] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  442.390178] [kworke][0x1fe7815f0][12:57:06.787742] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  442.647841] [irq][0x1fec3926d][12:57:07.045402] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  442.647886] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  442.649970] [kworke][0x1fec43253][12:57:07.047534] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  442.659638] [soft_i][0x1fec7073e][12:57:07.057199] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  442.659724] [soft_i][0x1fec70ddd][12:57:07.057287] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  442.659728] [soft_i][0x1fec70e2a][12:57:07.057291] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  442.659730] [soft_i][0x1fec70e54][12:57:07.057294] wlan: [0:I:WMA] 00000010: 00 40 b4 30 40 00 80 06 6e 4b c0 a8 2b 66 c0 a8
+[  442.659732] [soft_i][0x1fec70e76][12:57:07.057295] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 97 19 e6 25 f8 5f 50 18
+[  442.659733] [soft_i][0x1fec70e96][12:57:07.057297] wlan: [0:I:WMA] 00000030: 01 fd f3 3c 00 00 57 52 54 45 9a 2e 00 00 08 00
+[  442.659735] [soft_i][0x1fec70eba][12:57:07.057299] wlan: [0:I:WMA] 00000040: 00 00 12 00 00 00 00 00 00 00 a8 ad ab ba
+[  442.659757] [soft_i][0x1fec71054][12:57:07.057320] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 64, src_port: 62415, dst_port: 5555
+[  443.835898] [kworke][0x2001fa28c][12:57:08.233457] wlan: [4390:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  443.976911] [irq][0x20048f2a3][12:57:08.374471] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  443.976964] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  443.978955] [kworke][0x200498c34][12:57:08.376519] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  443.987672] [soft_i][0x2004c19e1][12:57:08.385234] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  443.987753] [soft_i][0x2004c200c][12:57:08.385316] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  443.987770] [soft_i][0x2004c214e][12:57:08.385333] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  443.987772] [soft_i][0x2004c217b][12:57:08.385336] wlan: [0:I:WMA] 00000010: 00 40 b4 47 40 00 80 06 6e 34 c0 a8 2b 66 c0 a8
+[  443.987774] [soft_i][0x2004c21a1][12:57:08.385338] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 98 63 e6 25 ff 1d 50 18
+[  443.987776] [soft_i][0x2004c21c7][12:57:08.385339] wlan: [0:I:WMA] 00000030: 01 fd eb 34 00 00 57 52 54 45 9a 2e 00 00 08 00
+[  443.987778] [soft_i][0x2004c21ec][12:57:08.385341] wlan: [0:I:WMA] 00000040: 00 00 12 00 00 00 00 00 00 00 a8 ad ab ba
+[  443.987793] [soft_i][0x2004c2312][12:57:08.385357] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 64, src_port: 62415, dst_port: 5555
+[  444.321471] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  444.322745] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  444.465436] servicemanager: Caller(pid=11440,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  444.472611] servicemanager: Caller(pid=11440,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  444.740988] servicemanager: Caller(pid=11457,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  444.748799] servicemanager: Caller(pid=11457,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  445.047584] servicemanager: Caller(pid=11476,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  445.055185] servicemanager: Caller(pid=11476,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  445.220094] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  445.220152] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  445.220185] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  445.323142] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  445.324761] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  445.702340] (virq:irq_count)- GICv3:IPI(1):4661536 GICv3:arch_timer(11):610346 GICv3:IPI(6):598561 GICv3:apps_rsc-drv-2(21):97647 GICv3:IPI(2):72568 GICv3:ife(315):31910 GICv3:ufshcd(29):24765 GICv3:9091000.qcom,bwmon-ddr(27):19555 GICv3:90b6400.qcom,bwmon-llcc(26):17495 GICv3:ipcc_0(32):12962 
+[  445.702392] (cpu:irq_count)- 0:2007233 1:2003404 2:703735 3:686652 4:616489 5:207758 
+[  445.702407] (ipi:irq_count)- 0:4661536 1:72568 2:0 3:0 4:60 5:598561 6:0 
+[  445.875570] [kworke][0x2027531e7][12:57:10.273128] wlan: [4390:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  446.220673] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  446.220708] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  446.220722] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  446.445876] [irq][0x2031c46f5][12:57:10.843435] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  446.445930] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  446.447980] [kworke][0x2031ce519][12:57:10.845544] wlan: [11313:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  446.456956] [soft_i][0x2031f8621][12:57:10.854518] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  446.457020] [soft_i][0x2031f8b12][12:57:10.854583] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  446.457023] [soft_i][0x2031f8b56][12:57:10.854587] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  446.457030] [soft_i][0x2031f8b7e][12:57:10.854589] wlan: [0:I:WMA] 00000010: 00 40 b4 5c 40 00 80 06 6e 1f c0 a8 2b 66 c0 a8
+[  446.457032] [soft_i][0x2031f8bf6][12:57:10.854595] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 99 ad e6 26 05 5a 50 18
+[  446.457033] [soft_i][0x2031f8c1a][12:57:10.854597] wlan: [0:I:WMA] 00000030: 01 fd ef ad 00 00 57 52 54 45 9a 2e 00 00 08 00
+[  446.457035] [soft_i][0x2031f8c3f][12:57:10.854599] wlan: [0:I:WMA] 00000040: 00 00 06 00 00 00 00 00 00 00 a8 ad ab ba
+[  446.457048] [soft_i][0x2031f8d30][12:57:10.854612] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 64, src_port: 62415, dst_port: 5555
+[  447.026865] [kworke][0x203c67d71][12:57:11.424428] wlan: [11313:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  447.077921] [kworke][0x203d5721f][12:57:11.475477] wlan: [11313:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  447.130419] init: starting service 'vendor.hvdcp_opti'...
+[  447.136890] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_11635
+[  447.141209] init: ... started service 'vendor.hvdcp_opti' has pid 11635
+[  447.153557] [irq][0x203eb9b10][12:57:11.551117] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  447.153602] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  447.155586] [kworke][0x203ec3387][12:57:11.553149] wlan: [11313:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  447.165318] [soft_i][0x203ef0d3f][12:57:11.562879] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  447.165415] [soft_i][0x203ef14c1][12:57:11.562979] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  447.165419] [soft_i][0x203ef150d][12:57:11.562983] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  447.165421] [soft_i][0x203ef1534][12:57:11.562985] wlan: [0:I:WMA] 00000010: 00 40 b4 63 40 00 80 06 6e 18 c0 a8 2b 66 c0 a8
+[  447.165423] [soft_i][0x203ef1554][12:57:11.562987] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 99 fb e6 26 05 c8 50 18
+[  447.165429] [soft_i][0x203ef1574][12:57:11.562988] wlan: [0:I:WMA] 00000030: 01 fd ee f1 00 00 57 52 54 45 9a 2e 00 00 08 00
+[  447.165431] [soft_i][0x203ef15e6][12:57:11.562994] wlan: [0:I:WMA] 00000040: 00 00 06 00 00 00 00 00 00 00 a8 ad ab ba
+[  447.165444] [soft_i][0x203ef16e4][12:57:11.563008] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 64, src_port: 62415, dst_port: 5555
+[  447.171854] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[  447.172535] MAIN_MGR: set keepcaps failed!
+[  447.172770] CHG_POLICY_PATH: Failed to get IIO path for BMS_PSY
+[  447.172775] MAIN_MGR: Failed to setup PSY and IIO path
+[  447.173472] init: Service 'vendor.hvdcp_opti' (pid 11635) exited with status 255
+[  447.173511] init: Sending SIGKILL to service 'vendor.hvdcp_opti' (pid 11635) process group...
+[  447.174213] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_11635
+[  447.174264] init: process with updatable components 'vendor.hvdcp_opti' exited 4 times in 4 minutes
+[  447.176237] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  447.176674] init: starting service 'exec 112 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  447.181084] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_11643
+[  447.205741] audit: audit_lost=83646 audit_rate_limit=5 audit_backlog_limit=64
+[  447.205748] audit: rate limit exceeded
+[  447.205932] type=1400 audit(1788440231.598:84122): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  447.206485] type=1400 audit(1788440231.598:84123): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  447.206559] type=1400 audit(1788440231.598:84124): avc:  denied  { map } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  447.206629] type=1400 audit(1788440231.598:84125): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  447.206698] type=1400 audit(1788440231.598:84126): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  447.220911] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  447.220933] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  447.220947] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  447.773599] [kworke][0x204a1428a][12:57:12.171163] wlan: [11313:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  447.824820] [kworke][0x204b04408][12:57:12.222383] wlan: [11313:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  448.221257] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  448.389909] [irq][0x20555d16f][12:57:12.787469] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  448.389961] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  448.392002] [kworke][0x205566ea9][12:57:12.789565] wlan: [11313:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  448.400858] [soft_i][0x2055906d6][12:57:12.798420] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  448.400970] [soft_i][0x205590f4c][12:57:12.798533] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  448.400974] [soft_i][0x205590fa2][12:57:12.798538] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  448.400976] [soft_i][0x205590fcc][12:57:12.798540] wlan: [0:I:WMA] 00000010: 00 29 b4 6b 40 00 80 06 6e 27 c0 a8 2b 66 c0 a8
+[  448.400978] [soft_i][0x205590ff4][12:57:12.798542] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9b 6e e6 26 06 60 50 10
+[  448.400980] [soft_i][0x20559101a][12:57:12.798544] wlan: [0:I:WMA] 00000030: 01 fc 95 35 00 00 00
+[  448.400996] [soft_i][0x205591140][12:57:12.798559] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  449.330345] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  449.332922] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  449.447171] servicemanager: Caller(pid=11772,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  449.453682] servicemanager: Caller(pid=11772,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  449.736370] servicemanager: Caller(pid=11789,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  449.744646] servicemanager: Caller(pid=11789,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  450.008212] servicemanager: Caller(pid=11808,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  450.009035] [kworke][0x207302c35][12:57:14.406599] wlan: [11313:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  450.016521] servicemanager: Caller(pid=11808,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  450.114335] [irq][0x2074f0556][12:57:14.511894] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  450.114386] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  450.116439] [kworke][0x2074fa388][12:57:14.514003] wlan: [11313:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  450.124050] [soft_i][0x20751de21][12:57:14.521611] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  450.124169] [soft_i][0x20751e734][12:57:14.521732] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  450.124175] [soft_i][0x20751e7ab][12:57:14.521738] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  450.124183] [soft_i][0x20751e7f2][12:57:14.521742] wlan: [0:I:WMA] 00000010: 00 40 b4 75 40 00 80 06 6e 06 c0 a8 2b 66 c0 a8
+[  450.124187] [soft_i][0x20751e890][12:57:14.521750] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9b db e6 26 06 cc 50 18
+[  450.124191] [soft_i][0x20751e8d4][12:57:14.521754] wlan: [0:I:WMA] 00000030: 01 fc ec 0e 00 00 57 52 54 45 9a 2e 00 00 08 00
+[  450.124193] [soft_i][0x20751e915][12:57:14.521757] wlan: [0:I:WMA] 00000040: 00 00 06 00 00 00 00 00 00 00 a8 ad ab ba
+[  450.124207] [soft_i][0x20751ea19][12:57:14.521770] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 64, src_port: 62415, dst_port: 5555
+[  450.133519] logd: logdr: UID=0 GID=0 PID=11824 b tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+[  450.134229] logd: Skipping entries from slow reader, pid 11824, fd 15, from LogBuffer::Prune()
+[  450.153498] logd: Skipping entries from slow reader, pid 11824, fd 15, from LogBuffer::Prune()
+[  450.297056] servicemanager: Caller(pid=11826,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  450.304336] servicemanager: Caller(pid=11826,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  450.818181] [kworke][0x2081d3a24][12:57:15.215744] wlan: [11313:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  450.869681] [kworke][0x2082c50a0][12:57:15.267244] wlan: [11313:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  451.222373] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  451.222403] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  451.222418] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  451.350210] [irq][0x208b91811][12:57:15.747770] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  451.350283] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  451.352407] [kworke][0x208b9bcaf][12:57:15.749965] wlan: [11313:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  451.362717] [soft_i][0x208bcc236][12:57:15.760279] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  451.362794] [soft_i][0x208bcc81f][12:57:15.760357] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  451.362797] [soft_i][0x208bcc85f][12:57:15.760361] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  451.362799] [soft_i][0x208bcc88d][12:57:15.760363] wlan: [0:I:WMA] 00000010: 00 29 b4 7b 40 00 80 06 6e 17 c0 a8 2b 66 c0 a8
+[  451.362801] [soft_i][0x208bcc8ad][12:57:15.760365] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  451.362803] [soft_i][0x208bcc8cd][12:57:15.760367] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  451.362820] [soft_i][0x208bcca20][12:57:15.760384] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  451.952941] [kworke][0x20969ad2b][12:57:16.350505] wlan: [11313:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  452.137679] init: starting service 'vendor.hvdcp_opti'...
+[  452.141733] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_11952
+[  452.145586] init: ... started service 'vendor.hvdcp_opti' has pid 11952
+[  452.168149] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[  452.168736] MAIN_MGR: set keepcaps failed!
+[  452.169128] CHG_POLICY_PATH: Failed to get IIO path for BMS_PSY
+[  452.169135] MAIN_MGR: Failed to setup PSY and IIO path
+[  452.169793] init: Service 'vendor.hvdcp_opti' (pid 11952) exited with status 255
+[  452.169823] init: Sending SIGKILL to service 'vendor.hvdcp_opti' (pid 11952) process group...
+[  452.170334] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_11952
+[  452.170375] init: process with updatable components 'vendor.hvdcp_opti' exited 4 times in 4 minutes
+[  452.171960] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  452.172273] init: starting service 'exec 113 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  452.176196] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_11953
+[  452.196252] audit: audit_lost=84719 audit_rate_limit=5 audit_backlog_limit=64
+[  452.196258] audit: rate limit exceeded
+[  452.196498] type=1400 audit(1788440236.590:85200): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  452.196674] type=1400 audit(1788440236.590:85201): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  452.224223] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  452.224254] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  452.224268] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  452.470886] [irq][0x20a016ad5][12:57:16.868447] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  452.470957] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  452.472970] [kworke][0x20a020754][12:57:16.870534] wlan: [11313:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  452.482600] [soft_i][0x20a04d976][12:57:16.880162] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  452.482695] [soft_i][0x20a04e0b5][12:57:16.880259] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  452.482699] [soft_i][0x20a04e0ff][12:57:16.880262] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  452.482701] [soft_i][0x20a04e129][12:57:16.880265] wlan: [0:I:WMA] 00000010: 00 29 b4 7c 40 00 80 06 6e 16 c0 a8 2b 66 c0 a8
+[  452.482703] [soft_i][0x20a04e14d][12:57:16.880267] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  452.482705] [soft_i][0x20a04e174][12:57:16.880268] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  452.482719] [soft_i][0x20a04e27e][12:57:16.880282] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  452.994907] [kworke][0x20a9af08d][12:57:17.392470] wlan: [11313:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  453.046555] [kworke][0x20aaa11ed][12:57:17.444115] wlan: [11313:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  453.224512] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  453.224545] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  453.224559] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  453.600486] [irq][0x20b4c5ac9][12:57:17.998047] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  453.600533] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  453.602754] [kworke][0x20b4d0521][12:57:18.000318] wlan: [11313:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  453.612470] [soft_i][0x20b4fddac][12:57:18.010031] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  453.612593] [soft_i][0x20b4fe70c][12:57:18.010156] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  453.612597] [soft_i][0x20b4fe75b][12:57:18.010161] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  453.612600] [soft_i][0x20b4fe78d][12:57:18.010163] wlan: [0:I:WMA] 00000010: 00 29 b4 7d 40 00 80 06 6e 15 c0 a8 2b 66 c0 a8
+[  453.612602] [soft_i][0x20b4fe7bb][12:57:18.010166] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  453.612604] [soft_i][0x20b4fe7e5][12:57:18.010168] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  453.612626] [soft_i][0x20b4fe983][12:57:18.010189] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  454.059268] configfs-gadget gadget: uvc: uvc_function_set_alt(3, 1)
+[  454.059289] configfs-gadget gadget: uvc: reset UVC
+[  454.077153] CAM_ERR: CAM-ISP: cam_ife_csid_irq: 4308 CSID:1 ERROR_ECC
+[  454.077210] CAM_ERR: CAM-ISP: cam_ife_csid_irq: 4249 CSID:1 lane 0 over flow
+[  454.077212] CAM_INFO: CAM-ISP: cam_ife_csid_halt_csi2: 1687 CSID: 1 cnt: 0 Halt csi2 rx
+[  454.077218] CAM_INFO: CAM-CSIPHY: cam_csiphy_subdev_handle_message: 23 subdev index : 0 CSIPHY index: 0
+[  454.077220] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 103 PHY base addr=0000000000000000 offset=0x8b0 size=11
+[  454.077226] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 117 CSIPHY0_IRQ_STATUS_ADDR0 = 0x4
+[  454.077229] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 117 CSIPHY0_IRQ_STATUS_ADDR1 = 0x1
+[  454.077232] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 117 CSIPHY0_IRQ_STATUS_ADDR2 = 0x80
+[  454.077235] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 117 CSIPHY0_IRQ_STATUS_ADDR3 = 0x20
+[  454.077238] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 117 CSIPHY0_IRQ_STATUS_ADDR4 = 0x0
+[  454.077242] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 117 CSIPHY0_IRQ_STATUS_ADDR5 = 0x10
+[  454.077245] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 117 CSIPHY0_IRQ_STATUS_ADDR6 = 0x4
+[  454.077248] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 117 CSIPHY0_IRQ_STATUS_ADDR7 = 0x0
+[  454.077251] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 117 CSIPHY0_IRQ_STATUS_ADDR8 = 0x82
+[  454.077254] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 117 CSIPHY0_IRQ_STATUS_ADDR9 = 0x40
+[  454.077257] CAM_INFO: CAM-CSIPHY: cam_csiphy_status_dmp: 117 CSIPHY0_IRQ_STATUS_ADDR10 = 0x4
+[  454.077259] CAM_INFO: CAM-CSIPHY: cam_csiphy_subdev_handle_message: 23 subdev index : 1 CSIPHY index: 0
+[  454.077261] CAM_INFO: CAM-CSIPHY: cam_csiphy_subdev_handle_message: 23 subdev index : 2 CSIPHY index: 0
+[  454.077262] CAM_INFO: CAM-CSIPHY: cam_csiphy_subdev_handle_message: 23 subdev index : 3 CSIPHY index: 0
+[  454.077264] CAM_INFO: CAM-CSIPHY: cam_csiphy_subdev_handle_message: 23 subdev index : 4 CSIPHY index: 0
+[  454.077265] CAM_INFO: CAM-CSIPHY: cam_csiphy_subdev_handle_message: 23 subdev index : 5 CSIPHY index: 0
+[  454.077276] CAM_ERR: CAM-ISP: cam_csid_evt_bottom_half_handler: 4035 idx 1 err 5 phy 0 cnt 0
+[  454.077278] CAM_ERR: CAM-ISP: cam_csid_evt_bottom_half_handler: 4040 status RDI0: 0
+[  454.077280] CAM_ERR: CAM-ISP: cam_csid_evt_bottom_half_handler: 4040 status RDI1: 0
+[  454.077281] CAM_ERR: CAM-ISP: cam_csid_evt_bottom_half_handler: 4040 status RDI2: 0
+[  454.077282] CAM_ERR: CAM-ISP: cam_csid_evt_bottom_half_handler: 4040 status RDI3: 0
+[  454.077283] CAM_ERR: CAM-ISP: cam_csid_evt_bottom_half_handler: 4040 status TOP: 1
+[  454.077285] CAM_ERR: CAM-ISP: cam_csid_evt_bottom_half_handler: 4040 status RX: 8000
+[  454.077286] CAM_ERR: CAM-ISP: cam_csid_evt_bottom_half_handler: 4040 status IPP: 0
+[  454.077287] CAM_ERR: CAM-ISP: cam_csid_evt_bottom_half_handler: 4040 status PPP: 0
+[  454.077289] CAM_ERR: CAM-ISP: cam_csid_evt_bottom_half_handler: 4040 status UDI0: 0
+[  454.077290] CAM_ERR: CAM-ISP: cam_csid_evt_bottom_half_handler: 4040 status UDI1: 0
+[  454.082369] CAM_INFO: CAM-SENSOR: cam_sensor_driver_cmd: 1129 CAM_STOP_DEV Success, sensor_id:0x8000,sensor_slave_addr:0x34
+[  454.082454] CAM_INFO: CAM-CSIPHY: cam_csiphy_core_cfg: 1046 STOP_DEV: CSIPHY_IDX: 0, Device_slot: 0, Datarate: 1150000000, Settletime: 5400000000
+[  454.089702] CAM_INFO: CAM-ISP: cam_ife_mgr_release_hw: 4661 Release HW success ctx id: 0
+[  454.165112] CAM_INFO: CAM-HFI: cam_hfi_resume: 680 Resume IO1 : [0x10c00000 0xcf300000] IO2 [0xe0200000 0x1ed00000]
+[  454.181989] CAM_ERR: CAM-ISP: cam_ife_hw_mgr_print_acquire_info: 678 Successfully acquire single IFE[1 -1] with [9 pix] [0 pd] [0 rdi] ports for ctx:1
+[  454.184356] CAM_INFO: CAM-ISP: cam_vfe_bus_ver3_init_hw: 3642 Overriding clock gating at bus input
+[  454.184368] CAM_INFO: CAM-ISP: cam_vfe_top_ver3_init_hw: 230 Disable clock gating at IFE top
+[  454.185706] CAM_ERR: CAM-ISP: cam_ife_mgr_start_hw: 4424 ->Config HW, 000000004f3ec9ac
+[  454.186577] CAM_INFO: CAM-CSIPHY: cam_csiphy_core_cfg: 1222 START_DEV: CSIPHY_IDX: 0, Device_slot: 0, Datarate: 1150000000, Settletime: 5400000000
+[  454.198976] CAM_INFO: CAM-SENSOR: cam_sensor_driver_cmd: 1101 CAM_START_DEV Success, sensor_id:0x8000,sensor_slave_addr:0x34
+[  454.224734] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  454.238387] [kworke][0x20c073d7a][12:57:18.635949] wlan: [30:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  454.341393] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  454.343045] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  454.417544] servicemanager: Caller(pid=12089,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  454.424703] servicemanager: Caller(pid=12089,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  454.446383] binder: undelivered transaction 599491, process died.
+[  454.648099] servicemanager: Caller(pid=12104,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  454.655525] servicemanager: Caller(pid=12104,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  454.729749] [irq][0x20c973164][12:57:19.127308] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  454.731083] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  454.733150] [kworke][0x20c983033][12:57:19.130705] wlan: [11313:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  454.742215] [soft_i][0x20c9ad87b][12:57:19.139776] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  454.742328] [soft_i][0x20c9ae132][12:57:19.139892] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  454.742341] [soft_i][0x20c9ae21c][12:57:19.139904] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  454.742343] [soft_i][0x20c9ae251][12:57:19.139907] wlan: [0:I:WMA] 00000010: 00 29 b4 7e 40 00 80 06 6e 14 c0 a8 2b 66 c0 a8
+[  454.742345] [soft_i][0x20c9ae27a][12:57:19.139909] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  454.742347] [soft_i][0x20c9ae2a2][12:57:19.139911] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  454.742374] [soft_i][0x20c9ae4a8][12:57:19.139938] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  454.901504] servicemanager: Caller(pid=12123,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  454.909868] servicemanager: Caller(pid=12123,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  455.174448] (virq:irq_count)- GICv3:IPI(1):4812009 GICv3:arch_timer(11):623671 GICv3:IPI(6):613327 GICv3:apps_rsc-drv-2(21):99545 GICv3:IPI(2):73708 GICv3:ife(315):32650 GICv3:ufshcd(29):24865 GICv3:9091000.qcom,bwmon-ddr(27):19979 GICv3:90b6400.qcom,bwmon-llcc(26):17837 GICv3:ipcc_0(32):13256 
+[  455.174522] (cpu:irq_count)- 0:2060374 1:2056951 2:728540 3:714351 4:637688 5:212054 
+[  455.174544] (ipi:irq_count)- 0:4812009 1:73708 2:0 3:0 4:62 5:613328 6:0 
+[  455.177521] servicemanager: Caller(pid=12140,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  455.184850] servicemanager: Caller(pid=12140,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  455.249159] [kworke][0x20d2f5d82][12:57:19.646723] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  455.853238] [irq][0x20de05652][12:57:20.250787] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  455.853294] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  455.856228] [kworke][0x20de1379e][12:57:20.253791] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  455.865497] [soft_i][0x20de3ee91][12:57:20.263057] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  455.865613] [soft_i][0x20de3f788][12:57:20.263176] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  455.865619] [soft_i][0x20de3f7ff][12:57:20.263182] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  455.865623] [soft_i][0x20de3f84a][12:57:20.263186] wlan: [0:I:WMA] 00000010: 00 29 b4 7f 40 00 80 06 6e 13 c0 a8 2b 66 c0 a8
+[  455.865627] [soft_i][0x20de3f88f][12:57:20.263190] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  455.865630] [soft_i][0x20de3f8d1][12:57:20.263193] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  455.865643] [soft_i][0x20de3f9db][12:57:20.263207] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  456.374290] [kworke][0x20e78fe4f][12:57:20.771853] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  456.395624] binder: undelivered TRANSACTION_COMPLETE
+[  456.395641] binder: undelivered transaction 601974, process died.
+[  456.979015] [irq][0x20f2a284a][12:57:21.376573] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  456.979079] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  456.981360] [kworke][0x20f2ad889][12:57:21.378923] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  456.990857] [soft_i][0x20f2da0bb][12:57:21.388419] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  456.990976] [soft_i][0x20f2da9ca][12:57:21.388540] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  456.990981] [soft_i][0x20f2daa21][12:57:21.388544] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  456.990984] [soft_i][0x20f2daa56][12:57:21.388547] wlan: [0:I:WMA] 00000010: 00 29 b4 80 40 00 80 06 6e 12 c0 a8 2b 66 c0 a8
+[  456.990986] [soft_i][0x20f2daa85][12:57:21.388549] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  456.990989] [soft_i][0x20f2daab6][12:57:21.388552] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  456.991007] [soft_i][0x20f2dac1a][12:57:21.388571] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  457.142579] init: starting service 'vendor.hvdcp_opti'...
+[  457.153156] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_12297
+[  457.156538] init: ... started service 'vendor.hvdcp_opti' has pid 12297
+[  457.188087] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[  457.189398] MAIN_MGR: set keepcaps failed!
+[  457.189702] CHG_POLICY_PATH: Failed to get IIO path for BMS_PSY
+[  457.189710] MAIN_MGR: Failed to setup PSY and IIO path
+[  457.190593] init: Service 'vendor.hvdcp_opti' (pid 12297) exited with status 255
+[  457.190610] init: Sending SIGKILL to service 'vendor.hvdcp_opti' (pid 12297) process group...
+[  457.190834] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_12297
+[  457.190854] init: process with updatable components 'vendor.hvdcp_opti' exited 4 times in 4 minutes
+[  457.192607] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  457.192829] init: starting service 'exec 114 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  457.194666] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_12298
+[  457.202787] audit: audit_lost=85791 audit_rate_limit=5 audit_backlog_limit=64
+[  457.202793] audit: rate limit exceeded
+[  457.202949] type=1400 audit(1788440241.598:86277): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  457.203151] type=1400 audit(1788440241.598:86278): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  457.203224] type=1400 audit(1788440241.598:86279): avc:  denied  { map } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  457.203690] type=1400 audit(1788440241.598:86280): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  457.203787] type=1400 audit(1788440241.598:86281): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  457.225485] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  457.225514] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  457.225529] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  457.506980] [kworke][0x20fc4d5f3][12:57:21.904542] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  458.106896] [irq][0x210749767][12:57:22.504455] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  458.106994] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  458.108991] [kworke][0x2107534e9][12:57:22.506555] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  458.118945] [soft_i][0x210781f29][12:57:22.516505] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  458.119067] [soft_i][0x210782888][12:57:22.516630] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  458.119073] [soft_i][0x210782903][12:57:22.516636] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  458.119083] [soft_i][0x21078294a][12:57:22.516640] wlan: [0:I:WMA] 00000010: 00 29 b4 81 40 00 80 06 6e 11 c0 a8 2b 66 c0 a8
+[  458.119086] [soft_i][0x210782a04][12:57:22.516649] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  458.119090] [soft_i][0x210782a44][12:57:22.516653] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  458.119110] [soft_i][0x210782bd3][12:57:22.516673] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  458.225796] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  458.225829] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  458.225843] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  458.686250] [kworke][0x2111e5339][12:57:23.083812] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  458.735076] [kworke][0x2112ca145][12:57:23.132639] wlan: [611:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  459.226591] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  459.226625] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  459.226640] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  459.237669] [irq][0x211bfdf68][12:57:23.635228] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  459.237737] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  459.239745] [kworke][0x211c07b6c][12:57:23.637308] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  459.249168] [soft_i][0x211c33df8][12:57:23.646729] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  459.249278] [soft_i][0x211c34662][12:57:23.646841] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  459.249282] [soft_i][0x211c346bf][12:57:23.646846] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  459.249285] [soft_i][0x211c346ef][12:57:23.646848] wlan: [0:I:WMA] 00000010: 00 29 b4 82 40 00 80 06 6e 10 c0 a8 2b 66 c0 a8
+[  459.249287] [soft_i][0x211c3471c][12:57:23.646851] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  459.249298] [soft_i][0x211c34747][12:57:23.646853] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  459.249320] [soft_i][0x211c3498b][12:57:23.646883] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  459.348599] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  459.349472] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  459.479464] servicemanager: Caller(pid=12460,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  459.488541] servicemanager: Caller(pid=12460,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  459.730654] servicemanager: Caller(pid=12476,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  459.739416] servicemanager: Caller(pid=12476,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  459.755999] [kworke][0x21257ba78][12:57:24.153562] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  459.759273] binder: undelivered TRANSACTION_COMPLETE
+[  459.759279] binder: undelivered transaction 606268, process died.
+[  459.759285] binder: undelivered TRANSACTION_COMPLETE
+[  459.759287] binder: undelivered transaction 606269, process died.
+[  459.957262] servicemanager: Caller(pid=12494,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  459.965232] servicemanager: Caller(pid=12494,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  459.998956] binder: undelivered TRANSACTION_COMPLETE
+[  459.998973] binder: undelivered transaction 606580, process died.
+[  460.227216] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  460.229454] servicemanager: Caller(pid=12510,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  460.238773] servicemanager: Caller(pid=12510,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  460.358184] [irq][0x213082607][12:57:24.755743] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  460.358241] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  460.360299] [kworke][0x21308c445][12:57:24.757853] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  460.369622] [soft_i][0x2130b800e][12:57:24.767183] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  460.369743] [soft_i][0x2130b8948][12:57:24.767306] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  460.369749] [soft_i][0x2130b89ad][12:57:24.767312] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  460.369751] [soft_i][0x2130b89e5][12:57:24.767314] wlan: [0:I:WMA] 00000010: 00 29 b4 83 40 00 80 06 6e 0f c0 a8 2b 66 c0 a8
+[  460.369753] [soft_i][0x2130b8a13][12:57:24.767317] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  460.369755] [soft_i][0x2130b8a37][12:57:24.767319] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  460.369799] [soft_i][0x2130b8d85][12:57:24.767363] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  460.994215] [kworke][0x213c27cb3][12:57:25.391778] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  461.004314] binder: undelivered TRANSACTION_COMPLETE
+[  461.004330] binder: undelivered transaction 607821, process died.
+[  461.485988] [irq][0x214528f69][12:57:25.883548] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  461.486098] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  461.488307] [kworke][0x214533d9a][12:57:25.885871] wlan: [11313:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  461.496376] [soft_i][0x214559a93][12:57:25.893937] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  461.496623] [soft_i][0x21455ad35][12:57:25.894185] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  461.496648] [soft_i][0x21455af15][12:57:25.894210] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  461.496653] [soft_i][0x21455af81][12:57:25.894216] wlan: [0:I:WMA] 00000010: 00 29 b4 84 40 00 80 06 6e 0e c0 a8 2b 66 c0 a8
+[  461.496658] [soft_i][0x21455afe1][12:57:25.894221] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  461.496662] [soft_i][0x21455b02c][12:57:25.894225] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  461.496683] [soft_i][0x21455b18d][12:57:25.894243] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  462.152876] init: starting service 'vendor.hvdcp_opti'...
+[  462.157465] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_12664
+[  462.161287] init: ... started service 'vendor.hvdcp_opti' has pid 12664
+[  462.167968] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[  462.168552] MAIN_MGR: set keepcaps failed!
+[  462.168812] CHG_POLICY_PATH: Failed to get IIO path for BMS_PSY
+[  462.168818] MAIN_MGR: Failed to setup PSY and IIO path
+[  462.172856] init: Service 'vendor.hvdcp_opti' (pid 12664) exited with status 255
+[  462.172879] init: Sending SIGKILL to service 'vendor.hvdcp_opti' (pid 12664) process group...
+[  462.173138] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_12664
+[  462.173159] init: process with updatable components 'vendor.hvdcp_opti' exited 4 times in 4 minutes
+[  462.173797] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  462.174105] init: starting service 'exec 115 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  462.175851] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_12665
+[  462.183649] audit: audit_lost=86863 audit_rate_limit=5 audit_backlog_limit=64
+[  462.183655] audit: rate limit exceeded
+[  462.184027] type=1400 audit(1788440246.578:87354): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  462.184279] type=1400 audit(1788440246.578:87355): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  462.184355] type=1400 audit(1788440246.578:87356): avc:  denied  { map } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  462.184426] type=1400 audit(1788440246.578:87357): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  462.184496] type=1400 audit(1788440246.578:87358): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  462.230240] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  462.230269] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  462.230283] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  462.505160] binder: undelivered TRANSACTION_COMPLETE
+[  462.505178] binder: undelivered transaction 609732, process died.
+[  462.644185] [kworke][0x215a5e069][12:57:27.041748] wlan: [11313:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  462.826300] [irq][0x215db3ac5][12:57:27.223860] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  462.826360] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  462.829021] [kworke][0x215dc0707][12:57:27.226583] wlan: [11313:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  462.838367] [soft_i][0x215dec3dd][12:57:27.235927] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  462.838499] [soft_i][0x215decded][12:57:27.236062] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  462.838505] [soft_i][0x215dece6b][12:57:27.236068] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  462.838516] [soft_i][0x215decebd][12:57:27.236072] wlan: [0:I:WMA] 00000010: 00 29 b4 85 40 00 80 06 6e 0d c0 a8 2b 66 c0 a8
+[  462.838531] [soft_i][0x215ded067][12:57:27.236095] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  462.838533] [soft_i][0x215ded094][12:57:27.236097] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  462.838548] [soft_i][0x215ded1ad][12:57:27.236112] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  463.230501] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  463.230537] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  463.230557] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  463.230791] binder: undelivered transaction 610666, process died.
+[  463.579284] [kworke][0x216b7d4d9][12:57:27.976847] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  463.978614] binder: undelivered TRANSACTION_COMPLETE
+[  463.978633] binder: undelivered transaction 611580, process died.
+[  464.047752] [irq][0x2174113b8][12:57:28.445312] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  464.047953] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  464.050406] [kworke][0x21741db00][12:57:28.447969] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  464.059888] [soft_i][0x21744a203][12:57:28.457449] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  464.060040] [soft_i][0x21744ad93][12:57:28.457603] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  464.060066] [soft_i][0x21744af85][12:57:28.457629] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  464.060068] [soft_i][0x21744afb4][12:57:28.457632] wlan: [0:I:WMA] 00000010: 00 29 b4 86 40 00 80 06 6e 0c c0 a8 2b 66 c0 a8
+[  464.060070] [soft_i][0x21744afd4][12:57:28.457634] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  464.060072] [soft_i][0x21744aff5][12:57:28.457635] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  464.060095] [soft_i][0x21744b1b4][12:57:28.457658] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  464.230769] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  464.230800] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  464.230814] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  464.354924] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  464.356136] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  464.424256] servicemanager: Caller(pid=12823,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  464.432001] servicemanager: Caller(pid=12823,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  464.457461] binder: undelivered TRANSACTION_COMPLETE
+[  464.457478] binder: undelivered transaction 612185, process died.
+[  464.570961] [kworke][0x217da5ca8][12:57:28.968525] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  464.622213] [kworke][0x217e96089][12:57:29.019776] wlan: [611:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  464.646401] (virq:irq_count)- GICv3:IPI(1):4931007 GICv3:arch_timer(11):638193 GICv3:IPI(6):637240 GICv3:apps_rsc-drv-2(21):101403 GICv3:IPI(2):76065 GICv3:ife(315):35459 GICv3:ufshcd(29):24865 GICv3:9091000.qcom,bwmon-ddr(27):20219 GICv3:90b6400.qcom,bwmon-llcc(26):17979 GICv3:ipcc_0(32):13323 
+[  464.646451] (cpu:irq_count)- 0:2090651 1:2087040 2:765068 3:750140 4:665620 5:219930 
+[  464.646466] (ipi:irq_count)- 0:4931010 1:76065 2:0 3:0 4:62 5:637241 6:0 
+[  464.661772] servicemanager: Caller(pid=12838,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  464.669108] servicemanager: Caller(pid=12838,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  464.905470] servicemanager: Caller(pid=12857,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  464.915038] servicemanager: Caller(pid=12857,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  464.933062] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  464.933958] binder: undelivered transaction 612808, process died.
+[  464.943755] [kworke][0x218479438][12:57:29.341319] wlan: [537:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  465.144626] servicemanager: Caller(pid=12876,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  465.151165] servicemanager: Caller(pid=12876,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  465.231073] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  465.638283] [kworke][0x219130da5][12:57:30.035844] wlan: [537:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  466.022343] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  466.028698] [kworke][0x219856c14][12:57:30.426224] wlan: [30:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  466.378867] binder: undelivered TRANSACTION_COMPLETE
+[  466.378885] binder: undelivered transaction 614631, process died.
+[  466.378901] binder: undelivered TRANSACTION_COMPLETE
+[  466.378904] binder: undelivered transaction 614633, process died.
+[  466.608172] binder: undelivered TRANSACTION_COMPLETE
+[  466.608192] binder: undelivered transaction 614924, process died.
+[  466.608692] binder: undelivered transaction 614925, process died.
+[  466.608703] binder: undelivered transaction 614928, process died.
+[  466.670661] [kworke][0x21a417fad][12:57:31.068192] wlan: [30:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  466.950423] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  466.956566] [kworke][0x21a9543ac][12:57:31.354112] wlan: [537:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  467.157901] init: starting service 'vendor.hvdcp_opti'...
+[  467.162320] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_13029
+[  467.165587] init: ... started service 'vendor.hvdcp_opti' has pid 13029
+[  467.196989] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[  467.198486] MAIN_MGR: set keepcaps failed!
+[  467.199286] CHG_POLICY_PATH: Failed to get IIO path for BMS_PSY
+[  467.199306] MAIN_MGR: Failed to setup PSY and IIO path
+[  467.200722] init: Service 'vendor.hvdcp_opti' (pid 13029) exited with status 255
+[  467.200743] init: Sending SIGKILL to service 'vendor.hvdcp_opti' (pid 13029) process group...
+[  467.200999] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_13029
+[  467.201018] init: process with updatable components 'vendor.hvdcp_opti' exited 4 times in 4 minutes
+[  467.201653] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  467.201846] init: starting service 'exec 116 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  467.203614] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_13030
+[  467.211729] audit: audit_lost=87935 audit_rate_limit=5 audit_backlog_limit=64
+[  467.211736] audit: rate limit exceeded
+[  467.214451] type=1400 audit(1788440251.606:88431): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  467.214743] type=1400 audit(1788440251.606:88432): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  467.214819] type=1400 audit(1788440251.606:88433): avc:  denied  { map } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  467.214890] type=1400 audit(1788440251.606:88434): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  467.214960] type=1400 audit(1788440251.606:88435): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  467.727182] [kworke][0x21b770931][12:57:32.124745] wlan: [537:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  467.778317] [kworke][0x21b86044f][12:57:32.175880] wlan: [537:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  468.038372] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  468.044490] [kworke][0x21bd3ff19][12:57:32.442051] wlan: [71:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  468.101051] binder: undelivered TRANSACTION_COMPLETE
+[  468.101058] binder: undelivered transaction 616820, process died.
+[  468.231864] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  468.231894] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  468.231908] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  468.873313] [kworke][0x21cc6d0e6][12:57:33.270875] wlan: [71:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  469.232168] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  469.232211] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  469.232237] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  469.255477] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  469.261471] [kworke][0x21d3888cb][12:57:33.659033] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  469.363596] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  469.364568] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  469.537817] servicemanager: Caller(pid=13195,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  469.544680] servicemanager: Caller(pid=13195,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  469.813677] servicemanager: Caller(pid=13211,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  469.823377] servicemanager: Caller(pid=13211,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  469.973479] [kworke][0x21e092181][12:57:34.371043] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  470.031925] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  470.033537] [kworke][0x21e1ab9d6][12:57:34.431100] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  470.065005] servicemanager: Caller(pid=13229,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  470.074430] servicemanager: Caller(pid=13229,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  470.232522] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  470.232560] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  470.232576] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  470.327557] servicemanager: Caller(pid=13246,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  470.335477] servicemanager: Caller(pid=13246,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  470.597810] binder: undelivered transaction 619934, process died.
+[  471.210381] [kworke][0x21f738128][12:57:35.607945] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  471.232808] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  471.302632] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  471.308197] [kworke][0x21f902913][12:57:35.705757] wlan: [4390:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  472.163515] init: starting service 'vendor.hvdcp_opti'...
+[  472.168225] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_13386
+[  472.171384] init: ... started service 'vendor.hvdcp_opti' has pid 13386
+[  472.179468] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[  472.180227] MAIN_MGR: set keepcaps failed!
+[  472.180479] CHG_POLICY_PATH: Failed to get IIO path for BMS_PSY
+[  472.180485] MAIN_MGR: Failed to setup PSY and IIO path
+[  472.181111] init: Service 'vendor.hvdcp_opti' (pid 13386) exited with status 255
+[  472.181144] init: Sending SIGKILL to service 'vendor.hvdcp_opti' (pid 13386) process group...
+[  472.181632] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_13386
+[  472.181679] init: process with updatable components 'vendor.hvdcp_opti' exited 4 times in 4 minutes
+[  472.182670] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  472.182852] init: starting service 'exec 117 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  472.184532] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_13387
+[  472.194441] audit: audit_lost=89007 audit_rate_limit=5 audit_backlog_limit=64
+[  472.194450] audit: rate limit exceeded
+[  472.195172] type=1400 audit(1788440256.590:89508): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  472.195941] type=1400 audit(1788440256.590:89509): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  472.196033] type=1400 audit(1788440256.590:89510): avc:  denied  { map } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  472.196109] type=1400 audit(1788440256.590:89511): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  472.196183] type=1400 audit(1788440256.590:89512): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  472.694727] [kworke][0x221265ef1][12:57:37.092288] wlan: [4390:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  472.860389] [irq][0x22156e749][12:57:37.257946] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  472.860502] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  472.862745] [kworke][0x221579849][12:57:37.260306] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  472.872323] [soft_i][0x2215a6694][12:57:37.269884] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  472.872428] [soft_i][0x2215a6eaa][12:57:37.269991] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  472.872433] [soft_i][0x2215a6f0a][12:57:37.269996] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  472.872437] [soft_i][0x2215a6f4f][12:57:37.270000] wlan: [0:I:WMA] 00000010: 00 29 b4 8e 40 00 80 06 6e 04 c0 a8 2b 66 c0 a8
+[  472.872440] [soft_i][0x2215a6f91][12:57:37.270003] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  472.872444] [soft_i][0x2215a6fd2][12:57:37.270007] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  472.872459] [soft_i][0x2215a70ff][12:57:37.270022] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  472.901680] CAM_ERR: CAM-CRM: cam_req_mgr_thread_switch_delay_detect: 289 Workq delay detected 472:853583 472:859690 6:
+[  473.642241] [kworke][0x2223bf69d][12:57:38.039804] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  473.694040] [kworke][0x2224b2364][12:57:38.091601] wlan: [611:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  473.992782] [irq][0x222a2a8eb][12:57:38.390342] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  473.992852] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  473.995100] [kworke][0x222a35709][12:57:38.392663] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  474.004460] [soft_i][0x222a614d1][12:57:38.402020] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  474.004586] [soft_i][0x222a61e7f][12:57:38.402149] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  474.004590] [soft_i][0x222a61ed7][12:57:38.402154] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  474.004592] [soft_i][0x222a61f03][12:57:38.402156] wlan: [0:I:WMA] 00000010: 00 29 b4 8f 40 00 80 06 6e 03 c0 a8 2b 66 c0 a8
+[  474.004594] [soft_i][0x222a61f25][12:57:38.402158] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  474.004596] [soft_i][0x222a61f4b][12:57:38.402160] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  474.004611] [soft_i][0x222a6206d][12:57:38.402175] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  474.120842] (virq:irq_count)- GICv3:IPI(1):5044909 GICv3:IPI(6):660078 GICv3:arch_timer(11):652756 GICv3:apps_rsc-drv-2(21):103195 GICv3:IPI(2):77986 GICv3:ife(315):38247 GICv3:ufshcd(29):24865 GICv3:9091000.qcom,bwmon-ddr(27):20425 GICv3:90b6400.qcom,bwmon-llcc(26):18119 GICv3:ipcc_0(32):13388 
+[  474.120904] (cpu:irq_count)- 0:2120204 1:2116473 2:798781 3:784357 4:693329 5:227047 
+[  474.120919] (ipi:irq_count)- 0:5044909 1:77986 2:0 3:0 4:62 5:660078 6:0 
+[  474.233757] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  474.233789] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  474.233806] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  474.371127] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  474.373004] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  474.543749] servicemanager: Caller(pid=13549,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  474.551946] servicemanager: Caller(pid=13549,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  474.573170] binder: undelivered TRANSACTION_COMPLETE
+[  474.573187] binder: undelivered transaction 624924, process died.
+[  474.630725] [kworke][0x2235d8ed1][12:57:39.028287] wlan: [71:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  474.824787] servicemanager: Caller(pid=13566,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  474.833521] servicemanager: Caller(pid=13566,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  475.013822] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  475.018912] [kworke][0x223cf48f3][12:57:39.416475] wlan: [537:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  475.076710] servicemanager: Caller(pid=13584,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  475.085490] servicemanager: Caller(pid=13584,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  475.234248] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  475.234260] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  475.234265] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  475.329951] servicemanager: Caller(pid=13600,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  475.337528] servicemanager: Caller(pid=13600,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  475.606176] [kworke][0x2247b55b9][12:57:40.003739] wlan: [537:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  476.038165] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  476.043379] [kworke][0x224fb6bf2][12:57:40.440942] wlan: [537:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  476.234460] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  476.234472] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  476.234477] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  476.796402] binder: undelivered transaction 627651, process died.
+[  476.838959] [kworke][0x225e4807d][12:57:41.236522] wlan: [537:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  476.889512] [kworke][0x225f34ff0][12:57:41.287075] wlan: [537:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  477.048273] binder: undelivered transaction 627989, process died.
+[  477.048285] binder: undelivered transaction 627993, process died.
+[  477.169344] init: starting service 'vendor.hvdcp_opti'...
+[  477.173842] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_13740
+[  477.176926] init: ... started service 'vendor.hvdcp_opti' has pid 13740
+[  477.183965] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[  477.184574] MAIN_MGR: set keepcaps failed!
+[  477.185011] CHG_POLICY_PATH: Failed to get IIO path for BMS_PSY
+[  477.185018] MAIN_MGR: Failed to setup PSY and IIO path
+[  477.185614] init: Service 'vendor.hvdcp_opti' (pid 13740) exited with status 255
+[  477.185651] init: Sending SIGKILL to service 'vendor.hvdcp_opti' (pid 13740) process group...
+[  477.186244] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_13740
+[  477.186297] init: process with updatable components 'vendor.hvdcp_opti' exited 4 times in 4 minutes
+[  477.188303] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  477.188695] init: starting service 'exec 118 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  477.193571] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_13741
+[  477.203746] audit: audit_lost=90079 audit_rate_limit=5 audit_backlog_limit=64
+[  477.203753] audit: rate limit exceeded
+[  477.203943] type=1400 audit(1788440261.598:90585): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  477.204212] type=1400 audit(1788440261.598:90586): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  477.204398] type=1400 audit(1788440261.598:90587): avc:  denied  { map } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:aac_drc_prop:s0" dev="tmpfs" ino=83 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:aac_drc_prop:s0 tclass=file permissive=1
+[  477.204489] type=1400 audit(1788440261.598:90588): avc:  denied  { open } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  477.204565] type=1400 audit(1788440261.598:90589): avc:  denied  { getattr } for  comm="flags_health_ch" path="/dev/__properties__/u:object_r:ab_update_gki_prop:s0" dev="tmpfs" ino=85 scontext=u:r:flags_health_check:s0 tcontext=u:object_r:ab_update_gki_prop:s0 tclass=file permissive=1
+[  477.234657] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  477.289388] binder: undelivered transaction 628245, process died.
+[  477.289404] binder: undelivered transaction 628249, process died.
+[  477.355056] [irq][0x2267bb37e][12:57:41.752616] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  477.355124] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  477.357153] [kworke][0x2267c50fc][12:57:41.754716] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  477.366752] [soft_i][0x2267f20c8][12:57:41.764313] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  477.366877] [soft_i][0x2267f2a4d][12:57:41.764440] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  477.366883] [soft_i][0x2267f2abf][12:57:41.764446] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  477.366887] [soft_i][0x2267f2b07][12:57:41.764450] wlan: [0:I:WMA] 00000010: 00 29 b4 92 40 00 80 06 6e 00 c0 a8 2b 66 c0 a8
+[  477.366890] [soft_i][0x2267f2b4a][12:57:41.764453] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  477.366894] [soft_i][0x2267f2b91][12:57:41.764457] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  477.366908] [soft_i][0x2267f2cae][12:57:41.764472] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  477.886776] [kworke][0x227177aca][12:57:42.284340] wlan: [549:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  477.938653] [kworke][0x22726ad74][12:57:42.336215] wlan: [549:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  478.054179] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  478.059248] [kworke][0x2274a0217][12:57:42.456810] wlan: [537:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  478.646523] [kworke][0x227f60fd2][12:57:43.044087] wlan: [537:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  478.794247] [irq][0x2282156c7][12:57:43.191806] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  478.794316] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  478.796316] [kworke][0x22821f23c][12:57:43.193879] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  478.806035] [soft_i][0x22824cafc][12:57:43.203596] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  478.806192] [soft_i][0x22824d6e9][12:57:43.203755] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  478.806196] [soft_i][0x22824d745][12:57:43.203759] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  478.806198] [soft_i][0x22824d775][12:57:43.203762] wlan: [0:I:WMA] 00000010: 00 29 b4 93 40 00 80 06 6d ff c0 a8 2b 66 c0 a8
+[  478.806201] [soft_i][0x22824d7a3][12:57:43.203764] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  478.806203] [soft_i][0x22824d7cc][12:57:43.203766] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  478.806220] [soft_i][0x22824d90f][12:57:43.203783] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  479.235069] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  479.235080] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  479.235084] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  479.287985] binder: undelivered TRANSACTION_COMPLETE
+[  479.288002] binder: undelivered transaction 630752, process died.
+[  479.384306] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  479.386153] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  479.519491] servicemanager: Caller(pid=13902,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  479.526222] servicemanager: Caller(pid=13902,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  479.764850] servicemanager: Caller(pid=13919,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  479.772187] servicemanager: Caller(pid=13919,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  479.800256] [kworke][0x22948119d][12:57:44.197817] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  480.017722] servicemanager: Caller(pid=13937,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  480.023151] [irq][0x229895ea8][12:57:44.420711] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  480.023208] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  480.026629] [kworke][0x2298a63b1][12:57:44.424192] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  480.031216] servicemanager: Caller(pid=13937,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  480.036338] [soft_i][0x2298d3ba8][12:57:44.433898] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  480.036431] [soft_i][0x2298d42de][12:57:44.433994] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  480.036437] [soft_i][0x2298d434b][12:57:44.434000] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  480.036440] [soft_i][0x2298d4390][12:57:44.434003] wlan: [0:I:WMA] 00000010: 00 29 b4 94 40 00 80 06 6d fe c0 a8 2b 66 c0 a8
+[  480.036443] [soft_i][0x2298d43d2][12:57:44.434007] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  480.036446] [soft_i][0x2298d4409][12:57:44.434010] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  480.036467] [soft_i][0x2298d458e][12:57:44.434030] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  480.235292] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  480.235324] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  480.235339] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  480.280210] servicemanager: Caller(pid=13954,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  480.289678] servicemanager: Caller(pid=13954,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  480.560736] binder: undelivered TRANSACTION_COMPLETE
+[  480.560744] binder: undelivered transaction 632291, process died.
+[  480.560933] binder: undelivered transaction 632292, process died.
+[  480.648589] [kworke][0x22a409abc][12:57:45.046152] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  481.147658] [irq][0x22ad2d0af][12:57:45.545218] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  481.147714] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  481.149920] [kworke][0x22ad37a8c][12:57:45.547483] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  481.159388] [soft_i][0x22ad64070][12:57:45.556948] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  481.159541] [soft_i][0x22ad64c27][12:57:45.557105] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  481.159550] [soft_i][0x22ad64c7a][12:57:45.557109] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  481.159553] [soft_i][0x22ad64d0a][12:57:45.557116] wlan: [0:I:WMA] 00000010: 00 29 b4 95 40 00 80 06 6d fd c0 a8 2b 66 c0 a8
+[  481.159555] [soft_i][0x22ad64d36][12:57:45.557119] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  481.159557] [soft_i][0x22ad64d5f][12:57:45.557121] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  481.159575] [soft_i][0x22ad64eb1][12:57:45.557138] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  481.236450] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  481.236481] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  481.236495] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  481.665613] [kworke][0x22b6a8f93][12:57:46.063177] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  482.054158] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  482.059548] [kworke][0x22bddf8a2][12:57:46.457111] wlan: [537:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  482.174650] init: starting service 'vendor.hvdcp_opti'...
+[  482.179430] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_14094
+[  482.182745] init: ... started service 'vendor.hvdcp_opti' has pid 14094
+[  482.190369] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[  482.191013] MAIN_MGR: set keepcaps failed!
+[  482.191288] CHG_POLICY_PATH: Failed to get IIO path for BMS_PSY
+[  482.191295] MAIN_MGR: Failed to setup PSY and IIO path
+[  482.191940] init: Service 'vendor.hvdcp_opti' (pid 14094) exited with status 255
+[  482.191976] init: Sending SIGKILL to service 'vendor.hvdcp_opti' (pid 14094) process group...
+[  482.192522] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_14094
+[  482.236747] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  482.390479] init: Control message: Could not find 'aidl/vendor.qti.snapdragonServices.ISnapdragonServices/default' for ctl.interface_start from pid: 849 (/system/bin/servicemanager)
+[  482.391556] init: Control message: Could not find 'vendor.qti.data.factory@2.0::IFactory/default' for ctl.interface_start from pid: 850 (/system/system_ext/bin/hwservicemanager)
+[  482.391724] init: Control message: Could not find 'vendor.qti.data.factory@2.0::IFactory/default' for ctl.interface_start from pid: 850 (/system/system_ext/bin/hwservicemanager)
+[  482.828344] init: Control message: Could not find 'com.qualcomm.qti.uceservice@2.3::IUceService/com.qualcomm.qti.uceservice' for ctl.interface_start from pid: 850 (/system/system_ext/bin/hwservicemanager)
+[  482.892338] [kworke][0x22cd1f3e3][12:57:47.289901] wlan: [537:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  482.943312] [kworke][0x22ce0e2e2][12:57:47.340874] wlan: [537:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  483.499330] [irq][0x22d83c80b][12:57:47.896890] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  483.499379] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  483.502030] [kworke][0x22d8492c0][12:57:47.899592] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  483.511001] [soft_i][0x22d87335f][12:57:47.908561] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  483.511178] [soft_i][0x22d8740f0][12:57:47.908742] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  483.511184] [soft_i][0x22d874161][12:57:47.908748] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  483.511187] [soft_i][0x22d874190][12:57:47.908750] wlan: [0:I:WMA] 00000010: 00 29 b4 97 40 00 80 06 6d fb c0 a8 2b 66 c0 a8
+[  483.511189] [soft_i][0x22d8741ba][12:57:47.908752] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  483.511191] [soft_i][0x22d8741e8][12:57:47.908755] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  483.511209] [soft_i][0x22d87433d][12:57:47.908772] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  483.556781] binder: undelivered TRANSACTION_COMPLETE
+[  483.556801] binder: undelivered transaction 635982, process died.
+[  483.590197] (virq:irq_count)- GICv3:IPI(1):5162266 GICv3:IPI(6):682548 GICv3:arch_timer(11):667374 GICv3:apps_rsc-drv-2(21):105047 GICv3:IPI(2):79872 GICv3:ife(315):41007 GICv3:ufshcd(29):24865 GICv3:9091000.qcom,bwmon-ddr(27):20661 GICv3:90b6400.qcom,bwmon-llcc(26):18251 GICv3:dwc3(458):13875 
+[  483.590217] (cpu:irq_count)- 0:2150061 1:2146147 2:834699 3:818807 4:720314 5:235219 
+[  483.590221] (ipi:irq_count)- 0:5162266 1:79872 2:0 3:0 4:62 5:682549 6:0 
+[  484.059185] binder: undelivered transaction 636585, process died.
+[  484.137142] [kworke][0x22e3ea439][12:57:48.534705] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  484.393101] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  484.394865] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  484.497114] servicemanager: Caller(pid=14252,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  484.512551] servicemanager: Caller(pid=14252,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  484.631559] [irq][0x22ecf7d49][12:57:49.029120] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  484.631604] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  484.634497] [kworke][0x22ed059d1][12:57:49.032060] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  484.644013] [soft_i][0x22ed3234d][12:57:49.041573] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  484.644103] [soft_i][0x22ed32a53][12:57:49.041667] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  484.644112] [soft_i][0x22ed32a9d][12:57:49.041671] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  484.644115] [soft_i][0x22ed32b35][12:57:49.041679] wlan: [0:I:WMA] 00000010: 00 29 b4 98 40 00 80 06 6d fa c0 a8 2b 66 c0 a8
+[  484.644117] [soft_i][0x22ed32b5f][12:57:49.041681] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  484.644119] [soft_i][0x22ed32b86][12:57:49.041683] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  484.644136] [soft_i][0x22ed32cc9][12:57:49.041700] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  484.770074] servicemanager: Caller(pid=14269,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  484.780989] servicemanager: Caller(pid=14269,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  485.027509] servicemanager: Caller(pid=14288,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  485.039052] servicemanager: Caller(pid=14288,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  485.237413] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  485.237453] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  485.237469] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  485.269640] [kworke][0x22f8a6d73][12:57:49.667202] wlan: [30:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  485.279923] servicemanager: Caller(pid=14305,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  485.287628] servicemanager: Caller(pid=14305,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  485.757717] [irq][0x230196b13][12:57:50.155277] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  485.757778] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  485.759879] [kworke][0x2301a0d6a][12:57:50.157441] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  485.769427] [soft_i][0x2301cd95b][12:57:50.166987] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  485.769541] [soft_i][0x2301ce22e][12:57:50.167105] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  485.769546] [soft_i][0x2301ce28e][12:57:50.167110] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  485.769548] [soft_i][0x2301ce2b2][12:57:50.167112] wlan: [0:I:WMA] 00000010: 00 29 b4 99 40 00 80 06 6d f9 c0 a8 2b 66 c0 a8
+[  485.769550] [soft_i][0x2301ce2d5][12:57:50.167114] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  485.769558] [soft_i][0x2301ce2f9][12:57:50.167115] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  485.769572] [soft_i][0x2301ce47f][12:57:50.167136] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  486.237988] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  486.238058] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  486.238075] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  486.325079] [kworke][0x230bfa373][12:57:50.722642] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  486.377044] [kworke][0x230cedcd2][12:57:50.774607] wlan: [611:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  486.814589] binder: undelivered transaction 639923, process died.
+[  486.884365] [irq][0x231637d9d][12:57:51.281924] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  486.884450] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  486.886582] [kworke][0x23164242b][12:57:51.284145] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  486.896503] [soft_i][0x231670c24][12:57:51.294064] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  486.896629] [soft_i][0x2316715af][12:57:51.294192] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  486.896634] [soft_i][0x231671612][12:57:51.294197] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  486.896637] [soft_i][0x23167164e][12:57:51.294200] wlan: [0:I:WMA] 00000010: 00 29 b4 9a 40 00 80 06 6d f8 c0 a8 2b 66 c0 a8
+[  486.896640] [soft_i][0x231671688][12:57:51.294203] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  486.896643] [soft_i][0x2316716c0][12:57:51.294206] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  486.896664] [soft_i][0x231671856][12:57:51.294227] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  487.183759] init: starting service 'vendor.hvdcp_opti'...
+[  487.188023] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_14441
+[  487.190615] init: ... started service 'vendor.hvdcp_opti' has pid 14441
+[  487.198671] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[  487.199205] MAIN_MGR: set keepcaps failed!
+[  487.199469] CHG_POLICY_PATH: Failed to get IIO path for BMS_PSY
+[  487.199475] MAIN_MGR: Failed to setup PSY and IIO path
+[  487.200245] init: Service 'vendor.hvdcp_opti' (pid 14441) exited with status 255
+[  487.200275] init: Sending SIGKILL to service 'vendor.hvdcp_opti' (pid 14441) process group...
+[  487.200846] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_14441
+[  487.238647] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  487.238661] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  487.238666] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  487.331899] binder: undelivered TRANSACTION_COMPLETE
+[  487.331906] binder: undelivered transaction 640560, process died.
+[  487.400470] init: Control message: Could not find 'aidl/vendor.qti.snapdragonServices.ISnapdragonServices/default' for ctl.interface_start from pid: 849 (/system/bin/servicemanager)
+[  487.400602] init: Control message: Could not find 'vendor.qti.data.factory@2.0::IFactory/default' for ctl.interface_start from pid: 850 (/system/system_ext/bin/hwservicemanager)
+[  487.401248] init: Control message: Could not find 'vendor.qti.data.factory@2.0::IFactory/default' for ctl.interface_start from pid: 850 (/system/system_ext/bin/hwservicemanager)
+[  487.430964] configfs-gadget gadget: uvc: uvc_function_set_alt(3, 0)
+[  487.431382] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431390] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431392] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431394] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431396] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431397] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431399] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431401] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431403] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431404] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431406] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431407] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431409] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431411] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431413] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431415] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431416] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431418] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431420] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431421] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431422] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431424] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431425] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431427] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431428] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431430] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431432] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431433] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431434] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431436] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431437] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431439] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431440] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431442] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431443] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431445] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431446] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431447] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431449] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431450] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431451] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431453] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431454] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431455] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431457] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431458] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431459] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431461] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431463] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431464] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431465] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431467] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431468] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431470] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431471] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431472] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431474] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431475] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431477] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431478] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431480] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431481] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431483] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.431484] dwc3 a600000.dwc3: request 0000000000000000 was not queued to ep3in
+[  487.445104] [kworke][0x23207c562][12:57:51.842668] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  487.502517] [kworke][0x23218974e][12:57:51.900080] wlan: [611:I:HIF] hif_try_complete_tasks: waiting for tasklets 0 grp tasklets 0 work 2
+[  487.837415] init: Control message: Could not find 'com.qualcomm.qti.dpm.api@1.0::IdpmQmi/dpmQmiService' for ctl.interface_start from pid: 850 (/system/system_ext/bin/hwservicemanager)
+[  488.015933] [irq][0x232af013e][12:57:52.413493] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  488.016029] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  488.018085] [kworke][0x232afa2fb][12:57:52.415649] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  488.028505] [soft_i][0x232b2b05d][12:57:52.426067] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  488.028602] [soft_i][0x232b2b7be][12:57:52.426166] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  488.028620] [soft_i][0x232b2b912][12:57:52.426183] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  488.028622] [soft_i][0x232b2b93d][12:57:52.426186] wlan: [0:I:WMA] 00000010: 00 29 b4 9b 40 00 80 06 6d f7 c0 a8 2b 66 c0 a8
+[  488.028624] [soft_i][0x232b2b962][12:57:52.426188] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  488.028626] [soft_i][0x232b2b988][12:57:52.426190] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  488.028639] [soft_i][0x232b2ba85][12:57:52.426203] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  488.238873] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  488.654171] [kworke][0x23369fd5f][12:57:53.051734] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  489.137065] [irq][0x233f7762b][12:57:53.534625] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  489.137112] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  489.139125] [kworke][0x233f810ee][12:57:53.536688] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  489.148695] [soft_i][0x233fade8c][12:57:53.546256] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  489.148814] [soft_i][0x233fae799][12:57:53.546377] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  489.148829] [soft_i][0x233fae8b9][12:57:53.546392] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  489.148831] [soft_i][0x233fae8e4][12:57:53.546394] wlan: [0:I:WMA] 00000010: 00 29 b4 9c 40 00 80 06 6d f6 c0 a8 2b 66 c0 a8
+[  489.148833] [soft_i][0x233fae90a][12:57:53.546396] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9c 28 e6 26 07 3a 50 10
+[  489.148834] [soft_i][0x233fae92a][12:57:53.546398] wlan: [0:I:WMA] 00000030: 01 fb 93 a2 00 00 00
+[  489.148847] [soft_i][0x233faea19][12:57:53.546410] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 41, src_port: 62415, dst_port: 5555
+[  489.403014] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  489.404888] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  489.673644] servicemanager: Caller(pid=14589,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  489.682113] servicemanager: Caller(pid=14589,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  489.961085] servicemanager: Caller(pid=14607,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  489.972514] servicemanager: Caller(pid=14607,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  490.239488] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  490.239522] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  490.239535] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  490.284766] servicemanager: Caller(pid=14623,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  490.295387] servicemanager: Caller(pid=14623,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  490.323511] binder: undelivered TRANSACTION_COMPLETE
+[  490.323518] binder: undelivered transaction 642868, process died.
+[  490.404599] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  490.406576] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  491.239723] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  491.239756] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  491.239770] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  491.266805] binder: undelivered transaction 643535, process died.
+[  491.266926] binder: undelivered transaction 643531, process died.
+[  492.189297] init: starting service 'vendor.hvdcp_opti'...
+[  492.193634] libprocessgroup: Created cgroup /sys/fs/cgroup/system/uid_1000/pid_14748
+[  492.196467] init: ... started service 'vendor.hvdcp_opti' has pid 14748
+[  492.217670] MAIN_MGR: hvdcp_opti Version: 3:0:0
+[  492.218885] MAIN_MGR: set keepcaps failed!
+[  492.219501] CHG_POLICY_PATH: Failed to get IIO path for BMS_PSY
+[  492.219514] MAIN_MGR: Failed to setup PSY and IIO path
+[  492.220694] init: Service 'vendor.hvdcp_opti' (pid 14748) exited with status 255
+[  492.220706] init: Sending SIGKILL to service 'vendor.hvdcp_opti' (pid 14748) process group...
+[  492.220921] libprocessgroup: Removed cgroup /sys/fs/cgroup/system/uid_1000/pid_14748
+[  492.237945] [kworke][0x23783ec63][12:57:56.635508] wlan: [611:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  492.239934] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  492.239959] NfcConfService: NXP device node /dev/nq-nci-i3c not yet available.
+[  492.240009] NfcConfService: STM device node /dev/st21nfc not yet available.
+[  492.408392] init: Control message: Could not find 'aidl/vendor.qti.snapdragonServices.ISnapdragonServices/default' for ctl.interface_start from pid: 849 (/system/bin/servicemanager)
+[  492.410598] init: Control message: Could not find 'vendor.qti.data.factory@2.0::IFactory/default' for ctl.interface_start from pid: 850 (/system/system_ext/bin/hwservicemanager)
+[  492.411524] init: Control message: Could not find 'vendor.qti.data.factory@2.0::IFactory/default' for ctl.interface_start from pid: 850 (/system/system_ext/bin/hwservicemanager)
+[  492.758507] [irq][0x2381c6e43][12:57:57.156066] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  492.758592] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  492.760655] [kworke][0x2381d0fa8][12:57:57.158218] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  492.762768] binder: undelivered TRANSACTION_COMPLETE
+[  492.762774] binder: undelivered transaction 644621, process died.
+[  492.762792] binder: undelivered transaction 644622, process died.
+[  492.770344] [soft_i][0x2381fe5f2][12:57:57.167902] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  492.770520] [soft_i][0x2381ff380][12:57:57.168083] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  492.770529] [soft_i][0x2381ff42c][12:57:57.168092] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  492.770535] [soft_i][0x2381ff4a2][12:57:57.168098] wlan: [0:I:WMA] 00000010: 00 40 b4 b9 40 00 80 06 6d c2 c0 a8 2b 66 c0 a8
+[  492.770541] [soft_i][0x2381ff511][12:57:57.168103] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9d f7 e6 26 10 6f 50 18
+[  492.770547] [soft_i][0x2381ff57f][12:57:57.168109] wlan: [0:I:WMA] 00000030: 01 ff da 4c 00 00 57 52 54 45 9a 2e 00 00 08 00
+[  492.770552] [soft_i][0x2381ff5e9][12:57:57.168115] wlan: [0:I:WMA] 00000040: 00 00 0c 00 00 00 00 00 00 00 a8 ad ab ba
+[  492.770596] [soft_i][0x2381ff927][12:57:57.168158] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 64, src_port: 62415, dst_port: 5555
+[  492.843488] init: Control message: Could not find 'com.qualcomm.qti.dpm.api@1.0::IdpmQmi/dpmQmiService' for ctl.interface_start from pid: 850 (/system/system_ext/bin/hwservicemanager)
+[  493.062406] (virq:irq_count)- GICv3:IPI(1):5297902 GICv3:IPI(6):700626 GICv3:arch_timer(11):681125 GICv3:apps_rsc-drv-2(21):106929 GICv3:IPI(2):81377 GICv3:ife(315):42591 GICv3:ufshcd(29):25244 GICv3:9091000.qcom,bwmon-ddr(27):21004 GICv3:90b6400.qcom,bwmon-llcc(26):18581 GICv3:dwc3(458):14425 
+[  493.062458] (cpu:irq_count)- 0:2196350 1:2194625 2:861867 3:843939 4:743653 5:240249 
+[  493.062473] (ipi:irq_count)- 0:5297902 1:81377 2:0 3:0 4:63 5:700626 6:0 
+[  493.240250] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[  494.410716] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Since 'vendor.qti.snapdragonServices.ISnapdragonServices/default' could not be found trying to start it as a lazy AIDL service. (if it's not configured to be a lazy service, it may be stuck starting or still starting).
+[  494.413117] servicemanager: Caller(pid=1877,uid=1000,sid=u:r:system_server:s0) Tried to start aidl service vendor.qti.snapdragonServices.ISnapdragonServices/default as a lazy service, but was unable to. Usually this happens when a service is not installed, but if the service is intended to be used as a lazy service, then it may be configured incorrectly.
+[  494.552928] servicemanager: Caller(pid=14874,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  494.562102] servicemanager: Caller(pid=14874,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  494.564897] [kworke][0x23a2da5a7][12:57:58.962458] wlan: [4390:I:PMO] pmo_core_enable_wow_in_fw: drv wow is enabled
+[  494.868379] [irq][0x23a868eb8][12:57:59.265939] wlan: [0:I:HIF] hif_wake_interrupt_handler: wake interrupt received on irq 538
+[  494.868437] cnss_pci 0000:01:00.0: can't change power state from D3cold to D0 (config space inaccessible)
+[  494.870769] [kworke][0x23a874239][12:57:59.268332] wlan: [611:I:PMO] pmo_core_psoc_send_host_wakeup_ind_to_fw: Host wakeup indication sent to fw
+[  494.880320] [soft_i][0x23a8a0e6a][12:57:59.277881] wlan: [0:I:WMA] WLAN triggered wakeup: BPF_ALLOW (39), vdev: 0 (STA)
+[  494.880420] [soft_i][0x23a8a1611][12:57:59.277983] wlan: [0:I:WMA] wma_wake_event_packet: Wake event packet:
+[  494.880424] [soft_i][0x23a8a165c][12:57:59.277987] wlan: [0:I:WMA] 00000000: aa 19 01 7d 50 9a c0 3c 59 0c 11 f1 08 00 45 00
+[  494.880426] [soft_i][0x23a8a1686][12:57:59.277989] wlan: [0:I:WMA] 00000010: 00 40 b4 c8 40 00 80 06 6d b3 c0 a8 2b 66 c0 a8
+[  494.880428] [soft_i][0x23a8a16ac][12:57:59.277991] wlan: [0:I:WMA] 00000020: 2b 85 f3 cf 15 b3 ae ed 9e d5 e6 26 14 7c 50 18
+[  494.880430] [soft_i][0x23a8a16d6][12:57:59.277994] wlan: [0:I:WMA] 00000030: 01 fb db 65 00 00 57 52 54 45 9a 2e 00 00 08 00
+[  494.880432] [soft_i][0x23a8a16fa][12:57:59.277995] wlan: [0:I:WMA] 00000040: 00 00 06 00 00 00 00 00 00 00 a8 ad ab ba
+[  494.880447] [soft_i][0x23a8a181c][12:57:59.278011] wlan: [0:I:WMA] wma_log_pkt_ipv4: Pkt_len: 64, src_port: 62415, dst_port: 5555
+[  494.884547] servicemanager: Caller(pid=14891,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.hardware.perf2.IPerf/default in the VINTF manifest. No alternative instances declared in VINTF.
+[  494.892231] servicemanager: Caller(pid=14891,uid=10155,sid=u:r:vendor_location_app:s0:c155,c256,c512,c768) Could not find vendor.qti.gnss.ILocAidlGnss/default in the VINTF manifest. No alternative instances declared in VINTF.

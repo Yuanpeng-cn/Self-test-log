@@ -1,0 +1,473 @@
+ alcomm.location-14129   [002] d.h..   875.904776: irq_handler_entry: irq=502 name=dwc3
+   kworker/u13:3-925     [000] d..2.   875.904778: dwc3_writel: addr 000000000b0a1412 offset 000c value 00070407
+ alcomm.location-14129   [002] d.h..   875.904778: dwc3_readl: addr 00000000489e9998 offset c40c value 80000004
+ alcomm.location-14129   [002] d.h..   875.904778: dwc3_writel: addr 00000000a66a9c20 offset c408 value 80001000
+ alcomm.location-14129   [002] d.h..   875.904779: dwc3_writel: addr 00000000489e9998 offset c40c value 00000004
+   kworker/u13:3-925     [000] d..2.   875.904780: dwc3_readl: addr 000000000b0a1412 offset 000c value 00070007
+ alcomm.location-14129   [002] d.h..   875.904780: irq_handler_exit: irq=502 ret=handled
+   kworker/u13:3-925     [000] d..2.   875.904784: dwc3_gadget_ep_cmd: ep3in: cmd 'Update Transfer' [70407] params 00000000 00000000 00000000 --> status: Successful
+ alcomm.location-14129   [002] d.h3.   875.904787: sched_wakeup: comm=irq/502-dwc3 pid=30548 prio=100 target_cpu=004
+   kworker/u13:3-925     [000] d..1.   875.904787: dwc3_readl: addr 000000006e60f2a9 offset c70c value 0002a604
+ alcomm.location-14129   [002] d.h..   875.904788: irq_handler_entry: irq=6 name=IPI
+          <idle>-0       [004] dnh1.   875.904790: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.904791: irq_handler_exit: irq=1 ret=handled
+ alcomm.location-14129   [002] d.h..   875.904792: irq_handler_exit: irq=6 ret=handled
+   kworker/u13:3-925     [000] d..2.   875.904792: dwc3_ep_queue: ep3in: req 0000000040394575 length 0/33792 zsi ==> -115
+          <idle>-0       [004] d..2.   875.904796: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=irq/502-dwc3 next_pid=30548 next_prio=100
+   kworker/u13:3-925     [000] d..2.   875.904804: dwc3_prepare_trb: ep3in: trb 0000000050979236 (E35:D219) buf 00000000eca80328 size 1x 8 ctrl 00000065 (HlCs:sc:isoc-first)
+   kworker/u13:3-925     [000] d..2.   875.904812: dwc3_prepare_trb: ep3in: trb 00000000a4a08dd8 (E36:D219) buf 00000000eca81edc size 1x 33784 ctrl 00000071 (Hlcs:sc:isoc)
+   kworker/u13:3-925     [000] d..2.   875.904815: dwc3_writel: addr 000000000b0a1412 offset 000c value 00070407
+   kworker/u13:3-925     [000] d..2.   875.904817: dwc3_readl: addr 000000000b0a1412 offset 000c value 00070007
+   kworker/u13:3-925     [000] d..2.   875.904822: dwc3_gadget_ep_cmd: ep3in: cmd 'Update Transfer' [70407] params 00000000 00000000 00000000 --> status: Successful
+   kworker/u13:3-925     [000] d..1.   875.904825: dwc3_readl: addr 000000006e60f2a9 offset c70c value 0002a60c
+    irq/502-dwc3-30548   [004] d..1.   875.904829: dwc3_event: event (d4c0408e): ep3in: Transfer In Progress [54464] (sIm)
+    irq/502-dwc3-30548   [004] d..1.   875.904834: dwc3_complete_trb: ep3in: trb 0000000085cfeb04 (E36:D220) buf 00000000ec810e68 size 1x 0 ctrl 352c4064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.904838: dwc3_complete_trb: ep3in: trb 00000000a1f9e35d (E36:D221) buf 00000000ec8113f4 size 1x 0 ctrl 352c4070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [004] d..1.   875.904851: dwc3_gadget_giveback: ep3in: req 00000000c2809f8c length 33792/33792 zsi ==> 0
+   kworker/u13:3-925     [000] d..2.   875.904856: dwc3_ep_queue: ep3in: req 00000000f71d6d29 length 0/33792 zsi ==> -115
+   kworker/u13:3-925     [000] d..2.   875.904869: dwc3_prepare_trb: ep3in: trb 0000000099dfb8ae (E37:D221) buf 00000000eca90a68 size 1x 8 ctrl 00000065 (HlCs:sc:isoc-first)
+   kworker/u13:3-925     [000] d..2.   875.904876: dwc3_prepare_trb: ep3in: trb 00000000a0f51776 (E38:D221) buf 00000000eca912d4 size 1x 33784 ctrl 00000071 (Hlcs:sc:isoc)
+   kworker/u13:3-925     [000] d..2.   875.904879: dwc3_writel: addr 000000000b0a1412 offset 000c value 00070407
+   kworker/u13:3-925     [000] d..2.   875.904881: dwc3_readl: addr 000000000b0a1412 offset 000c value 00070007
+   kworker/u13:3-925     [000] d..2.   875.904885: dwc3_gadget_ep_cmd: ep3in: cmd 'Update Transfer' [70407] params 00000000 00000000 00000000 --> status: Successful
+   kworker/u13:3-925     [000] d..1.   875.904888: dwc3_readl: addr 000000006e60f2a9 offset c70c value 0002a60c
+    irq/502-dwc3-30548   [004] d..1.   875.904889: dwc3_complete_trb: ep3in: trb 000000001930b5fb (E38:D222) buf 00000000ec820de8 size 1x 0 ctrl 352c8064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.904892: dwc3_complete_trb: ep3in: trb 00000000437e0f2a (E38:D223) buf 00000000ec8217ec size 1x 0 ctrl 352c8070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [004] d..1.   875.904900: dwc3_gadget_giveback: ep3in: req 00000000dc4436d9 length 33792/33792 zsi ==> 0
+   kworker/u13:3-925     [000] d..2.   875.904905: dwc3_ep_queue: ep3in: req 00000000cf27f9e3 length 0/33792 zsi ==> -115
+   kworker/u13:3-925     [000] d..2.   875.904917: dwc3_prepare_trb: ep3in: trb 00000000d150ebaf (E39:D223) buf 00000000ecaa01a8 size 1x 8 ctrl 00000065 (HlCs:sc:isoc-first)
+   kworker/u13:3-925     [000] d..2.   875.904925: dwc3_prepare_trb: ep3in: trb 00000000b96b6cb3 (E40:D223) buf 00000000ecaa16cc size 1x 33784 ctrl 00000071 (Hlcs:sc:isoc)
+   kworker/u13:3-925     [000] d..2.   875.904928: dwc3_writel: addr 000000000b0a1412 offset 000c value 00070407
+   kworker/u13:3-925     [000] d..2.   875.904931: dwc3_readl: addr 000000000b0a1412 offset 000c value 00070007
+   kworker/u13:3-925     [000] d..2.   875.904935: dwc3_gadget_ep_cmd: ep3in: cmd 'Update Transfer' [70407] params 00000000 00000000 00000000 --> status: Successful
+   kworker/u13:3-925     [000] d..1.   875.904938: dwc3_readl: addr 000000006e60f2a9 offset c70c value 0002a60c
+    irq/502-dwc3-30548   [004] d..1.   875.904940: dwc3_complete_trb: ep3in: trb 0000000088bb269b (E40:D224) buf 00000000ee1f0a28 size 1x 0 ctrl 352cc064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.904943: dwc3_complete_trb: ep3in: trb 00000000a97a42e7 (E40:D225) buf 00000000ee1f1be4 size 1x 33792 ctrl 352cc070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [004] d..1.   875.904950: dwc3_gadget_giveback: ep3in: req 00000000bdc68281 length 0/33792 zsi ==> -18
+   kworker/u13:3-925     [000] d..2.   875.904954: dwc3_ep_queue: ep3in: req 000000009dcfb929 length 0/33792 zsi ==> -115
+   kworker/u13:3-925     [000] d..2.   875.904967: dwc3_prepare_trb: ep3in: trb 00000000c711f1a6 (E41:D225) buf 00000000ecab0028 size 1x 8 ctrl 00000065 (HlCs:sc:isoc-first)
+   kworker/u13:3-925     [000] d..2.   875.904974: dwc3_prepare_trb: ep3in: trb 000000003a618be4 (E42:D225) buf 00000000ecab1ac4 size 1x 33784 ctrl 00000071 (Hlcs:sc:isoc)
+   kworker/u13:3-925     [000] d..2.   875.904977: dwc3_writel: addr 000000000b0a1412 offset 000c value 00070407
+   kworker/u13:3-925     [000] d..2.   875.904979: dwc3_readl: addr 000000000b0a1412 offset 000c value 00070007
+          <idle>-0       [003] d.h1.   875.904979: irq_handler_entry: irq=315 name=ife
+   kworker/u13:3-925     [000] d..2.   875.904983: dwc3_gadget_ep_cmd: ep3in: cmd 'Update Transfer' [70407] params 00000000 00000000 00000000 --> status: Successful
+    irq/502-dwc3-30548   [004] d..1.   875.904986: dwc3_complete_trb: ep3in: trb 00000000fa23ef99 (E42:D226) buf 00000000ec8309a8 size 1x 0 ctrl 352d0064 (hlCs:sc:isoc-first)
+          <idle>-0       [003] d.h2.   875.904986: softirq_raise: vec=0 [action=HI]
+          <idle>-0       [003] d.h1.   875.904986: irq_handler_exit: irq=315 ret=handled
+   kworker/u13:3-925     [000] d..1.   875.904986: dwc3_readl: addr 000000006e60f2a9 offset c70c value 0002a614
+          <idle>-0       [003] ..s1.   875.904987: softirq_entry: vec=0 [action=HI]
+          <idle>-0       [003] ..s1.   875.904987: tasklet_entry: function=cam_tasklet_action.cfi_jt [camera]
+    irq/502-dwc3-30548   [004] d..1.   875.904988: dwc3_complete_trb: ep3in: trb 00000000ee46206e (E42:D227) buf 00000000ec831fdc size 1x 33792 ctrl 352d0070 (hlcs:sc:isoc)
+          <idle>-0       [003] ..s1.   875.904990: tasklet_exit: function=cam_tasklet_action.cfi_jt [camera]
+          <idle>-0       [003] ..s1.   875.904990: softirq_exit: vec=0 [action=HI]
+    irq/502-dwc3-30548   [004] d..1.   875.904994: dwc3_gadget_giveback: ep3in: req 00000000a6c9be33 length 0/33792 zsi ==> -18
+   kworker/u13:3-925     [000] d..2.   875.904999: dwc3_ep_queue: ep3in: req 000000005af0e550 length 0/33792 zsI ==> -115
+   kworker/u13:3-925     [000] d..2.   875.905011: dwc3_prepare_trb: ep3in: trb 000000000af7ffcf (E43:D227) buf 00000000ecac0be8 size 1x 8 ctrl 00000065 (HlCs:sc:isoc-first)
+   kworker/u13:3-925     [000] d..2.   875.905020: dwc3_prepare_trb: ep3in: trb 000000004041ce80 (E44:D227) buf 00000000ecac1ebc size 1x 33784 ctrl 00000c71 (Hlcs:SC:isoc)
+   kworker/u13:3-925     [000] d..2.   875.905023: dwc3_writel: addr 000000000b0a1412 offset 000c value 00070407
+   kworker/u13:3-925     [000] d..2.   875.905025: dwc3_readl: addr 000000000b0a1412 offset 000c value 00070007
+   kworker/u13:3-925     [000] d..2.   875.905029: dwc3_gadget_ep_cmd: ep3in: cmd 'Update Transfer' [70407] params 00000000 00000000 00000000 --> status: Successful
+    irq/502-dwc3-30548   [004] d..1.   875.905032: dwc3_complete_trb: ep3in: trb 00000000fa3314df (E44:D228) buf 00000000ec840ce8 size 1x 0 ctrl 352d4064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.905034: dwc3_complete_trb: ep3in: trb 000000006ea1306b (E44:D229) buf 00000000ec8413d4 size 1x 33792 ctrl 352d4070 (hlcs:sc:isoc)
+          <idle>-0       [003] d.h1.   875.905037: irq_handler_entry: irq=315 name=ife
+    irq/502-dwc3-30548   [004] d..1.   875.905040: dwc3_gadget_giveback: ep3in: req 000000007b311ed9 length 0/33792 zsi ==> -18
+   kworker/u13:3-925     [000] d..2.   875.905047: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=R ==> next_comm=rcuop/4 next_pid=57 next_prio=120
+          <idle>-0       [003] d.h3.   875.905050: softirq_raise: vec=0 [action=HI]
+          <idle>-0       [003] d.h1.   875.905051: irq_handler_exit: irq=315 ret=handled
+          <idle>-0       [003] ..s1.   875.905051: softirq_entry: vec=0 [action=HI]
+          <idle>-0       [003] d.H2.   875.905052: irq_handler_entry: irq=315 name=ife
+    irq/502-dwc3-30548   [004] d..4.   875.905055: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=000
+ alcomm.location-14129   [002] d..7.   875.905057: sched_wakeup: comm=kworker/2:0 pid=22522 prio=120 target_cpu=002
+    irq/502-dwc3-30548   [004] d..1.   875.905058: dwc3_complete_trb: ep3in: trb 000000007549e659 (E44:D230) buf 00000000ec850aa8 size 1x 0 ctrl 352d8064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.905059: dwc3_complete_trb: ep3in: trb 00000000edad019d (E44:D231) buf 00000000ec8517cc size 1x 33792 ctrl 352d8070 (hlcs:sc:isoc)
+          <idle>-0       [003] d.H2.   875.905063: irq_handler_exit: irq=315 ret=handled
+          <idle>-0       [003] ..s1.   875.905064: tasklet_entry: function=cam_tasklet_action.cfi_jt [camera]
+    irq/502-dwc3-30548   [004] d..1.   875.905065: dwc3_gadget_giveback: ep3in: req 00000000b4a8ead8 length 0/33792 zsi ==> -18
+          <idle>-0       [003] d.H2.   875.905066: irq_handler_entry: irq=315 name=ife
+    irq/502-dwc3-30548   [004] d..1.   875.905067: dwc3_complete_trb: ep3in: trb 00000000d6943cb0 (E44:D232) buf 00000000ec860428 size 1x 0 ctrl 352dc064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.905069: dwc3_complete_trb: ep3in: trb 000000000e1f1a11 (E44:D233) buf 00000000ec861bc4 size 1x 33792 ctrl 352dc070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [004] d..1.   875.905075: dwc3_gadget_giveback: ep3in: req 00000000cc3d0e87 length 0/33792 zsi ==> -18
+    irq/502-dwc3-30548   [004] d..1.   875.905076: dwc3_complete_trb: ep3in: trb 00000000e27c424f (E44:D234) buf 00000000ec8703a8 size 1x 0 ctrl 352e0064 (hlCs:sc:isoc-first)
+          <idle>-0       [003] d.H4.   875.905078: softirq_raise: vec=0 [action=HI]
+          <idle>-0       [003] d.H2.   875.905078: irq_handler_exit: irq=315 ret=handled
+    irq/502-dwc3-30548   [004] d..1.   875.905079: dwc3_complete_trb: ep3in: trb 00000000b1102bfd (E44:D235) buf 00000000ec871fbc size 1x 33792 ctrl 352e0070 (hlcs:sc:isoc)
+          <idle>-0       [003] d.H3.   875.905080: irq_handler_entry: irq=315 name=ife
+ provider@2.4-se-4818    [001] d..2.   875.905080: sched_switch: prev_comm=provider@2.4-se prev_pid=4818 prev_prio=120 prev_state=S ==> next_comm=provider@2.4-se next_pid=4817 next_prio=120
+    irq/502-dwc3-30548   [004] d..1.   875.905084: dwc3_gadget_giveback: ep3in: req 00000000f1cf29f0 length 0/33792 zsi ==> -18
+    irq/502-dwc3-30548   [004] d..1.   875.905086: dwc3_complete_trb: ep3in: trb 0000000081b86c02 (E44:D236) buf 00000000ec880628 size 1x 0 ctrl 352e4064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.905088: dwc3_complete_trb: ep3in: trb 000000002f8763f4 (E44:D237) buf 00000000ec8813b4 size 1x 33792 ctrl 352e4070 (hlcs:sc:isoc)
+          <idle>-0       [003] d.H3.   875.905090: irq_handler_exit: irq=315 ret=handled
+          <idle>-0       [003] d.H1.   875.905093: irq_handler_entry: irq=315 name=ife
+    irq/502-dwc3-30548   [004] d..1.   875.905093: dwc3_gadget_giveback: ep3in: req 000000007251124d length 0/33792 zsi ==> -18
+    irq/502-dwc3-30548   [004] d..1.   875.905095: dwc3_complete_trb: ep3in: trb 000000001a0672af (E44:D238) buf 00000000ec8901e8 size 1x 0 ctrl 352e8064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.905097: dwc3_complete_trb: ep3in: trb 000000009422c8fc (E44:D239) buf 00000000ec8917ac size 1x 0 ctrl 352e8070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [004] d..1.   875.905103: dwc3_gadget_giveback: ep3in: req 00000000656e2a30 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [004] d..1.   875.905105: dwc3_complete_trb: ep3in: trb 000000001be27358 (E44:D240) buf 00000000ec8a06e8 size 1x 0 ctrl 352ec064 (hlCs:sc:isoc-first)
+          <idle>-0       [003] d.H1.   875.905105: irq_handler_exit: irq=315 ret=handled
+    irq/502-dwc3-30548   [004] d..1.   875.905106: dwc3_complete_trb: ep3in: trb 00000000304288bc (E44:D241) buf 00000000ec8a1ba4 size 1x 0 ctrl 352ec070 (hlcs:sc:isoc)
+          <idle>-0       [003] d.H3.   875.905107: irq_handler_entry: irq=315 name=ife
+    irq/502-dwc3-30548   [004] d..1.   875.905112: dwc3_gadget_giveback: ep3in: req 0000000034f6ee05 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [004] d..1.   875.905114: dwc3_complete_trb: ep3in: trb 000000009425acb6 (E44:D242) buf 00000000ec8b0528 size 1x 0 ctrl 352f0064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.905116: dwc3_complete_trb: ep3in: trb 000000004d62ddca (E44:D243) buf 00000000ec8b1f9c size 1x 0 ctrl 352f0070 (hlcs:sc:isoc)
+          <idle>-0       [003] d.H3.   875.905119: irq_handler_exit: irq=315 ret=handled
+          <idle>-0       [003] d.H3.   875.905121: irq_handler_entry: irq=315 name=ife
+    irq/502-dwc3-30548   [004] d..1.   875.905122: dwc3_gadget_giveback: ep3in: req 00000000fec80035 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [004] d..1.   875.905123: dwc3_complete_trb: ep3in: trb 0000000095dc95e0 (E44:D244) buf 00000000ec8c0668 size 1x 0 ctrl 352f4064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.905125: dwc3_complete_trb: ep3in: trb 00000000c5b01ad7 (E44:D245) buf 00000000ec8c1394 size 1x 0 ctrl 352f4070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [004] d..1.   875.905131: dwc3_gadget_giveback: ep3in: req 00000000a1adefbc length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [004] d..1.   875.905132: dwc3_complete_trb: ep3in: trb 00000000c2e8e84e (E44:D246) buf 00000000ec8d09e8 size 1x 0 ctrl 352f8064 (hlCs:sc:isoc-first)
+          <idle>-0       [003] d.H3.   875.905132: irq_handler_exit: irq=315 ret=handled
+    irq/502-dwc3-30548   [004] d..1.   875.905134: dwc3_complete_trb: ep3in: trb 0000000029798cec (E44:D247) buf 00000000ec8d178c size 1x 0 ctrl 352f8070 (hlcs:sc:isoc)
+          <idle>-0       [003] d.s8.   875.905136: sched_wakeup: comm=provider@2.4-se pid=1448 prio=120 target_cpu=001
+          <idle>-0       [003] d.H4.   875.905137: irq_handler_entry: irq=315 name=ife
+         rcuop/4-57      [000] d..4.   875.905139: sched_wakeup: comm=kworker/0:3 pid=18500 prio=120 target_cpu=000
+    irq/502-dwc3-30548   [004] d..1.   875.905140: dwc3_gadget_giveback: ep3in: req 000000008ddf6ba7 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [004] d..1.   875.905141: dwc3_complete_trb: ep3in: trb 00000000fdce483c (E44:D248) buf 00000000ec8e0168 size 1x 0 ctrl 352fc064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.905143: dwc3_complete_trb: ep3in: trb 00000000cc507dba (E44:D249) buf 00000000ec8e1b84 size 1x 0 ctrl 352fc070 (hlcs:sc:isoc)
+          <idle>-0       [003] d.H4.   875.905148: irq_handler_exit: irq=315 ret=handled
+    irq/502-dwc3-30548   [004] d..1.   875.905149: dwc3_gadget_giveback: ep3in: req 0000000055f7e4d6 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [004] d..1.   875.905150: dwc3_complete_trb: ep3in: trb 000000001d2a9cac (E44:D250) buf 00000000ec8f0228 size 1x 0 ctrl 35300064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [004] d..1.   875.905152: dwc3_complete_trb: ep3in: trb 000000003f9da289 (E44:D251) buf 00000000ec8f1f7c size 1x 0 ctrl 35300c70 (hlcs:SC:isoc)
+    irq/502-dwc3-30548   [004] d..1.   875.905158: dwc3_gadget_giveback: ep3in: req 000000002079cf83 length 33792/33792 zsI ==> 0
+    irq/502-dwc3-30548   [004] d..1.   875.905159: dwc3_writel: addr 00000000a66a9c20 offset c408 value 00001000
+          <idle>-0       [003] ..s1.   875.905160: tasklet_exit: function=cam_tasklet_action.cfi_jt [camera]
+          <idle>-0       [003] ..s1.   875.905160: softirq_exit: vec=0 [action=HI]
+          <idle>-0       [003] ..s1.   875.905160: softirq_entry: vec=0 [action=HI]
+          <idle>-0       [003] ..s1.   875.905161: tasklet_entry: function=cam_tasklet_action.cfi_jt [camera]
+    irq/502-dwc3-30548   [004] d..1.   875.905161: dwc3_writel: addr 00000000489e9998 offset c40c value 80000000
+          <idle>-0       [003] ..s1.   875.905161: tasklet_exit: function=cam_tasklet_action.cfi_jt [camera]
+          <idle>-0       [003] ..s1.   875.905161: softirq_exit: vec=0 [action=HI]
+    irq/502-dwc3-30548   [004] d..1.   875.905162: dwc3_writel: addr 00000000077f4fd4 offset ca00 value 00000001
+    irq/502-dwc3-30548   [004] d..2.   875.905168: sched_switch: prev_comm=irq/502-dwc3 prev_pid=30548 prev_prio=100 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+         rcuop/4-57      [000] d..2.   875.905174: sched_switch: prev_comm=rcuop/4 prev_pid=57 prev_prio=120 prev_state=S ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [000] d..2.   875.905184: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=provider@2.4-se next_pid=1292 next_prio=120
+          <idle>-0       [003] d.h1.   875.905188: irq_handler_entry: irq=2 name=IPI
+ provider@2.4-se-1292    [000] d.h..   875.905189: irq_handler_entry: irq=2 name=IPI
+          <idle>-0       [004] d.h1.   875.905189: irq_handler_entry: irq=2 name=IPI
+          <idle>-0       [004] d.h1.   875.905190: irq_handler_exit: irq=2 ret=handled
+          <idle>-0       [003] d.h1.   875.905190: irq_handler_exit: irq=2 ret=handled
+ provider@2.4-se-4817    [001] d.h..   875.905190: irq_handler_entry: irq=2 name=IPI
+ provider@2.4-se-1292    [000] d.h..   875.905191: irq_handler_exit: irq=2 ret=handled
+          <idle>-0       [005] d.h1.   875.905192: irq_handler_entry: irq=2 name=IPI
+ provider@2.4-se-4817    [001] d.h..   875.905192: irq_handler_exit: irq=2 ret=handled
+          <idle>-0       [005] d.h1.   875.905194: irq_handler_exit: irq=2 ret=handled
+ provider@2.4-se-1292    [000] d..2.   875.905246: sched_switch: prev_comm=provider@2.4-se prev_pid=1292 prev_prio=120 prev_state=S ==> next_comm=kworker/0:3 next_pid=18500 next_prio=120
+ provider@2.4-se-4817    [001] d..2.   875.905269: sched_switch: prev_comm=provider@2.4-se prev_pid=4817 prev_prio=120 prev_state=S ==> next_comm=provider@2.4-se next_pid=1448 next_prio=120
+     kworker/0:3-18500   [000] d..2.   875.905269: sched_switch: prev_comm=kworker/0:3 prev_pid=18500 prev_prio=120 prev_state=I ==> next_comm=provider@2.4-se next_pid=4820 next_prio=120
+ provider@2.4-se-4820    [000] d..3.   875.905290: sched_wakeup: comm=provider@2.4-se pid=4817 prio=120 target_cpu=001
+ provider@2.4-se-1448    [001] d..3.   875.905309: sched_wakeup: comm=SyncManager_0 pid=1447 prio=120 target_cpu=001
+ provider@2.4-se-1448    [001] d..2.   875.905341: sched_switch: prev_comm=provider@2.4-se prev_pid=1448 prev_prio=120 prev_state=S ==> next_comm=SyncManager_0 next_pid=1447 next_prio=120
+ alcomm.location-14129   [002] d..2.   875.905412: sched_switch: prev_comm=main prev_pid=14129 prev_prio=100 prev_state=R+ ==> next_comm=kworker/2:0 next_pid=22522 next_prio=120
+     kworker/2:0-22522   [002] d..2.   875.905422: sched_switch: prev_comm=kworker/2:0 prev_pid=22522 prev_prio=120 prev_state=I ==> next_comm=main next_pid=14129 next_prio=100
+   SyncManager_0-1447    [001] d..2.   875.905432: sched_switch: prev_comm=SyncManager_0 prev_pid=1447 prev_prio=120 prev_state=S ==> next_comm=rcuog/0 next_pid=15 next_prio=120
+         rcuog/0-15      [001] d..2.   875.905448: sched_switch: prev_comm=rcuog/0 prev_pid=15 prev_prio=120 prev_state=S ==> next_comm=provider@2.4-se next_pid=4817 next_prio=120
+ alcomm.location-14129   [002] d.h..   875.906494: irq_handler_entry: irq=11 name=arch_timer
+ provider@2.4-se-4817    [001] d.h..   875.906495: irq_handler_entry: irq=11 name=arch_timer
+ provider@2.4-se-4820    [000] d.h..   875.906495: irq_handler_entry: irq=11 name=arch_timer
+ alcomm.location-14129   [002] d.h..   875.906499: softirq_raise: vec=9 [action=RCU]
+ provider@2.4-se-4820    [000] d.h..   875.906500: softirq_raise: vec=1 [action=TIMER]
+ provider@2.4-se-4820    [000] d.h..   875.906502: softirq_raise: vec=9 [action=RCU]
+ alcomm.location-14129   [002] d.h..   875.906505: softirq_raise: vec=7 [action=SCHED]
+ provider@2.4-se-4817    [001] d.h..   875.906510: softirq_raise: vec=9 [action=RCU]
+ alcomm.location-14129   [002] d.h..   875.906516: irq_handler_exit: irq=11 ret=handled
+ alcomm.location-14129   [002] d.H..   875.906517: irq_handler_entry: irq=6 name=IPI
+ provider@2.4-se-4820    [000] d.h..   875.906527: irq_handler_exit: irq=11 ret=handled
+ alcomm.location-14129   [002] d.H..   875.906529: irq_handler_exit: irq=6 ret=handled
+ provider@2.4-se-4820    [000] ..s..   875.906529: softirq_entry: vec=1 [action=TIMER]
+ alcomm.location-14129   [002] ..s..   875.906529: softirq_entry: vec=7 [action=SCHED]
+ provider@2.4-se-4817    [001] d.h..   875.906534: irq_handler_exit: irq=11 ret=handled
+ provider@2.4-se-4817    [001] ..s..   875.906536: softirq_entry: vec=9 [action=RCU]
+ alcomm.location-14129   [002] ..s..   875.906538: softirq_exit: vec=7 [action=SCHED]
+ alcomm.location-14129   [002] ..s..   875.906538: softirq_entry: vec=9 [action=RCU]
+ provider@2.4-se-4817    [001] ..s..   875.906538: softirq_exit: vec=9 [action=RCU]
+ alcomm.location-14129   [002] ..s..   875.906538: softirq_exit: vec=9 [action=RCU]
+ provider@2.4-se-4820    [000] dNs3.   875.906546: sched_wakeup: comm=rcu_preempt pid=14 prio=98 target_cpu=000
+ provider@2.4-se-4820    [000] .Ns..   875.906549: softirq_exit: vec=1 [action=TIMER]
+ provider@2.4-se-4820    [000] .Ns..   875.906550: softirq_entry: vec=9 [action=RCU]
+ provider@2.4-se-4820    [000] .Ns..   875.906551: softirq_exit: vec=9 [action=RCU]
+ provider@2.4-se-4820    [000] d..2.   875.906564: sched_switch: prev_comm=provider@2.4-se prev_pid=4820 prev_prio=120 prev_state=R ==> next_comm=rcu_preempt next_pid=14 next_prio=98
+     rcu_preempt-14      [000] d..2.   875.906586: sched_switch: prev_comm=rcu_preempt prev_pid=14 prev_prio=98 prev_state=I ==> next_comm=rcuop/0 next_pid=16 next_prio=120
+         rcuop/0-16      [000] d..4.   875.906603: sched_wakeup: comm=kworker/0:3 pid=18500 prio=120 target_cpu=000
+ provider@2.4-se-4817    [001] d.h..   875.906608: irq_handler_entry: irq=11 name=arch_timer
+ provider@2.4-se-4817    [001] d.h4.   875.906633: sched_wakeup: comm=kworker/u12:3 pid=114 prio=120 target_cpu=001
+ provider@2.4-se-4817    [001] d.h..   875.906635: irq_handler_exit: irq=11 ret=handled
+         rcuop/0-16      [000] d..2.   875.906669: sched_switch: prev_comm=rcuop/0 prev_pid=16 prev_prio=120 prev_state=S ==> next_comm=kworker/0:3 next_pid=18500 next_prio=120
+     kworker/0:3-18500   [000] d..2.   875.906750: sched_switch: prev_comm=kworker/0:3 prev_pid=18500 prev_prio=120 prev_state=I ==> next_comm=provider@2.4-se next_pid=4820 next_prio=120
+ alcomm.location-14129   [002] d.h..   875.906775: irq_handler_entry: irq=502 name=dwc3
+ alcomm.location-14129   [002] d.h..   875.906778: dwc3_readl: addr 00000000489e9998 offset c40c value 80000004
+ alcomm.location-14129   [002] d.h..   875.906778: dwc3_writel: addr 00000000a66a9c20 offset c408 value 80001000
+ alcomm.location-14129   [002] d.h..   875.906779: dwc3_writel: addr 00000000489e9998 offset c40c value 00000004
+ alcomm.location-14129   [002] d.h..   875.906780: irq_handler_exit: irq=502 ret=handled
+ alcomm.location-14129   [002] d.h3.   875.906789: sched_wakeup: comm=irq/502-dwc3 pid=30548 prio=100 target_cpu=000
+ alcomm.location-14129   [002] d.h..   875.906791: irq_handler_entry: irq=6 name=IPI
+ provider@2.4-se-4820    [000] dnh..   875.906791: irq_handler_entry: irq=1 name=IPI
+ provider@2.4-se-4820    [000] dNh..   875.906793: irq_handler_exit: irq=1 ret=handled
+ alcomm.location-14129   [002] d.h..   875.906793: irq_handler_exit: irq=6 ret=handled
+ provider@2.4-se-4820    [000] d..2.   875.906801: sched_switch: prev_comm=provider@2.4-se prev_pid=4820 prev_prio=120 prev_state=R ==> next_comm=irq/502-dwc3 next_pid=30548 next_prio=100
+    irq/502-dwc3-30548   [000] d..1.   875.906815: dwc3_event: event (d4d0408e): ep3in: Transfer In Progress [54480] (sIm)
+    irq/502-dwc3-30548   [000] d..1.   875.906826: dwc3_complete_trb: ep3in: trb 00000000d39e7439 (E44:D252) buf 00000000ec900368 size 1x 0 ctrl 35304064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.906834: dwc3_complete_trb: ep3in: trb 00000000363d462d (E44:D253) buf 00000000ec901374 size 1x 0 ctrl 35304070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.906855: dwc3_gadget_giveback: ep3in: req 0000000034c9a068 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.906875: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.906878: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.906878: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.906883: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+    irq/502-dwc3-30548   [000] d..1.   875.906885: dwc3_complete_trb: ep3in: trb 00000000d7e69ad9 (E44:D254) buf 00000000ec910928 size 1x 0 ctrl 35308064 (hlCs:sc:isoc-first)
+   kworker/u13:3-925     [004] d..2.   875.906888: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.906893: dwc3_complete_trb: ep3in: trb 000000002bcde6e5 (E44:D0) buf 00000000ec91176c size 1x 0 ctrl 35308070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.906913: dwc3_gadget_giveback: ep3in: req 0000000036e2eb5f length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.906924: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.906926: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.906926: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.906928: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.906930: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.906932: dwc3_complete_trb: ep3in: trb 000000007bde559f (E44:D1) buf 00000000ef3704e8 size 1x 0 ctrl 3530c064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.906940: dwc3_complete_trb: ep3in: trb 0000000022dd1933 (E44:D2) buf 00000000ef371b64 size 1x 0 ctrl 3530c070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.906956: dwc3_gadget_giveback: ep3in: req 00000000bdf6b6dc length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.906967: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.906968: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.906968: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.906970: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.906972: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.906975: dwc3_complete_trb: ep3in: trb 000000005ec479c9 (E44:D3) buf 00000000ecd708e8 size 1x 0 ctrl 35310064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.906983: dwc3_complete_trb: ep3in: trb 000000005c0094da (E44:D4) buf 00000000ecd71f5c size 1x 0 ctrl 35310070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.906996: dwc3_gadget_giveback: ep3in: req 000000006cd2d3d4 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907007: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907008: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907008: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907010: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907012: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907015: dwc3_complete_trb: ep3in: trb 00000000ffd16533 (E44:D5) buf 00000000ecd60968 size 1x 0 ctrl 35314064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907023: dwc3_complete_trb: ep3in: trb 0000000008435504 (E44:D6) buf 00000000ecd61354 size 1x 0 ctrl 35314070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907036: dwc3_gadget_giveback: ep3in: req 000000001863ef5b length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907046: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907047: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907048: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907049: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907051: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907054: dwc3_complete_trb: ep3in: trb 0000000069207bf0 (E44:D7) buf 00000000ecd506a8 size 1x 0 ctrl 35318064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907062: dwc3_complete_trb: ep3in: trb 00000000a900c479 (E44:D8) buf 00000000ecd5174c size 1x 0 ctrl 35318070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907076: dwc3_gadget_giveback: ep3in: req 00000000feddd90f length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907086: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907087: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907088: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907089: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907091: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907094: dwc3_complete_trb: ep3in: trb 0000000044415fcd (E44:D9) buf 00000000ecd400e8 size 1x 0 ctrl 3531c064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907102: dwc3_complete_trb: ep3in: trb 00000000faa88369 (E44:D10) buf 00000000ecd41b44 size 1x 0 ctrl 3531c070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907115: dwc3_gadget_giveback: ep3in: req 00000000111c15b2 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907125: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907127: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907127: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907129: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907131: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907133: dwc3_complete_trb: ep3in: trb 000000006ad584ef (E44:D11) buf 00000000ecd30ca8 size 1x 0 ctrl 35320064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907141: dwc3_complete_trb: ep3in: trb 0000000056f19765 (E44:D12) buf 00000000ecd31f3c size 1x 0 ctrl 35320070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907154: dwc3_gadget_giveback: ep3in: req 0000000024f212a1 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907164: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907165: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907165: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907167: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907169: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907172: dwc3_complete_trb: ep3in: trb 000000004ea9ae0c (E44:D13) buf 00000000ecd20768 size 1x 0 ctrl 35324064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907180: dwc3_complete_trb: ep3in: trb 00000000d26b49a8 (E44:D14) buf 00000000ecd21334 size 1x 0 ctrl 35324070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907193: dwc3_gadget_giveback: ep3in: req 0000000070d0e280 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907203: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907204: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907204: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907206: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907208: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907210: dwc3_complete_trb: ep3in: trb 00000000499b8e18 (E44:D15) buf 00000000ecd10128 size 1x 0 ctrl 35328064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907219: dwc3_complete_trb: ep3in: trb 000000003a66b772 (E44:D16) buf 00000000ecd1172c size 1x 0 ctrl 35328070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907233: dwc3_gadget_giveback: ep3in: req 00000000553617e0 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907244: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907245: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907245: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907246: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907248: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907252: dwc3_complete_trb: ep3in: trb 0000000036cac842 (E44:D17) buf 00000000ecd00e28 size 1x 0 ctrl 3532c064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907260: dwc3_complete_trb: ep3in: trb 0000000053c5123c (E44:D18) buf 00000000ecd01b24 size 1x 0 ctrl 3532c070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907273: dwc3_gadget_giveback: ep3in: req 000000006b315c96 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907283: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907284: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907284: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907286: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907288: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907291: dwc3_complete_trb: ep3in: trb 00000000bbf92d4b (E44:D19) buf 00000000eccf04a8 size 1x 0 ctrl 35330064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907299: dwc3_complete_trb: ep3in: trb 000000007024ad7c (E44:D20) buf 00000000eccf1f1c size 1x 0 ctrl 35330070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907312: dwc3_gadget_giveback: ep3in: req 000000005f16d592 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907322: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907323: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907324: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907325: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907327: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907330: dwc3_complete_trb: ep3in: trb 00000000eeed77c0 (E44:D21) buf 00000000ecce0468 size 1x 0 ctrl 35334064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907338: dwc3_complete_trb: ep3in: trb 000000005cc4b630 (E44:D22) buf 00000000ecce1314 size 1x 0 ctrl 35334070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907351: dwc3_gadget_giveback: ep3in: req 00000000748698dc length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907361: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907362: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907363: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907364: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907366: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907370: dwc3_complete_trb: ep3in: trb 000000008d7e73f6 (E44:D23) buf 00000000eccd02e8 size 1x 0 ctrl 35338064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907378: dwc3_complete_trb: ep3in: trb 000000004a8e2b4f (E44:D24) buf 00000000eccd170c size 1x 0 ctrl 35338070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907390: dwc3_gadget_giveback: ep3in: req 0000000034aa1eeb length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907401: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907402: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907402: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907404: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907406: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907409: dwc3_complete_trb: ep3in: trb 000000001ce0b7ef (E44:D25) buf 00000000eccc03e8 size 1x 0 ctrl 3533c064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907417: dwc3_complete_trb: ep3in: trb 000000002ef0405f (E44:D26) buf 00000000eccc1b04 size 1x 0 ctrl 3533c070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907430: dwc3_gadget_giveback: ep3in: req 00000000d5a6b588 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907440: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907441: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907441: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907443: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907445: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907448: dwc3_complete_trb: ep3in: trb 00000000cf2c1c19 (E44:D27) buf 00000000eccb0b28 size 1x 0 ctrl 35340064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907456: dwc3_complete_trb: ep3in: trb 00000000cf58e763 (E44:D28) buf 00000000eccb1efc size 1x 0 ctrl 35340c70 (hlcs:SC:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907469: dwc3_gadget_giveback: ep3in: req 00000000d0fc75fc length 33792/33792 zsI ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907479: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907480: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907480: irq_handler_exit: irq=1 ret=handled
+    irq/502-dwc3-30548   [000] d..1.   875.907481: dwc3_writel: addr 00000000a66a9c20 offset c408 value 00001000
+          <idle>-0       [004] d..2.   875.907482: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+    irq/502-dwc3-30548   [000] d..1.   875.907483: dwc3_writel: addr 00000000489e9998 offset c40c value 80000000
+   kworker/u13:3-925     [004] d..2.   875.907484: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907484: dwc3_writel: addr 00000000077f4fd4 offset ca00 value 00000001
+    irq/502-dwc3-30548   [000] d.h1.   875.907487: irq_handler_entry: irq=6 name=IPI
+    irq/502-dwc3-30548   [000] d.h1.   875.907496: irq_handler_exit: irq=6 ret=handled
+    irq/502-dwc3-30548   [000] d..2.   875.907511: sched_switch: prev_comm=irq/502-dwc3 prev_pid=30548 prev_prio=100 prev_state=S ==> next_comm=rcuop/1 next_pid=32 next_prio=120
+         rcuop/1-32      [000] d..2.   875.907534: sched_switch: prev_comm=rcuop/1 prev_pid=32 prev_prio=120 prev_state=S ==> next_comm=provider@2.4-se next_pid=4820 next_prio=120
+ alcomm.location-14129   [002] d.h..   875.907776: irq_handler_entry: irq=502 name=dwc3
+ alcomm.location-14129   [002] d.h..   875.907777: dwc3_readl: addr 00000000489e9998 offset c40c value 80000004
+ alcomm.location-14129   [002] d.h..   875.907778: dwc3_writel: addr 00000000a66a9c20 offset c408 value 80001000
+ alcomm.location-14129   [002] d.h..   875.907779: dwc3_writel: addr 00000000489e9998 offset c40c value 00000004
+ alcomm.location-14129   [002] d.h..   875.907780: irq_handler_exit: irq=502 ret=handled
+ alcomm.location-14129   [002] d.h3.   875.907784: sched_wakeup: comm=irq/502-dwc3 pid=30548 prio=100 target_cpu=000
+ provider@2.4-se-4820    [000] dnh..   875.907788: irq_handler_entry: irq=1 name=IPI
+ provider@2.4-se-4820    [000] dNh..   875.907790: irq_handler_exit: irq=1 ret=handled
+ provider@2.4-se-4820    [000] d..2.   875.907801: sched_switch: prev_comm=provider@2.4-se prev_pid=4820 prev_prio=120 prev_state=R ==> next_comm=irq/502-dwc3 next_pid=30548 next_prio=100
+    irq/502-dwc3-30548   [000] d..1.   875.907812: dwc3_event: event (d4d8408e): ep3in: Transfer In Progress [54488] (sIm)
+    irq/502-dwc3-30548   [000] d..1.   875.907821: dwc3_complete_trb: ep3in: trb 000000000ce6e095 (E44:D29) buf 00000000ecca0ae8 size 1x 0 ctrl 35344064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907829: dwc3_complete_trb: ep3in: trb 00000000058184fe (E44:D30) buf 00000000ecca12f4 size 1x 0 ctrl 35344070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907844: dwc3_gadget_giveback: ep3in: req 000000004396ee8b length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907858: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907859: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907859: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907861: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907863: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907866: dwc3_complete_trb: ep3in: trb 0000000078e0201e (E44:D31) buf 00000000ecc90b68 size 1x 0 ctrl 35348064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907875: dwc3_complete_trb: ep3in: trb 00000000d7853ed2 (E44:D32) buf 00000000ecc916ec size 1x 0 ctrl 35348070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907891: dwc3_gadget_giveback: ep3in: req 00000000d2eae20f length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907903: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907904: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907904: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907906: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907908: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907911: dwc3_complete_trb: ep3in: trb 000000009af72b99 (E44:D33) buf 00000000eca707a8 size 1x 0 ctrl 3534c064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907919: dwc3_complete_trb: ep3in: trb 000000008c810438 (E44:D34) buf 00000000eca71ae4 size 1x 0 ctrl 3534c070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907932: dwc3_gadget_giveback: ep3in: req 00000000de6d372a length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907943: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907944: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907944: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907946: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907948: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907951: dwc3_complete_trb: ep3in: trb 0000000050979236 (E44:D35) buf 00000000eca80328 size 1x 0 ctrl 35350064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907959: dwc3_complete_trb: ep3in: trb 00000000a4a08dd8 (E44:D36) buf 00000000eca81edc size 1x 0 ctrl 35350070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.907972: dwc3_gadget_giveback: ep3in: req 0000000040394575 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.907982: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.907983: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.907984: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.907985: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.907987: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.907990: dwc3_complete_trb: ep3in: trb 0000000099dfb8ae (E44:D37) buf 00000000eca90a68 size 1x 0 ctrl 35354064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.907998: dwc3_complete_trb: ep3in: trb 00000000a0f51776 (E44:D38) buf 00000000eca912d4 size 1x 0 ctrl 35354070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.908011: dwc3_gadget_giveback: ep3in: req 00000000f71d6d29 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.908022: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.908023: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.908023: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.908025: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.908027: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.908030: dwc3_complete_trb: ep3in: trb 00000000d150ebaf (E44:D39) buf 00000000ecaa01a8 size 1x 0 ctrl 35358064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.908038: dwc3_complete_trb: ep3in: trb 00000000b96b6cb3 (E44:D40) buf 00000000ecaa16cc size 1x 0 ctrl 35358070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.908051: dwc3_gadget_giveback: ep3in: req 00000000cf27f9e3 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.908061: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.908062: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.908062: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.908064: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.908066: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.908069: dwc3_complete_trb: ep3in: trb 00000000c711f1a6 (E44:D41) buf 00000000ecab0028 size 1x 0 ctrl 3535c064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.908078: dwc3_complete_trb: ep3in: trb 000000003a618be4 (E44:D42) buf 00000000ecab1ac4 size 1x 0 ctrl 3535c070 (hlcs:sc:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.908091: dwc3_gadget_giveback: ep3in: req 000000009dcfb929 length 33792/33792 zsi ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.908101: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.908102: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.908102: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.908104: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.908106: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.908110: dwc3_complete_trb: ep3in: trb 000000000af7ffcf (E44:D43) buf 00000000ecac0be8 size 1x 0 ctrl 35360064 (hlCs:sc:isoc-first)
+    irq/502-dwc3-30548   [000] d..1.   875.908119: dwc3_complete_trb: ep3in: trb 000000004041ce80 (E44:D44) buf 00000000ecac1ebc size 1x 0 ctrl 35360c70 (hlcs:SC:isoc)
+    irq/502-dwc3-30548   [000] d..1.   875.908134: dwc3_gadget_giveback: ep3in: req 000000005af0e550 length 33792/33792 zsI ==> 0
+    irq/502-dwc3-30548   [000] d..4.   875.908152: sched_wakeup: comm=C3-0-Handler pid=28536 prio=110 target_cpu=000
+    irq/502-dwc3-30548   [000] d..4.   875.908161: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=004
+          <idle>-0       [004] dnh1.   875.908163: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.908163: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.908164: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [004] d..2.   875.908167: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    irq/502-dwc3-30548   [000] d..1.   875.908167: dwc3_readl: addr 00000000db636868 offset c200 value 00102400
+    irq/502-dwc3-30548   [000] d..1.   875.908168: dwc3_writel: addr 00000000c0d13546 offset 0008 value 00000000
+    irq/502-dwc3-30548   [000] d..1.   875.908169: dwc3_writel: addr 00000000e6cd590a offset 0004 value 00000000
+    irq/502-dwc3-30548   [000] d..1.   875.908171: dwc3_writel: addr 00000000f94436a2 offset 0000 value 00000000
+    irq/502-dwc3-30548   [000] d..1.   875.908172: dwc3_writel: addr 000000000b0a1412 offset 000c value 00070d08
+    irq/502-dwc3-30548   [000] d..1.   875.908174: dwc3_readl: addr 000000000b0a1412 offset 000c value 00070908
+    irq/502-dwc3-30548   [000] d..1.   875.908181: dwc3_gadget_ep_cmd: ep3in: cmd 'End Transfer' [70d08] params 00000000 00000000 00000000 --> status: Successful
+    irq/502-dwc3-30548   [000] d..1.   875.908184: dwc3_writel: addr 00000000a66a9c20 offset c408 value 00001000
+    irq/502-dwc3-30548   [000] d..1.   875.908185: dwc3_writel: addr 00000000489e9998 offset c40c value 80000000
+    irq/502-dwc3-30548   [000] d..1.   875.908186: dwc3_writel: addr 00000000077f4fd4 offset ca00 value 00000001
+ alcomm.location-14129   [002] d.h..   875.908187: irq_handler_entry: irq=502 name=dwc3
+ alcomm.location-14129   [002] d.h..   875.908188: dwc3_readl: addr 00000000489e9998 offset c40c value 80000004
+ alcomm.location-14129   [002] d.h..   875.908189: dwc3_writel: addr 00000000a66a9c20 offset c408 value 80001000
+ alcomm.location-14129   [002] d.h..   875.908190: dwc3_writel: addr 00000000489e9998 offset c40c value 00000004
+ alcomm.location-14129   [002] d.h..   875.908191: irq_handler_exit: irq=502 ret=handled
+    irq/502-dwc3-30548   [000] d..2.   875.908200: sched_switch: prev_comm=irq/502-dwc3 prev_pid=30548 prev_prio=100 prev_state=R ==> next_comm=C3-0-Handler next_pid=28536 next_prio=110
+ alcomm.location-14129   [002] d.h3.   875.908208: sched_wakeup: comm=irq/502-dwc3 pid=30548 prio=100 target_cpu=000
+    C3-0-Handler-28536   [000] d..2.   875.908261: sched_switch: prev_comm=C3-0-Handler prev_pid=28536 prev_prio=110 prev_state=S ==> next_comm=irq/502-dwc3 next_pid=30548 next_prio=100
+    irq/502-dwc3-30548   [000] d..1.   875.908271: dwc3_event: event (080701ce): ep3in: Endpoint Command Complete
+    irq/502-dwc3-30548   [000] d..1.   875.908274: dwc3_writel: addr 00000000a66a9c20 offset c408 value 00001000
+    irq/502-dwc3-30548   [000] d..1.   875.908276: dwc3_writel: addr 00000000489e9998 offset c40c value 80000000
+    irq/502-dwc3-30548   [000] d..1.   875.908277: dwc3_writel: addr 00000000077f4fd4 offset ca00 value 00000001
+ alcomm.location-14129   [002] d.h..   875.908277: irq_handler_entry: irq=502 name=dwc3
+ alcomm.location-14129   [002] d.h..   875.908278: dwc3_readl: addr 00000000489e9998 offset c40c value 80000004
+ alcomm.location-14129   [002] d.h..   875.908279: dwc3_writel: addr 00000000a66a9c20 offset c408 value 80001000
+ alcomm.location-14129   [002] d.h..   875.908280: dwc3_writel: addr 00000000489e9998 offset c40c value 00000004
+ alcomm.location-14129   [002] d.h..   875.908281: irq_handler_exit: irq=502 ret=handled
+    irq/502-dwc3-30548   [000] d..2.   875.908287: sched_switch: prev_comm=irq/502-dwc3 prev_pid=30548 prev_prio=100 prev_state=R ==> next_comm=provider@2.4-se next_pid=4820 next_prio=120
+ alcomm.location-14129   [002] d.h3.   875.908291: sched_wakeup: comm=irq/502-dwc3 pid=30548 prio=100 target_cpu=000
+ provider@2.4-se-4820    [000] dnh..   875.908294: irq_handler_entry: irq=1 name=IPI
+ provider@2.4-se-4820    [000] dNh..   875.908296: irq_handler_exit: irq=1 ret=handled
+ provider@2.4-se-4820    [000] d..2.   875.908304: sched_switch: prev_comm=provider@2.4-se prev_pid=4820 prev_prio=120 prev_state=R ==> next_comm=irq/502-dwc3 next_pid=30548 next_prio=100
+    irq/502-dwc3-30548   [000] d..1.   875.908313: dwc3_event: event (d4dc10ce): ep3in: Transfer Not Ready [54492] (Not Active)
+    irq/502-dwc3-30548   [000] d..1.   875.908315: dwc3_writel: addr 00000000a66a9c20 offset c408 value 00001000
+    irq/502-dwc3-30548   [000] d..1.   875.908318: dwc3_writel: addr 00000000489e9998 offset c40c value 80000000
+    irq/502-dwc3-30548   [000] d..1.   875.908319: dwc3_writel: addr 00000000077f4fd4 offset ca00 value 00000001
+    irq/502-dwc3-30548   [000] d..2.   875.908328: sched_switch: prev_comm=irq/502-dwc3 prev_pid=30548 prev_prio=100 prev_state=S ==> next_comm=provider@2.4-se next_pid=4820 next_prio=120
+ provider@2.4-se-4817    [001] d..6.   875.908711: sched_wakeup: comm=C3-0-Handler pid=1392 prio=120 target_cpu=001
+ provider@2.4-se-4817    [001] d..2.   875.908730: sched_switch: prev_comm=provider@2.4-se prev_pid=4817 prev_prio=120 prev_state=S ==> next_comm=kworker/u12:3 next_pid=114 next_prio=120
+   kworker/u12:3-114     [001] d..4.   875.908749: sched_wakeup: comm=kworker/u12:2 pid=28509 prio=120 target_cpu=001
+   kworker/u12:3-114     [001] d..2.   875.908775: sched_switch: prev_comm=kworker/u12:3 prev_pid=114 prev_prio=120 prev_state=I ==> next_comm=kworker/u12:2 next_pid=28509 next_prio=120
+   kworker/u12:2-28509   [001] d..2.   875.908789: sched_switch: prev_comm=kworker/u12:2 prev_pid=28509 prev_prio=120 prev_state=I ==> next_comm=provider@2.4-se next_pid=4819 next_prio=120
+ provider@2.4-se-4819    [001] d..5.   875.909056: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=000
+ provider@2.4-se-4820    [000] dnh..   875.909060: irq_handler_entry: irq=1 name=IPI
+ provider@2.4-se-4819    [001] d.h1.   875.909060: irq_handler_entry: irq=6 name=IPI
+ provider@2.4-se-4820    [000] dNh..   875.909063: irq_handler_exit: irq=1 ret=handled
+ provider@2.4-se-4819    [001] d.h1.   875.909070: irq_handler_exit: irq=6 ret=handled
+ provider@2.4-se-4820    [000] d..2.   875.909080: sched_switch: prev_comm=provider@2.4-se prev_pid=4820 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:3 next_pid=925 next_prio=100
+   kworker/u13:3-925     [000] d..2.   875.909104: sched_switch: prev_comm=kworker/u13:3 prev_pid=925 prev_prio=100 prev_state=I ==> next_comm=logd.writer next_pid=784 next_prio=130
+          <idle>-0       [004] dnh1.   875.909483: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   875.909483: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   875.909485: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=alcomm.location next_pid=14130 next_prio=100
+ alcomm.location-14129   [002] d..2.   875.909500: sched_switch: prev_comm=alcomm.location prev_pid=14129 prev_prio=100 prev_state=S ==> next_comm=provider@2.4-se next_pid=4820 next_prio=120
+ provider@2.4-se-4820    [002] d.h1.   875.909504: irq_handler_entry: irq=6 name=IPI
+ provider@2.4-se-4820    [002] d.h1.   875.909508: irq_handler_exit: irq=6 ret=handled
+ provider@2.4-se-4820    [002] dN.5.   875.909660: sched_wakeup: comm=kworker/u13:3 pid=925 prio=100 target_cpu=002

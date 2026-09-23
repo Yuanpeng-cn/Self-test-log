@@ -1,0 +1,580 @@
+irq/27-9091000.-527     [000] d..2.   205.510455: sched_switch: prev_comm=irq/27-9091000. prev_pid=527 prev_prio=49 prev_state=S ==> next_comm=rcuop/3 next_pid=49 next_prio=120
+         rcuop/4-57      [004] dnh..   205.510455: irq_handler_entry: irq=1 name=IPI
+         rcuop/4-57      [004] dNh..   205.510458: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [003] dNh1.   205.510458: irq_handler_entry: irq=6 name=IPI
+         rcuop/4-57      [004] d..2.   205.510468: sched_switch: prev_comm=rcuop/4 prev_pid=57 prev_prio=120 prev_state=R+ ==> next_comm=irq/26-90b6400. next_pid=520 next_prio=49
+     AdrenoOsLib-26105   [001] d..3.   205.510473: sched_wakeup: comm=provider@2.4-se pid=4848 prio=120 target_cpu=003
+          <idle>-0       [003] dNh1.   205.510485: irq_handler_exit: irq=6 ret=handled
+          <idle>-0       [003] dNh1.   205.510489: irq_handler_entry: irq=556 name=dwc3
+          <idle>-0       [003] dNh1.   205.510492: dwc3_readl: addr 00000000c79b6eaa offset c40c value 80000004
+          <idle>-0       [003] dNh1.   205.510493: dwc3_writel: addr 00000000aa885aa4 offset c408 value 80001000
+          <idle>-0       [003] dNh1.   205.510495: dwc3_writel: addr 00000000c79b6eaa offset c40c value 00000004
+          <idle>-0       [003] dNh1.   205.510496: irq_handler_exit: irq=556 ret=handled
+          <idle>-0       [003] dNh4.   205.510507: sched_wakeup: comm=irq/556-dwc3 pid=9631 prio=100 target_cpu=004
+     AdrenoOsLib-26105   [001] d..2.   205.510516: sched_switch: prev_comm=AdrenoOsLib prev_pid=26105 prev_prio=120 prev_state=S ==> next_comm=perf-hal-servic next_pid=1358 next_prio=120
+          <idle>-0       [003] d..2.   205.510518: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=provider@2.4-se next_pid=4848 next_prio=120
+ perf-hal-servic-1358    [001] d.h1.   205.510525: irq_handler_entry: irq=21 name=apps_rsc-drv-2
+ irq/26-90b6400.-520     [004] d..2.   205.510532: sched_switch: prev_comm=irq/26-90b6400. prev_pid=520 prev_prio=49 prev_state=D ==> next_comm=irq/556-dwc3 next_pid=9631 next_prio=100
+ perf-hal-servic-1358    [001] d.h5.   205.510548: sched_wakeup: comm=irq/26-90b6400. pid=520 prio=49 target_cpu=004
+ perf-hal-servic-1358    [001] d.h1.   205.510550: irq_handler_exit: irq=21 ret=handled
+    irq/556-dwc3-9631    [004] dn.1.   205.510550: dwc3_event: event (8f21408e): ep3in: Transfer In Progress [36641] (sIm)
+    irq/556-dwc3-9631    [004] dn.1.   205.510564: dwc3_complete_trb: ep3in: trb 000000002653fe2b (E251:D212) buf 00000000ecf80b28 size 1x 0 ctrl 23c48064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510576: dwc3_complete_trb: ep3in: trb 00000000da1bdd34 (E251:D213) buf 00000000ecf813f4 size 1x 33792 ctrl 23c48070 (hlcs:sc:isoc)
+ provider@2.4-se-4848    [003] d..6.   205.510581: sched_wakeup: comm=provider@2.4-se pid=1475 prio=120 target_cpu=001
+    irq/556-dwc3-9631    [004] dn.1.   205.510600: dwc3_gadget_giveback: ep3in: req 00000000ae4e3ead length 0/33792 zsi ==> -18
+    irq/556-dwc3-9631    [004] dn.1.   205.510613: dwc3_complete_trb: ep3in: trb 000000007f622a57 (E251:D214) buf 00000000ecf70428 size 1x 0 ctrl 23c4c064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510624: dwc3_complete_trb: ep3in: trb 00000000c2466c52 (E251:D215) buf 00000000ecf717ec size 1x 33792 ctrl 23c4c070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510639: dwc3_gadget_giveback: ep3in: req 000000009769e431 length 0/33792 zsi ==> -18
+    irq/556-dwc3-9631    [004] dn.1.   205.510651: dwc3_complete_trb: ep3in: trb 00000000c955b8a1 (E251:D216) buf 00000000ecf60268 size 1x 0 ctrl 23c50064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510661: dwc3_complete_trb: ep3in: trb 000000009a624758 (E251:D217) buf 00000000ecf61be4 size 1x 0 ctrl 23c50070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510676: dwc3_gadget_giveback: ep3in: req 00000000958d9957 length 33792/33792 zsi ==> 0
+ perf-hal-servic-1358    [001] d..4.   205.510679: sched_wakeup: comm=provider@2.4-se pid=1281 prio=120 target_cpu=000
+ provider@2.4-se-4848    [003] d..2.   205.510680: sched_switch: prev_comm=provider@2.4-se prev_pid=4848 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+    irq/556-dwc3-9631    [004] dn.1.   205.510687: dwc3_complete_trb: ep3in: trb 00000000b5923de6 (E251:D218) buf 00000000ecf509a8 size 1x 0 ctrl 23c54064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510698: dwc3_complete_trb: ep3in: trb 00000000d58fbc77 (E251:D219) buf 00000000ecf51fdc size 1x 0 ctrl 23c54070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510712: dwc3_gadget_giveback: ep3in: req 00000000226a574d length 33792/33792 zsi ==> 0
+ perf-hal-servic-1358    [001] d..2.   205.510714: sched_switch: prev_comm=perf-hal-servic prev_pid=1358 prev_prio=120 prev_state=S ==> next_comm=rcuog/0 next_pid=15 next_prio=120
+    irq/556-dwc3-9631    [004] dn.1.   205.510719: dwc3_complete_trb: ep3in: trb 00000000069c1a16 (E251:D220) buf 00000000ecf40ea8 size 1x 0 ctrl 23c58064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510725: dwc3_complete_trb: ep3in: trb 00000000c82f1bbf (E251:D221) buf 00000000ecf413d4 size 1x 0 ctrl 23c58070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510737: dwc3_gadget_giveback: ep3in: req 000000002992b084 length 33792/33792 zsi ==> 0
+         rcuog/0-15      [001] d..4.   205.510738: sched_wakeup: comm=rcuop/1 pid=32 prio=120 target_cpu=001
+    irq/556-dwc3-9631    [004] dn.1.   205.510743: dwc3_complete_trb: ep3in: trb 00000000e56fcb60 (E251:D222) buf 00000000ecf30c68 size 1x 0 ctrl 23c5c064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510748: dwc3_complete_trb: ep3in: trb 000000004c019f0d (E251:D223) buf 00000000ecf317cc size 1x 0 ctrl 23c5c070 (hlcs:sc:isoc)
+         rcuog/0-15      [001] d..2.   205.510749: sched_switch: prev_comm=rcuog/0 prev_pid=15 prev_prio=120 prev_state=S ==> next_comm=provider@2.4-se next_pid=1475 next_prio=120
+    irq/556-dwc3-9631    [004] dn.1.   205.510759: dwc3_gadget_giveback: ep3in: req 0000000080a85889 length 33792/33792 zsi ==> 0
+    irq/556-dwc3-9631    [004] dn.1.   205.510765: dwc3_complete_trb: ep3in: trb 00000000ab20df91 (E251:D224) buf 00000000ecf209e8 size 1x 0 ctrl 23c60064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510770: dwc3_complete_trb: ep3in: trb 00000000fce57c6f (E251:D225) buf 00000000ecf21bc4 size 1x 0 ctrl 23c60070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510780: dwc3_gadget_giveback: ep3in: req 00000000b52bacc0 length 33792/33792 zsi ==> 0
+    irq/556-dwc3-9631    [004] dn.1.   205.510785: dwc3_complete_trb: ep3in: trb 000000004374372e (E251:D226) buf 00000000ecf106e8 size 1x 0 ctrl 23c64064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510791: dwc3_complete_trb: ep3in: trb 00000000aa0d3a5b (E251:D227) buf 00000000ecf11fbc size 1x 0 ctrl 23c64070 (hlcs:sc:isoc)
+ ActivityManager-1866    [003] d..3.   205.510791: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+ provider@2.4-se-1475    [001] d..3.   205.510794: sched_wakeup: comm=SyncManager_0 pid=1474 prio=120 target_cpu=001
+    irq/556-dwc3-9631    [004] dn.1.   205.510801: dwc3_gadget_giveback: ep3in: req 00000000c1bc12be length 33792/33792 zsi ==> 0
+    irq/556-dwc3-9631    [004] dn.1.   205.510806: dwc3_complete_trb: ep3in: trb 0000000090c3da76 (E251:D228) buf 00000000ecf001e8 size 1x 0 ctrl 23c68064 (hlCs:sc:isoc-first)
+ provider@2.4-se-1475    [001] d..2.   205.510811: sched_switch: prev_comm=provider@2.4-se prev_pid=1475 prev_prio=120 prev_state=S ==> next_comm=rcuop/1 next_pid=32 next_prio=120
+    irq/556-dwc3-9631    [004] dn.1.   205.510812: dwc3_complete_trb: ep3in: trb 0000000061e3bb7f (E251:D229) buf 00000000ecf013b4 size 1x 0 ctrl 23c68070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510822: dwc3_gadget_giveback: ep3in: req 00000000cc43b607 length 33792/33792 zsi ==> 0
+    irq/556-dwc3-9631    [004] dn.1.   205.510827: dwc3_complete_trb: ep3in: trb 00000000c983351f (E251:D230) buf 00000000ecef01a8 size 1x 0 ctrl 23c6c064 (hlCs:sc:isoc-first)
+         rcuop/1-32      [001] d..2.   205.510832: sched_switch: prev_comm=rcuop/1 prev_pid=32 prev_prio=120 prev_state=S ==> next_comm=SyncManager_0 next_pid=1474 next_prio=120
+    irq/556-dwc3-9631    [004] dn.1.   205.510832: dwc3_complete_trb: ep3in: trb 0000000080d0f811 (E251:D231) buf 00000000ecef17ac size 1x 0 ctrl 23c6c070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510842: dwc3_gadget_giveback: ep3in: req 00000000f1658612 length 33792/33792 zsi ==> 0
+    irq/556-dwc3-9631    [004] dn.1.   205.510848: dwc3_complete_trb: ep3in: trb 000000004068ebec (E251:D232) buf 00000000ecee07e8 size 1x 0 ctrl 23c70064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510853: dwc3_complete_trb: ep3in: trb 0000000050aceb2e (E251:D233) buf 00000000ecee1ba4 size 1x 0 ctrl 23c70070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510863: dwc3_gadget_giveback: ep3in: req 00000000d8e78a85 length 33792/33792 zsi ==> 0
+    irq/556-dwc3-9631    [004] dn.1.   205.510868: dwc3_complete_trb: ep3in: trb 00000000dcdf33ae (E251:D234) buf 00000000eced0fe8 size 1x 0 ctrl 23c74064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510874: dwc3_complete_trb: ep3in: trb 00000000dbc5fb39 (E251:D235) buf 00000000eced1f9c size 1x 0 ctrl 23c74070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510883: dwc3_gadget_giveback: ep3in: req 00000000906f5a80 length 33792/33792 zsi ==> 0
+   SyncManager_0-1474    [001] d..3.   205.510883: sched_wakeup: comm=provider@2.4-se pid=4843 prio=120 target_cpu=003
+    irq/556-dwc3-9631    [004] dn.1.   205.510886: dwc3_complete_trb: ep3in: trb 000000005a8b1ee1 (E251:D236) buf 00000000ecec0968 size 1x 0 ctrl 23c78064 (hlCs:sc:isoc-first)
+ ActivityManager-1866    [003] dnh..   205.510886: irq_handler_entry: irq=1 name=IPI
+ ActivityManager-1866    [003] dNh..   205.510888: irq_handler_exit: irq=1 ret=handled
+    irq/556-dwc3-9631    [004] dn.1.   205.510889: dwc3_complete_trb: ep3in: trb 000000005293ed21 (E251:D237) buf 00000000ecec1394 size 1x 0 ctrl 23c78070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510895: dwc3_gadget_giveback: ep3in: req 000000008021c9cc length 33792/33792 zsi ==> 0
+ ActivityManager-1866    [003] d..2.   205.510897: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=R+ ==> next_comm=provider@2.4-se next_pid=4843 next_prio=120
+    irq/556-dwc3-9631    [004] dn.1.   205.510897: dwc3_complete_trb: ep3in: trb 00000000ddfd5611 (E251:D238) buf 00000000eceb0528 size 1x 0 ctrl 23c7c064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510903: dwc3_complete_trb: ep3in: trb 000000001a515205 (E251:D239) buf 00000000eceb178c size 1x 0 ctrl 23c7c070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510910: dwc3_gadget_giveback: ep3in: req 00000000968a42f7 length 33792/33792 zsi ==> 0
+    irq/556-dwc3-9631    [004] dn.1.   205.510912: dwc3_complete_trb: ep3in: trb 000000005751de8b (E251:D240) buf 00000000ecea00a8 size 1x 0 ctrl 23c80064 (hlCs:sc:isoc-first)
+   SyncManager_0-1474    [001] d..2.   205.510915: sched_switch: prev_comm=SyncManager_0 prev_pid=1474 prev_prio=120 prev_state=S ==> next_comm=kworker/u13:2 next_pid=807 next_prio=100
+    irq/556-dwc3-9631    [004] dn.1.   205.510916: dwc3_complete_trb: ep3in: trb 00000000b46efa32 (E251:D241) buf 00000000ecea1b84 size 1x 0 ctrl 23c80070 (hlcs:sc:isoc)
+   kworker/u13:2-807     [001] d..1.   205.510923: dwc3_readl: addr 000000007b6a821e offset c70c value 0002792c
+    irq/556-dwc3-9631    [004] dn.1.   205.510923: dwc3_gadget_giveback: ep3in: req 0000000034d9114e length 33792/33792 zsi ==> 0
+    irq/556-dwc3-9631    [004] dn.1.   205.510925: dwc3_complete_trb: ep3in: trb 00000000da381397 (E251:D242) buf 00000000ece902e8 size 1x 0 ctrl 23c84064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [004] dn.1.   205.510927: dwc3_complete_trb: ep3in: trb 000000005de7c4f1 (E251:D243) buf 00000000ece91f7c size 1x 0 ctrl 23c84c70 (hlcs:SC:isoc)
+    irq/556-dwc3-9631    [004] dn.1.   205.510934: dwc3_gadget_giveback: ep3in: req 0000000001c0ee07 length 33792/33792 zsI ==> 0
+   kworker/u13:2-807     [001] d..2.   205.510949: dwc3_ep_queue: ep3in: req 0000000071fb81b6 length 0/33792 zsI ==> -115
+ provider@2.4-se-4843    [003] d..3.   205.510960: sched_wakeup: comm=provider@2.4-se pid=4847 prio=120 target_cpu=002
+ provider@2.4-se-4843    [003] d.h2.   205.510962: irq_handler_entry: irq=6 name=IPI
+  binder:1813_14-3392    [002] dnh..   205.510962: irq_handler_entry: irq=1 name=IPI
+  binder:1813_14-3392    [002] dNh..   205.510963: irq_handler_exit: irq=1 ret=handled
+ provider@2.4-se-4843    [003] d.h2.   205.510970: irq_handler_exit: irq=6 ret=handled
+  binder:1813_14-3392    [002] d..2.   205.510979: sched_switch: prev_comm=binder:1813_14 prev_pid=3392 prev_prio=118 prev_state=R ==> next_comm=provider@2.4-se next_pid=4847 next_prio=120
+ provider@2.4-se-4847    [002] d..2.   205.511002: sched_switch: prev_comm=provider@2.4-se prev_pid=4847 prev_prio=120 prev_state=S ==> next_comm=binder:1813_14 next_pid=3392 next_prio=118
+   kworker/u13:2-807     [001] d..2.   205.511023: dwc3_prepare_trb: ep3in: trb 00000000ebf7512f (E252:D243) buf 00000000ece40568 size 1x 8 ctrl 00000065 (HlCs:sc:isoc-first)
+   kworker/u13:2-807     [001] d..2.   205.511032: dwc3_prepare_trb: ep3in: trb 0000000075d6d7a3 (E253:D243) buf 00000000ece41354 size 1x 33784 ctrl 00000c71 (Hlcs:SC:isoc)
+   kworker/u13:2-807     [001] d..2.   205.511036: dwc3_writel: addr 00000000a1303906 offset 000c value 00070407
+   kworker/u13:2-807     [001] d..2.   205.511039: dwc3_readl: addr 00000000a1303906 offset 000c value 00070007
+   kworker/u13:2-807     [001] d..2.   205.511044: dwc3_gadget_ep_cmd: ep3in: cmd 'Update Transfer' [70407] params 00000000 00000000 00000000 --> status: Successful
+    irq/556-dwc3-9631    [004] dn.1.   205.511046: dwc3_writel: addr 00000000aa885aa4 offset c408 value 00001000
+    irq/556-dwc3-9631    [004] dn.1.   205.511047: dwc3_writel: addr 00000000c79b6eaa offset c40c value 80000000
+    irq/556-dwc3-9631    [004] dn.1.   205.511048: dwc3_writel: addr 0000000049f492c4 offset ca00 value 00000001
+    irq/556-dwc3-9631    [004] dnh1.   205.511050: irq_handler_entry: irq=1 name=IPI
+    irq/556-dwc3-9631    [004] dNh1.   205.511051: irq_handler_exit: irq=1 ret=handled
+    irq/556-dwc3-9631    [004] d..2.   205.511055: sched_switch: prev_comm=irq/556-dwc3 prev_pid=9631 prev_prio=100 prev_state=R+ ==> next_comm=irq/26-90b6400. next_pid=520 next_prio=49
+   kworker/u13:2-807     [001] d..2.   205.511063: sched_switch: prev_comm=kworker/u13:2 prev_pid=807 prev_prio=100 prev_state=R ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+ irq/26-90b6400.-520     [004] d..2.   205.511066: sched_switch: prev_comm=irq/26-90b6400. prev_pid=520 prev_prio=49 prev_state=S ==> next_comm=irq/556-dwc3 next_pid=9631 next_prio=100
+    irq/556-dwc3-9631    [004] d..2.   205.511071: sched_switch: prev_comm=irq/556-dwc3 prev_pid=9631 prev_prio=100 prev_state=S ==> next_comm=rcuop/4 next_pid=57 next_prio=120
+ provider@2.4-se-4843    [003] d..5.   205.511075: sched_wakeup: comm=kworker/u13:2 pid=807 prio=100 target_cpu=001
+   statsd.reader-1215    [001] dnh..   205.511079: irq_handler_entry: irq=1 name=IPI
+   statsd.reader-1215    [001] dNh..   205.511082: irq_handler_exit: irq=1 ret=handled
+   statsd.reader-1215    [001] d..2.   205.511094: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=R ==> next_comm=kworker/u13:2 next_pid=807 next_prio=100
+         rcuop/4-57      [004] d..3.   205.511099: sched_wakeup: comm=rcuog/3 pid=48 prio=120 target_cpu=001
+ provider@2.4-se-4843    [003] d..2.   205.511110: sched_switch: prev_comm=provider@2.4-se prev_pid=4843 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+   kworker/u13:2-807     [001] d..5.   205.511129: sched_wakeup: comm=kworker/u12:5 pid=149 prio=120 target_cpu=003
+         rcuop/4-57      [004] d..4.   205.511130: sched_wakeup: comm=kworker/4:11 pid=627 prio=120 target_cpu=004
+ ActivityManager-1866    [003] dnh..   205.511131: irq_handler_entry: irq=1 name=IPI
+ ActivityManager-1866    [003] dNh..   205.511132: irq_handler_exit: irq=1 ret=handled
+         rcuop/4-57      [004] d..2.   205.511136: sched_switch: prev_comm=rcuop/4 prev_pid=57 prev_prio=120 prev_state=S ==> next_comm=kworker/4:11 next_pid=627 next_prio=120
+ ActivityManager-1866    [003] d..2.   205.511139: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=R+ ==> next_comm=kworker/u12:5 next_pid=149 next_prio=120
+   kworker/u12:5-149     [003] d.h1.   205.511142: irq_handler_entry: irq=556 name=dwc3
+   kworker/u12:5-149     [003] d.h1.   205.511144: dwc3_readl: addr 00000000c79b6eaa offset c40c value 80000004
+   kworker/u12:5-149     [003] d.h1.   205.511145: dwc3_writel: addr 00000000aa885aa4 offset c408 value 80001000
+   kworker/u13:2-807     [001] d..2.   205.511146: sched_switch: prev_comm=kworker/u13:2 prev_pid=807 prev_prio=100 prev_state=I ==> next_comm=rcuog/3 next_pid=48 next_prio=120
+   kworker/u12:5-149     [003] d.h1.   205.511146: dwc3_writel: addr 00000000c79b6eaa offset c40c value 00000004
+   kworker/u12:5-149     [003] d.h1.   205.511147: irq_handler_exit: irq=556 ret=handled
+    kworker/4:11-627     [004] d..2.   205.511152: sched_switch: prev_comm=kworker/4:11 prev_pid=627 prev_prio=120 prev_state=I ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+         rcuog/3-48      [001] d..2.   205.511161: sched_switch: prev_comm=rcuog/3 prev_pid=48 prev_prio=120 prev_state=S ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+   kworker/u12:5-149     [003] d.h4.   205.511168: sched_wakeup: comm=irq/556-dwc3 pid=9631 prio=100 target_cpu=001
+ socket_writer_q-1855    [004] dN.4.   205.511168: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+   kworker/u12:5-149     [003] d.h1.   205.511170: irq_handler_entry: irq=6 name=IPI
+   statsd.reader-1215    [001] dnh..   205.511171: irq_handler_entry: irq=1 name=IPI
+ socket_writer_q-1855    [004] d..2.   205.511171: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+   statsd.reader-1215    [001] dNh..   205.511173: irq_handler_exit: irq=1 ret=handled
+   kworker/u12:5-149     [003] d.h1.   205.511180: irq_handler_exit: irq=6 ret=handled
+   statsd.reader-1215    [001] d..2.   205.511187: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=R ==> next_comm=irq/556-dwc3 next_pid=9631 next_prio=100
+   statsd.writer-1214    [004] d..2.   205.511201: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+    irq/556-dwc3-9631    [001] d..1.   205.511201: dwc3_event: event (8f26c08e): ep3in: Transfer In Progress [36646] (sIM)
+    irq/556-dwc3-9631    [001] d..1.   205.511211: dwc3_complete_trb: ep3in: trb 000000002fc97b85 (E253:D244) buf 00000000ece80b68 size 1x 0 ctrl 23c88064 (hlCs:sc:isoc-first)
+ socket_writer_q-1855    [004] d..2.   205.511219: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+    irq/556-dwc3-9631    [001] d..1.   205.511220: dwc3_complete_trb: ep3in: trb 00000000985a9151 (E253:D245) buf 00000000ece81374 size 1x 0 ctrl 23c88070 (hlcs:sc:isoc)
+   kworker/u12:5-149     [003] d..2.   205.511225: sched_switch: prev_comm=kworker/u12:5 prev_pid=149 prev_prio=120 prev_state=D ==> next_comm=swapper/3 next_pid=0 next_prio=120
+    irq/556-dwc3-9631    [001] d..1.   205.511240: dwc3_gadget_giveback: ep3in: req 00000000430464dc length 33792/33792 zsi ==> 0
+ ActivityManager-1866    [004] d..3.   205.511243: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=003
+          <idle>-0       [003] dnh1.   205.511245: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [003] dNh1.   205.511246: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [003] d..2.   205.511249: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+    irq/556-dwc3-9631    [001] d..4.   205.511257: sched_wakeup: comm=kworker/u13:2 pid=807 prio=100 target_cpu=001
+ socket_writer_q-1855    [003] dN.4.   205.511266: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=003
+    irq/556-dwc3-9631    [001] d..1.   205.511267: dwc3_complete_trb: ep3in: trb 00000000cf8ac784 (E253:D246) buf 00000000ece70328 size 1x 0 ctrl 23c8c064 (hlCs:sc:isoc-first)
+ socket_writer_q-1855    [003] d..2.   205.511270: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+    irq/556-dwc3-9631    [001] d..1.   205.511276: dwc3_complete_trb: ep3in: trb 00000000694bc4ab (E253:D247) buf 00000000ece7176c size 1x 0 ctrl 23c8c070 (hlcs:sc:isoc)
+    irq/556-dwc3-9631    [001] d..1.   205.511292: dwc3_gadget_giveback: ep3in: req 000000007549b9ae length 33792/33792 zsi ==> 0
+   statsd.writer-1214    [003] d..2.   205.511295: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+    irq/556-dwc3-9631    [001] d..1.   205.511300: dwc3_complete_trb: ep3in: trb 0000000016e7b3c3 (E253:D248) buf 00000000ece60c28 size 1x 0 ctrl 23c90064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [001] d..1.   205.511310: dwc3_complete_trb: ep3in: trb 00000000de97b5c2 (E253:D249) buf 00000000ece61b64 size 1x 0 ctrl 23c90070 (hlcs:sc:isoc)
+ socket_writer_q-1855    [003] dN.4.   205.511310: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=003
+ socket_writer_q-1855    [003] d..2.   205.511315: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+    irq/556-dwc3-9631    [001] d..1.   205.511325: dwc3_gadget_giveback: ep3in: req 0000000045313aff length 33792/33792 zsi ==> 0
+    irq/556-dwc3-9631    [001] d..1.   205.511334: dwc3_complete_trb: ep3in: trb 00000000857f2453 (E253:D250) buf 00000000ece50be8 size 1x 0 ctrl 23c94064 (hlCs:sc:isoc-first)
+   statsd.writer-1214    [003] d..2.   205.511337: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+    irq/556-dwc3-9631    [001] d..1.   205.511343: dwc3_complete_trb: ep3in: trb 00000000871e1c09 (E253:D251) buf 00000000ece51f5c size 1x 0 ctrl 23c94070 (hlcs:sc:isoc)
+ socket_writer_q-1855    [003] dN.4.   205.511351: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=003
+ socket_writer_q-1855    [003] d..2.   205.511356: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+    irq/556-dwc3-9631    [001] d..1.   205.511357: dwc3_gadget_giveback: ep3in: req 00000000087ff47b length 33792/33792 zsi ==> 0
+    irq/556-dwc3-9631    [001] d..1.   205.511365: dwc3_complete_trb: ep3in: trb 00000000ebf7512f (E253:D252) buf 00000000ece40568 size 1x 0 ctrl 23c98064 (hlCs:sc:isoc-first)
+    irq/556-dwc3-9631    [001] d..1.   205.511374: dwc3_complete_trb: ep3in: trb 0000000075d6d7a3 (E253:D253) buf 00000000ece41354 size 1x 33792 ctrl 23c98c70 (hlcs:SC:isoc)
+   statsd.writer-1214    [003] d..2.   205.511378: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [003] dN.4.   205.511393: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=003
+    irq/556-dwc3-9631    [001] d..1.   205.511394: dwc3_gadget_giveback: ep3in: req 0000000071fb81b6 length 0/33792 zsI ==> -18
+ socket_writer_q-1855    [003] d..2.   205.511398: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+    irq/556-dwc3-9631    [001] d..4.   205.511414: sched_wakeup: comm=C3-0-Handler pid=7778 prio=120 target_cpu=001
+   statsd.writer-1214    [003] d..2.   205.511419: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+    irq/556-dwc3-9631    [001] d..1.   205.511421: dwc3_readl: addr 0000000089944c05 offset c200 value 00102400
+    irq/556-dwc3-9631    [001] d..1.   205.511422: dwc3_writel: addr 00000000ba074444 offset 0008 value 00000000
+    irq/556-dwc3-9631    [001] d..1.   205.511425: dwc3_writel: addr 00000000295bfd4e offset 0004 value 00000000
+    irq/556-dwc3-9631    [001] d..1.   205.511426: dwc3_writel: addr 0000000001a80337 offset 0000 value 00000000
+    irq/556-dwc3-9631    [001] d..1.   205.511428: dwc3_writel: addr 00000000a1303906 offset 000c value 00070d08
+    irq/556-dwc3-9631    [001] d..1.   205.511430: dwc3_readl: addr 00000000a1303906 offset 000c value 00070908
+ socket_writer_q-1855    [003] dN.4.   205.511434: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=003
+    irq/556-dwc3-9631    [001] d..1.   205.511437: dwc3_gadget_ep_cmd: ep3in: cmd 'End Transfer' [70d08] params 00000000 00000000 00000000 --> status: Successful
+ socket_writer_q-1855    [003] d..2.   205.511439: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+    irq/556-dwc3-9631    [001] d..1.   205.511439: dwc3_writel: addr 00000000aa885aa4 offset c408 value 00001000
+    irq/556-dwc3-9631    [001] d..1.   205.511441: dwc3_writel: addr 00000000c79b6eaa offset c40c value 80000000
+    irq/556-dwc3-9631    [001] d..1.   205.511442: dwc3_writel: addr 0000000049f492c4 offset ca00 value 00000001
+   statsd.writer-1214    [003] d.h..   205.511444: irq_handler_entry: irq=556 name=dwc3
+    irq/556-dwc3-9631    [001] d.h1.   205.511446: irq_handler_entry: irq=21 name=apps_rsc-drv-2
+   statsd.writer-1214    [003] d.h..   205.511446: dwc3_readl: addr 00000000c79b6eaa offset c40c value 80000004
+   statsd.writer-1214    [003] d.h..   205.511447: dwc3_writel: addr 00000000aa885aa4 offset c408 value 80001000
+   statsd.writer-1214    [003] d.h..   205.511448: dwc3_writel: addr 00000000c79b6eaa offset c40c value 00000004
+   statsd.writer-1214    [003] d.h..   205.511449: irq_handler_exit: irq=556 ret=handled
+    irq/556-dwc3-9631    [001] d.h5.   205.511473: sched_wakeup: comm=kworker/u12:5 pid=149 prio=120 target_cpu=003
+    irq/556-dwc3-9631    [001] d.h1.   205.511475: irq_handler_exit: irq=21 ret=handled
+   statsd.writer-1214    [003] d..2.   205.511480: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=kworker/u12:5 next_pid=149 next_prio=120
+    irq/556-dwc3-9631    [001] d..1.   205.511485: dwc3_event: event (080701ce): ep3in: Endpoint Command Complete
+    irq/556-dwc3-9631    [001] d..1.   205.511487: dwc3_writel: addr 00000000aa885aa4 offset c408 value 00001000
+    irq/556-dwc3-9631    [001] d..1.   205.511490: dwc3_writel: addr 00000000c79b6eaa offset c40c value 80000000
+    irq/556-dwc3-9631    [001] d..1.   205.511491: dwc3_writel: addr 0000000049f492c4 offset ca00 value 00000001
+ ActivityManager-1866    [004] d..2.   205.511505: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+    irq/556-dwc3-9631    [001] d..2.   205.511505: sched_switch: prev_comm=irq/556-dwc3 prev_pid=9631 prev_prio=100 prev_state=S ==> next_comm=C3-0-Handler next_pid=7778 next_prio=120
+   kworker/u12:5-149     [003] d.h..   205.511519: irq_handler_entry: irq=556 name=dwc3
+   kworker/u12:5-149     [003] d.h..   205.511521: dwc3_readl: addr 00000000c79b6eaa offset c40c value 80000004
+  binder:1813_14-3392    [002] d..6.   205.511521: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=004
+   kworker/u12:5-149     [003] d.h..   205.511521: dwc3_writel: addr 00000000aa885aa4 offset c408 value 80001000
+   kworker/u12:5-149     [003] d.h..   205.511522: dwc3_writel: addr 00000000c79b6eaa offset c40c value 00000004
+   kworker/u12:5-149     [003] d.h..   205.511523: irq_handler_exit: irq=556 ret=handled
+ socket_writer_q-1855    [004] dN.4.   205.511525: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.511528: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+   kworker/u12:5-149     [003] d.h3.   205.511529: sched_wakeup: comm=irq/556-dwc3 pid=9631 prio=100 target_cpu=001
+   statsd.writer-1214    [004] d..2.   205.511553: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+   kworker/u12:5-149     [003] d..2.   205.511562: sched_switch: prev_comm=kworker/u12:5 prev_pid=149 prev_prio=120 prev_state=D ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+ socket_writer_q-1855    [004] d..2.   205.511564: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+    C3-0-Handler-7778    [001] d..2.   205.511570: sched_switch: prev_comm=C3-0-Handler prev_pid=7778 prev_prio=120 prev_state=S ==> next_comm=irq/556-dwc3 next_pid=9631 next_prio=100
+    irq/556-dwc3-9631    [001] d..1.   205.511583: dwc3_event: event (8f2a10ce): ep3in: Transfer Not Ready [36650] (Not Active)
+    irq/556-dwc3-9631    [001] d..1.   205.511585: dwc3_writel: addr 00000000aa885aa4 offset c408 value 00001000
+    irq/556-dwc3-9631    [001] d..1.   205.511587: dwc3_writel: addr 00000000c79b6eaa offset c40c value 80000000
+    irq/556-dwc3-9631    [001] d..1.   205.511588: dwc3_writel: addr 0000000049f492c4 offset ca00 value 00000001
+    irq/556-dwc3-9631    [001] d.h1.   205.511592: irq_handler_entry: irq=21 name=apps_rsc-drv-2
+ ActivityManager-1866    [003] d..3.   205.511596: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [004] dnh1.   205.511599: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   205.511600: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   205.511604: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.511615: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.511617: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+    irq/556-dwc3-9631    [001] d.h5.   205.511619: sched_wakeup: comm=kworker/u12:5 pid=149 prio=120 target_cpu=003
+    irq/556-dwc3-9631    [001] d.h1.   205.511621: irq_handler_exit: irq=21 ret=handled
+ ActivityManager-1866    [003] d..2.   205.511626: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=R ==> next_comm=kworker/u12:5 next_pid=149 next_prio=120
+   kworker/u12:5-149     [003] d.h1.   205.511629: irq_handler_entry: irq=1 name=IPI
+   kworker/u12:5-149     [003] d.h1.   205.511629: irq_handler_exit: irq=1 ret=handled
+   statsd.writer-1214    [004] d..2.   205.511635: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+    irq/556-dwc3-9631    [001] d..2.   205.511636: sched_switch: prev_comm=irq/556-dwc3 prev_pid=9631 prev_prio=100 prev_state=S ==> next_comm=kworker/u13:2 next_pid=807 next_prio=100
+   kworker/u13:2-807     [001] d..2.   205.511649: sched_switch: prev_comm=kworker/u13:2 prev_pid=807 prev_prio=100 prev_state=I ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+ socket_writer_q-1855    [004] d..2.   205.511651: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+         rcuop/3-49      [000] d.h..   205.511669: irq_handler_entry: irq=321 name=jpeg
+   kworker/u12:5-149     [003] d..2.   205.511670: sched_switch: prev_comm=kworker/u12:5 prev_pid=149 prev_prio=120 prev_state=D ==> next_comm=swapper/3 next_pid=0 next_prio=120
+         rcuop/3-49      [000] d.h5.   205.511690: sched_wakeup: comm=kworker/u12:5 pid=149 prio=120 target_cpu=003
+ ActivityManager-1866    [004] dN.3.   205.511690: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [003] dnh1.   205.511692: irq_handler_entry: irq=1 name=IPI
+         rcuop/3-49      [000] d.h..   205.511692: irq_handler_exit: irq=321 ret=handled
+          <idle>-0       [003] dNh1.   205.511692: irq_handler_exit: irq=1 ret=handled
+ ActivityManager-1866    [004] d..2.   205.511694: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=R+ ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+          <idle>-0       [003] d..2.   205.511696: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u12:5 next_pid=149 next_prio=120
+ socket_writer_q-1855    [004] d..2.   205.511700: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+ ActivityManager-1866    [004] dN.3.   205.511705: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+ ActivityManager-1866    [004] d..2.   205.511706: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=R+ ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.511714: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.511715: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+   statsd.writer-1214    [004] d..2.   205.511734: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] d..2.   205.511742: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+   statsd.reader-1215    [001] d..2.   205.511765: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ ActivityManager-1866    [004] dN.3.   205.511790: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+ ActivityManager-1866    [004] d..2.   205.511794: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=R+ ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] d..2.   205.511799: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+ ActivityManager-1866    [004] dN.3.   205.511804: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+ ActivityManager-1866    [004] d..2.   205.511806: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=R+ ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.511814: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.511817: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+   statsd.writer-1214    [004] d..3.   205.511834: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+     logd.writer-783     [001] dnh..   205.511838: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.511842: irq_handler_exit: irq=1 ret=handled
+   statsd.writer-1214    [004] d..2.   205.511845: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] d..2.   205.511854: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+     logd.writer-783     [001] d..2.   205.511855: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R+ ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+   statsd.reader-1215    [001] d..2.   205.511880: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ ActivityManager-1866    [004] dN.3.   205.511902: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+ ActivityManager-1866    [004] d..2.   205.511906: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=R+ ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] d..2.   205.511911: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+ ActivityManager-1866    [004] dN.3.   205.511915: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+ ActivityManager-1866    [004] d..2.   205.511916: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=R+ ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.511924: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.511929: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+   kworker/u12:5-149     [003] d..2.   205.511932: sched_switch: prev_comm=kworker/u12:5 prev_pid=149 prev_prio=120 prev_state=I ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+   statsd.writer-1214    [004] d..3.   205.511946: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+     logd.writer-783     [001] dnh..   205.511950: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.511952: irq_handler_exit: irq=1 ret=handled
+   statsd.writer-1214    [004] d..2.   205.511956: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+     logd.writer-783     [001] d..2.   205.511964: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R+ ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+ socket_writer_q-1855    [004] d..2.   205.511965: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+ ActivityManager-1866    [003] d..3.   205.511986: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [004] dnh1.   205.511989: irq_handler_entry: irq=1 name=IPI
+   statsd.reader-1215    [001] d..2.   205.511989: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+          <idle>-0       [004] dNh1.   205.511990: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   205.511993: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512003: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.512006: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+   statsd.writer-1214    [004] d..3.   205.512022: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+     logd.writer-783     [001] dnh..   205.512025: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.512027: irq_handler_exit: irq=1 ret=handled
+   statsd.writer-1214    [004] d..2.   205.512032: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+     logd.writer-783     [001] d..2.   205.512038: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512043: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.512047: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+   statsd.reader-1215    [001] d..2.   205.512060: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=R ==> next_comm=logd.writer next_pid=783 next_prio=130
+   statsd.writer-1214    [004] d..3.   205.512068: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+     logd.writer-783     [001] dnh..   205.512070: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.512072: irq_handler_exit: irq=1 ret=handled
+   statsd.writer-1214    [004] d..2.   205.512077: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+     logd.writer-783     [001] d..2.   205.512083: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R+ ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512089: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.512093: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+         rcuop/3-49      [000] d..5.   205.512101: sched_wakeup: comm=kworker/0:5 pid=616 prio=120 target_cpu=000
+   statsd.reader-1215    [001] d..2.   205.512104: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=R ==> next_comm=logd.writer next_pid=783 next_prio=130
+   statsd.writer-1214    [004] d..3.   205.512112: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+     logd.writer-783     [001] d..2.   205.512119: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+   statsd.writer-1214    [004] d..2.   205.512121: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+   statsd.reader-1215    [001] d.h1.   205.512123: irq_handler_entry: irq=1 name=IPI
+   statsd.reader-1215    [001] d.h1.   205.512125: irq_handler_exit: irq=1 ret=handled
+ ActivityManager-1866    [003] d..2.   205.512129: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=swapper/3 next_pid=0 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512133: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+         rcuop/3-49      [000] d..3.   205.512133: sched_wakeup: comm=rcuog/0 pid=15 prio=120 target_cpu=001
+   statsd.reader-1215    [001] dnh..   205.512135: irq_handler_entry: irq=1 name=IPI
+   statsd.reader-1215    [001] dNh..   205.512136: irq_handler_exit: irq=1 ret=handled
+ socket_writer_q-1855    [004] d..2.   205.512137: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+   statsd.reader-1215    [001] d..2.   205.512146: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=R+ ==> next_comm=rcuog/0 next_pid=15 next_prio=120
+  binder:1813_14-3392    [002] d..6.   205.512147: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=003
+          <idle>-0       [003] dnh1.   205.512150: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [003] dNh1.   205.512150: irq_handler_exit: irq=1 ret=handled
+   statsd.writer-1214    [004] d..2.   205.512153: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+          <idle>-0       [003] d..2.   205.512154: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+ socket_writer_q-1855    [004] d..2.   205.512163: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+         rcuog/0-15      [001] d..2.   205.512164: sched_switch: prev_comm=rcuog/0 prev_pid=15 prev_prio=120 prev_state=S ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+         rcuop/3-49      [000] d..2.   205.512166: sched_switch: prev_comm=rcuop/3 prev_pid=49 prev_prio=120 prev_state=S ==> next_comm=provider@2.4-se next_pid=1281 next_prio=120
+   statsd.reader-1215    [001] d..2.   205.512183: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ ActivityManager-1866    [003] d..3.   205.512183: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [004] dnh1.   205.512186: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   205.512187: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   205.512191: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512201: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.512203: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+   statsd.writer-1214    [004] d..3.   205.512218: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+ ActivityManager-1866    [003] d..2.   205.512219: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+     logd.writer-783     [001] dnh..   205.512220: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.512223: irq_handler_exit: irq=1 ret=handled
+   statsd.writer-1214    [004] d..2.   205.512228: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+ socket_writer_q-1855    [003] d..2.   205.512228: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=swapper/3 next_pid=0 next_prio=120
+     logd.writer-783     [001] d..2.   205.512234: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+  binder:1813_14-3392    [002] d..6.   205.512242: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=003
+          <idle>-0       [003] dnh1.   205.512244: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [003] dNh1.   205.512245: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [003] d..2.   205.512248: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+   statsd.reader-1215    [001] d..2.   205.512255: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ ActivityManager-1866    [003] d..3.   205.512279: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [004] dnh1.   205.512281: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   205.512282: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   205.512286: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512297: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.512301: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+ ActivityManager-1866    [003] d..2.   205.512315: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+   statsd.writer-1214    [004] d..3.   205.512316: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+     logd.writer-783     [001] dnh..   205.512319: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.512322: irq_handler_exit: irq=1 ret=handled
+ socket_writer_q-1855    [003] d..2.   205.512324: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=swapper/3 next_pid=0 next_prio=120
+   statsd.writer-1214    [004] d..2.   205.512326: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+  binder:1813_14-3392    [002] d..6.   205.512329: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=003
+          <idle>-0       [003] d..2.   205.512331: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+ ActivityManager-1866    [003] d.h1.   205.512333: irq_handler_entry: irq=1 name=IPI
+ ActivityManager-1866    [003] d.h1.   205.512334: irq_handler_exit: irq=1 ret=handled
+     logd.writer-783     [001] d..2.   205.512334: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R+ ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+   statsd.reader-1215    [001] d..2.   205.512357: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ ActivityManager-1866    [003] d..3.   205.512364: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [004] dnh1.   205.512366: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   205.512367: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   205.512371: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ provider@2.4-se-1281    [000] d..2.   205.512381: sched_switch: prev_comm=provider@2.4-se prev_pid=1281 prev_prio=120 prev_state=S ==> next_comm=kworker/0:5 next_pid=616 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512381: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.512385: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+ ActivityManager-1866    [003] d..2.   205.512399: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+   statsd.writer-1214    [004] d..3.   205.512401: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+     logd.writer-783     [001] dnh..   205.512404: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.512406: irq_handler_exit: irq=1 ret=handled
+ socket_writer_q-1855    [003] d..2.   205.512407: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=swapper/3 next_pid=0 next_prio=120
+   statsd.writer-1214    [004] d..2.   205.512411: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+     logd.writer-783     [001] d..2.   205.512418: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R+ ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+  binder:1813_14-3392    [002] d..6.   205.512422: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=003
+          <idle>-0       [003] dnh1.   205.512425: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [003] dNh1.   205.512425: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [003] d..2.   205.512428: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+   statsd.reader-1215    [001] d..2.   205.512441: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ ActivityManager-1866    [003] d..3.   205.512460: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [004] dnh1.   205.512463: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   205.512463: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   205.512467: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+     kworker/0:5-616     [000] d..2.   205.512472: sched_switch: prev_comm=kworker/0:5 prev_pid=616 prev_prio=120 prev_state=I ==> next_comm=provider@2.4-se next_pid=4846 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512478: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.512481: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+   statsd.writer-1214    [004] d..3.   205.512496: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+ ActivityManager-1866    [003] d..2.   205.512497: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+   statsd.writer-1214    [004] d..2.   205.512507: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+ socket_writer_q-1855    [003] d..2.   205.512507: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=swapper/3 next_pid=0 next_prio=120
+     logd.writer-783     [001] d..2.   205.512510: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+  binder:1813_14-3392    [002] d..6.   205.512511: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=003
+          <idle>-0       [003] dNh1.   205.512513: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [003] dNh1.   205.512514: irq_handler_exit: irq=1 ret=handled
+   statsd.reader-1215    [001] d.h1.   205.512515: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [003] d..2.   205.512516: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+   statsd.reader-1215    [001] d.h1.   205.512517: irq_handler_exit: irq=1 ret=handled
+   statsd.reader-1215    [001] d..2.   205.512538: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ ActivityManager-1866    [003] d..3.   205.512547: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [004] dnh1.   205.512549: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   205.512550: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   205.512554: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512565: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.512568: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+ ActivityManager-1866    [003] d..2.   205.512583: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+   statsd.writer-1214    [004] d..3.   205.512584: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+     logd.writer-783     [001] dnh..   205.512586: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.512589: irq_handler_exit: irq=1 ret=handled
+ socket_writer_q-1855    [003] d..2.   205.512592: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=swapper/3 next_pid=0 next_prio=120
+   statsd.writer-1214    [004] d..2.   205.512594: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+     logd.writer-783     [001] d..2.   205.512601: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+  binder:1813_14-3392    [002] d..6.   205.512604: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=003
+          <idle>-0       [003] dnh1.   205.512606: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [003] dNh1.   205.512607: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [003] d..2.   205.512611: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+   statsd.reader-1215    [001] d..2.   205.512624: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ ActivityManager-1866    [003] d..3.   205.512640: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [004] dnh1.   205.512643: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   205.512644: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   205.512647: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512658: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.512662: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+   statsd.writer-1214    [004] d..3.   205.512677: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+ ActivityManager-1866    [003] d..2.   205.512681: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+     logd.writer-783     [001] dnh..   205.512681: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.512683: irq_handler_exit: irq=1 ret=handled
+   statsd.writer-1214    [004] d..2.   205.512687: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+ socket_writer_q-1855    [003] d..2.   205.512690: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=swapper/3 next_pid=0 next_prio=120
+  binder:1813_14-3392    [002] d..6.   205.512697: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=003
+     logd.writer-783     [001] d..2.   205.512698: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R+ ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+          <idle>-0       [003] dnh1.   205.512702: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [003] dNh1.   205.512703: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [003] d..2.   205.512706: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+   statsd.reader-1215    [001] d..2.   205.512721: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ ActivityManager-1866    [003] d..3.   205.512737: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [004] dnh1.   205.512740: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   205.512741: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   205.512744: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512755: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.512759: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+ ActivityManager-1866    [003] d..2.   205.512773: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+   statsd.writer-1214    [004] d..3.   205.512774: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+     logd.writer-783     [001] dnh..   205.512778: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.512781: irq_handler_exit: irq=1 ret=handled
+ socket_writer_q-1855    [003] d..2.   205.512782: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=swapper/3 next_pid=0 next_prio=120
+   statsd.writer-1214    [004] d..2.   205.512784: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+  binder:1813_14-3392    [002] d..6.   205.512787: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=003
+     logd.writer-783     [001] d..2.   205.512793: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R+ ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+          <idle>-0       [003] dnh1.   205.512793: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [003] dNh1.   205.512794: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [003] d..2.   205.512797: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+   statsd.reader-1215    [001] d..2.   205.512817: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ ActivityManager-1866    [003] d..3.   205.512826: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [004] dnh1.   205.512829: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   205.512829: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   205.512833: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512844: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.512848: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+ ActivityManager-1866    [003] d..2.   205.512861: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+   statsd.writer-1214    [004] d..3.   205.512864: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=001
+     logd.writer-783     [001] dnh..   205.512867: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.512870: irq_handler_exit: irq=1 ret=handled
+ socket_writer_q-1855    [003] d..2.   205.512870: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=swapper/3 next_pid=0 next_prio=120
+   statsd.writer-1214    [004] d..2.   205.512874: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=swapper/4 next_pid=0 next_prio=120
+  binder:1813_14-3392    [002] d..6.   205.512877: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=003
+          <idle>-0       [003] dnh1.   205.512881: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] d..2.   205.512881: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+          <idle>-0       [003] dNh1.   205.512882: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [003] d..2.   205.512885: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+   statsd.reader-1215    [001] d..2.   205.512904: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ ActivityManager-1866    [003] d..3.   205.512915: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+          <idle>-0       [004] dnh1.   205.512918: irq_handler_entry: irq=1 name=IPI
+          <idle>-0       [004] dNh1.   205.512918: irq_handler_exit: irq=1 ret=handled
+          <idle>-0       [004] d..2.   205.512923: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.512933: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ provider@2.4-se-4846    [000] d..3.   205.512935: sched_wakeup: comm=provider@2.4-se pid=4844 prio=120 target_cpu=001
+ socket_writer_q-1855    [004] d..2.   205.512937: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+     logd.writer-783     [001] dnh..   205.512938: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.512940: irq_handler_exit: irq=1 ret=handled
+     logd.writer-783     [001] d..2.   205.512951: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R ==> next_comm=provider@2.4-se next_pid=4844 next_prio=120
+ provider@2.4-se-4846    [000] d..3.   205.512953: sched_wakeup: comm=provider@2.4-se pid=4845 prio=120 target_cpu=003
+ ActivityManager-1866    [003] d..2.   205.512958: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=provider@2.4-se next_pid=4845 next_prio=120
+   statsd.writer-1214    [004] d..3.   205.512963: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=000
+  binder:1813_14-3392    [002] d..6.   205.512971: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=003
+ provider@2.4-se-4846    [000] d..3.   205.512976: sched_wakeup: comm=provider@2.4-se pid=4848 prio=120 target_cpu=003
+   statsd.writer-1214    [004] d..2.   205.512984: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+ provider@2.4-se-4846    [000] d..3.   205.512992: sched_wakeup: comm=provider@2.4-se pid=4847 prio=120 target_cpu=002
+  binder:1813_14-3392    [002] dnh..   205.512994: irq_handler_entry: irq=1 name=IPI
+  binder:1813_14-3392    [002] dNh..   205.512996: irq_handler_exit: irq=1 ret=handled
+  binder:1813_14-3392    [002] d..2.   205.513003: sched_switch: prev_comm=binder:1813_14 prev_pid=3392 prev_prio=118 prev_state=R ==> next_comm=provider@2.4-se next_pid=4847 next_prio=120
+ provider@2.4-se-4846    [000] d..3.   205.513007: sched_wakeup: comm=provider@2.4-se pid=4843 prio=120 target_cpu=003
+ provider@2.4-se-4845    [003] d..2.   205.513017: sched_switch: prev_comm=provider@2.4-se prev_pid=4845 prev_prio=120 prev_state=R ==> next_comm=provider@2.4-se next_pid=4848 next_prio=120
+ provider@2.4-se-4844    [001] d..3.   205.513033: sched_wakeup: comm=provider@2.4-se pid=4845 prio=120 target_cpu=003
+ ActivityManager-1866    [004] d..2.   205.513053: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ socket_writer_q-1855    [004] dN.4.   205.513065: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ socket_writer_q-1855    [004] d..2.   205.513069: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+ provider@2.4-se-4847    [002] d..2.   205.513078: sched_switch: prev_comm=provider@2.4-se prev_pid=4847 prev_prio=120 prev_state=R ==> next_comm=binder:1813_14 next_pid=3392 next_prio=118
+ provider@2.4-se-4848    [003] d..3.   205.513087: sched_wakeup: comm=provider@2.4-se pid=4847 prio=120 target_cpu=002
+   statsd.writer-1214    [004] d..2.   205.513089: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+  binder:1813_14-3392    [002] dnh..   205.513089: irq_handler_entry: irq=1 name=IPI
+  binder:1813_14-3392    [002] dNh..   205.513091: irq_handler_exit: irq=1 ret=handled
+  binder:1813_14-3392    [002] d..2.   205.513096: sched_switch: prev_comm=binder:1813_14 prev_pid=3392 prev_prio=118 prev_state=R ==> next_comm=provider@2.4-se next_pid=4847 next_prio=120
+ socket_writer_q-1855    [004] d..2.   205.513106: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=binder:1813_14 next_pid=3392 next_prio=118
+ provider@2.4-se-4844    [001] d..2.   205.513117: sched_switch: prev_comm=provider@2.4-se prev_pid=4844 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ provider@2.4-se-4847    [002] d..3.   205.513127: sched_wakeup: comm=provider@2.4-se pid=4844 prio=120 target_cpu=001
+     logd.writer-783     [001] dnh..   205.513131: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.513133: irq_handler_exit: irq=1 ret=handled
+ provider@2.4-se-4848    [003] d.h..   205.513142: irq_handler_entry: irq=315 name=ife
+     logd.writer-783     [001] d..2.   205.513144: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R+ ==> next_comm=provider@2.4-se next_pid=4844 next_prio=120
+ provider@2.4-se-4848    [003] d.h1.   205.513154: softirq_raise: vec=0 [action=HI]
+ provider@2.4-se-4848    [003] d.h..   205.513155: irq_handler_exit: irq=315 ret=handled
+ provider@2.4-se-4848    [003] ..s..   205.513157: softirq_entry: vec=0 [action=HI]
+ provider@2.4-se-4844    [001] d..2.   205.513158: sched_switch: prev_comm=provider@2.4-se prev_pid=4844 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ provider@2.4-se-4848    [003] ..s..   205.513159: tasklet_entry: function=cam_tasklet_action.cfi_jt [camera]
+ provider@2.4-se-4848    [003] ..s..   205.513164: tasklet_exit: function=cam_tasklet_action.cfi_jt [camera]
+ provider@2.4-se-4848    [003] ..s..   205.513164: softirq_exit: vec=0 [action=HI]
+ provider@2.4-se-4847    [002] d..2.   205.513165: sched_switch: prev_comm=provider@2.4-se prev_pid=4847 prev_prio=120 prev_state=S ==> next_comm=provider@2.4-se next_pid=4843 next_prio=120
+ provider@2.4-se-4846    [000] d..3.   205.513178: sched_wakeup: comm=provider@2.4-se pid=4844 prio=120 target_cpu=001
+     logd.writer-783     [001] dnh..   205.513180: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [001] dNh..   205.513182: irq_handler_exit: irq=1 ret=handled
+  binder:1813_14-3392    [004] d..6.   205.513186: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=004
+     logd.writer-783     [001] d..2.   205.513193: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R ==> next_comm=provider@2.4-se next_pid=4844 next_prio=120
+ provider@2.4-se-4846    [000] d..3.   205.513195: sched_wakeup: comm=provider@2.4-se pid=4847 prio=120 target_cpu=002
+ provider@2.4-se-4848    [003] d.h..   205.513199: irq_handler_entry: irq=315 name=ife
+ provider@2.4-se-4843    [002] d..2.   205.513209: sched_switch: prev_comm=provider@2.4-se prev_pid=4843 prev_prio=120 prev_state=R ==> next_comm=provider@2.4-se next_pid=4847 next_prio=120
+ provider@2.4-se-4848    [003] d.h2.   205.513219: softirq_raise: vec=0 [action=HI]
+ provider@2.4-se-4848    [003] d.h..   205.513219: irq_handler_exit: irq=315 ret=handled
+ provider@2.4-se-4848    [003] ..s..   205.513220: softirq_entry: vec=0 [action=HI]
+ provider@2.4-se-4848    [003] ..s..   205.513221: tasklet_entry: function=cam_tasklet_action.cfi_jt [camera]
+ provider@2.4-se-4848    [003] d.H2.   205.513221: irq_handler_entry: irq=315 name=ife
+ provider@2.4-se-4846    [000] d..2.   205.513227: sched_switch: prev_comm=provider@2.4-se prev_pid=4846 prev_prio=120 prev_state=S ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+ provider@2.4-se-4847    [002] d..2.   205.513227: sched_switch: prev_comm=provider@2.4-se prev_pid=4847 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+ provider@2.4-se-4848    [003] d.H4.   205.513233: softirq_raise: vec=0 [action=HI]
+ provider@2.4-se-4848    [003] d.H2.   205.513234: irq_handler_exit: irq=315 ret=handled
+ provider@2.4-se-4848    [003] d.H..   205.513236: irq_handler_entry: irq=315 name=ife
+ provider@2.4-se-4844    [001] d..3.   205.513242: sched_wakeup: comm=provider@2.4-se pid=4843 prio=120 target_cpu=000
+   statsd.reader-1215    [000] dnh..   205.513245: irq_handler_entry: irq=1 name=IPI
+ provider@2.4-se-4844    [001] d.h2.   205.513246: irq_handler_entry: irq=6 name=IPI
+ provider@2.4-se-4848    [003] d.H..   205.513246: irq_handler_exit: irq=315 ret=handled
+   statsd.reader-1215    [000] dNh..   205.513248: irq_handler_exit: irq=1 ret=handled
+ provider@2.4-se-4848    [003] d.H2.   205.513254: irq_handler_entry: irq=315 name=ife
+ provider@2.4-se-4844    [001] d.h2.   205.513265: irq_handler_exit: irq=6 ret=handled
+ provider@2.4-se-4848    [003] d.H2.   205.513267: irq_handler_exit: irq=315 ret=handled
+   statsd.reader-1215    [000] d..2.   205.513274: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=R ==> next_comm=provider@2.4-se next_pid=4843 next_prio=120
+ provider@2.4-se-4848    [003] d.s7.   205.513280: sched_wakeup: comm=provider@2.4-se pid=1475 prio=120 target_cpu=001
+ ActivityManager-1866    [002] d..3.   205.513281: sched_wakeup: comm=socket_writer_q pid=1855 prio=120 target_cpu=004
+ provider@2.4-se-4848    [003] d.H3.   205.513282: irq_handler_entry: irq=315 name=ife
+  binder:1813_14-3392    [004] dnh..   205.513286: irq_handler_entry: irq=1 name=IPI
+  binder:1813_14-3392    [004] dNh..   205.513290: irq_handler_exit: irq=1 ret=handled
+ provider@2.4-se-4844    [001] d..2.   205.513294: sched_switch: prev_comm=provider@2.4-se prev_pid=4844 prev_prio=120 prev_state=S ==> next_comm=provider@2.4-se next_pid=1475 next_prio=120
+ provider@2.4-se-4848    [003] d.H3.   205.513308: irq_handler_exit: irq=315 ret=handled
+ provider@2.4-se-4848    [003] d.H3.   205.513311: irq_handler_entry: irq=315 name=ife
+ provider@2.4-se-4843    [000] d..2.   205.513313: sched_switch: prev_comm=provider@2.4-se prev_pid=4843 prev_prio=120 prev_state=S ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+  binder:1813_14-3392    [004] d..2.   205.513314: sched_switch: prev_comm=binder:1813_14 prev_pid=3392 prev_prio=118 prev_state=R ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+ provider@2.4-se-4848    [003] d.H3.   205.513330: irq_handler_exit: irq=315 ret=handled
+ provider@2.4-se-1475    [001] d..3.   205.513333: sched_wakeup: comm=SyncManager_0 pid=1474 prio=120 target_cpu=001
+ socket_writer_q-1855    [004] dN.4.   205.513352: sched_wakeup: comm=statsd.writer pid=1214 prio=120 target_cpu=004
+ provider@2.4-se-4848    [003] ..s..   205.513353: tasklet_exit: function=cam_tasklet_action.cfi_jt [camera]
+ provider@2.4-se-4848    [003] ..s..   205.513355: softirq_exit: vec=0 [action=HI]
+ provider@2.4-se-4848    [003] ..s..   205.513355: softirq_entry: vec=0 [action=HI]
+ provider@2.4-se-4848    [003] ..s..   205.513356: tasklet_entry: function=cam_tasklet_action.cfi_jt [camera]
+ provider@2.4-se-4848    [003] ..s..   205.513357: tasklet_exit: function=cam_tasklet_action.cfi_jt [camera]
+   statsd.reader-1215    [000] d..2.   205.513358: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+ provider@2.4-se-4848    [003] ..s..   205.513358: softirq_exit: vec=0 [action=HI]
+ socket_writer_q-1855    [004] d..2.   205.513363: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=R+ ==> next_comm=statsd.writer next_pid=1214 next_prio=120
+ provider@2.4-se-1475    [001] d..2.   205.513371: sched_switch: prev_comm=provider@2.4-se prev_pid=1475 prev_prio=120 prev_state=S ==> next_comm=SyncManager_0 next_pid=1474 next_prio=120
+ ActivityManager-1866    [002] d..2.   205.513414: sched_switch: prev_comm=ActivityManager prev_pid=1866 prev_prio=118 prev_state=S ==> next_comm=binder:1813_14 next_pid=3392 next_prio=118
+   statsd.writer-1214    [004] d..3.   205.513420: sched_wakeup: comm=statsd.reader pid=1215 prio=120 target_cpu=000
+     logd.writer-783     [000] dnh..   205.513422: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [000] dNh..   205.513425: irq_handler_exit: irq=1 ret=handled
+     logd.writer-783     [000] d..2.   205.513440: sched_switch: prev_comm=logd.writer prev_pid=783 prev_prio=130 prev_state=R+ ==> next_comm=statsd.reader next_pid=1215 next_prio=120
+   SyncManager_0-1474    [001] d..3.   205.513454: sched_wakeup: comm=provider@2.4-se pid=4846 prio=120 target_cpu=001
+   statsd.writer-1214    [004] d..2.   205.513455: sched_switch: prev_comm=statsd.writer prev_pid=1214 prev_prio=120 prev_state=S ==> next_comm=socket_writer_q next_pid=1855 next_prio=120
+  binder:1813_14-3392    [002] d..6.   205.513465: sched_wakeup: comm=ActivityManager pid=1866 prio=118 target_cpu=002
+   statsd.reader-1215    [000] d..2.   205.513470: sched_switch: prev_comm=statsd.reader prev_pid=1215 prev_prio=120 prev_state=S ==> next_comm=logd.writer next_pid=783 next_prio=130
+   SyncManager_0-1474    [001] d..3.   205.513501: sched_wakeup: comm=provider@2.4-se pid=4847 prio=120 target_cpu=002
+ socket_writer_q-1855    [004] d..2.   205.513502: sched_switch: prev_comm=socket_writer_q prev_pid=1855 prev_prio=120 prev_state=S ==> next_comm=ActivityManager next_pid=1866 next_prio=118
+  binder:1813_14-3392    [002] dnh..   205.513506: irq_handler_entry: irq=1 name=IPI
+  binder:1813_14-3392    [002] dNh..   205.513508: irq_handler_exit: irq=1 ret=handled
+  binder:1813_14-3392    [002] d..2.   205.513524: sched_switch: prev_comm=binder:1813_14 prev_pid=3392 prev_prio=118 prev_state=R ==> next_comm=provider@2.4-se next_pid=4847 next_prio=120
+   SyncManager_0-1474    [001] d..3.   205.513537: sched_wakeup: comm=provider@2.4-se pid=4844 prio=120 target_cpu=000
+     logd.writer-783     [000] dnh..   205.513541: irq_handler_entry: irq=1 name=IPI
+     logd.writer-783     [000] dNh..   205.513543: irq_handler_exit: irq=1 ret=handled

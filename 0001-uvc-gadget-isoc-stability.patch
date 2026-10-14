@@ -1,0 +1,698 @@
+--- a/drivers/usb/gadget/function/uvc.h
++++ b/drivers/usb/gadget/function/uvc.h
+@@ -9,6 +9,7 @@
+ #ifndef _UVC_GADGET_H_
+ #define _UVC_GADGET_H_
+ 
++#include <linux/atomic.h>
+ #include <linux/list.h>
+ #include <linux/mutex.h>
+ #include <linux/spinlock.h>
+@@ -62,6 +63,24 @@
+ #define uvcg_err(f, fmt, args...) \
+ 	dev_err(&(f)->config->cdev->gadget->dev, "%s: " fmt, (f)->name, ##args)
+ 
++/*
++ * Runtime statistics, exported as read-only module parameters of usb_f_uvc
++ * (i.e. /sys/module/usb_f_uvc/parameters/stat_*).  This works for both
++ * modular and built-in builds, so a streaming session can be quantified
++ * without recompiling, and without relying on dynamic debug (uvcg_dbg() is
++ * compiled away when CONFIG_DYNAMIC_DEBUG is disabled, which is why a missed
++ * isochronous transfer is invisible by default).
++ */
++extern atomic_long_t uvc_stat_frames;
++extern atomic_long_t uvc_stat_dropped;
++extern atomic_long_t uvc_stat_missed;
++extern atomic_long_t uvc_stat_missed_len0;
++extern atomic_long_t uvc_stat_err;
++extern atomic_long_t uvc_stat_no_buf;
++extern atomic_long_t uvc_stat_reqs_queued;
++extern atomic_long_t uvc_stat_reqs_done;
++extern atomic_long_t uvc_stat_keepalive;
++
+ /* ------------------------------------------------------------------------
+  * Driver specific constants
+  */
+@@ -96,17 +115,21 @@
+ 	unsigned int width;
+ 	unsigned int height;
+ 	unsigned int imagesize;
++	unsigned int interval;	/* one video frame interval, in 100ns units */
+ 	struct mutex mutex;	/* protects frame parameters */
+ 
+ 	unsigned int uvc_num_requests;
++	unsigned int reqs_per_frame;	/* isoc requests used for one frame */
+ 
+ 	/* Requests */
+ 	unsigned int req_size;
++	unsigned int max_req_size;	/* one service interval, at max bandwidth */
+ 	struct uvc_request *ureq;
+ 	struct list_head req_free;
+ 	spinlock_t req_lock;
+ 
+ 	unsigned int req_int_count;
++	atomic_t keep_alive_cnt;	/* zero length requests currently queued */
+ 
+ 	void (*encode) (struct usb_request *req, struct uvc_video *video,
+ 			struct uvc_buffer *buf);
+--- a/drivers/usb/gadget/function/uvc_queue.h
++++ b/drivers/usb/gadget/function/uvc_queue.h
+@@ -39,6 +39,8 @@
+ 	unsigned int offset;
+ 	unsigned int length;
+ 	unsigned int bytesused;
++	/* req_payload_size: only used with isoc */
++	unsigned int req_payload_size;
+ };
+ 
+ #define UVC_QUEUE_DISCONNECTED		(1 << 0)
+--- a/drivers/usb/gadget/function/uvc_queue.c
++++ b/drivers/usb/gadget/function/uvc_queue.c
+@@ -71,6 +71,7 @@
+ static int uvc_buffer_prepare(struct vb2_buffer *vb)
+ {
+ 	struct uvc_video_queue *queue = vb2_get_drv_priv(vb->vb2_queue);
++	struct uvc_video *video = container_of(queue, struct uvc_video, queue);
+ 	struct vb2_v4l2_buffer *vbuf = to_vb2_v4l2_buffer(vb);
+ 	struct uvc_buffer *buf = container_of(vbuf, struct uvc_buffer, buf);
+ 
+@@ -91,11 +92,37 @@
+ 		buf->mem = vb2_plane_vaddr(vb, 0);
+ 	}
+ 	buf->length = vb2_plane_size(vb, 0);
+-	if (vb->type == V4L2_BUF_TYPE_VIDEO_CAPTURE)
++	if (vb->type == V4L2_BUF_TYPE_VIDEO_CAPTURE) {
+ 		buf->bytesused = 0;
+-	else
++	} else {
+ 		buf->bytesused = vb2_get_plane_payload(vb, 0);
+ 
++		/*
++		 * Spread one video frame evenly over reqs_per_frame isoc
++		 * requests, so that the endpoint is fed at roughly one request
++		 * per service interval instead of being flooded with a whole
++		 * frame at once. Flooding the endpoint makes the UDC schedule
++		 * many requests into consecutive service intervals which the
++		 * host cannot drain, and the leftover TRBs then expire as
++		 * "missed isochronous" transfers, which drops whole frames.
++		 */
++		if (video->reqs_per_frame != 0) {
++			buf->req_payload_size =
++				DIV_ROUND_UP(buf->bytesused +
++					(video->reqs_per_frame *
++					 UVCG_REQUEST_HEADER_LEN),
++					video->reqs_per_frame);
++		} else {
++			/*
++			 * Pacing is either disabled, or the buffer is queued
++			 * before the first STREAMON and the sizing is not known
++			 * yet. Use the maximum request size, the encoder clamps
++			 * it to what the request buffers were allocated with.
++			 */
++			buf->req_payload_size = video->max_req_size;
++		}
++	}
++
+ 	return 0;
+ }
+ 
+@@ -333,11 +360,13 @@
+ 	if (queue->flags & UVC_QUEUE_DROP_INCOMPLETE) {
+ 		queue->flags &= ~UVC_QUEUE_DROP_INCOMPLETE;
+ 		buf->state = UVC_BUF_STATE_ERROR;
++		atomic_long_inc(&uvc_stat_dropped);
+ 		vb2_set_plane_payload(&buf->buf.vb2_buf, 0, 0);
+ 		vb2_buffer_done(&buf->buf.vb2_buf, VB2_BUF_STATE_ERROR);
+ 		return;
+ 	}
+ 
++	atomic_long_inc(&uvc_stat_frames);
+ 	buf->buf.field = V4L2_FIELD_NONE;
+ 	buf->buf.sequence = queue->sequence++;
+ 	buf->buf.vb2_buf.timestamp = ktime_get_ns();
+--- a/drivers/usb/gadget/function/uvc_video.c
++++ b/drivers/usb/gadget/function/uvc_video.c
+@@ -9,6 +9,8 @@
+ #include <linux/kernel.h>
+ #include <linux/device.h>
+ #include <linux/errno.h>
++#include <linux/module.h>
++#include <linux/moduleparam.h>
+ #include <linux/usb/ch9.h>
+ #include <linux/usb/gadget.h>
+ #include <linux/usb/video.h>
+@@ -21,6 +23,144 @@
+ #include "uvc_video.h"
+ 
+ /* --------------------------------------------------------------------------
++ * Tunables and statistics
++ *
++ * Everything below is exported through sysfs as module parameters, which also
++ * works when the driver is built into the kernel:
++ *
++ *     /sys/module/usb_f_uvc/parameters/
++ *
++ * so the tunables can be changed at runtime and the counters can be read (or
++ * cleared through stat_reset) without recompiling.
++ *
++ * Note that a missed isochronous transfer is otherwise invisible: uvcg_dbg()
++ * is compiled away when CONFIG_DYNAMIC_DEBUG is disabled.
++ */
++
++/*
++ * 1: pace the isochronous stream, i.e. spread one video frame over
++ *    "frame interval / service interval" requests of roughly equal size, one
++ *    request per service interval, so that the payload handed to the endpoint
++ *    matches the rate at which the host drains it. This also makes
++ *    max_reqs_per_frame take effect.
++ * 0 (default): keep the request sizing as it was - one request per service
++ *    interval at the maximum endpoint bandwidth (wMaxPacketSize *
++ *    (bMaxBurst + 1) * Mult), with the request count derived from the frame
++ *    buffer size by uvc_queue_setup().
++ */
++static unsigned int pacing;
++module_param(pacing, uint, 0644);
++MODULE_PARM_DESC(pacing, "Pace isoc requests over the frame interval (1=on, 0=legacy, default 0)");
++
++/*
++ * Upper bound on the number of requests used for a single video frame. Bounds
++ * the number of in-flight requests, and therefore the UDC TRB ring usage
++ * (dwc3 allows 256 TRBs per endpoint, and a scatter-gather request consumes
++ * one TRB per segment).
++ */
++static unsigned int max_reqs_per_frame = 128;
++module_param(max_reqs_per_frame, uint, 0644);
++MODULE_PARM_DESC(max_reqs_per_frame, "Max ISOC requests per video frame (pacing only)");
++
++/*
++ * Maximum number of queued requests between two completions with interrupts
++ * enabled.
++ */
++static unsigned int max_int_count = 16;
++module_param(max_int_count, uint, 0644);
++MODULE_PARM_DESC(max_int_count, "Max isoc requests between two interrupts");
++
++/*
++ * Spare requests allocated on top of the ones needed for a single frame, so
++ * that the pump never runs out of requests while the next frame is being
++ * queued by the application.
++ */
++static unsigned int spare_reqs = 32;
++module_param(spare_reqs, uint, 0644);
++MODULE_PARM_DESC(spare_reqs, "Extra isoc requests allocated beyond one frame (pacing only)");
++
++/*
++ * Frame interval used for pacing, in 100 ns units, when the application does
++ * not select one through VIDIOC_S_PARM. 333333 = 30 fps, 166666 = 60 fps,
++ * 666666 = 15 fps.
++ */
++static unsigned int interval_100ns = 333333;
++module_param(interval_100ns, uint, 0644);
++MODULE_PARM_DESC(interval_100ns, "Frame interval for pacing in 100ns units (333333 = 30fps)");
++
++/*
++ * 1 (default): when no frame data is available, keep feeding the endpoint with
++ *              zero length requests so that the isochronous transfer is never
++ *              stopped and restarted. Restarting it once per frame (the
++ *              endpoint goes idle between frames) is where most missed
++ *              isochronous transfers come from.
++ * 0:          legacy behaviour, let the endpoint go idle.
++ */
++static unsigned int keep_alive = 1;
++module_param(keep_alive, uint, 0644);
++MODULE_PARM_DESC(keep_alive, "Feed the endpoint with zero length requests when idle (1=on)");
++
++/*
++ * Maximum number of zero length requests kept in flight while there is no frame
++ * data. Bounds the head-of-line delay of the next frame, which is one service
++ * interval per request.
++ */
++static unsigned int keep_alive_reqs = 32;
++module_param(keep_alive_reqs, uint, 0644);
++MODULE_PARM_DESC(keep_alive_reqs, "Max zero length requests kept in flight (default 32)");
++
++atomic_long_t uvc_stat_frames;
++atomic_long_t uvc_stat_dropped;
++atomic_long_t uvc_stat_missed;
++atomic_long_t uvc_stat_missed_len0;
++atomic_long_t uvc_stat_err;
++atomic_long_t uvc_stat_no_buf;
++atomic_long_t uvc_stat_reqs_queued;
++atomic_long_t uvc_stat_reqs_done;
++atomic_long_t uvc_stat_keepalive;
++
++static int uvc_stat_get(char *buffer, const struct kernel_param *kp)
++{
++	return sprintf(buffer, "%ld\n",
++		       atomic_long_read((const atomic_long_t *)kp->arg));
++}
++
++static const struct kernel_param_ops uvc_stat_ops = {
++	.get = uvc_stat_get,
++};
++
++module_param_cb(stat_frames, &uvc_stat_ops, &uvc_stat_frames, 0444);
++module_param_cb(stat_dropped, &uvc_stat_ops, &uvc_stat_dropped, 0444);
++module_param_cb(stat_missed, &uvc_stat_ops, &uvc_stat_missed, 0444);
++module_param_cb(stat_missed_len0, &uvc_stat_ops, &uvc_stat_missed_len0, 0444);
++module_param_cb(stat_err, &uvc_stat_ops, &uvc_stat_err, 0444);
++module_param_cb(stat_no_buf, &uvc_stat_ops, &uvc_stat_no_buf, 0444);
++module_param_cb(stat_reqs_queued, &uvc_stat_ops, &uvc_stat_reqs_queued, 0444);
++module_param_cb(stat_reqs_done, &uvc_stat_ops, &uvc_stat_reqs_done, 0444);
++module_param_cb(stat_keepalive, &uvc_stat_ops, &uvc_stat_keepalive, 0444);
++
++static int uvc_stat_reset_set(const char *val, const struct kernel_param *kp)
++{
++	atomic_long_set(&uvc_stat_frames, 0);
++	atomic_long_set(&uvc_stat_dropped, 0);
++	atomic_long_set(&uvc_stat_missed, 0);
++	atomic_long_set(&uvc_stat_missed_len0, 0);
++	atomic_long_set(&uvc_stat_err, 0);
++	atomic_long_set(&uvc_stat_no_buf, 0);
++	atomic_long_set(&uvc_stat_reqs_queued, 0);
++	atomic_long_set(&uvc_stat_reqs_done, 0);
++	atomic_long_set(&uvc_stat_keepalive, 0);
++	return 0;
++}
++
++static const struct kernel_param_ops uvc_stat_reset_ops = {
++	.set = uvc_stat_reset_set,
++};
++
++module_param_cb(stat_reset, &uvc_stat_reset_ops, NULL, 0200);
++MODULE_PARM_DESC(stat_reset, "Write to clear all uvc statistics");
++
++/* --------------------------------------------------------------------------
+  * Video codecs
+  */
+ 
+@@ -83,6 +223,27 @@
+ 	return nbytes;
+ }
+ 
++/*
++ * Number of payload bytes the current request may carry.
++ *
++ * A buffer that was queued before the request sizing was known (i.e. before
++ * the first STREAMON) still holds an unset value, so it is clamped against the
++ * size the request buffers were actually allocated with.
++ */
++static unsigned int
++uvc_video_req_payload_size(struct uvc_video *video, struct uvc_buffer *buf)
++{
++	unsigned int size = buf->req_payload_size;
++
++	if (!size || size > video->req_size)
++		size = video->req_size;
++
++	if (size < (UVCG_REQUEST_HEADER_LEN + 1))
++		size = UVCG_REQUEST_HEADER_LEN + 1;
++
++	return size;
++}
++
+ static void
+ uvc_video_encode_bulk(struct usb_request *req, struct uvc_video *video,
+ 		struct uvc_buffer *buf)
+@@ -133,7 +294,8 @@
+ 	unsigned int pending = buf->bytesused - video->queue.buf_used;
+ 	struct uvc_request *ureq = req->context;
+ 	struct scatterlist *sg, *iter;
+-	unsigned int len = video->req_size;
++	unsigned int payload_size = uvc_video_req_payload_size(video, buf);
++	unsigned int len = payload_size;
+ 	unsigned int sg_left, part = 0;
+ 	unsigned int i;
+ 	int header_len;
+@@ -143,7 +305,7 @@
+ 
+ 	/* Init the header. */
+ 	header_len = uvc_video_encode_header(video, buf, ureq->header,
+-				      video->req_size);
++				      payload_size);
+ 	sg_set_buf(sg, ureq->header, header_len);
+ 	len -= header_len;
+ 
+@@ -151,7 +313,7 @@
+ 		len = pending;
+ 
+ 	req->length = (len == pending) ?
+-		len + header_len : video->req_size;
++		len + header_len : payload_size;
+ 
+ 	/* Init the pending sgs with payload */
+ 	sg = sg_next(sg);
+@@ -199,7 +361,8 @@
+ {
+ 	void *mem = req->buf;
+ 	struct uvc_request *ureq = req->context;
+-	int len = video->req_size;
++	unsigned int payload_size = uvc_video_req_payload_size(video, buf);
++	int len = payload_size;
+ 	int ret;
+ 
+ 	/* Add the header. */
+@@ -211,7 +374,7 @@
+ 	ret = uvc_video_encode_data(video, buf, mem, len);
+ 	len -= ret;
+ 
+-	req->length = video->req_size - len;
++	req->length = payload_size - len;
+ 
+ 	if (buf->bytesused == video->queue.buf_used ||
+ 			video->queue.flags & UVC_QUEUE_DROP_INCOMPLETE) {
+@@ -242,6 +405,8 @@
+ 			if (usb_endpoint_xfer_bulk(video->ep->desc))
+ 				usb_ep_set_halt(video->ep);
+ 		}
++	} else {
++		atomic_long_inc(&uvc_stat_reqs_queued);
+ 	}
+ 
+ 	return ret;
+@@ -256,13 +421,24 @@
+ 	struct uvc_device *uvc = video->uvc;
+ 	unsigned long flags;
+ 
++	atomic_long_inc(&uvc_stat_reqs_done);
++
+ 	switch (req->status) {
+ 	case 0:
+ 		break;
+ 
+ 	case -EXDEV:
+-		uvcg_dbg(&video->uvc->func, "VS request missed xfer.\n");
+-		queue->flags |= UVC_QUEUE_DROP_INCOMPLETE;
++		/*
++		 * A missed isochronous transfer invalidates the frame only if
++		 * the request actually carried payload.
++		 */
++		atomic_long_inc(&uvc_stat_missed);
++		if (req->length == 0)
++			atomic_long_inc(&uvc_stat_missed_len0);
++		pr_err_ratelimited("uvc: missed isoc xfer (len=%u)\n",
++				   req->length);
++		if (req->length != 0)
++			queue->flags |= UVC_QUEUE_DROP_INCOMPLETE;
+ 		break;
+ 
+ 	case -ESHUTDOWN:	/* disconnect from host. */
+@@ -271,9 +447,10 @@
+ 		break;
+ 
+ 	default:
++		atomic_long_inc(&uvc_stat_err);
+ 		uvcg_warn(&video->uvc->func,
+-			  "VS request completed with status %d.\n",
+-			  req->status);
++			  "VS request completed with status %d (len=%u).\n",
++			  req->status, req->length);
+ 		uvcg_queue_cancel(queue, 0);
+ 	}
+ 
+@@ -282,6 +459,9 @@
+ 		ureq->last_buf = NULL;
+ 	}
+ 
++	if (req->length == 0)
++		atomic_dec_if_positive(&video->keep_alive_cnt);
++
+ 	spin_lock_irqsave(&video->req_lock, flags);
+ 	list_add_tail(&req->list, &video->req_free);
+ 	spin_unlock_irqrestore(&video->req_lock, flags);
+@@ -319,6 +499,76 @@
+ 	return 0;
+ }
+ 
++/*
++ * Decide how the video stream is split into USB requests.
++ *
++ * With pacing enabled the goal is one request per isochronous service interval,
++ * so that the payload handed to the endpoint matches the rate at which the host
++ * drains it. Filling the endpoint with a whole frame at once makes the UDC
++ * queue many requests into consecutive service intervals which the host cannot
++ * consume in time; the leftover TRBs are then reported as missed isochronous
++ * transfers and the corresponding frame is dropped.
++ */
++static void
++uvc_video_prep_requests(struct uvc_video *video)
++{
++	struct uvc_device *uvc = container_of(video, struct uvc_device, video);
++	struct usb_composite_dev *cdev = uvc->func.config->cdev;
++	unsigned int max_req_size, req_size, interval, header_size;
++	unsigned int interval_duration;
++	unsigned int nreq;
++
++	max_req_size = video->ep->maxpacket
++		 * max_t(unsigned int, video->ep->maxburst, 1)
++		 * (video->ep->mult);
++	video->max_req_size = max_req_size;
++
++	if (!usb_endpoint_xfer_isoc(video->ep->desc)) {
++		/* Bulk: one request per maximum sized chunk. */
++		video->req_size = max_req_size;
++		video->uvc_num_requests =
++			DIV_ROUND_UP(video->imagesize, max_req_size);
++		video->reqs_per_frame = 0;
++		return;
++	}
++
++	if (!pacing) {
++		/*
++		 * Legacy behaviour: one request per service interval at the
++		 * maximum endpoint bandwidth. video->uvc_num_requests keeps the
++		 * value computed by uvc_queue_setup().
++		 */
++		video->req_size = max_req_size;
++		video->reqs_per_frame = 0;
++		return;
++	}
++
++	interval = video->interval ? video->interval : interval_100ns;
++	if (!interval)
++		interval = 333333;	/* 30 fps fallback, in 100ns units */
++
++	interval_duration = 1 << (video->ep->desc->bInterval - 1);
++	if (cdev->gadget->speed < USB_SPEED_HIGH)
++		interval_duration *= 10000;
++	else
++		interval_duration *= 1250;
++
++	nreq = DIV_ROUND_UP(interval, interval_duration);
++	nreq = max(min(nreq, max_reqs_per_frame), 1U);
++
++	header_size = nreq * UVCG_REQUEST_HEADER_LEN;
++	req_size = DIV_ROUND_UP(video->imagesize + header_size, nreq);
++	if (req_size > max_req_size)
++		req_size = max_req_size;
++	if (req_size < (UVCG_REQUEST_HEADER_LEN + 1))
++		req_size = UVCG_REQUEST_HEADER_LEN + 1;
++
++	video->req_size = req_size;
++	video->reqs_per_frame = nreq;
++	video->uvc_num_requests = nreq + spare_reqs;
++
++}
++
+ static int
+ uvc_video_alloc_requests(struct uvc_video *video)
+ {
+@@ -326,11 +576,14 @@
+ 	unsigned int i;
+ 	int ret = -ENOMEM;
+ 
+-	BUG_ON(video->req_size);
++	/*
++	 * Compute video->uvc_num_requests, video->req_size,
++	 * video->reqs_per_frame and video->max_req_size from the configured
++	 * frame interval and the endpoint capabilities.
++	 */
++	uvc_video_prep_requests(video);
+ 
+-	req_size = video->ep->maxpacket
+-		 * max_t(unsigned int, video->ep->maxburst, 1)
+-		 * (video->ep->mult);
++	req_size = video->req_size;
+ 
+ 	video->ureq = kcalloc(video->uvc_num_requests, sizeof(struct uvc_request), GFP_KERNEL);
+ 	if (video->ureq == NULL)
+@@ -409,8 +662,40 @@
+ 		spin_lock_irqsave(&queue->irqlock, flags);
+ 		buf = uvcg_queue_head(queue);
+ 		if (buf == NULL) {
++			/*
++			 * No frame data available. Rather than leaving the
++			 * endpoint without any request (which stops the
++			 * isochronous transfer, and restarting it for the next
++			 * frame is where missed isochronous transfers come
++			 * from), keep feeding it with zero length requests.
++			 *
++			 * Every completion frees one request and reschedules the
++			 * pump, so the endpoint stays supplied for as long as the
++			 * stream is enabled, and the number of zero length
++			 * requests in flight - and therefore the delay of the
++			 * next real frame - stays bounded.
++			 */
++			atomic_long_inc(&uvc_stat_no_buf);
+ 			spin_unlock_irqrestore(&queue->irqlock, flags);
+-			break;
++
++			if (!keep_alive ||
++			    (unsigned int)atomic_read(&video->keep_alive_cnt) >=
++					max(keep_alive_reqs, 1U))
++				break;
++
++			req->length = 0;
++			req->no_interrupt = 0;
++
++			ret = uvcg_video_ep_queue(video, req);
++			if (ret < 0) {
++				uvcg_queue_cancel(queue, 0);
++				break;
++			}
++
++			atomic_inc(&video->keep_alive_cnt);
++			atomic_long_inc(&uvc_stat_keepalive);
++			req = NULL;
++			continue;
+ 		}
+ 
+ 		video->encode(req, video, buf);
+@@ -423,7 +708,8 @@
+ 		if (list_empty(&video->req_free) ||
+ 		    buf->state == UVC_BUF_STATE_DONE ||
+ 		    !(video->req_int_count %
+-		       DIV_ROUND_UP(video->uvc_num_requests, 4))) {
++		       max(min(DIV_ROUND_UP(video->uvc_num_requests, 4),
++			       max_int_count), 1U))) {
+ 			video->req_int_count = 0;
+ 			req->no_interrupt = 0;
+ 		} else {
+@@ -469,6 +755,7 @@
+ 	}
+ 
+ 	if (!enable) {
++		atomic_set(&video->keep_alive_cnt, 0);
+ 		cancel_work_sync(&video->pump);
+ 		uvcg_queue_cancel(&video->queue, 0);
+ 
+@@ -478,6 +765,19 @@
+ 
+ 		uvc_video_free_requests(video);
+ 		uvcg_queue_enable(&video->queue, 0);
++
++		uvcg_info(&video->uvc->func,
++			  "uvc-stats: frames=%ld dropped=%ld missed=%ld(len0=%ld) err=%ld no_buf=%ld keepalive=%ld queued=%ld completed=%ld\n",
++			  atomic_long_read(&uvc_stat_frames),
++			  atomic_long_read(&uvc_stat_dropped),
++			  atomic_long_read(&uvc_stat_missed),
++			  atomic_long_read(&uvc_stat_missed_len0),
++			  atomic_long_read(&uvc_stat_err),
++			  atomic_long_read(&uvc_stat_no_buf),
++			  atomic_long_read(&uvc_stat_keepalive),
++			  atomic_long_read(&uvc_stat_reqs_queued),
++			  atomic_long_read(&uvc_stat_reqs_done));
++
+ 		return 0;
+ 	}
+ 
+@@ -495,6 +795,14 @@
+ 			uvc_video_encode_isoc_sg : uvc_video_encode_isoc;
+ 
+ 	video->req_int_count = 0;
++	atomic_set(&video->keep_alive_cnt, 0);
++
++	uvcg_info(&video->uvc->func,
++		  "uvc-config: pacing=%u keep_alive=%u interval=%u req_size=%u reqs_per_frame=%u num_requests=%u max_req_size=%u\n",
++		  pacing, keep_alive,
++		  video->interval ? video->interval : interval_100ns,
++		  video->req_size, video->reqs_per_frame,
++		  video->uvc_num_requests, video->max_req_size);
+ 
+ 	queue_work(video->async_wq, &video->pump);
+ 
+@@ -506,6 +814,7 @@
+  */
+ int uvcg_video_init(struct uvc_video *video, struct uvc_device *uvc)
+ {
++	atomic_set(&video->keep_alive_cnt, 0);
+ 	INIT_LIST_HEAD(&video->req_free);
+ 	spin_lock_init(&video->req_lock);
+ 	INIT_WORK(&video->pump, uvcg_video_pump);
+--- a/drivers/usb/gadget/function/uvc_v4l2.c
++++ b/drivers/usb/gadget/function/uvc_v4l2.c
+@@ -15,6 +15,7 @@
+ #include <linux/vmalloc.h>
+ #include <linux/wait.h>
+ 
++#include <media/v4l2-common.h>
+ #include <media/v4l2-dev.h>
+ #include <media/v4l2-event.h>
+ #include <media/v4l2-ioctl.h>
+@@ -335,6 +336,57 @@
+ 	return 0;
+ }
+ 
++/*
++ * The frame interval selected here is only used to pace the isochronous
++ * requests over the frame period, see uvc_video_prep_requests(). It may also
++ * be set through the interval_100ns module parameter.
++ */
++static int uvc_v4l2_g_parm(struct file *file, void *fh,
++			   struct v4l2_streamparm *parm)
++{
++	struct video_device *vdev = video_devdata(file);
++	struct uvc_device *uvc = video_get_drvdata(vdev);
++	struct uvc_video *video = &uvc->video;
++	struct v4l2_fract timeperframe;
++
++	if (!V4L2_TYPE_IS_OUTPUT(parm->type))
++		return -EINVAL;
++
++	/* Return the actual frame period. */
++	timeperframe.numerator = video->interval;
++	timeperframe.denominator = 10000000;
++	v4l2_simplify_fraction(&timeperframe.numerator,
++			       &timeperframe.denominator, 8, 333);
++
++	parm->parm.output.timeperframe = timeperframe;
++	parm->parm.output.capability = V4L2_CAP_TIMEPERFRAME;
++
++	return 0;
++}
++
++static int uvc_v4l2_s_parm(struct file *file, void *fh,
++			   struct v4l2_streamparm *parm)
++{
++	struct video_device *vdev = video_devdata(file);
++	struct uvc_device *uvc = video_get_drvdata(vdev);
++	struct uvc_video *video = &uvc->video;
++	struct v4l2_fract timeperframe;
++
++	if (!V4L2_TYPE_IS_OUTPUT(parm->type))
++		return -EINVAL;
++
++	timeperframe = parm->parm.output.timeperframe;
++
++	video->interval = v4l2_fraction_to_interval(timeperframe.numerator,
++						    timeperframe.denominator);
++
++	uvcg_info(&uvc->func, "frame interval set to %u/%u (%u)\n",
++		  timeperframe.numerator, timeperframe.denominator,
++		  video->interval);
++
++	return 0;
++}
++
+ static int
+ uvc_v4l2_enum_frameintervals(struct file *file, void *fh,
+ 		struct v4l2_frmivalenum *fival)
+@@ -613,6 +665,8 @@
+ 	.vidioc_dqbuf = uvc_v4l2_dqbuf,
+ 	.vidioc_streamon = uvc_v4l2_streamon,
+ 	.vidioc_streamoff = uvc_v4l2_streamoff,
++	.vidioc_s_parm = uvc_v4l2_s_parm,
++	.vidioc_g_parm = uvc_v4l2_g_parm,
+ 	.vidioc_subscribe_event = uvc_v4l2_subscribe_event,
+ 	.vidioc_unsubscribe_event = uvc_v4l2_unsubscribe_event,
+ 	.vidioc_default = uvc_v4l2_ioctl_default,

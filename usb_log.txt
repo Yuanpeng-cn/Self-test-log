@@ -1,0 +1,85 @@
+[   72.286708][   T88] tc956x_pci-eth 0001:05:00.1: -->tc956x_pcie_suspend
+[   72.286759][   T88] tc956x_pci-eth 0001:05:00.1: tc956x_pcie_suspend : (Number of Ports Left to Suspend = [1])
+[   72.288520][   T14] tc956x_pci-eth 0001:05:00.0: -->tc956x_pcie_suspend
+[   72.292568][   T88] tc956x_pci-eth 0001:05:00.1: dwxgmac2_dma_stop_tx DMA chnl status : 0x4102, chnl : 3, limit [9999]
+[   72.292626][   T88] tc956x_pci-eth 0001:05:00.1: dwxgmac2_dma_stop_tx MTL TXQ status : 0x0, chnl : 3, limit [9999]
+[   72.292683][   T88] tc956x_pci-eth 0001:05:00.1: dwxgmac2_dma_stop_tx MTL TXQ status after flush: 0x0, limit [9999]
+[   72.292743][   T88] tc956x_pci-eth 0001:05:00.1: dwxgmac2_dma_stop_tx DMA chnl status : 0x4102, chnl : 4, limit [9999]
+[   72.292793][   T88] tc956x_pci-eth 0001:05:00.1: dwxgmac2_dma_stop_tx MTL TXQ status : 0x0, chnl : 4, limit [9999]
+[   72.292848][   T88] tc956x_pci-eth 0001:05:00.1: dwxgmac2_dma_stop_tx MTL TXQ status after flush: 0x0, limit [9999]
+[   72.478522][   T88] tc956x_pci-eth 0001:05:00.1: tc956x_pcie_suspend : Port 1 eth1- Platform Suspend
+[   72.479010][   T88] tc956x_pci-eth 0001:05:00.1: <--tc956x_pcie_suspend
+[   72.479180][   T14] tc956x_pci-eth 0001:05:00.0: tc956x_pcie_suspend : (Number of Ports Left to Suspend = [0])
+[   72.485169][   T14] tc956x_pci-eth 0001:05:00.0: dwxgmac2_dma_stop_tx DMA chnl status : 0x4102, chnl : 3, limit [9999]
+[   72.485228][   T14] tc956x_pci-eth 0001:05:00.0: dwxgmac2_dma_stop_tx MTL TXQ status : 0x0, chnl : 3, limit [9999]
+[   72.485286][   T14] tc956x_pci-eth 0001:05:00.0: dwxgmac2_dma_stop_tx MTL TXQ status after flush: 0x0, limit [9999]
+[   72.485349][   T14] tc956x_pci-eth 0001:05:00.0: dwxgmac2_dma_stop_tx DMA chnl status : 0x4102, chnl : 4, limit [9999]
+[   72.485399][   T14] tc956x_pci-eth 0001:05:00.0: dwxgmac2_dma_stop_tx MTL TXQ status : 0x0, chnl : 4, limit [9999]
+[   72.485456][   T14] tc956x_pci-eth 0001:05:00.0: dwxgmac2_dma_stop_tx MTL TXQ status after flush: 0x0, limit [9999]
+[   72.670888][   T14] tc956x_pci-eth 0001:05:00.0: tc956x_pcie_suspend : Port 0 eth0- Platform Suspend
+[   72.671328][   T14] tc956x_pci-eth 0001:05:00.0: ---->tc956x_pcie_pm_disable_pci : Port 0 eth0 - PCI Save State, Disable Device, Prepare to sleep
+[   72.687437][   T14] tc956x_pci-eth 0001:05:00.0: <----tc956x_pcie_pm_disable_pci : Port 0 eth0- PCI Save State, Disable Device, Prepare to sleep
+[   72.688048][   T14] tc956x_pci-eth 0001:05:00.1: ---->tc956x_pcie_pm_disable_pci : Port 1 eth1 - PCI Save State, Disable Device, Prepare to sleep
+[   72.703379][   T14] tc956x_pci-eth 0001:05:00.1: <----tc956x_pcie_pm_disable_pci : Port 1 eth1- PCI Save State, Disable Device, Prepare to sleep
+[   72.703427][   T14] tc956x_pci-eth 0001:05:00.0: <--tc956x_pcie_suspend
+[   72.887003][ T3215] pcie-i2c-ctrl-1 0-0077: I2C read failed, reg=0x801208, ret=-13
+[   72.887023][ T3215] ntn3_i2c_reg_read: PCIe: RC1: I2C failed to read reg gpio_config_reg, ret=-13
+[   72.887036][ T3215] msm_pcie_switch_assert_deassert_reset: PCIe: RC1: Failed to assert EPs reset via I2C: -13
+[   73.006179][    T0] Ring buffer clock went backwards: 73006191628 -> 73006179441
+[   73.006278][    C0] tc956x_pci-eth 0001:05:00.1: tc956xmac_wol_interrupt
+[   73.008163][    C0] PM: pm_system_irq_wakeup: 238 triggered ss_phy_irq
+[   73.242556][ T3215] i2c_geni 980000.i2c: Unbalanced pm_runtime_enable!
+[   73.242665][ T3215] i2c_geni 984000.i2c: Unbalanced pm_runtime_enable!
+[   73.242982][ T3215] i2c_geni a90000.i2c: Unbalanced pm_runtime_enable!
+[   73.425041][ T5231] tc956x_pci-eth 0001:05:00.0: -->tc956x_pcie_resume
+[   73.425092][ T5231] tc956x_pci-eth 0001:05:00.0: ---->tc956x_pcie_pm_enable_pci : Port 0 eth0 - PCI Set Power, Enable Device, Restore State & Set Master
+[   73.425157][ T5204] tc956x_pci-eth 0001:05:00.1: -->tc956x_pcie_resume
+[   73.429728][ T5231] tc956x_pci-eth 0001:05:00.0: <----tc956x_pcie_pm_enable_pci : Port 0 eth0 - PCI Set Power, Enable Device, Restore State & Set Master
+[   73.430107][ T5231] tc956x_pci-eth 0001:05:00.0: -->tc956x_gpio_restore_configuration
+[   73.430147][ T5231] tc956x_pci-eth 0001:05:00.0: tc956x_gpio_restore_configuration : Restoring GPIO configuration for pin: 0, val: 1
+[   73.430207][ T5231] tc956x_pci-eth 0001:05:00.0: tc956x_pcie_resume : Port 0 eth0 - Platform Resume
+[   73.531206][ T5231] tc956x_pci-eth 0001:05:00.0: tc956x_pcie_resume : Tamap Re-configuration
+[   73.531251][ T5231] tc956x_pci-eth 0001:05:00.0: -->tc956x_config_tamap
+[   73.532001][ T5231] tc956x_pci-eth 0001:05:00.0: <--tc956x_config_tamap
+[   73.532041][ T5231] tc956x_pci-eth 0001:05:00.0: ---> tc956x_pcie_resume_config
+[   73.532090][ T5231] tc956x_pci-eth 0001:05:00.0: Enabling all eMAC clocks for Port 0 eth0
+[   73.538733][ T5231] tc956x_pci-eth 0001:05:00.0: <--- tc956x_pcie_resume_config
+[   73.539720][ T5231] tc956x_pci-eth 0001:05:00.0: Direct firmware load for qps615_fw.bin failed with error -2
+[   73.539766][ T5231] tc956x_pci-eth 0001:05:00.0: Falling back to sysfs fallback for: qps615_fw.bin
+[   73.539983][ T5231] WARNING: CPU: 0 PID: 5231 at drivers/base/firmware_loader/fallback.c:148 firmware_fallback_sysfs+0xd4/0x3a4
+[   73.550270][ T5231] ---[ end trace 0000000000000000 ]---
+[   73.551808][ T5231] tc956x_pci-eth 0001:05:00.0: firmware: qps615_fw.bin will not be loaded
+[   73.552039][ T5231] tc956x_pci-eth 0001:05:00.0: TC956X: Error in calling request_firmware
+[   73.552078][ T5231] Firmware load failed
+[   73.552114][ T5231] tc956x_pci-eth 0001:05:00.0: tc956x_pcie_resume : (Number of Ports Resumed = [1])
+[   73.552331][ T5231] tc956x_pci-eth 0001:05:00.0: <--tc956x_pcie_resume
+[   73.552936][ T5204] tc956x_pci-eth 0001:05:00.1: ---->tc956x_pcie_pm_enable_pci : Port 1 eth1 - PCI Set Power, Enable Device, Restore State & Set Master
+[   73.553061][ T5231] tc956x_pci-eth 0001:05:00.0: <--tc956x_pcie_resume
+[   73.556633][ T5204] tc956x_pci-eth 0001:05:00.1: <----tc956x_pcie_pm_enable_pci : Port 1 eth1 - PCI Set Power, Enable Device, Restore State & Set Master
+[   73.556926][ T5204] tc956x_pci-eth 0001:05:00.1: -->tc956x_gpio_restore_configuration
+[   73.556965][ T5204] tc956x_pci-eth 0001:05:00.1: tc956x_gpio_restore_configuration : Restoring GPIO configuration for pin: 1, val: 1
+[   73.557028][ T5204] tc956x_pci-eth 0001:05:00.1: tc956x_pcie_resume : Port 1 eth1 - Platform Resume
+[   73.557849][ T3215] YT8521 Gigabit Ethernet tc956xmac-50:07: PM: dpm_run_callback(): mdio_bus_phy_resume returns -95
+[   73.558353][ T3215] YT8521 Gigabit Ethernet tc956xmac-50:07: PM: failed to resume: error -95
+[   73.657686][ T5204] tc956x_pci-eth 0001:05:00.1: ---> tc956x_pcie_resume_config
+[   73.657741][ T5204] tc956x_pci-eth 0001:05:00.1: Enabling all eMAC clocks for Port 1 eth1
+[   73.657799][ T5204] tc956x_pci-eth 0001:05:00.1: <--- tc956x_pcie_resume_config
+[   73.658366][ T5204] tc956x_pci-eth 0001:05:00.1: Direct firmware load for qps615_fw.bin failed with error -2
+[   73.658410][ T5204] tc956x_pci-eth 0001:05:00.1: Falling back to sysfs fallback for: qps615_fw.bin
+[   73.658619][ T5204] WARNING: CPU: 2 PID: 5204 at drivers/base/firmware_loader/fallback.c:148 firmware_fallback_sysfs+0xd4/0x3a4
+[   73.668341][ T5204] ---[ end trace 0000000000000000 ]---
+[   73.668701][ T5204] tc956x_pci-eth 0001:05:00.1: firmware: qps615_fw.bin will not be loaded
+[   73.668935][ T5204] tc956x_pci-eth 0001:05:00.1: TC956X: Error in calling request_firmware
+[   73.668973][ T5204] Firmware load failed
+[   73.669016][ T5204] tc956x_pci-eth 0001:05:00.1: tc956x_pcie_resume : (Number of Ports Resumed = [2])
+[   73.669056][ T5204] tc956x_pci-eth 0001:05:00.1: tc956x_pcie_resume : Clearing WOL and queuing phy work
+[   73.669157][ T5204] WARNING: CPU: 2 PID: 5204 at kernel/workqueue.c:2354 __queue_work+0x5c4/0x7b4
+[   73.678625][ T5204] ---[ end trace 0000000000000000 ]---
+[   73.679020][ T5204] tc956x_pci-eth 0001:05:00.1: <--tc956x_pcie_resume
+[   73.679064][ T5204] tc956x_pci-eth 0001:05:00.1: <--tc956x_pcie_resume
+[   74.478571][  T378] NfcConfService: NXP device node /dev/nq-nci not yet available.
+[   74.492212][  T130] hub 4-0:1.0: hub_ext_port_status failed (err = -108)
+[   74.511931][ T3215] random: crng reseeded on system resumption
+[   74.521101][ T3215] qmi_rmnet_pm_notify_cb() QMI client is NULL, Ignoring
+[   74.521286][    T1] init: Control message: Could not find 'aidl/android.hardware.nfc.INfc/default' for ctl.interface_start from pid: 449 (/system/bin/servicemanager)
+[   74.536537][  T465] type=1400 audit(1791988957.883:208): avc:  denied  { read } for  comm="vendor.qti.hard" name="u:object_r:boot_status_prop:s0" dev="tmpfs" ino=138 scontext=u:r:vendor_hal_perf_default:s0 tcontext=u:object_r:boot_status_prop:s0 tclass=file permissive=0
